@@ -119,6 +119,6 @@ ui <- fluidPage(
       a(href = "https://www.trafforddatalab.io/LICENSE.txt", target = "_blank", "MIT"),
       " licence."
     ),
-    style = "position:fixed; text-align:center; left: 0; bottom:0; width:100%; z-index:1000; height:30px; color: #212121; padding: 5px 20px; background-color: #F0F0F0"
+    style = "position:fixed; text-align:center; left: 0; bottom:0; width:100%; z-index:1000; height:30px; color: #212121; padding: 5px 20px; background-color: #E7E7E7"
   )
 )
