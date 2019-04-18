@@ -1,0 +1,22 @@
+
+a 
+{
+  color: #fc6721;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #fc6721;
+  text-decoration: underline;
+}
+
+.btn:hover 
+{
+  font-weight: bold;
+}
+
+button:active 
+{
+  box-shadow: none !important;
+}
