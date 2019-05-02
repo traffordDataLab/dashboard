@@ -1,7 +1,8 @@
 # Housing #
 
 # Net additional dwellings --------------------------------------------------
-net_additional_dwellings <- read_csv("data/housing/net_additional_dwellings.csv") %>%
+net_additional_dwellings <- 
+  read_csv("data/housing/net_additional_dwellings.csv") %>%
   mutate(area_name = factor(area_name)) %>%
   filter(period >= "2007-08") %>%
   group_by(area_name) %>%
@@ -11,8 +12,7 @@ net_additional_dwellings <- read_csv("data/housing/net_additional_dwellings.csv"
                      "Index: ", index, "<br/>", "Net dwellings: ", scales::comma(value)))
 
 output$net_additional_dwellings_plot <- renderggiraph({
-  
-  gg <-  ggplot(filter(df, area_name %in% input$area_name), 
+  gg <-  ggplot(filter(net_additional_dwellings, area_name %in% input$area_name), 
                 aes(x = period, y = index, colour = area_name, fill = area_name, group = area_name)) +
     geom_hline(aes(yintercept = 100), colour = "#212121", linetype = "dashed") +
     geom_line(size = 1) +
@@ -55,7 +55,7 @@ output$net_additional_dwellings_box <- renderUI({
         checkboxGroupInput(
           inputId = "area_name",
           label = tags$h4("Select area:"),
-          choices = unique(levels(df$area_name)),
+          choices = unique(levels(net_additional_dwellings$area_name)),
           selected = "Trafford"
         ),
         icon = icon("filter"),
