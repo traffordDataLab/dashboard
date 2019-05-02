@@ -1,5 +1,8 @@
 .DS_Store
 
+# Sandbox
+sandbox/
+
 # History files
 .Rhistory
 .Rapp.history

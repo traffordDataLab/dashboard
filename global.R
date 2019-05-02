@@ -1,1 +1,5 @@
-library(shiny) ; library(shinythemes) ; library(tidyverse) ; library(plotly)
+library(shiny) 
+library(tidyverse)
+library(shinyWidgets)
+library(shinydashboard)
+library(ggiraph)

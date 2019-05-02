@@ -1,6 +1,6 @@
 server <- function(input, output, session) {
   
-  # source("priorties/housing/server_fragment.R", local = TRUE)$value
+  source("priorities/housing/server_fragment.R", local = TRUE)$value
   
   ## Landing page -------------------
   
