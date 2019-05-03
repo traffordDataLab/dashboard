@@ -26,8 +26,8 @@ output$net_additional_dwellings_plot <- renderggiraph({
     scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
     scale_y_continuous(limits = c(0, NA)) +
     labs(
-      title = NULL,
-      subtitle = "Housing supply",
+      title = "Housing supply",
+      subtitle = NULL,
       caption = "Source: MHCLG",
       x = "",
       y = "Index of values (Base year = 2007-08)",
@@ -48,7 +48,9 @@ output$net_additional_dwellings_plot <- renderggiraph({
 })
 
 output$net_additional_dwellings_box <- renderUI({
-  box(
+  box(div(HTML(paste0("<h5>", "By x, more than x ", "<b>","net additional dwellings","</b>", "  will be built each year.", "</h5>")),
+      style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
     title = "Net additional dwellings",
     withSpinner(
       ggiraphOutput("net_additional_dwellings_plot"),
@@ -100,7 +102,7 @@ vacant_properties <- read_csv("data/housing/vacant_properties.csv") %>%
          tooltip = paste0(
            "Area: ", area_name, "<br/>",
            "Period: ", period, "<br/>",
-           "Percentage: ", round(value*100, 2)))
+           "Percentage: ", paste(round(value*100, 2)), "%"))
 
 output$vacant_properties_plot <- renderggiraph({
   
@@ -114,8 +116,8 @@ output$vacant_properties_plot <- renderggiraph({
     scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
     scale_y_continuous(limits = c(0, NA), labels = scales::percent_format(accuracy = 0.1)) +
     labs(
-      title = NULL,
-      subtitle = "Proportion of all dwellings that have been empty for at least six months",
+      title = "Proportion of long-term vacant dwellings",
+      subtitle = NULL,
       caption = "Source: MHCLG",
       x = "",
       y = "Percentage",
@@ -137,7 +139,9 @@ output$vacant_properties_plot <- renderggiraph({
 
 output$vacant_properties_box <- renderUI({
   
-  box(
+  box(div(HTML(paste0("<h5>", "By x, the proportion of ", "<b>","long-term vacant properties","</b>", "  will be below x.", "</h5>")),
+      style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
     title = "Long-term vacant properties",
     withSpinner(
       ggiraphOutput("vacant_properties_plot"),
