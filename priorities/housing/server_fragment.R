@@ -205,7 +205,7 @@ output$affordability_ratio_plot <- renderggiraph({
     geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, colour = "white") +
     scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
     scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
-    scale_y_continuous(limits = c(0, NA), labels = scales::percent_format(accuracy = 0.1)) +
+    scale_y_continuous(limits = c(0, NA)) +
     labs(
       title = "Ratio of median house prices by median earnings",
       subtitle = NULL,
