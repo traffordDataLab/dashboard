@@ -6,11 +6,11 @@ tabPanel("Affordable and quality homes", width = 11, style="margin-left:4%; marg
            br(),
            fluidRow(
              uiOutput("net_additional_dwellings_box"),
-             uiOutput("vacant_properties_box")
+             uiOutput("rough_sleeping_box")
            ),
            fluidRow(
+             uiOutput("vacant_properties_box"),
              uiOutput("affordability_ratio_box")
-            
            ),
            br(),br()
            )
