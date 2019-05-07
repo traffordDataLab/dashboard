@@ -1,0 +1,57 @@
+address,postcode,households,expiry,area_code,lon,lat
+"25 Railway Road, Urmston",M41 0XW,7,23 May 2019,E08000009,-2.349378,53.449297
+"53 Moreton Avenue, Stretford",M32 8BQ,6,01 September 2019,E08000009,-2.307379,53.44864
+"56 Barrington Road, Altrincham",WA14 1HY,8,18 March 2020,E08000009,-2.349087,53.39356
+"520 Stretford Road, Manchester",M16 9AF,9,09 April 2020,E08000009,-2.266477,53.46427
+"516 Stretford Road, Manchester",M16 9AF,16,09 April 2020,E08000009,-2.266477,53.46427
+"66 Church Road, Urmston",M41 9DB,9,09 April 2020,E08000009,-2.357816,53.44636
+"26 Willow Tree Road, Altrincham",WA14 2EG,7,15 April 2020,E08000009,-2.350284,53.380198
+"4 Willow Tree Road, Altrincham",WA14 2EG,6,27 April 2020,E08000009,-2.350284,53.380198
+"6 Irlam Road, Sale",M33 2BH,6,27 April 2020,E08000009,-2.314184,53.424048
+"118-118 Derbyshire Lane, Stretford",M32 8DR,9,27 April 2020,E08000009,-2.31313,53.450593
+"4 Irlam Road, Sale",M41 6JP,7,27 April 2020,E08000009,-2.382783,53.448485
+"39 Henrietta Street, Old Trafford",M16 9JG,6,14 July 2020,E08000009,-2.266434,53.462257
+"6 Bath Street, Altrincham",WA14 2EJ,5,21 July 2020,E08000009,-2.348681,53.37907
+"10 Bath Street, Altrincham",WA14 2EJ,5,21 July 2020,E08000009,-2.348681,53.37907
+"1 groombridge house, Altrincham",WA14 4DS,11,22 July 2020,E08000009,-2.351994,53.390585
+"466 Chester Road, Stretford",M16 9HE,6,03-Sep-20,E08000009,-2.271191,53.464224
+"45 Regent Road, Altrincham",WA14 1RU,8,14 September 2020,E08000009,-2.354351,53.386453
+"17 Irlam Road, Sale",M33 2BH,6,07 October 2020,E08000009,-2.314184,53.424048
+"49 Barton Road, Stretford",M32 9FA,6,13 November 2020,E08000009,-2.313038,53.442162
+"5 Talbot Road, Old Trafford",M16 0QL,10,20 January 2021,E08000009,-2.275846,53.462047
+"464 Chester Road, Stretford",M16 9HE,15,09 March 2021,E08000009,-2.271191,53.464224
+"2 Lime Grove, Manchester",M16 0WL,6,18 March 2021,E08000009,-2.276505,53.459214
+"21 Lynwood Grove, Sale",M33 2AN,5,29 March 2021,E08000009,-2.315085,53.425915
+"91 Northumberland Road, Old Trafford",M16 9PY,6,29 March 2021,E08000009,-2.270739,53.459524
+"21 Stretford Road, Urmston",M41 9JY,7,29 March 2021,E08000009,-2.351459,53.445957
+"19 Baxter Road, Sale",M33 3AJ,7,03 May 2021,E08000009,-2.319206,53.421517
+"7 Talbot Road, Old Trafford",M16 0QL,9,15 May 2021,E08000009,-2.275846,53.462047
+"Higher House Farm, Dairyhouse Lane, Altrincham",WA14 5RD,6,17 May 2021,E08000009,-2.371246,53.398032
+"77 Norwood Road, Stretford",M32 8PN,8,06 June 2021,E08000009,-2.298511,53.446613
+"75 Norwood Road, Stretford",M32 8PN,8,06 June 2021,E08000009,-2.298511,53.446613
+"16 Upper Chorlton Road, Old Trafford",M16 7RN,6,10 June 2021,E08000009,-2.259917,53.458146
+"73 Norwood Road, Stretford",M32 8PN,8,16 June 2021,E08000009,-2.298511,53.446613
+"22 Hale Road, Altrincham",WA14 2EW,5,01 August 2021,E08000009,-2.34977,53.381576
+"7 Baxter Road, Sale",M33 3AJ,6,10 January 2022,E08000009,-2.319206,53.421517
+"6 St Hildas Road, Old Trafford",M16 9PJ,6,26 April 2022,E08000009,-2.270057,53.46126
+"16 St Hildas Road, Old Trafford",M16 9PQ,6,26 April 2022,E08000009,-2.271909,53.461148
+"30 St Hildas Road, Old Trafford",M16 9PQ,6,31 May 2022,E08000009,-2.271909,53.461148
+"14 St Hildas Road, Old Trafford",M16 9PJ,6,15 September 2022,E08000009,-2.270057,53.46126
+"171 Barton Road, Stretford",M32 8DN,7,31 October 2022,E08000009,-2.314244,53.446438
+"169 Church Road, Flixton",M41 6EA,6,22 January 2023,E08000009,-2.36763,53.4426
+"196 Upper Chorlton Road, Old Trafford",M16 7SF,15,26 April 2023,E08000009,-2.265873,53.454519
+"5 Montague Road, Sale",M33 3AE,6,03 May 2023,E08000009,-2.317816,53.422762
+"11 Abington Road, Sale",M33 3DL,6,04-Sep-23,E08000009,-2.316716,53.418513
+"55 Mitford Street, Stretford",M32 8AG,5,01 November 2023,E08000009,-2.311158,53.446509
+"212 Barton Road, Stretford",M32 8DP,6,08 November 2023,E08000009,-2.31381,53.446861
+"37 Railway Road, Stretford",M32 0RY,6,21 November 2023,E08000009,-2.29137,53.461417
+"47 Marlborough Road, Stretford",M32 0AN,6,12 December 2023,E08000009,-2.313593,53.45212
+"213 Seymour Grove, Old Trafford",M16 9QS,6,11 January 2024,E08000009,-2.27328,53.454089
+"164 Fairywell Road, Timperley",WA15 6XD,6,28 January 2024,E08000009,-2.317529,53.402439
+"46 Great Stone Road, Stretford",M32 0ZW,NA,30 January 2024,E08000009,-2.289486,53.454518
+"46 Ashfield Road, Altrincham, Altrincham",WA15 9QJ,5,01 March 2024,E08000009,-2.34625,53.383178
+"18A Northenden Road,, Sale",M33 3BR,6,01 March 2024,E08000009,-2.316951,53.423816
+"41 Portland Road, Stretford",M32 0PH,5,22 March 2024,E08000009,-2.3009,53.456557
+"3 Auburn Road, Old Trafford",M16 9WS,7,22 March 2024,E08000009,-2.272738,53.456454
+"253-255 Seymour Grove, Old Trafford",M16 0DS,11,22 March 2024,E08000009,-2.272911,53.452966
+"2 Leighton Road,, Old Trafford",M16 9NX,5,22nd March 2024,E08000009,-2.272317,53.456545

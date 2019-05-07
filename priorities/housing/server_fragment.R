@@ -148,19 +148,20 @@ output$rough_sleeping_plot <- renderggiraph({
       geom_bar_interactive(aes(tooltip = tooltip), stat = "identity", fill = "#00AFBB") +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
-        title = NULL,
-        subtitle = "Rough sleeping estimates",
+        title = "Rough sleeping estimates",
+        subtitle = NULL,
         caption = "Source: MHCLG",
         x = "",
         y = "Count",
         colour = NULL
       ) +
-      theme_minimal() +
+      theme_minimal(base_family = "Open Sans") +
       theme(
         panel.grid.major.x = element_blank(),
         panel.grid.minor = element_blank(),
         axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1)
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.position = "none"
       )
     
     x <- girafe(ggobj = gg)
@@ -496,4 +497,84 @@ output$affordability_ratio_box <- renderUI({
   
 })
 
-# Long-term vacant properties --------------------------------------------------
+# Licensed Houses of Multiple Occupation --------------------------------------------------
+licensed_hmos <- read_csv("data/housing/licensed_hmos.csv") %>%
+  mutate(households = as.integer(households))
+
+boundary <- st_read(paste0("https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Local_Authority_Districts_April_2019_Boundaries_UK_BGC/MapServer/0/query?where=lad19nm%20=%20%27", "Trafford", "%27&outFields=lad19cd,lad19nm,long,lat&outSR=4326&f=geojson"))
+
+output$licensed_hmos_map = renderLeaflet({
+  
+  sf <- filter(licensed_hmos, households >= input$licensed_hmos_selection[1] & 
+                 households <= input$licensed_hmos_selection[2])
+  
+  leaflet() %>% 
+    addProviderTiles(providers$CartoDB.Positron) %>% 
+    addPolygons(data = boundary,
+                fillColor = "#DDDDCC", 
+                color = "#DDDDCC", weight = 3) %>% 
+    addCircleMarkers(data = sf,
+                     lng = ~lon, lat = ~lat,
+                     stroke = TRUE, color = "#212121", weight = 2, 
+                     fillColor = "#00AFBB", fillOpacity = 0.5, radius = 4,
+                     popup = paste("<strong>", "Address:", "</strong>", sf$address, "<br>",
+                                   "<strong>","Households:", "</strong>", sf$households, "<br>",
+                                   "<strong>","Expiry date:", "</strong>", sf$expiry))
+  
+})
+
+output$licensed_hmos_box <- renderUI({
+  
+  box(div(HTML(paste0("<h5>", "By x, x% of licensed HMOs will meet the ", "<b>","required standard","</b></h5>")),
+          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Licensed HMOs",
+      withSpinner(
+        leafletOutput("licensed_hmos_map"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          sliderInput(
+            inputId = "licensed_hmos_selection",
+            label = tags$h4("Number of households:"),
+            min = min(as.numeric(licensed_hmos$households), na.rm = TRUE), 
+            max = max(as.numeric(licensed_hmos$households), na.rm = TRUE), 
+            value = c(10,12), 
+            step = 1, 
+            ticks = FALSE
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em;",
+        dropdown(
+          includeMarkdown("data/housing/metadata/licensed_hmos.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+            .bttn-jelly.bttn-default{color:#f0f0f0;}
+            .bttn-jelly:hover:before{opacity:1};'
+          )
+          )
+          )
+        )
+  
+})
+
+
+
