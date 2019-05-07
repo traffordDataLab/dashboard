@@ -1,4 +1,4 @@
-# Long term vacant proprties #
+# Long term vacant properties #
 
 # Source: MHCLG
 # URL: https://www.gov.uk/government/statistical-data-sets/live-tables-on-dwelling-stock-including-vacants

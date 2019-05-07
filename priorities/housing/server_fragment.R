@@ -314,6 +314,97 @@ output$vacant_properties_box <- renderUI({
   
 })
 
+# New properties by council tax band --------------------------------------------------
+council_tax_bands <- read_csv("data/housing/council_tax_bands.csv") %>%
+  mutate(area_name = factor(area_name),
+         band = fct_rev(factor(band)),
+         tooltip = paste0(
+           "Area: ", area_name, "<br/>",
+           "Band: ", band, "<br/>",
+           "Percentage: ", paste0(round(value*100, 1), "%")))
+
+output$council_tax_bands_plot <- renderggiraph({
+  
+  gg <-
+    ggplot(
+      filter(council_tax_bands, area_name %in% input$council_tax_bands_area_name),
+      aes(x = band, y = value, fill = area_name)) +
+    geom_bar_interactive(aes(tooltip = tooltip), stat = "identity", position = "dodge") +
+    scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+    scale_y_continuous(limits = c(0, NA), labels = scales::percent_format(accuracy = 1)) +
+    labs(
+      title = "Properties by council tax band",
+      subtitle = NULL,
+      caption = "Source: Valuation Office Agency ",
+      x = "",
+      y = "",
+      fill = NULL
+    ) +
+    coord_flip() +
+    theme_minimal(base_family = "Open Sans") +
+    theme(
+      panel.grid.major.y = element_blank(),
+      panel.grid.minor = element_blank(),
+      axis.title.y = element_text(size = 7, hjust = 1),
+      axis.text.x = element_text(angle = 90, hjust = 1),
+      legend.position = "bottom"
+    )
+  
+  gg <- girafe(ggobj = gg)
+  girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+  
+})
+
+output$council_tax_bands_box <- renderUI({
+  
+  box(div(HTML(paste0("<h5>", "By x, the proportion of new builds with ", "<b>", " low council tax bands","</b>", "  will be above x.", "</h5>")),
+          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "New properties by council tax band",
+      withSpinner(
+        ggiraphOutput("council_tax_bands_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          checkboxGroupInput(
+            inputId = "council_tax_bands_area_name",
+            label = tags$h4("Select area:"),
+            choices = unique(levels(council_tax_bands$area_name)),
+            selected = "Trafford"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em; ",
+        dropdown(
+          includeMarkdown("data/housing/metadata/council_tax_bands.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+            .bttn-jelly.bttn-default{color:#f0f0f0;}
+            .bttn-jelly:hover:before{opacity:1};'
+          )
+          )
+          )
+        )
+  
+})
+
 # Affordability ratio --------------------------------------------------
 affordability_ratio <- read_csv("data/housing/affordability_ratio.csv") %>%
   mutate(area_name = factor(area_name),
@@ -404,7 +495,5 @@ output$affordability_ratio_box <- renderUI({
         )
   
 })
-
-
 
 # Long-term vacant properties --------------------------------------------------
