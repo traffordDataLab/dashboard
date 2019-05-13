@@ -1,0 +1,193 @@
+area_code,area_name,indicator,period,measure,unit,value,group
+E06000005,Darlington,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,11.9,Male
+E06000007,Warrington,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,10.5,Male
+E06000014,York,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,6.4,Male
+E06000020,Telford and Wrekin,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,7.5,Male
+E06000025,South Gloucestershire,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,5.1,Male
+E06000029,Poole,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,7.3,Male
+E06000030,Swindon,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,7,Male
+E06000031,Peterborough,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,9.5,Male
+E06000034,Thurrock,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,8.4,Male
+E06000038,Reading,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,9.6,Male
+E06000042,Milton Keynes,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,7.5,Male
+E06000050,Cheshire West and Chester,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,9.6,Male
+E06000055,Bedford,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,11.1,Male
+E08000007,Stockport,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,10.5,Male
+E08000009,Trafford,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,10.1,Male
+E08000029,Solihull,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,10.3,Male
+E06000005,Darlington,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,7.4,Female
+E06000007,Warrington,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,6.5,Female
+E06000014,York,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,5.8,Female
+E06000020,Telford and Wrekin,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,3.8,Female
+E06000025,South Gloucestershire,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,4.7,Female
+E06000029,Poole,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,6,Female
+E06000030,Swindon,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,4.8,Female
+E06000031,Peterborough,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,6.3,Female
+E06000034,Thurrock,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,7.1,Female
+E06000038,Reading,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,6.7,Female
+E06000042,Milton Keynes,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,5.4,Female
+E06000050,Cheshire West and Chester,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,7.9,Female
+E06000055,Bedford,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,10.5,Female
+E08000007,Stockport,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,8.7,Female
+E08000009,Trafford,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,6.3,Female
+E08000029,Solihull,Inequality in life expectancy at birth,2010-12,Slope Index of Inequality,Years,9.5,Female
+E06000005,Darlington,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,11.6,Male
+E06000007,Warrington,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,10.4,Male
+E06000014,York,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,6.6,Male
+E06000020,Telford and Wrekin,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,7.6,Male
+E06000025,South Gloucestershire,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,6.3,Male
+E06000029,Poole,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,7.9,Male
+E06000030,Swindon,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,7.2,Male
+E06000031,Peterborough,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,9.2,Male
+E06000034,Thurrock,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,9.4,Male
+E06000038,Reading,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,10.5,Male
+E06000042,Milton Keynes,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,7,Male
+E06000050,Cheshire West and Chester,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,10,Male
+E06000055,Bedford,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,10.8,Male
+E08000007,Stockport,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,10.3,Male
+E08000009,Trafford,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,8.9,Male
+E08000029,Solihull,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,10.8,Male
+E06000005,Darlington,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,8.6,Female
+E06000007,Warrington,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,7.3,Female
+E06000014,York,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,6.1,Female
+E06000020,Telford and Wrekin,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,4,Female
+E06000025,South Gloucestershire,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,5,Female
+E06000029,Poole,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,6.7,Female
+E06000030,Swindon,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,4.4,Female
+E06000031,Peterborough,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,5.8,Female
+E06000034,Thurrock,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,6.6,Female
+E06000038,Reading,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,5.8,Female
+E06000042,Milton Keynes,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,6.2,Female
+E06000050,Cheshire West and Chester,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,7.8,Female
+E06000055,Bedford,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,9.5,Female
+E08000007,Stockport,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,8.7,Female
+E08000009,Trafford,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,6.9,Female
+E08000029,Solihull,Inequality in life expectancy at birth,2011-13,Slope Index of Inequality,Years,9.7,Female
+E06000005,Darlington,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,10.9,Male
+E06000007,Warrington,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,11.4,Male
+E06000014,York,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,5.6,Male
+E06000020,Telford and Wrekin,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,6.7,Male
+E06000025,South Gloucestershire,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,6.7,Male
+E06000029,Poole,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,7.5,Male
+E06000030,Swindon,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,7.6,Male
+E06000031,Peterborough,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,8.8,Male
+E06000034,Thurrock,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,9.3,Male
+E06000038,Reading,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,9.2,Male
+E06000042,Milton Keynes,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,7.1,Male
+E06000050,Cheshire West and Chester,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,9.9,Male
+E06000055,Bedford,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,9.1,Male
+E08000007,Stockport,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,10.1,Male
+E08000009,Trafford,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,9.8,Male
+E08000029,Solihull,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,11.1,Male
+E06000005,Darlington,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,7.8,Female
+E06000007,Warrington,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,7.4,Female
+E06000014,York,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,5.4,Female
+E06000020,Telford and Wrekin,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,4.6,Female
+E06000025,South Gloucestershire,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,4.7,Female
+E06000029,Poole,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,6.2,Female
+E06000030,Swindon,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,4.9,Female
+E06000031,Peterborough,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,6.9,Female
+E06000034,Thurrock,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,5.8,Female
+E06000038,Reading,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,7.3,Female
+E06000042,Milton Keynes,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,7.1,Female
+E06000050,Cheshire West and Chester,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,8.4,Female
+E06000055,Bedford,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,8.4,Female
+E08000007,Stockport,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,9.3,Female
+E08000009,Trafford,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,7.1,Female
+E08000029,Solihull,Inequality in life expectancy at birth,2012-14,Slope Index of Inequality,Years,11.3,Female
+E06000005,Darlington,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,10.6,Male
+E06000007,Warrington,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,11.1,Male
+E06000014,York,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,7.2,Male
+E06000020,Telford and Wrekin,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,8.3,Male
+E06000025,South Gloucestershire,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,6.7,Male
+E06000029,Poole,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,7.7,Male
+E06000030,Swindon,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,8.3,Male
+E06000031,Peterborough,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,8.5,Male
+E06000034,Thurrock,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,NA,Male
+E06000038,Reading,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,8,Male
+E06000042,Milton Keynes,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,7.6,Male
+E06000050,Cheshire West and Chester,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,9.9,Male
+E06000055,Bedford,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,8.8,Male
+E08000007,Stockport,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,9.5,Male
+E08000009,Trafford,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,9.3,Male
+E08000029,Solihull,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,11.5,Male
+E06000005,Darlington,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,8.7,Female
+E06000007,Warrington,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,7.8,Female
+E06000014,York,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,4.3,Female
+E06000020,Telford and Wrekin,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,5.3,Female
+E06000025,South Gloucestershire,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,4.7,Female
+E06000029,Poole,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,6.1,Female
+E06000030,Swindon,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,4.7,Female
+E06000031,Peterborough,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,6.2,Female
+E06000034,Thurrock,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,5.9,Female
+E06000038,Reading,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,6.7,Female
+E06000042,Milton Keynes,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,7.4,Female
+E06000050,Cheshire West and Chester,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,8.8,Female
+E06000055,Bedford,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,7.9,Female
+E08000007,Stockport,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,9.7,Female
+E08000009,Trafford,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,7.5,Female
+E08000029,Solihull,Inequality in life expectancy at birth,2013-15,Slope Index of Inequality,Years,11.9,Female
+E06000005,Darlington,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,11.2,Male
+E06000007,Warrington,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,11.6,Male
+E06000014,York,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,7.7,Male
+E06000020,Telford and Wrekin,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,9,Male
+E06000025,South Gloucestershire,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,6.3,Male
+E06000029,Poole,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,8.1,Male
+E06000030,Swindon,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,7.6,Male
+E06000031,Peterborough,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,8.4,Male
+E06000034,Thurrock,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,9.7,Male
+E06000038,Reading,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,7.8,Male
+E06000042,Milton Keynes,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,7.7,Male
+E06000050,Cheshire West and Chester,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,9.4,Male
+E06000055,Bedford,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,10.3,Male
+E08000007,Stockport,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,10.1,Male
+E08000009,Trafford,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,10.6,Male
+E08000029,Solihull,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,13,Male
+E06000005,Darlington,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,8.6,Female
+E06000007,Warrington,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,8.1,Female
+E06000014,York,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,4.2,Female
+E06000020,Telford and Wrekin,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,5.2,Female
+E06000025,South Gloucestershire,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,5,Female
+E06000029,Poole,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,5.9,Female
+E06000030,Swindon,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,4.5,Female
+E06000031,Peterborough,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,5.8,Female
+E06000034,Thurrock,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,6.5,Female
+E06000038,Reading,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,7.7,Female
+E06000042,Milton Keynes,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,8,Female
+E06000050,Cheshire West and Chester,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,9.2,Female
+E06000055,Bedford,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,7.2,Female
+E08000007,Stockport,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,10.1,Female
+E08000009,Trafford,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,8.2,Female
+E08000029,Solihull,Inequality in life expectancy at birth,2014-16,Slope Index of Inequality,Years,11.9,Female
+E06000005,Darlington,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,12.4,Male
+E06000007,Warrington,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,11.1,Male
+E06000014,York,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,8.9,Male
+E06000020,Telford and Wrekin,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,9.6,Male
+E06000025,South Gloucestershire,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,5.6,Male
+E06000029,Poole,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,7.8,Male
+E06000030,Swindon,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,5.9,Male
+E06000031,Peterborough,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,9.3,Male
+E06000034,Thurrock,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,9.3,Male
+E06000038,Reading,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,8.8,Male
+E06000042,Milton Keynes,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,7.5,Male
+E06000050,Cheshire West and Chester,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,10.4,Male
+E06000055,Bedford,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,11.4,Male
+E08000007,Stockport,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,10.1,Male
+E08000009,Trafford,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,9.5,Male
+E08000029,Solihull,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,12.2,Male
+E06000005,Darlington,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,9.7,Female
+E06000007,Warrington,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,7.3,Female
+E06000014,York,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,5.2,Female
+E06000020,Telford and Wrekin,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,6.4,Female
+E06000025,South Gloucestershire,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,6.2,Female
+E06000029,Poole,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,5.6,Female
+E06000030,Swindon,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,5.3,Female
+E06000031,Peterborough,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,5.8,Female
+E06000034,Thurrock,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,7.4,Female
+E06000038,Reading,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,6.3,Female
+E06000042,Milton Keynes,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,7.4,Female
+E06000050,Cheshire West and Chester,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,9.1,Female
+E06000055,Bedford,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,7,Female
+E08000007,Stockport,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,10.2,Female
+E08000009,Trafford,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,8,Female
+E08000029,Solihull,Inequality in life expectancy at birth,2015-17,Slope Index of Inequality,Years,10.5,Female

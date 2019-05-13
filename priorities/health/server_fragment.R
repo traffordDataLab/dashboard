@@ -408,3 +408,142 @@ output$healthy_life_expectancy_at_birth_box <- renderUI({
 })
 
 
+# Slope index of inequality --------------------------------------------------
+
+slope_index_of_inequality <- read_csv("data/health/slope_index_of_inequality.csv") %>% 
+  mutate(area_name = as_factor(area_name),
+         group = as_factor(group),
+         tooltip = paste0(
+           "Area: ", area_name, "<br/>",
+           "Period: ", period, "<br/>",
+           "Sex: ", group, "<br/>",
+           "Value: ", round(value, 1), " years"))
+
+output$slope_index_of_inequality_plot <- renderggiraph({
+  
+  if (input$slope_index_of_inequality_area_name == "Statistical neighbours") {
+    
+    gg <-
+      ggplot(
+        slope_index_of_inequality, aes(x = period, y = value, 
+                                       colour = area_name, fill = area_name, 
+                                       group = fct_relevel(area_name, "Trafford", after = Inf)
+        )) +
+      geom_line(size = 1) +
+      geom_point_interactive(aes(tooltip = tooltip, data_id = area_name), 
+                             shape = 21, size = 2.5, colour = "white", alpha = 0.01) +
+      scale_colour_manual(values = ifelse(slope_index_of_inequality$area_name == "Trafford", "#00AFBB", "#d9d9d9")) +
+      scale_fill_manual(values = ifelse(slope_index_of_inequality$area_name == "Trafford", "#00AFBB", "#d9d9d9")) +
+      scale_y_continuous(limits = c(0, NA), breaks = pretty_breaks()) +
+      facet_wrap(~group) +
+      labs(
+        title = "Inequality in life expectancy at birth",
+        subtitle = NULL,
+        caption = "Source: PHE Fingertips (PHOF 0.2vi)",
+        x = "",
+        y = "Years",
+        colour = NULL
+      ) +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.position = "none"
+      )
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(use_fill = TRUE, opacity = 1),
+                   opts_hover(css = "fill-opacity:1;stroke:white;stroke-opacity:1;r:2.5pt"),
+                   opts_selection(type = "single"),
+                   opts_toolbar(saveaspng = FALSE))
+    
+  }
+  else {
+    
+    gg <-
+      ggplot(
+        filter(slope_index_of_inequality, area_name == "Trafford"),
+        aes(x = period, y = value, group = area_name)) +
+      geom_line(colour = "#00AFBB", size = 1) +
+      geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, fill = "#00AFBB", colour = "white") +
+      scale_y_continuous(limits = c(0, NA), breaks = pretty_breaks()) +
+      facet_wrap(~group) +
+      labs(
+        title = "Inequality in life expectancy at birth",
+        subtitle = NULL,
+        caption = "Source: PHE Fingertips (PHOF 0.2vi)",
+        x = "",
+        y = "Years",
+        colour = NULL
+      ) +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.position = "none"
+      )
+    
+    x <- girafe(ggobj = gg)
+    x <- girafe_options(x, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    x
+    
+  }
+  
+})
+
+output$slope_index_of_inequality_box <- renderUI({
+  box(div(HTML(paste0("<h5>", "By x, the ", "<b>","inequality in life expectancy at birth","</b>", "  will be below x years.", "</h5>")),
+          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Slope Index of Inequality",
+      withSpinner(
+        ggiraphOutput("slope_index_of_inequality_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioGroupButtons(
+            inputId = "slope_index_of_inequality_area_name",
+            label = tags$h4("Group by:"),
+            choiceNames = c("Trafford", "Statistical neighbours"),
+            choiceValues = c("Trafford", "Statistical neighbours"), 
+            selected = "Trafford", 
+            direction = "vertical"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em; ",
+        dropdown(
+          includeMarkdown("data/health/metadata/slope_index_of_inequality.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
+# Indicator name --------------------------------------------------
