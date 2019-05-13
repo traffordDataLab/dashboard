@@ -543,7 +543,7 @@ output$licensed_hmos_box <- renderUI({
             label = tags$h4("Number of households:"),
             min = min(as.numeric(licensed_hmos$households), na.rm = TRUE), 
             max = max(as.numeric(licensed_hmos$households), na.rm = TRUE), 
-            value = c(10,12), 
+            value = c(5,10), 
             step = 1, 
             ticks = FALSE
           ),
