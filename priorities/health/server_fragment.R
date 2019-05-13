@@ -138,9 +138,10 @@ output$alcohol_related_admissions_box <- renderUI({
 
 alcohol_related_mortality <- read_csv("data/health/alcohol_related_mortality.csv") %>%
   mutate(area_name = factor(area_name),
+         period = as.Date(paste(period, 1, 1, sep = "-")),
          tooltip = paste0(
            "Area: ", area_name, "<br/>",
-           "Period: ", period, "<br/>",
+           "Period: ", year(period), "<br/>",
            "Value: ", round(value, 1), " per 100,000"))
 
 output$alcohol_related_mortality_plot <- renderggiraph({
