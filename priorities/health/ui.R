@@ -5,7 +5,8 @@ tabPanel("Health and wellbeing", width = 11, style="margin-left:4%; margin-right
          fluidPage(
            br(),
            fluidRow(
-             uiOutput("alcohol_related_admissions_box")
+             uiOutput("alcohol_related_admissions_box"),
+             uiOutput("alcohol_related_mortality_box")
            ),
            fluidRow(
           

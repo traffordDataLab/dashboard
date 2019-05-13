@@ -1,0 +1,161 @@
+area_code,area_name,indicator,period,measure,unit,value
+E06000005,Darlington,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,51.1228983545047
+E06000007,Warrington,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,53.4772745224117
+E06000014,York,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,42.1317249209742
+E06000020,Telford and Wrekin,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,53.7198718419147
+E06000025,South Gloucestershire,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,40.3251677746804
+E06000030,Swindon,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,47.3936417645829
+E06000031,Peterborough,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,50.6224518350267
+E06000034,Thurrock,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,46.1076564121038
+E06000038,Reading,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,48.0133089544268
+E06000042,Milton Keynes,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,47.613297797871
+E06000050,Cheshire West and Chester,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,55.3288510412554
+E06000055,Bedford,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,46.3620653053358
+E08000007,Stockport,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,47.0707757734899
+E08000009,Trafford,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,47.1125563169001
+E08000029,Solihull,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,41.5786524081297
+E06000029,Poole,Alcohol related mortality,2008,"Age standardised rate per 100,000",Persons,49.000837578524
+E06000005,Darlington,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,51.3821818646949
+E06000007,Warrington,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,46.9069417737854
+E06000014,York,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,35.3443392584123
+E06000020,Telford and Wrekin,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,55.1360329513042
+E06000025,South Gloucestershire,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,39.6980660241639
+E06000030,Swindon,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,44.4421074570239
+E06000031,Peterborough,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,45.9787345040756
+E06000034,Thurrock,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,36.944510440215
+E06000038,Reading,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,52.4269280574889
+E06000042,Milton Keynes,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,42.5608057538022
+E06000050,Cheshire West and Chester,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,49.713620351361
+E06000055,Bedford,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,46.7817872270796
+E08000007,Stockport,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,53.6724995903671
+E08000009,Trafford,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,45.9101620238276
+E08000029,Solihull,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,39.8280144902252
+E06000029,Poole,Alcohol related mortality,2009,"Age standardised rate per 100,000",Persons,37.5186881312119
+E06000005,Darlington,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,44.37538453
+E06000007,Warrington,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,51.13580695
+E06000014,York,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,45.65236355
+E06000020,Telford and Wrekin,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,57.30564645
+E06000025,South Gloucestershire,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,38.0310684
+E06000030,Swindon,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,38.91412878
+E06000031,Peterborough,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,41.73377726
+E06000034,Thurrock,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,40.45042899
+E06000038,Reading,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,49.29491366
+E06000042,Milton Keynes,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,53.38932313
+E06000050,Cheshire West and Chester,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,49.93549525
+E06000055,Bedford,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,49.64381958
+E08000007,Stockport,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,43.71197424
+E08000009,Trafford,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,47.51098248
+E08000029,Solihull,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,44.43034419
+E06000029,Poole,Alcohol related mortality,2010,"Age standardised rate per 100,000",Persons,40.83706312
+E06000005,Darlington,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,48.04080583
+E06000007,Warrington,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,60.38298752
+E06000014,York,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,47.42535754
+E06000020,Telford and Wrekin,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,56.46019076
+E06000025,South Gloucestershire,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,35.63459915
+E06000030,Swindon,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,47.7152099
+E06000031,Peterborough,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,51.8231793
+E06000034,Thurrock,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,40.91554284
+E06000038,Reading,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,52.76600981
+E06000042,Milton Keynes,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,43.39264387
+E06000050,Cheshire West and Chester,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,47.71592581
+E06000055,Bedford,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,43.69511944
+E08000007,Stockport,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,51.27300461
+E08000009,Trafford,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,46.73830856
+E08000029,Solihull,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,42.32216953
+E06000029,Poole,Alcohol related mortality,2011,"Age standardised rate per 100,000",Persons,41.15277871
+E06000005,Darlington,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,48.64863171
+E06000007,Warrington,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,48.63453956
+E06000014,York,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,42.6543471
+E06000020,Telford and Wrekin,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,52.81030083
+E06000025,South Gloucestershire,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,37.96581891
+E06000030,Swindon,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,44.03831041
+E06000031,Peterborough,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,45.10979512
+E06000034,Thurrock,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,38.58248776
+E06000038,Reading,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,57.71632295
+E06000042,Milton Keynes,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,39.94854963
+E06000050,Cheshire West and Chester,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,46.63211735
+E06000055,Bedford,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,48.56115173
+E08000007,Stockport,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,57.67607235
+E08000009,Trafford,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,52.4513049
+E08000029,Solihull,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,40.35027956
+E06000029,Poole,Alcohol related mortality,2012,"Age standardised rate per 100,000",Persons,45.06866028
+E06000005,Darlington,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,56.23279506
+E06000007,Warrington,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,59.48002638
+E06000014,York,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,42.44508134
+E06000020,Telford and Wrekin,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,57.4858095
+E06000025,South Gloucestershire,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,41.03106937
+E06000030,Swindon,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,50.29256196
+E06000031,Peterborough,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,48.14344288
+E06000034,Thurrock,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,45.23554935
+E06000038,Reading,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,53.65134293
+E06000042,Milton Keynes,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,45.70591679
+E06000050,Cheshire West and Chester,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,49.9509449
+E06000055,Bedford,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,43.01842528
+E08000007,Stockport,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,52.40718497
+E08000009,Trafford,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,55.89664398
+E08000029,Solihull,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,41.00383357
+E06000029,Poole,Alcohol related mortality,2013,"Age standardised rate per 100,000",Persons,39.70682583
+E06000005,Darlington,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,51.5410294
+E06000007,Warrington,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,52.04112711
+E06000014,York,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,40.90726787
+E06000020,Telford and Wrekin,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,49.05959552
+E06000025,South Gloucestershire,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,33.4559649
+E06000030,Swindon,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,45.16131441
+E06000031,Peterborough,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,49.0409117
+E06000034,Thurrock,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,43.06864939
+E06000038,Reading,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,51.39391042
+E06000042,Milton Keynes,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,41.88037639
+E06000050,Cheshire West and Chester,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,48.07885369
+E06000055,Bedford,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,39.8821668
+E08000007,Stockport,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,46.1745692
+E08000009,Trafford,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,46.75943477
+E08000029,Solihull,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,43.00555562
+E06000029,Poole,Alcohol related mortality,2014,"Age standardised rate per 100,000",Persons,45.76746274
+E06000005,Darlington,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,51.17776244
+E06000007,Warrington,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,45.81558647
+E06000014,York,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,48.06223378
+E06000020,Telford and Wrekin,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,56.83325408
+E06000025,South Gloucestershire,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,42.06166622
+E06000030,Swindon,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,43.60566742
+E06000031,Peterborough,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,53.73513406
+E06000034,Thurrock,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,45.45989276
+E06000038,Reading,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,47.71190662
+E06000042,Milton Keynes,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,39.21119074
+E06000050,Cheshire West and Chester,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,50.16595628
+E06000055,Bedford,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,43.40991984
+E08000007,Stockport,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,52.70040894
+E08000009,Trafford,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,43.94546635
+E08000029,Solihull,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,43.41220936
+E06000029,Poole,Alcohol related mortality,2015,"Age standardised rate per 100,000",Persons,40.18678532
+E06000005,Darlington,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,48.51867206
+E06000007,Warrington,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,49.38321949
+E06000014,York,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,46.16755969
+E06000020,Telford and Wrekin,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,49.26369339
+E06000025,South Gloucestershire,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,36.58022709
+E06000030,Swindon,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,44.55609943
+E06000031,Peterborough,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,51.30508743
+E06000034,Thurrock,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,44.02894374
+E06000038,Reading,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,58.62641693
+E06000042,Milton Keynes,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,47.43158462
+E06000050,Cheshire West and Chester,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,50.53781546
+E06000055,Bedford,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,45.10861062
+E08000007,Stockport,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,47.44143081
+E08000009,Trafford,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,44.51528267
+E08000029,Solihull,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,42.47322418
+E06000029,Poole,Alcohol related mortality,2016,"Age standardised rate per 100,000",Persons,40.06764154
+E06000005,Darlington,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,51.64956402
+E06000007,Warrington,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,51.12701397
+E06000014,York,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,45.16835773
+E06000020,Telford and Wrekin,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,52.53650806
+E06000025,South Gloucestershire,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,41.74037821
+E06000030,Swindon,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,47.5766108
+E06000031,Peterborough,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,49.1961018
+E06000034,Thurrock,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,46.36469246
+E06000038,Reading,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,58.20141463
+E06000042,Milton Keynes,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,45.57244781
+E06000050,Cheshire West and Chester,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,44.98024992
+E06000055,Bedford,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,39.25948595
+E08000007,Stockport,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,50.336728
+E08000009,Trafford,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,49.5790382
+E08000029,Solihull,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,42.39769231
+E06000029,Poole,Alcohol related mortality,2017,"Age standardised rate per 100,000",Persons,47.01114471
