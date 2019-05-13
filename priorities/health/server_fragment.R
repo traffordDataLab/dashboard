@@ -26,9 +26,9 @@ output$alcohol_related_admissions_plot <- renderggiraph({
       scale_fill_manual(values = ifelse(alcohol_related_admissions$area_name == "Trafford", "#00AFBB", "#d9d9d9")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
-        title = "Alcohol related admissions",
+        title = "Admission episodes for alcohol-related conditions (narrow)",
         subtitle = NULL,
-        caption = "Source: Public Health England",
+        caption = "Source: PHE Fingertips (Local Alcohol Profiles for England)",
         x = "",
         y = "per 100,000",
         colour = NULL
@@ -59,9 +59,9 @@ output$alcohol_related_admissions_plot <- renderggiraph({
       geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, fill = "#00AFBB", colour = "white") +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
-        title = "Alcohol related admissions",
+        title = "Admission episodes for alcohol-related conditions (narrow)",
         subtitle = NULL,
-        caption = "Source: Public Health England",
+        caption = "Source: PHE Fingertips (Local Alcohol Profiles for England)",
         x = "",
         y = "per 100,000",
         colour = NULL
@@ -162,7 +162,7 @@ output$alcohol_related_mortality_plot <- renderggiraph({
       labs(
         title = "Alcohol related mortality",
         subtitle = NULL,
-        caption = "Source: Public Health England",
+        caption = "Source: PHE Fingertips (Local Alcohol Profiles for England)",
         x = "",
         y = "per 100,000",
         colour = NULL
@@ -195,7 +195,7 @@ output$alcohol_related_mortality_plot <- renderggiraph({
       labs(
         title = "Alcohol related mortality",
         subtitle = NULL,
-        caption = "Source: Public Health England",
+        caption = "Source: PHE Fingertips (Local Alcohol Profiles for England)",
         x = "",
         y = "per 100,000",
         colour = NULL

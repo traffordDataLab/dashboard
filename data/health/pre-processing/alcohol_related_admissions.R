@@ -1,7 +1,7 @@
 # Alcohol related admissions (narrow measure) #
 
-# Source: Public Health England (Fingertips)
-# URL: https://fingertips.phe.org.uk/
+# Source: PHE Fingertips (Local Alcohol Profiles for England)
+# URL: https://fingertips.phe.org.uk/profile/local-alcohol-profiles
 # Licence: Open Government Licence v3.0
 
 library(tidyverse) ; library(fingertipsR)
