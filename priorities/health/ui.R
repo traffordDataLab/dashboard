@@ -9,7 +9,7 @@ tabPanel("Health and wellbeing", width = 11, style="margin-left:4%; margin-right
              uiOutput("alcohol_related_mortality_box")
            ),
            fluidRow(
-          
+             uiOutput("healthy_life_expectancy_at_birth_box")
            ),
            fluidRow(
            ),
