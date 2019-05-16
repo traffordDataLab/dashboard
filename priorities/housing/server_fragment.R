@@ -501,7 +501,7 @@ output$affordability_ratio_box <- renderUI({
 licensed_hmos <- read_csv("data/housing/licensed_hmos.csv") %>%
   mutate(households = as.integer(households))
 
-boundary <- st_read(paste0("https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Local_Authority_Districts_April_2019_Boundaries_UK_BGC/MapServer/0/query?where=lad19nm%20=%20%27", "Trafford", "%27&outFields=lad19cd,lad19nm,long,lat&outSR=4326&f=geojson"))
+boundary <- st_read("data/geospatial/trafford_local_authority.geojson")
 
 output$licensed_hmos_map = renderLeaflet({
   
