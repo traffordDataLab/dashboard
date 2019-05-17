@@ -2,3 +2,5 @@ Healthy life expectancy is an estimate of the number of years a person is expect
 
 Source: [PHE Fingertips (PHOF 0.1i)](https://fingertips.phe.org.uk/profile/public-health-outcomes-framework)
 
+Further information about the indicator can be found [here](https://fingertips.phe.org.uk/search/90362).
+

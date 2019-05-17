@@ -17,7 +17,7 @@ net_additional_dwellings <- read_csv("data/housing/net_additional_dwellings.csv"
 output$net_additional_dwellings_plot <- renderggiraph({
   
   gg <- ggplot(
-    filter(net_additional_dwellings, area_name %in% input$net_additional_dwellings_area_name),
+    filter(net_additional_dwellings, area_name %in% input$net_additional_dwellings_selection),
     aes(x = period, y = index, colour = area_name, fill = area_name, group = area_name)) +
     geom_hline(aes(yintercept = 100), colour = "#212121", linetype = "dashed") +
     geom_line(size = 1) +
@@ -62,7 +62,7 @@ output$net_additional_dwellings_box <- renderUI({
       style = "position: absolute; left: 1.5em; bottom: 0.5em;",
       dropdown(
         checkboxGroupInput(
-          inputId = "net_additional_dwellings_area_name",
+          inputId = "net_additional_dwellings_selection",
           label = tags$h4("Select area:"),
           choices = unique(levels(net_additional_dwellings$area_name)),
           selected = "Trafford"
@@ -106,7 +106,7 @@ rough_sleeping <- read_csv("data/housing/rough_sleeping.csv") %>%
 
 output$rough_sleeping_plot <- renderggiraph({
   
-  if (input$rough_sleeping_area_name == "GM boroughs") {
+  if (input$rough_sleeping_selection == "GM boroughs") {
     
     gg <-
       ggplot(
@@ -188,7 +188,7 @@ output$rough_sleeping_plot <- renderggiraph({
           style = "position: absolute; left: 1.5em; bottom: 0.5em;",
           dropdown(
             radioGroupButtons(
-              inputId = "rough_sleeping_area_name",
+              inputId = "rough_sleeping_selection",
               label = tags$h4("Group by:"),
               choiceNames = c("Trafford", "GM boroughs"),
               choiceValues = c("Trafford", "GM boroughs"), 
@@ -236,7 +236,7 @@ output$vacant_properties_plot <- renderggiraph({
   
   gg <-
     ggplot(
-      filter(vacant_properties, area_name %in% input$vacant_properties_area_name),
+      filter(vacant_properties, area_name %in% input$vacant_properties_selection),
       aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
     geom_line(size = 1) +
     geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, colour = "white") +
@@ -281,7 +281,7 @@ output$vacant_properties_box <- renderUI({
       style = "position: absolute; left: 1.5em; bottom: 0.5em;",
       dropdown(
         checkboxGroupInput(
-          inputId = "vacant_properties_area_name",
+          inputId = "vacant_properties_selection",
           label = tags$h4("Select area:"),
           choices = unique(levels(vacant_properties$area_name)),
           selected = "Trafford"
@@ -328,7 +328,7 @@ output$council_tax_bands_plot <- renderggiraph({
   
   gg <-
     ggplot(
-      filter(council_tax_bands, area_name %in% input$council_tax_bands_area_name),
+      filter(council_tax_bands, area_name %in% input$council_tax_bands_selection),
       aes(x = band, y = value, fill = area_name)) +
     geom_bar_interactive(aes(tooltip = tooltip), stat = "identity", position = "dodge") +
     scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
@@ -372,7 +372,7 @@ output$council_tax_bands_box <- renderUI({
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
           checkboxGroupInput(
-            inputId = "council_tax_bands_area_name",
+            inputId = "council_tax_bands_selection",
             label = tags$h4("Select area:"),
             choices = unique(levels(council_tax_bands$area_name)),
             selected = "Trafford"
@@ -418,7 +418,7 @@ output$affordability_ratio_plot <- renderggiraph({
   
   gg <-
     ggplot(
-      filter(affordability_ratio, area_name %in% input$affordability_ratio_area_name),
+      filter(affordability_ratio, area_name %in% input$affordability_ratio_selection),
       aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
     geom_line(size = 1) +
     geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, colour = "white") +
@@ -463,7 +463,7 @@ output$affordability_ratio_box <- renderUI({
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
           checkboxGroupInput(
-            inputId = "affordability_ratio_area_name",
+            inputId = "affordability_ratio_selection",
             label = tags$h4("Select area:"),
             choices = unique(levels(affordability_ratio$area_name)),
             selected = "Trafford"
