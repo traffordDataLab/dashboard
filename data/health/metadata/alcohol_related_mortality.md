@@ -3,3 +3,4 @@ This chart shows deaths from alcohol-related conditions. The indicator is presen
 Source: [PHE Fingertips (Local Alcohol Profiles for England)](https://fingertips.phe.org.uk/profile/local-alcohol-profiles)
 
 Further information about the indicator can be found [here](https://fingertips.phe.org.uk/search/91382).
+

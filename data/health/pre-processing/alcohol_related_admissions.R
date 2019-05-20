@@ -10,7 +10,7 @@ library(tidyverse) ; library(fingertipsR)
 select_indicators()
 # retrieve correspondiong metadata
 indicator_metadata(IndicatorID = 91414) %>% formattable::formattable()
-z
+
 df <- fingertips_data(IndicatorID = 91414, AreaTypeID = 101, rank = TRUE) %>% 
   filter(AreaType %in% c("England", "District & UA"), 
          Sex == "Persons") %>% 

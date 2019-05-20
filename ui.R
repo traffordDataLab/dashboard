@@ -100,7 +100,7 @@ ui <- fluidPage(
           )
         )
         
-      ))
+      )), tags$br(), tags$br()
     ),
     source("priorities/housing/ui.R", local = TRUE)$value,
     source("priorities/health/ui.R", local = TRUE)$value,
@@ -111,14 +111,13 @@ ui <- fluidPage(
     source("priorities/targeted/ui.R", local = TRUE)$value
   ),
   tags$footer(
-    column(
-      4,
+    fluidRow(
       "Developed by the ",
       a(href = "https://www.trafforddatalab.io", target = "_blank", "Trafford Data Lab"),
       " under the ",
       a(href = "https://www.trafforddatalab.io/LICENSE.txt", target = "_blank", "MIT"),
-      " licence."
+      " licence"
     ),
-    style = "position:fixed; text-align:center; left: 0; bottom:0; width:100%; z-index:1000; height:30px; color: #212121; padding: 5px 20px; background-color: #E7E7E7"
+    style = "position:relative; overflow: auto; min-height: 100%; left: 0; bottom:0; width:100%; height: 100%; padding: 5px 20px; z-index:0; color: #212121; background-color: #E7E7E7"
   )
 )
