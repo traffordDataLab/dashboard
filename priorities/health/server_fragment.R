@@ -13,7 +13,7 @@ output$alcohol_related_admissions_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
-                               fill = "#8B8B8B", colour = "#C9C9C9",
+                               fill = "#FFFFFF", colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL) +
       geom_point_interactive(data = filter(alcohol_related_admissions, area_name == "Trafford"), 
@@ -155,7 +155,7 @@ output$alcohol_related_mortality_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value), 
-                               fill = "#8B8B8B", colour = "#C9C9C9",
+                               fill = "#FFFFFF", colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL) +
       geom_point_interactive(data = filter(alcohol_related_mortality, area_name == "Trafford"), 
@@ -300,7 +300,7 @@ output$healthy_life_expectancy_at_birth_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
-                               fill = "#8B8B8B", colour = "#C9C9C9",
+                               fill = "#FFFFFF", colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL)  +
       geom_point_interactive(data = filter(healthy_life_expectancy_at_birth, area_name == "Trafford"), 
@@ -446,7 +446,7 @@ output$slope_index_of_inequality_plot <- renderggiraph({
         gg <- ggplot(data = filter(slope_index_of_inequality, area_name != "England"),
                      aes(x = period, y = value)) +
           stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
-          geom_boxplot_interactive(fill = "#8B8B8B", colour = "#C9C9C9",
+          geom_boxplot_interactive(fill = "#FFFFFF", colour = "#C9C9C9",
                                    outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                    fatten = NULL)  +
           geom_point_interactive(data = filter(slope_index_of_inequality, area_name == "Trafford"), 
@@ -553,6 +553,149 @@ output$slope_index_of_inequality_box <- renderUI({
         style = "position: absolute; left: 4em; bottom: 0.5em; ",
         dropdown(
           includeMarkdown("data/health/metadata/slope_index_of_inequality.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
+# Smoking prevalence in adults --------------------------------------------------
+
+smoking_adults <- read_csv("data/health/smoking_adults.csv") %>% 
+  mutate(area_name = as_factor(area_name),
+         period = as_factor(period)) %>% 
+  filter(!is.na(value))
+
+output$smoking_adults_plot <- renderggiraph({
+  
+  if (input$smoking_adults_selection == "Boxplot") {
+    
+    gg <- ggplot(data = filter(smoking_adults, area_name != "England"),
+                 aes(x = period, y = value)) +
+      stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
+      geom_boxplot_interactive(aes(tooltip = value),
+                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
+                               fatten = NULL) +
+      geom_point_interactive(data = filter(smoking_adults, area_name == "Trafford"), 
+                             aes(x = period, y = value, fill = significance, 
+                                 tooltip =  paste0(
+                                   "<strong>", round(value, 1), "</strong>", "%", "<br/>",
+                                   "<em>", area_name, "</em><br/>",
+                                   period)), 
+                             shape = 21, colour = "#000000", size = 5) +
+      geom_boxplot_interactive(data = filter(smoking_adults, area_name == "England"),
+                               aes(x = factor(period), y = value,
+                                   tooltip =  paste0(
+                                     "<strong>", round(filter(smoking_adults, area_name == "England")$value, 1), "</strong>", "%", "<br/>",
+                                     "<em>", "England", "</em><br/>",
+                                     filter(smoking_adults, area_name == "England")$period)),
+                               colour = "red", size = 0.5) +
+      scale_fill_manual(values = c("Better" = "#92D050",
+                                   "Similar" = "#FFC000",
+                                   "Worse" = "#C00000")) +
+      scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
+      coord_flip() +
+      labs(title = "Smoking prevalence in adults (18+)",
+           subtitle = NULL,
+           caption = "Source: PHE Fingertips (PHOF 2.14)",
+           x = NULL, y = "Percentage",
+           fill = "Compared with England:") +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major = element_blank(),
+        axis.title.x = element_text(size = 7, hjust = 1),
+        legend.position = "top")
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+                   opts_toolbar(saveaspng = FALSE))
+    
+  }
+  else {
+    
+    gg <-
+      ggplot(
+        filter(smoking_adults, area_name %in% c("Trafford", "England")),
+        aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
+      geom_line(size = 1) +
+      geom_point_interactive(aes(tooltip = 
+                                   paste0("<strong>", round(value, 1), "</strong>", "%", "<br/>",
+                                          "<em>", area_name, "</em><br/>",
+                                          period)), 
+                             shape = 21, size = 2.5, colour = "white") +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_y_continuous(limits = c(0, NA)) +
+      labs(
+        title = "Smoking prevalence in adults (18+)",
+        subtitle = NULL,
+        caption = "Source: PHE Fingertips (PHOF 2.14)",
+        x = "",
+        y = "Percentage",
+        colour = NULL
+      ) +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.position = "none"
+      )
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    
+  }
+  
+})
+
+output$smoking_adults_box <- renderUI({
+  box(div(HTML(paste0("<h5>", "Target for ", "<b>","smoking prevalence in adults","</b>", "  not set.", "</h5>")),
+          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Smoking prevalence in adults",
+      withSpinner(
+        ggiraphOutput("smoking_adults_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioGroupButtons(
+            inputId = "smoking_adults_selection",
+            label = tags$h4("Show as:"),
+            choiceNames = c("Trend", "Boxplot"),
+            choiceValues = c("Trend", "Boxplot"), 
+            selected = "Trend", 
+            direction = "vertical"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em; ",
+        dropdown(
+          includeMarkdown("data/health/metadata/smoking_adults.md"),
           icon = icon("question"),
           size = "xs",
           style = "jelly",
