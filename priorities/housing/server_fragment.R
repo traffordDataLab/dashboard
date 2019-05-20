@@ -6,13 +6,10 @@ net_additional_dwellings <- read_csv("data/housing/net_additional_dwellings.csv"
   filter(period >= "2007-08") %>%
   group_by(area_name) %>%
   mutate(index = round(100 * value / value[1], 0),
-    tooltip = paste0(
-      "Area: ", area_name, "<br/>",
-      "Period: ", period, "<br/>",
-      "Index: ", index, "<br/>",
-      "Net dwellings: ", comma(value)
-    )
-  )
+    tooltip = 
+      paste0("<strong>", comma(value), "</strong>", " dwellings", "<br/>",
+             "<em>", area_name, "</em><br/>",
+             period))
 
 output$net_additional_dwellings_plot <- renderggiraph({
   
@@ -48,8 +45,8 @@ output$net_additional_dwellings_plot <- renderggiraph({
 })
 
 output$net_additional_dwellings_box <- renderUI({
-  box(div(HTML(paste0("<h5>", "By x, more than x ", "<b>","net additional dwellings","</b>", "  will be built each year.", "</h5>")),
-      style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","net additional dwellings","</b>", "  not set.", "</h5>")),
+          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
     title = "Net additional dwellings",
     withSpinner(
@@ -99,10 +96,10 @@ output$net_additional_dwellings_box <- renderUI({
 # Rough sleeping --------------------------------------------------
 rough_sleeping <- read_csv("data/housing/rough_sleeping.csv") %>%
   mutate(area_name = factor(area_name),
-         tooltip = paste0(
-           "Area: ", area_name, "<br/>",
-           "Period: ", period, "<br/>",
-           "Count: ", round(value, 2)))
+         tooltip = 
+           paste0("<strong>", round(value, 2), "</strong><br/>",
+                  "<em>", area_name, "</em><br/>",
+                  period))
 
 output$rough_sleeping_plot <- renderggiraph({
   
@@ -174,7 +171,7 @@ output$rough_sleeping_plot <- renderggiraph({
   
   output$rough_sleeping_box <- renderUI({
     
-    box(div(HTML(paste0("<h5>", "By x, the number of ", "<b>","rough sleepers","</b>", "  will be zero.", "</h5>")),
+    box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","rough sleepers","</b>", "  not set.", "</h5>")),
             style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
         br(),
         title = "Rough sleeping",
@@ -227,10 +224,10 @@ output$rough_sleeping_plot <- renderggiraph({
 # Long-term vacant properties --------------------------------------------------
 vacant_properties <- read_csv("data/housing/vacant_properties.csv") %>%
   mutate(area_name = factor(area_name),
-         tooltip = paste0(
-           "Area: ", area_name, "<br/>",
-           "Period: ", period, "<br/>",
-           "Percentage: ", paste(round(value*100, 2)), "%"))
+         tooltip = 
+           paste0("<strong>", paste(round(value*100, 2)), "</strong>", "%", "<br/>",
+                  "<em>", area_name, "</em><br/>",
+                  period))
 
 output$vacant_properties_plot <- renderggiraph({
   
@@ -267,8 +264,8 @@ output$vacant_properties_plot <- renderggiraph({
 
 output$vacant_properties_box <- renderUI({
   
-  box(div(HTML(paste0("<h5>", "By x, the proportion of ", "<b>","long-term vacant properties","</b>", "  will be below x.", "</h5>")),
-      style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","long-term vacant properties","</b>", "  not set.", "</h5>")),
+          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
     title = "Long-term vacant properties",
     withSpinner(
@@ -319,10 +316,10 @@ output$vacant_properties_box <- renderUI({
 council_tax_bands <- read_csv("data/housing/council_tax_bands.csv") %>%
   mutate(area_name = factor(area_name),
          band = fct_rev(factor(band)),
-         tooltip = paste0(
-           "Area: ", area_name, "<br/>",
-           "Band: ", band, "<br/>",
-           "Percentage: ", paste0(round(value*100, 1), "%")))
+         tooltip = 
+           paste0("<strong>", paste(round(value*100, 1)), "</strong>", "%", "<br/>",
+                  "<em>", area_name, "</em><br/>",
+                  period))
 
 output$council_tax_bands_plot <- renderggiraph({
   
@@ -358,7 +355,7 @@ output$council_tax_bands_plot <- renderggiraph({
 
 output$council_tax_bands_box <- renderUI({
   
-  box(div(HTML(paste0("<h5>", "By x, the proportion of new builds with ", "<b>", " low council tax bands","</b>", "  will be above x.", "</h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","the proportion of new builds with low council tax bands","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
       title = "New properties by council tax band",
@@ -409,10 +406,10 @@ output$council_tax_bands_box <- renderUI({
 # Affordability ratio --------------------------------------------------
 affordability_ratio <- read_csv("data/housing/affordability_ratio.csv") %>%
   mutate(area_name = factor(area_name),
-         tooltip = paste0(
-           "Area: ", area_name, "<br/>",
-           "Period: ", period, "<br/>",
-           "Ratio: ", round(value, 2)))
+         tooltip = 
+           paste0("<strong>", round(value, 2), "</strong><br/>",
+                  "<em>", area_name, "</em><br/>",
+                  period))
 
 output$affordability_ratio_plot <- renderggiraph({
   
@@ -449,8 +446,8 @@ output$affordability_ratio_plot <- renderggiraph({
 
 output$affordability_ratio_box <- renderUI({
   
-  box(div(HTML(paste0("<h5>", "By x, the ratio of ", "<b>","median house prices to median earnings","</b>", "  will be below x.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","the affordability ratio","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
       title = "Affordability ratio",
       withSpinner(
@@ -525,7 +522,7 @@ output$licensed_hmos_map = renderLeaflet({
 
 output$licensed_hmos_box <- renderUI({
   
-  box(div(HTML(paste0("<h5>", "By x, x% of licensed HMOs will meet the ", "<b>","required standard","</b></h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","licensed HMOs","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
       title = "Licensed HMOs",

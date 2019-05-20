@@ -93,7 +93,7 @@ output$alcohol_related_admissions_plot <- renderggiraph({
 })
 
 output$alcohol_related_admissions_box <- renderUI({
-  box(div(HTML(paste0("<h5>", "Target for ", "<b>","alcohol related admissions","</b>", "  not set.", "</h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","alcohol related admissions","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
       title = "Alcohol related admissions",
@@ -238,7 +238,7 @@ output$alcohol_related_mortality_plot <- renderggiraph({
 })
 
 output$alcohol_related_mortality_box <- renderUI({
-  box(div(HTML(paste0("<h5>", "Target for ", "<b>","alcohol related mortality","</b>", "  not set.", "</h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","alcohol related mortality","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
       title = "Alcohol related mortality",
@@ -386,7 +386,7 @@ output$healthy_life_expectancy_at_birth_plot <- renderggiraph({
 })
 
 output$healthy_life_expectancy_at_birth_box <- renderUI({
-  box(div(HTML(paste0("<h5>", "Target for ", "<b>","healthy life expectancy at birth","</b>", "  not set.", "</h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","healthy life expectancy at birth","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
       title = "Healthy life expectancy at birth",
@@ -529,7 +529,7 @@ output$slope_index_of_inequality_plot <- renderggiraph({
     })
 
 output$slope_index_of_inequality_box <- renderUI({
-  box(div(HTML(paste0("<h5>", "Target for ", "<b>","inequality in life expectancy at birth","</b>", "  not set.", "</h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","inequality in life expectancy at birth","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
       title = "Slope index of inequality",
@@ -674,7 +674,7 @@ output$smoking_adults_plot <- renderggiraph({
 })
 
 output$smoking_adults_box <- renderUI({
-  box(div(HTML(paste0("<h5>", "Target for ", "<b>","smoking prevalence in adults","</b>", "  not set.", "</h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","smoking prevalence in adults","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
       title = "Smoking prevalence in adults",
@@ -819,7 +819,7 @@ output$smoking_adults_manual_plot <- renderggiraph({
 })
 
 output$smoking_adults_manual_box <- renderUI({
-  box(div(HTML(paste0("<h5>", "Target for ", "<b>","smoking prevalence in adults in routine and manual occupations","</b>", "  not set.", "</h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","smoking prevalence in adults in routine and manual occupations","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
       title = "Smoking prevalence in adults in routine and manual occupations",
@@ -964,7 +964,7 @@ output$admissions_falls_plot <- renderggiraph({
 })
 
 output$admissions_falls_box <- renderUI({
-  box(div(HTML(paste0("<h5>", "Target for ", "<b>","emergency admissions due to falls in people aged 65 and over","</b>", "  not set.", "</h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","emergency admissions due to falls in people aged 65 and over","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
       title = "Emergency admissions due to falls in people aged 65 and over",
@@ -1109,7 +1109,7 @@ output$deaths_at_home_plot <- renderggiraph({
 })
 
 output$deaths_at_home_box <- renderUI({
-  box(div(HTML(paste0("<h5>", "Target for ", "<b>","percentage of deaths in usual place of residence","</b>", "  not set.", "</h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","percentage of deaths in usual place of residence","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
       title = "Percentage of deaths in usual place of residence",
@@ -1158,5 +1158,151 @@ output$deaths_at_home_box <- renderUI({
   )
   
 })
+
+# Preventable mortality from cancer --------------------------------------------------
+
+preventable_mortality_from_cancer <- read_csv("data/health/preventable_mortality_from_cancer.csv") %>% 
+  mutate(area_name = as_factor(area_name),
+         period = as_factor(period)) %>% 
+  filter(!is.na(value))
+
+output$preventable_mortality_from_cancer_plot <- renderggiraph({
+  
+  if (input$preventable_mortality_from_cancer_selection == "Boxplot") {
+    
+    gg <- ggplot(data = filter(preventable_mortality_from_cancer, area_name != "England"),
+                 aes(x = period, y = value)) +
+      stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
+      geom_boxplot_interactive(aes(tooltip = value),
+                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
+                               fatten = NULL) +
+      geom_point_interactive(data = filter(preventable_mortality_from_cancer, area_name == "Trafford"), 
+                             aes(x = period, y = value, fill = significance, 
+                                 tooltip =  paste0(
+                                   "<strong>", value, "</strong>", "  per 100,000", "<br/>",
+                                   "<em>", area_name, "</em><br/>",
+                                   period)), 
+                             shape = 21, colour = "#000000", size = 5) +
+      geom_boxplot_interactive(data = filter(preventable_mortality_from_cancer, area_name == "England"),
+                               aes(x = factor(period), y = value,
+                                   tooltip =  paste0(
+                                     "<strong>", filter(preventable_mortality_from_cancer, area_name == "England")$value, "</strong>", "  per 100,000", "<br/>",
+                                     "<em>", "England", "</em><br/>",
+                                     filter(preventable_mortality_from_cancer, area_name == "England")$period)),
+                               colour = "red", size = 0.5) +
+      scale_fill_manual(values = c("Better" = "#92D050",
+                                   "Similar" = "#FFC000",
+                                   "Worse" = "#C00000")) +
+      scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
+      coord_flip() +
+      labs(title = "Under 75 mortality rate from cancer considered preventable",
+           subtitle = NULL,
+           caption = "Source: PHE Fingertips (PHOF 4.05ii)",
+           x = NULL, y = " per 100,000",
+           fill = "Compared with England:") +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major = element_blank(),
+        axis.title.x = element_text(size = 7, hjust = 1),
+        legend.position = "top",
+        legend.title = element_text(size = 9),
+        legend.text = element_text(size = 8))
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+                   opts_toolbar(saveaspng = FALSE))
+    
+  }
+  else {
+    
+    gg <-
+      ggplot(
+        filter(preventable_mortality_from_cancer, area_name %in% c("Trafford", "England")),
+        aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
+      geom_line(size = 1) +
+      geom_point_interactive(aes(tooltip = 
+                                   paste0("<strong>", value, "</strong>", "  per 100,000", "<br/>",
+                                          "<em>", area_name, "</em><br/>",
+                                          period)), 
+                             shape = 21, size = 2.5, colour = "white") +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_y_continuous(limits = c(0, NA)) +
+      labs(
+        title = "Under 75 mortality rate from cancer considered preventable",
+        subtitle = NULL,
+        caption = "Source: PHE Fingertips (PHOF 4.05ii)",
+        x = "",
+        y = " per 100,000",
+        colour = NULL
+      ) +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.position = "none"
+      )
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    
+  }
+  
+})
+
+output$preventable_mortality_from_cancer_box <- renderUI({
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","under 75 mortality rate from cancer considered preventable","</b>", "  not set.", "</h5>")),
+          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Under 75 mortality rate from cancer considered preventable",
+      withSpinner(
+        ggiraphOutput("preventable_mortality_from_cancer_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioGroupButtons(
+            inputId = "preventable_mortality_from_cancer_selection",
+            label = tags$h4("Show as:"),
+            choiceNames = c("Trend", "Boxplot"),
+            choiceValues = c("Trend", "Boxplot"), 
+            selected = "Trend", 
+            direction = "vertical"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em; ",
+        dropdown(
+          includeMarkdown("data/health/metadata/preventable_mortality_from_cancer.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
 
 # Indicator name --------------------------------------------------

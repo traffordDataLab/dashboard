@@ -28,7 +28,7 @@ ui <- fluidPage(
       ),
       br(),
       fluidRow(column(
-        4,
+        11,
         div(
           div(),
           tags$button(
