@@ -1,0 +1,655 @@
+area_code,area_name,period,value,indicator,measure,unit,significance
+E92000001,England,2017,67.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Not compared
+E06000001,Hartlepool,2017,80.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000002,Middlesbrough,2017,81,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000003,Redcar and Cleveland,2017,73.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000004,Stockton-on-Tees,2017,90.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000005,Darlington,2017,79.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000006,Halton,2017,76.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000007,Warrington,2017,70.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000008,Blackburn with Darwen,2017,69.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000009,Blackpool,2017,78.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000010,Kingston upon Hull,2017,76.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000011,East Riding of Yorkshire,2017,64,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000012,North East Lincolnshire,2017,70.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000013,North Lincolnshire,2017,60.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000014,York,2017,60.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000015,Derby,2017,77.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000016,Leicester,2017,86.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000017,Rutland,2017,61.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000018,Nottingham,2017,83.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000019,Herefordshire,2017,59.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000020,Telford and Wrekin,2017,62.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000021,Stoke-on-Trent,2017,84,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000022,Bath and North East Somerset,2017,59.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000023,Bristol,2017,72.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000024,North Somerset,2017,64.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000025,South Gloucestershire,2017,62.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000026,Plymouth,2017,58.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000027,Torbay,2017,63.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000030,Swindon,2017,64,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000031,Peterborough,2017,78.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000032,Luton,2017,66.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000033,Southend-on-Sea,2017,72.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000034,Thurrock,2017,63.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000035,Medway,2017,53.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000036,Bracknell Forest,2017,59.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000037,West Berkshire,2017,56.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000038,Reading,2017,68.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000039,Slough,2017,64.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000040,Windsor and Maidenhead,2017,71.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000041,Wokingham,2017,66.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000042,Milton Keynes,2017,67.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000043,Brighton and Hove,2017,64,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000044,Portsmouth,2017,71.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000045,Southampton,2017,66.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000046,Isle of Wight,2017,72.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000047,County Durham,2017,75.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000049,Cheshire East,2017,71.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000050,Cheshire West and Chester,2017,65,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000051,Shropshire,2017,70.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000052,Cornwall,2017,56.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000053,Isles of Scilly,2017,46.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000054,Wiltshire,2017,66.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000055,Bedford,2017,62.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000056,Central Bedfordshire,2017,58.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000057,Northumberland,2017,68.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000004,Aylesbury Vale,2017,72.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000005,Chiltern,2017,66.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000006,South Bucks,2017,67.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000007,Wycombe,2017,63.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000008,Cambridge,2017,67.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000009,East Cambridgeshire,2017,58,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000010,Fenland,2017,60.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000011,Huntingdonshire,2017,69.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000012,South Cambridgeshire,2017,54.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000026,Allerdale,2017,62.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000027,Barrow-in-Furness,2017,76.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000028,Carlisle,2017,70,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000029,Copeland,2017,73.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000030,Eden,2017,55.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000031,South Lakeland,2017,67.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000032,Amber Valley,2017,68.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000033,Bolsover,2017,78,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000034,Chesterfield,2017,72.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000035,Derbyshire Dales,2017,60.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000036,Erewash,2017,86.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000037,High Peak,2017,73.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000038,North East Derbyshire,2017,73.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000039,South Derbyshire,2017,73.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000040,East Devon,2017,63.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000041,Exeter,2017,70,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000042,Mid Devon,2017,50.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000043,North Devon,2017,60.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000044,South Hams,2017,47.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000045,Teignbridge,2017,65.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000046,Torridge,2017,57.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000047,West Devon,2017,57.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000048,Christchurch,2017,54.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000049,East Dorset,2017,55.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000050,North Dorset,2017,51.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000051,Purbeck,2017,64.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000052,West Dorset,2017,51.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000053,Weymouth and Portland,2017,66.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000061,Eastbourne,2017,72.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000062,Hastings,2017,74.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000063,Lewes,2017,64.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000064,Rother,2017,59.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000065,Wealden,2017,64.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000066,Basildon,2017,58.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000067,Braintree,2017,64.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000068,Brentwood,2017,67,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000069,Castle Point,2017,51.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000070,Chelmsford,2017,63.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000071,Colchester,2017,59.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000072,Epping Forest,2017,78.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000073,Harlow,2017,58,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000074,Maldon,2017,51.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000075,Rochford,2017,60.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000076,Tendring,2017,52.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000077,Uttlesford,2017,62.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000078,Cheltenham,2017,73.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000079,Cotswold,2017,58.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000080,Forest of Dean,2017,62.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000081,Gloucester,2017,72.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000082,Stroud,2017,71.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000083,Tewkesbury,2017,65.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000084,Basingstoke and Deane,2017,64.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000085,East Hampshire,2017,64.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000086,Eastleigh,2017,62.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000087,Fareham,2017,62.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000088,Gosport,2017,49.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000089,Hart,2017,67.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000090,Havant,2017,60.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000091,New Forest,2017,64.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000092,Rushmoor,2017,72,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000093,Test Valley,2017,59.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000094,Winchester,2017,58.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000095,Broxbourne,2017,52.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000096,Dacorum,2017,61.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000098,Hertsmere,2017,65.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000099,North Hertfordshire,2017,72.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000102,Three Rivers,2017,75.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000103,Watford,2017,81.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000105,Ashford,2017,64.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000106,Canterbury,2017,73.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000107,Dartford,2017,73.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000108,Dover,2017,67.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000109,Gravesham,2017,52,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000110,Maidstone,2017,67.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000111,Sevenoaks,2017,57.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000112,Folkestone & Hythe,2017,61.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000113,Swale,2017,68.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000114,Thanet,2017,63.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000115,Tonbridge and Malling,2017,52.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000116,Tunbridge Wells,2017,63,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000117,Burnley,2017,77.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000118,Chorley,2017,73.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000119,Fylde,2017,74.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000120,Hyndburn,2017,74.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000121,Lancaster,2017,86.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000122,Pendle,2017,72.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000123,Preston,2017,71.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000124,Ribble Valley,2017,59.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000125,Rossendale,2017,73,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000126,South Ribble,2017,58.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000127,West Lancashire,2017,72.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000128,Wyre,2017,71.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000129,Blaby,2017,65.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000130,Charnwood,2017,72.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000131,Harborough,2017,66.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000132,Hinckley and Bosworth,2017,69.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000133,Melton,2017,62,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000134,North West Leicestershire,2017,68.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000135,Oadby and Wigston,2017,72.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000136,Boston,2017,64.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000137,East Lindsey,2017,62.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000138,Lincoln,2017,75.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000139,North Kesteven,2017,56,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000140,South Holland,2017,65,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000141,South Kesteven,2017,59.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000142,West Lindsey,2017,67.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000143,Breckland,2017,71.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000144,Broadland,2017,65.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000145,Great Yarmouth,2017,63.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000146,King's Lynn and West Norfolk,2017,64.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000147,North Norfolk,2017,57.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000148,Norwich,2017,64.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000149,South Norfolk,2017,53.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000150,Corby,2017,85.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000151,Daventry,2017,63,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000152,East Northamptonshire,2017,68.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000153,Kettering,2017,71.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000154,Northampton,2017,71.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000155,South Northamptonshire,2017,55.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000156,Wellingborough,2017,65.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000163,Craven,2017,72.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000164,Hambleton,2017,56.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000165,Harrogate,2017,78.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000166,Richmondshire,2017,68.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000167,Ryedale,2017,48.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000168,Scarborough,2017,60.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000169,Selby,2017,66,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000170,Ashfield,2017,77.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000171,Bassetlaw,2017,80.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000172,Broxtowe,2017,84.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000173,Gedling,2017,69.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000174,Mansfield,2017,76,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000175,Newark and Sherwood,2017,65.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000176,Rushcliffe,2017,75.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000177,Cherwell,2017,64.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000178,Oxford,2017,68.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000179,South Oxfordshire,2017,68.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000180,Vale of White Horse,2017,62.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000181,West Oxfordshire,2017,69.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000187,Mendip,2017,64.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000188,Sedgemoor,2017,64.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000189,South Somerset,2017,62.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000190,Taunton Deane,2017,63.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000191,West Somerset,2017,45.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000192,Cannock Chase,2017,67.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000193,East Staffordshire,2017,64.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000194,Lichfield,2017,63.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000195,Newcastle-under-Lyme,2017,81.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000196,South Staffordshire,2017,64.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000197,Stafford,2017,68.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000198,Staffordshire Moorlands,2017,63.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000199,Tamworth,2017,68.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000200,Babergh,2017,65.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000201,Forest Heath,2017,59.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000202,Ipswich,2017,71.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000203,Mid Suffolk,2017,60.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000204,St. Edmundsbury,2017,61.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000205,Suffolk Coastal,2017,61.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000206,Waveney,2017,60.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000207,Elmbridge,2017,64.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000208,Epsom and Ewell,2017,59,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000209,Guildford,2017,60.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000210,Mole Valley,2017,64.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000211,Reigate and Banstead,2017,69.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000212,Runnymede,2017,64.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000213,Spelthorne,2017,62.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000214,Surrey Heath,2017,66.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000215,Tandridge,2017,69.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000216,Waverley,2017,54.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000217,Woking,2017,75,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000218,North Warwickshire,2017,54.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000219,Nuneaton and Bedworth,2017,62.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000220,Rugby,2017,62.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000221,Stratford-on-Avon,2017,62.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000222,Warwick,2017,59.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000223,Adur,2017,61.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000224,Arun,2017,62.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000225,Chichester,2017,60.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000226,Crawley,2017,64.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000227,Horsham,2017,59.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000228,Mid Sussex,2017,71.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000229,Worthing,2017,71.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000234,Bromsgrove,2017,70.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000235,Malvern Hills,2017,66.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000236,Redditch,2017,62.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000237,Worcester,2017,58.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000238,Wychavon,2017,51,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000239,Wyre Forest,2017,61.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000240,St Albans,2017,57.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000241,Welwyn Hatfield,2017,63.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000242,East Hertfordshire,2017,56.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000243,Stevenage,2017,74.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000001,Bolton,2017,79.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000002,Bury,2017,85.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000003,Manchester,2017,75.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000004,Oldham,2017,83.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000005,Rochdale,2017,67,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000006,Salford,2017,86.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000007,Stockport,2017,75.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000008,Tameside,2017,81.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000009,Trafford,2017,74,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000010,Wigan,2017,69.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000011,Knowsley,2017,75.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000012,Liverpool,2017,71.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000013,St. Helens,2017,78.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000014,Sefton,2017,68.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000015,Wirral,2017,72.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000016,Barnsley,2017,70.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000017,Doncaster,2017,74.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000018,Rotherham,2017,79.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000019,Sheffield,2017,79.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000021,Newcastle upon Tyne,2017,76.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000022,North Tyneside,2017,72.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000023,South Tyneside,2017,76.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000024,Sunderland,2017,72.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000025,Birmingham,2017,66.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000026,Coventry,2017,58.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E08000027,Dudley,2017,61.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E08000028,Sandwell,2017,63.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000029,Solihull,2017,60.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E08000030,Walsall,2017,71.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000031,Wolverhampton,2017,73.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000032,Bradford,2017,81.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000033,Calderdale,2017,66.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000034,Kirklees,2017,70.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000035,Leeds,2017,73.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000036,Wakefield,2017,66.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000037,Gateshead,2017,76.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E09000001,City of London,2017,48.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E09000002,Barking and Dagenham,2017,64,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000003,Barnet,2017,74.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000004,Bexley,2017,69.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000005,Brent,2017,80.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E09000006,Bromley,2017,64.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000007,Camden,2017,83.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E09000008,Croydon,2017,66.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000009,Ealing,2017,78.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000028,Bournemouth,2017,71.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000029,Poole,2017,69,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000010,Enfield,2017,71.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000011,Greenwich,2017,66.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000012,Hackney,2017,75.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000013,Hammersmith and Fulham,2017,75.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000014,Haringey,2017,69,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000015,Harrow,2017,64.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000016,Havering,2017,60.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E09000017,Hillingdon,2017,67.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000018,Hounslow,2017,70.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000019,Islington,2017,90.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E09000020,Kensington and Chelsea,2017,72.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000021,Kingston upon Thames,2017,59.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E09000022,Lambeth,2017,77.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E09000023,Lewisham,2017,70.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000024,Merton,2017,66.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000025,Newham,2017,73,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000026,Redbridge,2017,69.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000027,Richmond upon Thames,2017,69.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000028,Southwark,2017,73.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000029,Sutton,2017,74.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000030,Tower Hamlets,2017,80.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E09000031,Waltham Forest,2017,70.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000032,Wandsworth,2017,71.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000033,Westminster,2017,81.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E92000001,England,2018,67.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Not compared
+E06000001,Hartlepool,2018,79.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000002,Middlesbrough,2018,80.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000003,Redcar and Cleveland,2018,70.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000004,Stockton-on-Tees,2018,90.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000005,Darlington,2018,77.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000006,Halton,2018,69.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000007,Warrington,2018,73.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000008,Blackburn with Darwen,2018,74.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000009,Blackpool,2018,79,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000010,Kingston upon Hull,2018,77.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000011,East Riding of Yorkshire,2018,63.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000012,North East Lincolnshire,2018,71.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000013,North Lincolnshire,2018,63.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000014,York,2018,62.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000015,Derby,2018,75.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000016,Leicester,2018,85.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000017,Rutland,2018,56.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000018,Nottingham,2018,84.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000019,Herefordshire,2018,56.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000020,Telford and Wrekin,2018,62.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000021,Stoke-on-Trent,2018,83.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000022,Bath and North East Somerset,2018,61.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000023,Bristol,2018,74.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000024,North Somerset,2018,64.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000025,South Gloucestershire,2018,61.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000026,Plymouth,2018,57.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000027,Torbay,2018,62.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000030,Swindon,2018,62.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000031,Peterborough,2018,78.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000032,Luton,2018,64.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000033,Southend-on-Sea,2018,74.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000034,Thurrock,2018,65.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000035,Medway,2018,55.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000036,Bracknell Forest,2018,61.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000037,West Berkshire,2018,58.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000038,Reading,2018,67.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000039,Slough,2018,62.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000040,Windsor and Maidenhead,2018,71,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000041,Wokingham,2018,65.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000042,Milton Keynes,2018,65,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000043,Brighton and Hove,2018,66.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000044,Portsmouth,2018,70.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000045,Southampton,2018,66.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000046,Isle of Wight,2018,69,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000047,County Durham,2018,75.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E06000049,Cheshire East,2018,70.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000050,Cheshire West and Chester,2018,64.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000051,Shropshire,2018,70.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000052,Cornwall,2018,52.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000053,Isles of Scilly,2018,34,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000054,Wiltshire,2018,65,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000055,Bedford,2018,60.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000056,Central Bedfordshire,2018,58.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E06000057,Northumberland,2018,69.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000004,Aylesbury Vale,2018,71.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000005,Chiltern,2018,64.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000006,South Bucks,2018,63.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000007,Wycombe,2018,60.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000008,Cambridge,2018,64.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000009,East Cambridgeshire,2018,56.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000010,Fenland,2018,57.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000011,Huntingdonshire,2018,68.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000012,South Cambridgeshire,2018,53.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000026,Allerdale,2018,62.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000027,Barrow-in-Furness,2018,77,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000028,Carlisle,2018,68.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000029,Copeland,2018,69.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000030,Eden,2018,52.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000031,South Lakeland,2018,65.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000032,Amber Valley,2018,66.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000033,Bolsover,2018,75.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000034,Chesterfield,2018,70.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000035,Derbyshire Dales,2018,57.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000036,Erewash,2018,84.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000037,High Peak,2018,70.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000038,North East Derbyshire,2018,70.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000039,South Derbyshire,2018,70.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000040,East Devon,2018,62.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000041,Exeter,2018,69.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000042,Mid Devon,2018,50.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000043,North Devon,2018,59.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000044,South Hams,2018,44.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000045,Teignbridge,2018,62.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000046,Torridge,2018,58,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000047,West Devon,2018,57.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000048,Christchurch,2018,63.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000049,East Dorset,2018,54.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000050,North Dorset,2018,54.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000051,Purbeck,2018,63.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000052,West Dorset,2018,51.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000053,Weymouth and Portland,2018,64.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000061,Eastbourne,2018,73.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000062,Hastings,2018,74.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000063,Lewes,2018,63,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000064,Rother,2018,61.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000065,Wealden,2018,64.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000066,Basildon,2018,60.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000067,Braintree,2018,62.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000068,Brentwood,2018,65.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000069,Castle Point,2018,53,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000070,Chelmsford,2018,60.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000071,Colchester,2018,59,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000072,Epping Forest,2018,80.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000073,Harlow,2018,58.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000074,Maldon,2018,52.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000075,Rochford,2018,67.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000076,Tendring,2018,54.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000077,Uttlesford,2018,62.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000078,Cheltenham,2018,71.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000079,Cotswold,2018,58.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000080,Forest of Dean,2018,60.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000081,Gloucester,2018,72.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000082,Stroud,2018,70.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000083,Tewkesbury,2018,64,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000084,Basingstoke and Deane,2018,62.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000085,East Hampshire,2018,71.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000086,Eastleigh,2018,61.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000087,Fareham,2018,63.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000088,Gosport,2018,60.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000089,Hart,2018,64.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000090,Havant,2018,66.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000091,New Forest,2018,65,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000092,Rushmoor,2018,70.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000093,Test Valley,2018,58.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000094,Winchester,2018,58.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000095,Broxbourne,2018,50.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000096,Dacorum,2018,62.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000098,Hertsmere,2018,67.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000099,North Hertfordshire,2018,72.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000102,Three Rivers,2018,73.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000103,Watford,2018,83.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000105,Ashford,2018,61.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000106,Canterbury,2018,69.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000107,Dartford,2018,67.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000108,Dover,2018,63.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000109,Gravesham,2018,48.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000110,Maidstone,2018,66.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000111,Sevenoaks,2018,55.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000112,Folkestone & Hythe,2018,58,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000113,Swale,2018,63.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000114,Thanet,2018,62.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000115,Tonbridge and Malling,2018,51.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000116,Tunbridge Wells,2018,64.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000117,Burnley,2018,77.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000118,Chorley,2018,73.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000119,Fylde,2018,72.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000120,Hyndburn,2018,77.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000121,Lancaster,2018,79,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000122,Pendle,2018,68.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000123,Preston,2018,72.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000124,Ribble Valley,2018,58.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000125,Rossendale,2018,75,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000126,South Ribble,2018,62.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000127,West Lancashire,2018,73.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000128,Wyre,2018,72,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000129,Blaby,2018,70.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000130,Charnwood,2018,71.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000131,Harborough,2018,68.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000132,Hinckley and Bosworth,2018,70.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000133,Melton,2018,63,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000134,North West Leicestershire,2018,68.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000135,Oadby and Wigston,2018,74.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000136,Boston,2018,66.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000137,East Lindsey,2018,63.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000138,Lincoln,2018,74.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000139,North Kesteven,2018,57.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000140,South Holland,2018,61,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000141,South Kesteven,2018,59,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000142,West Lindsey,2018,67.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000143,Breckland,2018,70.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000144,Broadland,2018,66.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000145,Great Yarmouth,2018,73.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000146,King's Lynn and West Norfolk,2018,59.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000147,North Norfolk,2018,55.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000148,Norwich,2018,62.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000149,South Norfolk,2018,55.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000150,Corby,2018,83.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000151,Daventry,2018,61.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000152,East Northamptonshire,2018,66.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000153,Kettering,2018,70.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000154,Northampton,2018,72,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000155,South Northamptonshire,2018,51.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000156,Wellingborough,2018,63.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000163,Craven,2018,73.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000164,Hambleton,2018,56.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000165,Harrogate,2018,76.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000166,Richmondshire,2018,75.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000167,Ryedale,2018,51.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000168,Scarborough,2018,58.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000169,Selby,2018,66.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000170,Ashfield,2018,81.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000171,Bassetlaw,2018,80.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000172,Broxtowe,2018,80.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000173,Gedling,2018,72.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000174,Mansfield,2018,74.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000175,Newark and Sherwood,2018,64.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000176,Rushcliffe,2018,75.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000177,Cherwell,2018,66.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000178,Oxford,2018,67.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000179,South Oxfordshire,2018,69.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000180,Vale of White Horse,2018,61.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000181,West Oxfordshire,2018,69.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000187,Mendip,2018,66.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000188,Sedgemoor,2018,67.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000189,South Somerset,2018,60.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000190,Taunton Deane,2018,63.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000191,West Somerset,2018,40.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000192,Cannock Chase,2018,67.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000193,East Staffordshire,2018,64.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000194,Lichfield,2018,60.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000195,Newcastle-under-Lyme,2018,80.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000196,South Staffordshire,2018,62,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000197,Stafford,2018,62.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000198,Staffordshire Moorlands,2018,63.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000199,Tamworth,2018,65.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000200,Babergh,2018,67,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000201,Forest Heath,2018,59.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000202,Ipswich,2018,73.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000203,Mid Suffolk,2018,59.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000204,St. Edmundsbury,2018,62.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000205,Suffolk Coastal,2018,62.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000206,Waveney,2018,57.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000207,Elmbridge,2018,66.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000208,Epsom and Ewell,2018,59,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000209,Guildford,2018,61.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000210,Mole Valley,2018,63.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000211,Reigate and Banstead,2018,71.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000212,Runnymede,2018,70.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000213,Spelthorne,2018,64.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000214,Surrey Heath,2018,65.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000215,Tandridge,2018,70,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000216,Waverley,2018,55,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000217,Woking,2018,76,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000218,North Warwickshire,2018,55.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000219,Nuneaton and Bedworth,2018,60.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000220,Rugby,2018,62.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000221,Stratford-on-Avon,2018,61.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000222,Warwick,2018,58.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000223,Adur,2018,61.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000224,Arun,2018,62.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000225,Chichester,2018,58,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000226,Crawley,2018,67.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000227,Horsham,2018,60.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000228,Mid Sussex,2018,72.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000229,Worthing,2018,76.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E07000234,Bromsgrove,2018,65.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000235,Malvern Hills,2018,71.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000236,Redditch,2018,59.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000237,Worcester,2018,55.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000238,Wychavon,2018,51,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000239,Wyre Forest,2018,59.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000240,St Albans,2018,59,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000241,Welwyn Hatfield,2018,62.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E07000242,East Hertfordshire,2018,57.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E07000243,Stevenage,2018,75,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000001,Bolton,2018,77.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000002,Bury,2018,86.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000003,Manchester,2018,77.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000004,Oldham,2018,80.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000005,Rochdale,2018,67,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000006,Salford,2018,83.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000007,Stockport,2018,71.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000008,Tameside,2018,79.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000009,Trafford,2018,74.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000010,Wigan,2018,71.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000011,Knowsley,2018,69.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000012,Liverpool,2018,69.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000013,St. Helens,2018,74.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000014,Sefton,2018,67.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000015,Wirral,2018,69.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000016,Barnsley,2018,68.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000017,Doncaster,2018,72.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000018,Rotherham,2018,82.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000019,Sheffield,2018,78.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000021,Newcastle upon Tyne,2018,76.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000022,North Tyneside,2018,70.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000023,South Tyneside,2018,74.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000024,Sunderland,2018,69.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000025,Birmingham,2018,67.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000026,Coventry,2018,58.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E08000027,Dudley,2018,65.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000028,Sandwell,2018,61.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000029,Solihull,2018,61.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E08000030,Walsall,2018,70.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000031,Wolverhampton,2018,73.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000032,Bradford,2018,80.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E08000033,Calderdale,2018,65.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000034,Kirklees,2018,69,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000035,Leeds,2018,73.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000036,Wakefield,2018,67.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E08000037,Gateshead,2018,76,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E09000001,City of London,2018,45.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E09000002,Barking and Dagenham,2018,61.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000003,Barnet,2018,73.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000004,Bexley,2018,64.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000005,Brent,2018,76.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E09000006,Bromley,2018,68.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000007,Camden,2018,86.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E09000008,Croydon,2018,66.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000009,Ealing,2018,75.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000028,Bournemouth,2018,68.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E06000029,Poole,2018,65.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000010,Enfield,2018,72.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000011,Greenwich,2018,64.4,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000012,Hackney,2018,73.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000013,Hammersmith and Fulham,2018,68.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000014,Haringey,2018,68.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000015,Harrow,2018,61.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000016,Havering,2018,59.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Worse
+E09000017,Hillingdon,2018,66.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000018,Hounslow,2018,68.5,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000019,Islington,2018,88.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E09000020,Kensington and Chelsea,2018,71.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000021,Kingston upon Thames,2018,61.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000022,Lambeth,2018,76.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E09000023,Lewisham,2018,73.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000024,Merton,2018,69.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000025,Newham,2018,70.6,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000026,Redbridge,2018,68.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000027,Richmond upon Thames,2018,69.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000028,Southwark,2018,72.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000029,Sutton,2018,75.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000030,Tower Hamlets,2018,83.7,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E09000031,Waltham Forest,2018,69.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000032,Wandsworth,2018,75.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Similar
+E09000033,Westminster,2018,78.2,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better

@@ -1,6 +1,6 @@
-# Emergency admissions due to falls in people aged 65 and over #
+# Emergency hospital admissions for intentional self-harm #
 
-# Source: PHE Fingertips (PHOF 2.24i)
+# Source: PHE Fingertips (PHOF 2.10ii)
 # URL: https://fingertips.phe.org.uk/profile/public-health-outcomes-framework
 # Licence: Open Government Licence v3.0
 
@@ -9,9 +9,9 @@ library(tidyverse) ; library(fingertipsR)
 # retrieve indicators
 select_indicators()
 # retrieve corresponding metadata
-indicator_metadata(IndicatorID = 22401) %>% formattable::formattable()
+indicator_metadata(IndicatorID = 21001) %>% formattable::formattable()
 
-df <- fingertips_data(IndicatorID = 22401, AreaTypeID = 101, rank = TRUE) %>% 
+df <- fingertips_data(IndicatorID = 21001, AreaTypeID = 101, rank = TRUE) %>% 
   filter(AreaType %in% c("England", "District & UA"),
          Sex == "Persons") %>% 
   select(area_code = AreaCode,
@@ -19,10 +19,10 @@ df <- fingertips_data(IndicatorID = 22401, AreaTypeID = 101, rank = TRUE) %>%
          period = Timeperiod,
          value = Value,
          significance = ComparedtoEnglandvalueorpercentiles) %>%
-  mutate(indicator = "Emergency hospital admissions due to falls in people aged 65 and over",
+  mutate(indicator = "Emergency Hospital Admissions for Intentional Self-Harm",
          measure = "Age standardised rate per 100,000",
          unit = "Persons",
-         value = round(value, 0)) %>% 
+         value = round(value, 1)) %>% 
   select(-significance, everything()) 
 
-write_csv(df, "../admissions_falls.csv")
+write_csv(df, "../admissions_self_harm.csv")

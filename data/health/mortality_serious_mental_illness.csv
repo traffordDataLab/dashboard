@@ -1,0 +1,919 @@
+area_code,area_name,period,value,indicator,measure,unit,significance
+E92000001,England,2009/10,326.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000001,Hartlepool,2009/10,438.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000002,Middlesbrough,2009/10,395.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000003,Redcar and Cleveland,2009/10,351.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000004,Stockton-on-Tees,2009/10,311.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000005,Darlington,2009/10,510.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000006,Halton,2009/10,393.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000007,Warrington,2009/10,361.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000008,Blackburn with Darwen,2009/10,483.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000009,Blackpool,2009/10,359.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000010,Kingston upon Hull,2009/10,434.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000011,East Riding of Yorkshire,2009/10,308.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000012,North East Lincolnshire,2009/10,382.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000013,North Lincolnshire,2009/10,472.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000014,York,2009/10,304.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000015,Derby,2009/10,355.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000016,Leicester,2009/10,508.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000017,Rutland,2009/10,416.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000018,Nottingham,2009/10,456.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000019,Herefordshire,2009/10,278.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000020,Telford and Wrekin,2009/10,352.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000021,Stoke-on-Trent,2009/10,374.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000022,Bath and North East Somerset,2009/10,445.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000023,Bristol,2009/10,325.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000024,North Somerset,2009/10,374.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000025,South Gloucestershire,2009/10,180.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000026,Plymouth,2009/10,352.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000027,Torbay,2009/10,268.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000028,Bournemouth,2009/10,260.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000029,Poole,2009/10,309.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000030,Swindon,2009/10,353.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000031,Peterborough,2009/10,299.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000032,Luton,2009/10,221.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000033,Southend-on-Sea,2009/10,370.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000034,Thurrock,2009/10,291.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000035,Medway,2009/10,362.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000036,Bracknell Forest,2009/10,417,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000037,West Berkshire,2009/10,330.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000038,Reading,2009/10,401.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000039,Slough,2009/10,439.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000040,Windsor and Maidenhead,2009/10,285.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000041,Wokingham,2009/10,552.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000042,Milton Keynes,2009/10,326.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000043,Brighton and Hove,2009/10,324.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000044,Portsmouth,2009/10,326.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000045,Southampton,2009/10,335.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000046,Isle of Wight,2009/10,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000047,County Durham,2009/10,384.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000049,Cheshire East,2009/10,283.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000050,Cheshire West and Chester,2009/10,346.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000051,Shropshire,2009/10,287.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000052,Cornwall,2009/10,292.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000053,Isles of Scilly,2009/10,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000054,Wiltshire,2009/10,351.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000055,Bedford,2009/10,187,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000056,Central Bedfordshire,2009/10,231.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000057,Northumberland,2009/10,265.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000001,Bolton,2009/10,468.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000002,Bury,2009/10,295.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000003,Manchester,2009/10,407.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000004,Oldham,2009/10,407.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000005,Rochdale,2009/10,396.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000006,Salford,2009/10,351.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000007,Stockport,2009/10,375.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000008,Tameside,2009/10,542.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000009,Trafford,2009/10,428.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000010,Wigan,2009/10,465.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000011,Knowsley,2009/10,352.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000012,Liverpool,2009/10,437.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000013,St. Helens,2009/10,433.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000014,Sefton,2009/10,396.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000015,Wirral,2009/10,389,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000016,Barnsley,2009/10,299.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000017,Doncaster,2009/10,331.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000018,Rotherham,2009/10,381.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000019,Sheffield,2009/10,401.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000021,Newcastle upon Tyne,2009/10,446,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000022,North Tyneside,2009/10,539.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000023,South Tyneside,2009/10,360.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000024,Sunderland,2009/10,318.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000025,Birmingham,2009/10,291.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000026,Coventry,2009/10,265.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000027,Dudley,2009/10,315.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000028,Sandwell,2009/10,353.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000029,Solihull,2009/10,248.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000030,Walsall,2009/10,230.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000031,Wolverhampton,2009/10,319.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000032,Bradford,2009/10,427.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000033,Calderdale,2009/10,349.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000034,Kirklees,2009/10,352.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000035,Leeds,2009/10,342.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000036,Wakefield,2009/10,364.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000037,Gateshead,2009/10,284.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000001,City of London,2009/10,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000002,Barking and Dagenham,2009/10,294.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000003,Barnet,2009/10,217.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000004,Bexley,2009/10,279.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000005,Brent,2009/10,230.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000006,Bromley,2009/10,343.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000007,Camden,2009/10,318.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000008,Croydon,2009/10,346.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000009,Ealing,2009/10,204.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000010,Enfield,2009/10,337.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000011,Greenwich,2009/10,374,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000012,Hackney,2009/10,327.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000013,Hammersmith and Fulham,2009/10,308.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000014,Haringey,2009/10,237.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000015,Harrow,2009/10,163.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000016,Havering,2009/10,228.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000017,Hillingdon,2009/10,294,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000018,Hounslow,2009/10,336.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000019,Islington,2009/10,249.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000020,Kensington and Chelsea,2009/10,170.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000021,Kingston upon Thames,2009/10,322.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000022,Lambeth,2009/10,344.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000023,Lewisham,2009/10,302.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000024,Merton,2009/10,259.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000025,Newham,2009/10,301.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000026,Redbridge,2009/10,269.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000027,Richmond upon Thames,2009/10,283.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000028,Southwark,2009/10,286.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000029,Sutton,2009/10,399.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000030,Tower Hamlets,2009/10,346.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000031,Waltham Forest,2009/10,228.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000032,Wandsworth,2009/10,350.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000033,Westminster,2009/10,274.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000002,Buckinghamshire,2009/10,374.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000003,Cambridgeshire,2009/10,347.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000006,Cumbria,2009/10,418.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000007,Derbyshire,2009/10,333.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000008,Devon,2009/10,275.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000009,Dorset (Cty),2009/10,302.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000011,East Sussex,2009/10,326.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000012,Essex,2009/10,287.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000013,Gloucestershire,2009/10,277.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000014,Hampshire,2009/10,272.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000015,Hertfordshire,2009/10,303.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000016,Kent,2009/10,292.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000017,Lancashire,2009/10,307.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000018,Leicestershire,2009/10,489.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000019,Lincolnshire,2009/10,269.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000020,Norfolk,2009/10,325.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000021,Northamptonshire,2009/10,329.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000023,North Yorkshire,2009/10,270.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000024,Nottinghamshire,2009/10,339.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000025,Oxfordshire,2009/10,349.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000027,Somerset,2009/10,311.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000028,Staffordshire,2009/10,284.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000029,Suffolk,2009/10,276.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000030,Surrey,2009/10,317.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000031,Warwickshire,2009/10,358.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000032,West Sussex,2009/10,293.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000034,Worcestershire,2009/10,267.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E92000001,England,2010/11,335.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000001,Hartlepool,2010/11,341.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000002,Middlesbrough,2010/11,430.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000003,Redcar and Cleveland,2010/11,380.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000004,Stockton-on-Tees,2010/11,400.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000005,Darlington,2010/11,330,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000006,Halton,2010/11,339.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000007,Warrington,2010/11,423,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000008,Blackburn with Darwen,2010/11,265.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000009,Blackpool,2010/11,256.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000010,Kingston upon Hull,2010/11,297.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000011,East Riding of Yorkshire,2010/11,311.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000012,North East Lincolnshire,2010/11,426.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000013,North Lincolnshire,2010/11,380,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000014,York,2010/11,430.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000015,Derby,2010/11,318.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000016,Leicester,2010/11,462.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000017,Rutland,2010/11,330.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000018,Nottingham,2010/11,435.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000019,Herefordshire,2010/11,330.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000020,Telford and Wrekin,2010/11,269.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000021,Stoke-on-Trent,2010/11,363.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000022,Bath and North East Somerset,2010/11,329.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000023,Bristol,2010/11,381.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000024,North Somerset,2010/11,522.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000025,South Gloucestershire,2010/11,369,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000026,Plymouth,2010/11,336.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000027,Torbay,2010/11,203.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000028,Bournemouth,2010/11,359.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000029,Poole,2010/11,285,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000030,Swindon,2010/11,328.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000031,Peterborough,2010/11,307,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000032,Luton,2010/11,226,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000033,Southend-on-Sea,2010/11,350.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000034,Thurrock,2010/11,285.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000035,Medway,2010/11,365.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000036,Bracknell Forest,2010/11,414.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000037,West Berkshire,2010/11,441.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000038,Reading,2010/11,492.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000039,Slough,2010/11,364,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000040,Windsor and Maidenhead,2010/11,423.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000041,Wokingham,2010/11,458,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000042,Milton Keynes,2010/11,302.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000043,Brighton and Hove,2010/11,293.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000044,Portsmouth,2010/11,341.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000045,Southampton,2010/11,358.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000046,Isle of Wight,2010/11,228.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000047,County Durham,2010/11,365.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000049,Cheshire East,2010/11,380.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000050,Cheshire West and Chester,2010/11,279.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000051,Shropshire,2010/11,249.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000052,Cornwall,2010/11,333.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000053,Isles of Scilly,2010/11,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000054,Wiltshire,2010/11,370.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000055,Bedford,2010/11,272.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000056,Central Bedfordshire,2010/11,218.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000057,Northumberland,2010/11,289.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000001,Bolton,2010/11,441,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000002,Bury,2010/11,312.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000003,Manchester,2010/11,353.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000004,Oldham,2010/11,441.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000005,Rochdale,2010/11,374,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000006,Salford,2010/11,415.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000007,Stockport,2010/11,322.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000008,Tameside,2010/11,464.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000009,Trafford,2010/11,344.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000010,Wigan,2010/11,388.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000011,Knowsley,2010/11,364.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000012,Liverpool,2010/11,475.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000013,St. Helens,2010/11,394.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000014,Sefton,2010/11,451.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000015,Wirral,2010/11,343.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000016,Barnsley,2010/11,306.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000017,Doncaster,2010/11,359.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000018,Rotherham,2010/11,327.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000019,Sheffield,2010/11,384.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000021,Newcastle upon Tyne,2010/11,463.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000022,North Tyneside,2010/11,429.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000023,South Tyneside,2010/11,383.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000024,Sunderland,2010/11,312.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000025,Birmingham,2010/11,316.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000026,Coventry,2010/11,311.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000027,Dudley,2010/11,330.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000028,Sandwell,2010/11,332.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000029,Solihull,2010/11,307.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000030,Walsall,2010/11,164.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000031,Wolverhampton,2010/11,280.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000032,Bradford,2010/11,417.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000033,Calderdale,2010/11,320.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000034,Kirklees,2010/11,378.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000035,Leeds,2010/11,352.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000036,Wakefield,2010/11,336.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000037,Gateshead,2010/11,343,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000001,City of London,2010/11,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000002,Barking and Dagenham,2010/11,307.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000003,Barnet,2010/11,259.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000004,Bexley,2010/11,285.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000005,Brent,2010/11,235.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000006,Bromley,2010/11,291.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000007,Camden,2010/11,327.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000008,Croydon,2010/11,328.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000009,Ealing,2010/11,225.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000010,Enfield,2010/11,343.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000011,Greenwich,2010/11,300.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000012,Hackney,2010/11,362,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000013,Hammersmith and Fulham,2010/11,330.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000014,Haringey,2010/11,301.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000015,Harrow,2010/11,180.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000016,Havering,2010/11,277.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000017,Hillingdon,2010/11,305.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000018,Hounslow,2010/11,294.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000019,Islington,2010/11,334,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000020,Kensington and Chelsea,2010/11,255.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000021,Kingston upon Thames,2010/11,229.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000022,Lambeth,2010/11,296.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000023,Lewisham,2010/11,303.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000024,Merton,2010/11,359.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000025,Newham,2010/11,333,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000026,Redbridge,2010/11,241.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000027,Richmond upon Thames,2010/11,364.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000028,Southwark,2010/11,344,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000029,Sutton,2010/11,388.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000030,Tower Hamlets,2010/11,307.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000031,Waltham Forest,2010/11,229.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000032,Wandsworth,2010/11,348.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000033,Westminster,2010/11,282,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000002,Buckinghamshire,2010/11,347.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000003,Cambridgeshire,2010/11,384.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000006,Cumbria,2010/11,315.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000007,Derbyshire,2010/11,359.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000008,Devon,2010/11,266.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000009,Dorset (Cty),2010/11,287,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000011,East Sussex,2010/11,294.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000012,Essex,2010/11,302.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000013,Gloucestershire,2010/11,303,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000014,Hampshire,2010/11,302.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000015,Hertfordshire,2010/11,363.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000016,Kent,2010/11,304,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000017,Lancashire,2010/11,215.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000018,Leicestershire,2010/11,419.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000019,Lincolnshire,2010/11,256.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000020,Norfolk,2010/11,258.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000021,Northamptonshire,2010/11,363.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000023,North Yorkshire,2010/11,327.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000024,Nottinghamshire,2010/11,330.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000025,Oxfordshire,2010/11,367.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000027,Somerset,2010/11,354.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000028,Staffordshire,2010/11,208.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000029,Suffolk,2010/11,287.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000030,Surrey,2010/11,345.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000031,Warwickshire,2010/11,334,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000032,West Sussex,2010/11,348.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000034,Worcestershire,2010/11,282.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E92000001,England,2011/12,337.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000001,Hartlepool,2011/12,502.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000002,Middlesbrough,2011/12,423.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000003,Redcar and Cleveland,2011/12,431.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000004,Stockton-on-Tees,2011/12,388.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000005,Darlington,2011/12,370.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000006,Halton,2011/12,409.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000007,Warrington,2011/12,402.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000008,Blackburn with Darwen,2011/12,272.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000009,Blackpool,2011/12,481.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000010,Kingston upon Hull,2011/12,379,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000011,East Riding of Yorkshire,2011/12,321.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000012,North East Lincolnshire,2011/12,370,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000013,North Lincolnshire,2011/12,424.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000014,York,2011/12,383.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000015,Derby,2011/12,355.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000016,Leicester,2011/12,430,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000017,Rutland,2011/12,393.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000018,Nottingham,2011/12,422.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000019,Herefordshire,2011/12,313,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000020,Telford and Wrekin,2011/12,398.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000021,Stoke-on-Trent,2011/12,422.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000022,Bath and North East Somerset,2011/12,412.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000023,Bristol,2011/12,394.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000024,North Somerset,2011/12,341,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000025,South Gloucestershire,2011/12,246.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000026,Plymouth,2011/12,313.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000027,Torbay,2011/12,325.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000028,Bournemouth,2011/12,381.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000029,Poole,2011/12,372.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000030,Swindon,2011/12,284,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000031,Peterborough,2011/12,347.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000032,Luton,2011/12,295.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000033,Southend-on-Sea,2011/12,266.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000034,Thurrock,2011/12,292.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000035,Medway,2011/12,336.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000036,Bracknell Forest,2011/12,315.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000037,West Berkshire,2011/12,337.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000038,Reading,2011/12,375.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000039,Slough,2011/12,415.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000040,Windsor and Maidenhead,2011/12,460.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000041,Wokingham,2011/12,407.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000042,Milton Keynes,2011/12,266.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000043,Brighton and Hove,2011/12,291.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000044,Portsmouth,2011/12,332.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000045,Southampton,2011/12,387.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000046,Isle of Wight,2011/12,124.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000047,County Durham,2011/12,427.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000049,Cheshire East,2011/12,324.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000050,Cheshire West and Chester,2011/12,404.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000051,Shropshire,2011/12,423.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000052,Cornwall,2011/12,428.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000053,Isles of Scilly,2011/12,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000054,Wiltshire,2011/12,305.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000055,Bedford,2011/12,336.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000056,Central Bedfordshire,2011/12,275.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000057,Northumberland,2011/12,314.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000001,Bolton,2011/12,456.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000002,Bury,2011/12,342.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000003,Manchester,2011/12,426.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000004,Oldham,2011/12,372.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000005,Rochdale,2011/12,407,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000006,Salford,2011/12,428.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000007,Stockport,2011/12,309.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000008,Tameside,2011/12,441.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000009,Trafford,2011/12,395.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000010,Wigan,2011/12,473.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000011,Knowsley,2011/12,403.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000012,Liverpool,2011/12,425.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000013,St. Helens,2011/12,406,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000014,Sefton,2011/12,355.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000015,Wirral,2011/12,363.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000016,Barnsley,2011/12,279.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000017,Doncaster,2011/12,447.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000018,Rotherham,2011/12,376.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000019,Sheffield,2011/12,365.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000021,Newcastle upon Tyne,2011/12,510.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000022,North Tyneside,2011/12,438.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000023,South Tyneside,2011/12,448.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000024,Sunderland,2011/12,330.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000025,Birmingham,2011/12,321,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000026,Coventry,2011/12,309.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000027,Dudley,2011/12,342.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000028,Sandwell,2011/12,311.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000029,Solihull,2011/12,259.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000030,Walsall,2011/12,242.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000031,Wolverhampton,2011/12,382.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000032,Bradford,2011/12,411.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000033,Calderdale,2011/12,355.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000034,Kirklees,2011/12,350.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000035,Leeds,2011/12,426.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000036,Wakefield,2011/12,414.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000037,Gateshead,2011/12,420.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000001,City of London,2011/12,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000002,Barking and Dagenham,2011/12,293.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000003,Barnet,2011/12,222.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000004,Bexley,2011/12,303.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000005,Brent,2011/12,300,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000006,Bromley,2011/12,284.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000007,Camden,2011/12,306,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000008,Croydon,2011/12,278.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000009,Ealing,2011/12,334.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000010,Enfield,2011/12,246.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000011,Greenwich,2011/12,357.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000012,Hackney,2011/12,387.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000013,Hammersmith and Fulham,2011/12,287.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000014,Haringey,2011/12,308.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000015,Harrow,2011/12,158.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000016,Havering,2011/12,310.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000017,Hillingdon,2011/12,270.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000018,Hounslow,2011/12,309.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000019,Islington,2011/12,282.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000020,Kensington and Chelsea,2011/12,288.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000021,Kingston upon Thames,2011/12,453.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000022,Lambeth,2011/12,321.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000023,Lewisham,2011/12,305.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000024,Merton,2011/12,355.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000025,Newham,2011/12,344.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000026,Redbridge,2011/12,256.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000027,Richmond upon Thames,2011/12,312.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000028,Southwark,2011/12,313.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000029,Sutton,2011/12,351.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000030,Tower Hamlets,2011/12,273.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000031,Waltham Forest,2011/12,223,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000032,Wandsworth,2011/12,427.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000033,Westminster,2011/12,253.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000002,Buckinghamshire,2011/12,345,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000003,Cambridgeshire,2011/12,322.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000006,Cumbria,2011/12,430.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000007,Derbyshire,2011/12,295,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000008,Devon,2011/12,300.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000009,Dorset (Cty),2011/12,304.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000011,East Sussex,2011/12,282.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000012,Essex,2011/12,300.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000013,Gloucestershire,2011/12,314.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000014,Hampshire,2011/12,343.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000015,Hertfordshire,2011/12,346.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000016,Kent,2011/12,314.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000017,Lancashire,2011/12,297.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000018,Leicestershire,2011/12,362.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000019,Lincolnshire,2011/12,231.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000020,Norfolk,2011/12,320.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000021,Northamptonshire,2011/12,366.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000023,North Yorkshire,2011/12,314.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000024,Nottinghamshire,2011/12,337.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000025,Oxfordshire,2011/12,350.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000027,Somerset,2011/12,342,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000028,Staffordshire,2011/12,331.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000029,Suffolk,2011/12,291.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000030,Surrey,2011/12,318.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000031,Warwickshire,2011/12,387.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000032,West Sussex,2011/12,343.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000034,Worcestershire,2011/12,258.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E92000001,England,2012/13,347.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000001,Hartlepool,2012/13,564.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000002,Middlesbrough,2012/13,481.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000003,Redcar and Cleveland,2012/13,410.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000004,Stockton-on-Tees,2012/13,448.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000005,Darlington,2012/13,449.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000006,Halton,2012/13,497.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000007,Warrington,2012/13,340.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000008,Blackburn with Darwen,2012/13,270.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000009,Blackpool,2012/13,475.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000010,Kingston upon Hull,2012/13,341,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000011,East Riding of Yorkshire,2012/13,295.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000012,North East Lincolnshire,2012/13,401.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000013,North Lincolnshire,2012/13,519.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000014,York,2012/13,357.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000015,Derby,2012/13,302.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000016,Leicester,2012/13,440.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000017,Rutland,2012/13,373.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000018,Nottingham,2012/13,418.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000019,Herefordshire,2012/13,280.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000020,Telford and Wrekin,2012/13,438.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000021,Stoke-on-Trent,2012/13,422.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000022,Bath and North East Somerset,2012/13,350,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000023,Bristol,2012/13,356.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000024,North Somerset,2012/13,379.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000025,South Gloucestershire,2012/13,372.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000026,Plymouth,2012/13,420.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000027,Torbay,2012/13,340.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000028,Bournemouth,2012/13,421.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000029,Poole,2012/13,480,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000030,Swindon,2012/13,495.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000031,Peterborough,2012/13,341.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000032,Luton,2012/13,320.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000033,Southend-on-Sea,2012/13,265.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000034,Thurrock,2012/13,248.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000035,Medway,2012/13,316.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000036,Bracknell Forest,2012/13,386.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000037,West Berkshire,2012/13,332.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000038,Reading,2012/13,410.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000039,Slough,2012/13,348.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000040,Windsor and Maidenhead,2012/13,550.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000041,Wokingham,2012/13,281.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000042,Milton Keynes,2012/13,243.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000043,Brighton and Hove,2012/13,308.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000044,Portsmouth,2012/13,386.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000045,Southampton,2012/13,438.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000046,Isle of Wight,2012/13,139.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000047,County Durham,2012/13,413.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000049,Cheshire East,2012/13,362.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000050,Cheshire West and Chester,2012/13,418.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000051,Shropshire,2012/13,389,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000052,Cornwall,2012/13,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000053,Isles of Scilly,2012/13,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000054,Wiltshire,2012/13,362.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000055,Bedford,2012/13,391.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000056,Central Bedfordshire,2012/13,295.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000057,Northumberland,2012/13,344.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000001,Bolton,2012/13,463.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000002,Bury,2012/13,401.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000003,Manchester,2012/13,426.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000004,Oldham,2012/13,345.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000005,Rochdale,2012/13,341.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000006,Salford,2012/13,442.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000007,Stockport,2012/13,394.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000008,Tameside,2012/13,471.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000009,Trafford,2012/13,350.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000010,Wigan,2012/13,523.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000011,Knowsley,2012/13,492,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000012,Liverpool,2012/13,494.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000013,St. Helens,2012/13,503.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000014,Sefton,2012/13,368.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000015,Wirral,2012/13,517.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000016,Barnsley,2012/13,330.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000017,Doncaster,2012/13,385.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000018,Rotherham,2012/13,351.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000019,Sheffield,2012/13,380.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000021,Newcastle upon Tyne,2012/13,357.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000022,North Tyneside,2012/13,451.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000023,South Tyneside,2012/13,417.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000024,Sunderland,2012/13,352.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000025,Birmingham,2012/13,328.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000026,Coventry,2012/13,346.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000027,Dudley,2012/13,317.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000028,Sandwell,2012/13,382.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000029,Solihull,2012/13,286.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000030,Walsall,2012/13,254.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000031,Wolverhampton,2012/13,329.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000032,Bradford,2012/13,395.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000033,Calderdale,2012/13,336.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000034,Kirklees,2012/13,344.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000035,Leeds,2012/13,414.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000036,Wakefield,2012/13,382.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000037,Gateshead,2012/13,402.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000001,City of London,2012/13,320.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000002,Barking and Dagenham,2012/13,270.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000003,Barnet,2012/13,293.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000004,Bexley,2012/13,320.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000005,Brent,2012/13,253.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000006,Bromley,2012/13,318.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000007,Camden,2012/13,244.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000008,Croydon,2012/13,326.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000009,Ealing,2012/13,290.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000010,Enfield,2012/13,284.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000011,Greenwich,2012/13,368,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000012,Hackney,2012/13,303.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000013,Hammersmith and Fulham,2012/13,312.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000014,Haringey,2012/13,297.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000015,Harrow,2012/13,258.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000016,Havering,2012/13,271.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000017,Hillingdon,2012/13,340.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000018,Hounslow,2012/13,282.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000019,Islington,2012/13,364.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000020,Kensington and Chelsea,2012/13,230.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000021,Kingston upon Thames,2012/13,247.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000022,Lambeth,2012/13,314,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000023,Lewisham,2012/13,259.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000024,Merton,2012/13,392.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000025,Newham,2012/13,340.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000026,Redbridge,2012/13,249.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000027,Richmond upon Thames,2012/13,295.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000028,Southwark,2012/13,303.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000029,Sutton,2012/13,489.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000030,Tower Hamlets,2012/13,274,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000031,Waltham Forest,2012/13,309.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000032,Wandsworth,2012/13,334,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000033,Westminster,2012/13,254.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000002,Buckinghamshire,2012/13,374.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000003,Cambridgeshire,2012/13,318.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000006,Cumbria,2012/13,439.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000007,Derbyshire,2012/13,289.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000008,Devon,2012/13,315.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000009,Dorset (Cty),2012/13,306.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000011,East Sussex,2012/13,279.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000012,Essex,2012/13,291.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000013,Gloucestershire,2012/13,309.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000014,Hampshire,2012/13,336.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000015,Hertfordshire,2012/13,351,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000016,Kent,2012/13,323.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000017,Lancashire,2012/13,273.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000018,Leicestershire,2012/13,384.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000019,Lincolnshire,2012/13,264.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000020,Norfolk,2012/13,385.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000021,Northamptonshire,2012/13,376.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000023,North Yorkshire,2012/13,366.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000024,Nottinghamshire,2012/13,380.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000025,Oxfordshire,2012/13,412,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000027,Somerset,2012/13,310.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000028,Staffordshire,2012/13,307,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000029,Suffolk,2012/13,379.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000030,Surrey,2012/13,353.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000031,Warwickshire,2012/13,365.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000032,West Sussex,2012/13,358.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000034,Worcestershire,2012/13,362.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E92000001,England,2013/14,351.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000001,Hartlepool,2013/14,337.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000002,Middlesbrough,2013/14,523.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000003,Redcar and Cleveland,2013/14,318.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000004,Stockton-on-Tees,2013/14,421.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000005,Darlington,2013/14,545.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000006,Halton,2013/14,402.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000007,Warrington,2013/14,393.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000008,Blackburn with Darwen,2013/14,256.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000009,Blackpool,2013/14,385.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000010,Kingston upon Hull,2013/14,247.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000011,East Riding of Yorkshire,2013/14,282.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000012,North East Lincolnshire,2013/14,481.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000013,North Lincolnshire,2013/14,442.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000014,York,2013/14,456.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000015,Derby,2013/14,359.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000016,Leicester,2013/14,438.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000017,Rutland,2013/14,272.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000018,Nottingham,2013/14,457.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000019,Herefordshire,2013/14,297.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000020,Telford and Wrekin,2013/14,528.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000021,Stoke-on-Trent,2013/14,318.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000022,Bath and North East Somerset,2013/14,427.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000023,Bristol,2013/14,424.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000024,North Somerset,2013/14,384.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000025,South Gloucestershire,2013/14,356.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000026,Plymouth,2013/14,326.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000027,Torbay,2013/14,362.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000028,Bournemouth,2013/14,386.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000029,Poole,2013/14,375.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000030,Swindon,2013/14,343.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000031,Peterborough,2013/14,264.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000032,Luton,2013/14,264.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000033,Southend-on-Sea,2013/14,213.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000034,Thurrock,2013/14,233.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000035,Medway,2013/14,424,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000036,Bracknell Forest,2013/14,361.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000037,West Berkshire,2013/14,458.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000038,Reading,2013/14,382,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000039,Slough,2013/14,403.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000040,Windsor and Maidenhead,2013/14,400,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000041,Wokingham,2013/14,330.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000042,Milton Keynes,2013/14,298.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000043,Brighton and Hove,2013/14,332.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000044,Portsmouth,2013/14,405.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000045,Southampton,2013/14,445.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000046,Isle of Wight,2013/14,135.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000047,County Durham,2013/14,485.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000049,Cheshire East,2013/14,433.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000050,Cheshire West and Chester,2013/14,470.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000051,Shropshire,2013/14,359.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000052,Cornwall,2013/14,344.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000053,Isles of Scilly,2013/14,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000054,Wiltshire,2013/14,328.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000055,Bedford,2013/14,173.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000056,Central Bedfordshire,2013/14,215.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000057,Northumberland,2013/14,347.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000001,Bolton,2013/14,453.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000002,Bury,2013/14,313.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000003,Manchester,2013/14,388.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000004,Oldham,2013/14,372.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000005,Rochdale,2013/14,420.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000006,Salford,2013/14,512.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000007,Stockport,2013/14,350.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000008,Tameside,2013/14,438.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000009,Trafford,2013/14,404.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000010,Wigan,2013/14,457.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000011,Knowsley,2013/14,348.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000012,Liverpool,2013/14,503.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000013,St. Helens,2013/14,465.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000014,Sefton,2013/14,472,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000015,Wirral,2013/14,587.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000016,Barnsley,2013/14,307.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000017,Doncaster,2013/14,337.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000018,Rotherham,2013/14,409.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000019,Sheffield,2013/14,381.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000021,Newcastle upon Tyne,2013/14,415.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000022,North Tyneside,2013/14,380.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000023,South Tyneside,2013/14,526,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000024,Sunderland,2013/14,428.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000025,Birmingham,2013/14,412.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000026,Coventry,2013/14,359.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000027,Dudley,2013/14,304.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000028,Sandwell,2013/14,369.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000029,Solihull,2013/14,347.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000030,Walsall,2013/14,299.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000031,Wolverhampton,2013/14,378.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000032,Bradford,2013/14,448.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000033,Calderdale,2013/14,488.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000034,Kirklees,2013/14,345.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000035,Leeds,2013/14,395.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000036,Wakefield,2013/14,375,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000037,Gateshead,2013/14,408.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000001,City of London,2013/14,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000002,Barking and Dagenham,2013/14,277.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000003,Barnet,2013/14,286.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000004,Bexley,2013/14,379.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000005,Brent,2013/14,316.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000006,Bromley,2013/14,345.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000007,Camden,2013/14,262.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000008,Croydon,2013/14,381.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000009,Ealing,2013/14,291.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000010,Enfield,2013/14,265.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000011,Greenwich,2013/14,362.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000012,Hackney,2013/14,301,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000013,Hammersmith and Fulham,2013/14,264.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000014,Haringey,2013/14,360.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000015,Harrow,2013/14,282.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000016,Havering,2013/14,267.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000017,Hillingdon,2013/14,351.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000018,Hounslow,2013/14,333.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000019,Islington,2013/14,341.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000020,Kensington and Chelsea,2013/14,287.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000021,Kingston upon Thames,2013/14,304.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000022,Lambeth,2013/14,397,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000023,Lewisham,2013/14,328.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000024,Merton,2013/14,390.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000025,Newham,2013/14,338.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000026,Redbridge,2013/14,259.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000027,Richmond upon Thames,2013/14,198,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000028,Southwark,2013/14,354,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000029,Sutton,2013/14,461,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000030,Tower Hamlets,2013/14,303.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000031,Waltham Forest,2013/14,305.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000032,Wandsworth,2013/14,391.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000033,Westminster,2013/14,270.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000002,Buckinghamshire,2013/14,302.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000003,Cambridgeshire,2013/14,309.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000006,Cumbria,2013/14,426.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000007,Derbyshire,2013/14,324.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000008,Devon,2013/14,320.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000009,Dorset (Cty),2013/14,302.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000011,East Sussex,2013/14,275.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000012,Essex,2013/14,266.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000013,Gloucestershire,2013/14,357.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000014,Hampshire,2013/14,386.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000015,Hertfordshire,2013/14,316.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000016,Kent,2013/14,353.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000017,Lancashire,2013/14,274.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000018,Leicestershire,2013/14,437.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000019,Lincolnshire,2013/14,246.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000020,Norfolk,2013/14,367.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000021,Northamptonshire,2013/14,326.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000023,North Yorkshire,2013/14,333.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000024,Nottinghamshire,2013/14,370.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000025,Oxfordshire,2013/14,292.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000027,Somerset,2013/14,325.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000028,Staffordshire,2013/14,338.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000029,Suffolk,2013/14,362.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000030,Surrey,2013/14,356.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000031,Warwickshire,2013/14,423,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000032,West Sussex,2013/14,371.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000034,Worcestershire,2013/14,316.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E92000001,England,2014/15,370,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000001,Hartlepool,2014/15,544,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000002,Middlesbrough,2014/15,570.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000003,Redcar and Cleveland,2014/15,512.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000004,Stockton-on-Tees,2014/15,551,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000005,Darlington,2014/15,444.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000006,Halton,2014/15,447.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000007,Warrington,2014/15,399.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000008,Blackburn with Darwen,2014/15,347.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000009,Blackpool,2014/15,525.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000010,Kingston upon Hull,2014/15,330.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000011,East Riding of Yorkshire,2014/15,266.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000012,North East Lincolnshire,2014/15,421.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000013,North Lincolnshire,2014/15,480.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000014,York,2014/15,346.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000015,Derby,2014/15,310.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000016,Leicester,2014/15,370.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000017,Rutland,2014/15,247.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000018,Nottingham,2014/15,470.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000019,Herefordshire,2014/15,247.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000020,Telford and Wrekin,2014/15,553.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000021,Stoke-on-Trent,2014/15,339.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000022,Bath and North East Somerset,2014/15,426.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000023,Bristol,2014/15,417.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000024,North Somerset,2014/15,439,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000025,South Gloucestershire,2014/15,320.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000026,Plymouth,2014/15,369.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000027,Torbay,2014/15,319.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000028,Bournemouth,2014/15,387.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000029,Poole,2014/15,408.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000030,Swindon,2014/15,470.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000031,Peterborough,2014/15,325.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000032,Luton,2014/15,279.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000033,Southend-on-Sea,2014/15,246.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000034,Thurrock,2014/15,217.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000035,Medway,2014/15,439.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000036,Bracknell Forest,2014/15,315.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000037,West Berkshire,2014/15,439.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000038,Reading,2014/15,423.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000039,Slough,2014/15,348.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000040,Windsor and Maidenhead,2014/15,379.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000041,Wokingham,2014/15,426.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000042,Milton Keynes,2014/15,313.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000043,Brighton and Hove,2014/15,315,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000044,Portsmouth,2014/15,406.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000045,Southampton,2014/15,435.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000046,Isle of Wight,2014/15,164.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000047,County Durham,2014/15,451.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000049,Cheshire East,2014/15,421.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000050,Cheshire West and Chester,2014/15,486.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000051,Shropshire,2014/15,414.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000052,Cornwall,2014/15,432.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000053,Isles of Scilly,2014/15,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000054,Wiltshire,2014/15,432,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000055,Bedford,2014/15,246.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000056,Central Bedfordshire,2014/15,244.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E06000057,Northumberland,2014/15,394.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000001,Bolton,2014/15,451.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000002,Bury,2014/15,328.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000003,Manchester,2014/15,428.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000004,Oldham,2014/15,357.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000005,Rochdale,2014/15,345.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000006,Salford,2014/15,539.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000007,Stockport,2014/15,334.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000008,Tameside,2014/15,381.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000009,Trafford,2014/15,480.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000010,Wigan,2014/15,454,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000011,Knowsley,2014/15,422.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000012,Liverpool,2014/15,490.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000013,St. Helens,2014/15,423,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000014,Sefton,2014/15,417.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000015,Wirral,2014/15,546.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000016,Barnsley,2014/15,347.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000017,Doncaster,2014/15,400.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000018,Rotherham,2014/15,411,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000019,Sheffield,2014/15,373.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000021,Newcastle upon Tyne,2014/15,531.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000022,North Tyneside,2014/15,450.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000023,South Tyneside,2014/15,465,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000024,Sunderland,2014/15,401.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000025,Birmingham,2014/15,487,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000026,Coventry,2014/15,406.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000027,Dudley,2014/15,430.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000028,Sandwell,2014/15,374.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000029,Solihull,2014/15,359.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000030,Walsall,2014/15,387.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000031,Wolverhampton,2014/15,478.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000032,Bradford,2014/15,426.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000033,Calderdale,2014/15,352.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000034,Kirklees,2014/15,338.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000035,Leeds,2014/15,452.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000036,Wakefield,2014/15,430,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E08000037,Gateshead,2014/15,397.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000001,City of London,2014/15,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000002,Barking and Dagenham,2014/15,342.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000003,Barnet,2014/15,267.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000004,Bexley,2014/15,360,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000005,Brent,2014/15,388.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000006,Bromley,2014/15,365.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000007,Camden,2014/15,301,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000008,Croydon,2014/15,398.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000009,Ealing,2014/15,326.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000010,Enfield,2014/15,254.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000011,Greenwich,2014/15,394.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000012,Hackney,2014/15,281.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000013,Hammersmith and Fulham,2014/15,250.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000014,Haringey,2014/15,355.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000015,Harrow,2014/15,254.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000016,Havering,2014/15,238.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000017,Hillingdon,2014/15,438.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000018,Hounslow,2014/15,264.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000019,Islington,2014/15,334.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000020,Kensington and Chelsea,2014/15,256.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000021,Kingston upon Thames,2014/15,383.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000022,Lambeth,2014/15,353.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000023,Lewisham,2014/15,367.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000024,Merton,2014/15,357.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000025,Newham,2014/15,364,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000026,Redbridge,2014/15,319.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000027,Richmond upon Thames,2014/15,197.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000028,Southwark,2014/15,323.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000029,Sutton,2014/15,451.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000030,Tower Hamlets,2014/15,319,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000031,Waltham Forest,2014/15,288.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000032,Wandsworth,2014/15,321.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E09000033,Westminster,2014/15,282.8,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000002,Buckinghamshire,2014/15,351.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000003,Cambridgeshire,2014/15,349,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000006,Cumbria,2014/15,427.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000007,Derbyshire,2014/15,332.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000008,Devon,2014/15,329.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000009,Dorset (Cty),2014/15,335.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000011,East Sussex,2014/15,328.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000012,Essex,2014/15,294.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000013,Gloucestershire,2014/15,335.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000014,Hampshire,2014/15,378.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000015,Hertfordshire,2014/15,361,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000016,Kent,2014/15,335.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000017,Lancashire,2014/15,295.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000018,Leicestershire,2014/15,362.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000019,Lincolnshire,2014/15,303.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000020,Norfolk,2014/15,344,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000021,Northamptonshire,2014/15,392.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000023,North Yorkshire,2014/15,329.2,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000024,Nottinghamshire,2014/15,382.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000025,Oxfordshire,2014/15,306.3,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000027,Somerset,2014/15,318.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000028,Staffordshire,2014/15,345.5,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000029,Suffolk,2014/15,365,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000030,Surrey,2014/15,404.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000031,Warwickshire,2014/15,414.9,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000032,West Sussex,2014/15,347.6,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E10000034,Worcestershire,2014/15,339.4,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared

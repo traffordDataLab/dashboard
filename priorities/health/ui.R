@@ -20,7 +20,12 @@ tabPanel("Health and wellbeing", width = 11, style="margin-left:4%; margin-right
              uiOutput("preventable_mortality_from_cancer_box")
            ),
            fluidRow(
-            
+             uiOutput("physically_inactive_box"),
+             uiOutput("dementia_diagnosis_box"),
+             uiOutput("mortality_serious_mental_illness_box")
+           ),
+           fluidRow(
+             uiOutput("admissions_self_harm_box")
            ),
            br(),br()
          )

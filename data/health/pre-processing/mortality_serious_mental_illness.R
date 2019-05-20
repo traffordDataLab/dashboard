@@ -1,4 +1,4 @@
-# Emergency admissions due to falls in people aged 65 and over #
+# Excess under 75 mortality rate in adults with serious mental illness #
 
 # Source: PHE Fingertips (PHOF 2.24i)
 # URL: https://fingertips.phe.org.uk/profile/public-health-outcomes-framework
@@ -9,20 +9,20 @@ library(tidyverse) ; library(fingertipsR)
 # retrieve indicators
 select_indicators()
 # retrieve corresponding metadata
-indicator_metadata(IndicatorID = 22401) %>% formattable::formattable()
+indicator_metadata(IndicatorID = 91096) %>% formattable::formattable()
 
-df <- fingertips_data(IndicatorID = 22401, AreaTypeID = 101, rank = TRUE) %>% 
-  filter(AreaType %in% c("England", "District & UA"),
+df <- fingertips_data(IndicatorID = 91096, AreaTypeID = 102, rank = TRUE) %>% 
+  filter(AreaType %in% c("England", "County & UA"),
          Sex == "Persons") %>% 
   select(area_code = AreaCode,
          area_name = AreaName,
          period = Timeperiod,
          value = Value,
          significance = ComparedtoEnglandvalueorpercentiles) %>%
-  mutate(indicator = "Emergency hospital admissions due to falls in people aged 65 and over",
-         measure = "Age standardised rate per 100,000",
+  mutate(indicator = "Excess under 75 mortality rate in adults with serious mental illness",
+         measure = "Indirectly standardised ratio",
          unit = "Persons",
-         value = round(value, 0)) %>% 
+         value = round(value, 1)) %>% 
   select(-significance, everything()) 
 
-write_csv(df, "../admissions_falls.csv")
+write_csv(df, "../mortality_serious_mental_illness.csv")

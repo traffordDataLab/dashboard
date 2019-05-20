@@ -8,7 +8,7 @@ library(tidyverse) ; library(fingertipsR)
 
 # retrieve indicators
 select_indicators()
-# retrieve correspondiong metadata
+# retrieve corresponding metadata
 indicator_metadata(IndicatorID = 91414) %>% formattable::formattable()
 
 df <- fingertips_data(IndicatorID = 91414, AreaTypeID = 101, rank = TRUE) %>% 

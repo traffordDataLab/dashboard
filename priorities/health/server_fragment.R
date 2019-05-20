@@ -1304,5 +1304,584 @@ output$preventable_mortality_from_cancer_box <- renderUI({
   
 })
 
+# Percentage of physically inactive adults --------------------------------------------------
+
+physically_inactive <- read_csv("data/health/physically_inactive.csv") %>% 
+  mutate(area_name = as_factor(area_name),
+         period = as_factor(period)) %>% 
+  filter(!is.na(value))
+
+output$physically_inactive_plot <- renderggiraph({
+  
+  if (input$physically_inactive_selection == "Boxplot") {
+    
+    gg <- ggplot(data = filter(physically_inactive, area_name != "England"),
+                 aes(x = period, y = value)) +
+      stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
+      geom_boxplot_interactive(aes(tooltip = value),
+                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
+                               fatten = NULL) +
+      geom_point_interactive(data = filter(physically_inactive, area_name == "Trafford"), 
+                             aes(x = period, y = value, fill = significance, 
+                                 tooltip =  paste0(
+                                   "<strong>", value, "</strong>", "%", "<br/>",
+                                   "<em>", area_name, "</em><br/>",
+                                   period)), 
+                             shape = 21, colour = "#000000", size = 5) +
+      geom_boxplot_interactive(data = filter(physically_inactive, area_name == "England"),
+                               aes(x = factor(period), y = value,
+                                   tooltip =  paste0(
+                                     "<strong>", filter(physically_inactive, area_name == "England")$value, "</strong>", "%", "<br/>",
+                                     "<em>", "England", "</em><br/>",
+                                     filter(physically_inactive, area_name == "England")$period)),
+                               colour = "red", size = 0.5) +
+      scale_fill_manual(values = c("Better" = "#92D050",
+                                   "Similar" = "#FFC000",
+                                   "Worse" = "#C00000")) +
+      scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
+      coord_flip() +
+      labs(title = "Percentage of physically inactive adults",
+           subtitle = NULL,
+           caption = "Source: PHE Fingertips (PHOF 2.13ii)",
+           x = NULL, y = "Percentage",
+           fill = "Compared with England:") +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major = element_blank(),
+        axis.title.x = element_text(size = 7, hjust = 1),
+        legend.position = "top",
+        legend.title = element_text(size = 9),
+        legend.text = element_text(size = 8))
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+                   opts_toolbar(saveaspng = FALSE))
+    
+  }
+  else {
+    
+    gg <-
+      ggplot(
+        filter(physically_inactive, area_name %in% c("Trafford", "England")),
+        aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
+      geom_line(size = 1) +
+      geom_point_interactive(aes(tooltip = 
+                                   paste0("<strong>", value, "</strong>", "%", "<br/>",
+                                          "<em>", area_name, "</em><br/>",
+                                          period)), 
+                             shape = 21, size = 2.5, colour = "white") +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_y_continuous(limits = c(0, NA)) +
+      labs(
+        title = "Percentage of physically inactive adults",
+        subtitle = NULL,
+        caption = "Source: PHE Fingertips (PHOF 2.13ii)",
+        x = "",
+        y = "Percentage",
+        colour = NULL
+      ) +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.position = "none"
+      )
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    
+  }
+  
+})
+
+output$physically_inactive_box <- renderUI({
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","percentage of physically inactive adults","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Percentage of physically inactive adults",
+      withSpinner(
+        ggiraphOutput("physically_inactive_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioGroupButtons(
+            inputId = "physically_inactive_selection",
+            label = tags$h4("Show as:"),
+            choiceNames = c("Trend", "Boxplot"),
+            choiceValues = c("Trend", "Boxplot"), 
+            selected = "Trend", 
+            direction = "vertical"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em; ",
+        dropdown(
+          includeMarkdown("data/health/metadata/physically_inactive.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
+# Estimated dementia diagnosis rate (aged 65+) --------------------------------------------------
+
+dementia_diagnosis <- read_csv("data/health/dementia_diagnosis.csv") %>% 
+  mutate(area_name = as_factor(area_name),
+         period = as_factor(period)) %>% 
+  filter(!is.na(value))
+
+output$dementia_diagnosis_plot <- renderggiraph({
+  
+  if (input$dementia_diagnosis_selection == "Boxplot") {
+    
+    gg <- ggplot(data = filter(dementia_diagnosis, area_name != "England"),
+                 aes(x = period, y = value)) +
+      stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
+      geom_boxplot_interactive(aes(tooltip = value),
+                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
+                               fatten = NULL) +
+      geom_point_interactive(data = filter(dementia_diagnosis, area_name == "Trafford"), 
+                             aes(x = period, y = value, fill = significance, 
+                                 tooltip =  paste0(
+                                   "<strong>", value, "</strong>", "%", "<br/>",
+                                   "<em>", area_name, "</em><br/>",
+                                   period)), 
+                             shape = 21, colour = "#000000", size = 5) +
+      geom_boxplot_interactive(data = filter(dementia_diagnosis, area_name == "England"),
+                               aes(x = factor(period), y = value,
+                                   tooltip =  paste0(
+                                     "<strong>", filter(dementia_diagnosis, area_name == "England")$value, "</strong>", "%", "<br/>",
+                                     "<em>", "England", "</em><br/>",
+                                     filter(dementia_diagnosis, area_name == "England")$period)),
+                               colour = "red", size = 0.5) +
+      scale_fill_manual(values = c("Better" = "#92D050",
+                                   "Similar" = "#FFC000",
+                                   "Worse" = "#C00000")) +
+      scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
+      coord_flip() +
+      labs(title = "Estimated dementia diagnosis rate (aged 65 and over)",
+           subtitle = NULL,
+           caption = "Source: PHE Fingertips (PHOF 4.16)",
+           x = NULL, y = "Percentage",
+           fill = "Compared with England:") +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major = element_blank(),
+        axis.title.x = element_text(size = 7, hjust = 1),
+        legend.position = "top",
+        legend.title = element_text(size = 9),
+        legend.text = element_text(size = 8))
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+                   opts_toolbar(saveaspng = FALSE))
+    
+  }
+  else {
+    
+    gg <-
+      ggplot(
+        filter(dementia_diagnosis, area_name %in% c("Trafford", "England")),
+        aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
+      geom_line(size = 1) +
+      geom_point_interactive(aes(tooltip = 
+                                   paste0("<strong>", value, "</strong>", "%", "<br/>",
+                                          "<em>", area_name, "</em><br/>",
+                                          period)), 
+                             shape = 21, size = 2.5, colour = "white") +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_y_continuous(limits = c(0, NA)) +
+      labs(
+        title = "Estimated dementia diagnosis rate (aged 65 and over)",
+        subtitle = NULL,
+        caption = "Source: PHE Fingertips (PHOF 4.16)",
+        x = "",
+        y = "Percentage",
+        colour = NULL
+      ) +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.position = "none"
+      )
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    
+  }
+  
+})
+
+output$dementia_diagnosis_box <- renderUI({
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","estimated dementia diagnosis rate (aged 65+)","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Estimated dementia diagnosis rate (aged 65 and over)",
+      withSpinner(
+        ggiraphOutput("dementia_diagnosis_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioGroupButtons(
+            inputId = "dementia_diagnosis_selection",
+            label = tags$h4("Show as:"),
+            choiceNames = c("Trend", "Boxplot"),
+            choiceValues = c("Trend", "Boxplot"), 
+            selected = "Trend", 
+            direction = "vertical"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em; ",
+        dropdown(
+          includeMarkdown("data/health/metadata/dementia_diagnosis.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
+# Excess under 75 mortality rate in adults with serious mental illness --------------------------------------------------
+
+mortality_serious_mental_illness <- read_csv("data/health/mortality_serious_mental_illness.csv") %>% 
+  mutate(area_name = as_factor(area_name),
+         period = as_factor(period)) %>% 
+  filter(!is.na(value))
+
+output$mortality_serious_mental_illness_plot <- renderggiraph({
+  
+  if (input$mortality_serious_mental_illness_selection == "Boxplot") {
+    
+    gg <- ggplot(data = filter(mortality_serious_mental_illness, area_name != "England"),
+                 aes(x = period, y = value)) +
+      stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
+      geom_boxplot_interactive(aes(tooltip = value),
+                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
+                               fatten = NULL) +
+      geom_point_interactive(data = filter(mortality_serious_mental_illness, area_name == "Trafford"), 
+                             aes(x = period, y = value,
+                                 tooltip =  paste0(
+                                   "<strong>", round(value, 1), "</strong>", "%", "<br/>",
+                                   "<em>", area_name, "</em><br/>", period)),
+                             shape = 21, fill = "#FFFFFF", colour = "#000000", size = 5, alpha = 0.5) +
+      geom_boxplot_interactive(data = filter(mortality_serious_mental_illness, area_name == "England"),
+                               aes(x = factor(period), y = value,
+                                   tooltip =  paste0(
+                                     "<strong>", filter(mortality_serious_mental_illness, area_name == "England")$value, "</strong>", "%", "<br/>",
+                                     "<em>", "England", "</em><br/>",
+                                     filter(mortality_serious_mental_illness, area_name == "England")$period)),
+                               colour = "red", size = 0.5) +
+      scale_fill_manual(values = c("Better" = "#92D050",
+                                   "Similar" = "#FFC000",
+                                   "Worse" = "#C00000")) +
+      scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
+      coord_flip() +
+      labs(title = "Excess under 75 mortality rate in adults with serious mental illness",
+           subtitle = NULL,
+           caption = "Source: PHE Fingertips (PHOF 4.09i)",
+           x = NULL, y = "Percentage",
+           fill = "Compared with England:") +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major = element_blank(),
+        axis.title.x = element_text(size = 7, hjust = 1),
+        legend.position = "top",
+        legend.title = element_text(size = 9),
+        legend.text = element_text(size = 8))
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+                   opts_toolbar(saveaspng = FALSE))
+    
+  }
+  else {
+    
+    gg <-
+      ggplot(
+        filter(mortality_serious_mental_illness, area_name %in% c("Trafford", "England")),
+        aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
+      geom_line(size = 1) +
+      geom_point_interactive(aes(tooltip = 
+                                   paste0("<strong>", value, "</strong>", "%", "<br/>",
+                                          "<em>", area_name, "</em><br/>",
+                                          period)), 
+                             shape = 21, size = 2.5, colour = "white") +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_y_continuous(limits = c(0, NA)) +
+      labs(
+        title = "Excess under 75 mortality rate in adults with serious mental illness",
+        subtitle = NULL,
+        caption = "Source: PHE Fingertips (PHOF 4.09i)",
+        x = "",
+        y = "Percentage",
+        colour = NULL
+      ) +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.position = "none"
+      )
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    
+  }
+  
+})
+
+output$mortality_serious_mental_illness_box <- renderUI({
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","estimated dementia diagnosis rate (aged 65+)","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Excess under 75 mortality rate in adults with serious mental illness",
+      withSpinner(
+        ggiraphOutput("mortality_serious_mental_illness_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioGroupButtons(
+            inputId = "mortality_serious_mental_illness_selection",
+            label = tags$h4("Show as:"),
+            choiceNames = c("Trend", "Boxplot"),
+            choiceValues = c("Trend", "Boxplot"), 
+            selected = "Trend", 
+            direction = "vertical"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em; ",
+        dropdown(
+          includeMarkdown("data/health/metadata/mortality_serious_mental_illness.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
+# Emergency hospital admissions for intentional self-harm --------------------------------------------------
+
+admissions_self_harm <- read_csv("data/health/admissions_self_harm.csv") %>% 
+  mutate(area_name = as_factor(area_name),
+         period = as_factor(period)) %>% 
+  filter(!is.na(value))
+
+output$admissions_self_harm_plot <- renderggiraph({
+  
+  if (input$admissions_self_harm_selection == "Boxplot") {
+    
+    gg <- ggplot(data = filter(admissions_self_harm, area_name != "England"),
+                 aes(x = period, y = value)) +
+      stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
+      geom_boxplot_interactive(aes(tooltip = value),
+                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
+                               fatten = NULL) +
+      geom_point_interactive(data = filter(admissions_self_harm, area_name == "Trafford"), 
+                             aes(x = period, y = value, fill = significance, 
+                                 tooltip =  paste0(
+                                   "<strong>", value, "</strong>", " per 100,000", "<br/>",
+                                   "<em>", area_name, "</em><br/>",
+                                   period)), 
+                             shape = 21, colour = "#000000", size = 5) +
+      geom_boxplot_interactive(data = filter(admissions_self_harm, area_name == "England"),
+                               aes(x = factor(period), y = value,
+                                   tooltip =  paste0(
+                                     "<strong>", filter(admissions_self_harm, area_name == "England")$value, "</strong>", " per 100,000", "<br/>",
+                                     "<em>", "England", "</em><br/>",
+                                     filter(admissions_self_harm, area_name == "England")$period)),
+                               colour = "red", size = 0.5) +
+      scale_fill_manual(values = c("Better" = "#92D050",
+                                   "Similar" = "#FFC000",
+                                   "Worse" = "#C00000")) +
+      scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
+      coord_flip() +
+      labs(title = "Emergency hospital admissions for intentional self-harm",
+           subtitle = NULL,
+           caption = "Source: PHE Fingertips (PHOF 2.10ii)",
+           x = NULL, y = "per 100,000",
+           fill = "Compared with England:") +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major = element_blank(),
+        axis.title.x = element_text(size = 7, hjust = 1),
+        legend.position = "top",
+        legend.title = element_text(size = 9),
+        legend.text = element_text(size = 8))
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+                   opts_toolbar(saveaspng = FALSE))
+    
+  }
+  else {
+    
+    gg <-
+      ggplot(
+        filter(admissions_self_harm, area_name %in% c("Trafford", "England")),
+        aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
+      geom_line(size = 1) +
+      geom_point_interactive(aes(tooltip = 
+                                   paste0("<strong>", value, "</strong>", " per 100,000", "<br/>",
+                                          "<em>", area_name, "</em><br/>",
+                                          period)), 
+                             shape = 21, size = 2.5, colour = "white") +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_y_continuous(limits = c(0, NA)) +
+      labs(
+        title = "Emergency hospital admissions for intentional self-harm",
+        subtitle = NULL,
+        caption = "Source: PHE Fingertips (PHOF 2.10ii)",
+        x = "",
+        y = "per 100,000",
+        colour = NULL
+      ) +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.position = "none"
+      )
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    
+  }
+  
+})
+
+output$admissions_self_harm_box <- renderUI({
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","emergency hospital admissions for intentional self-harm","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Emergency hospital admissions for intentional self-harm",
+      withSpinner(
+        ggiraphOutput("admissions_self_harm_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioGroupButtons(
+            inputId = "admissions_self_harm_selection",
+            label = tags$h4("Show as:"),
+            choiceNames = c("Trend", "Boxplot"),
+            choiceValues = c("Trend", "Boxplot"), 
+            selected = "Trend", 
+            direction = "vertical"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em; ",
+        dropdown(
+          includeMarkdown("data/health/metadata/admissions_self_harm.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
 
 # Indicator name --------------------------------------------------
