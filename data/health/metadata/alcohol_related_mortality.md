@@ -1,4 +1,4 @@
-	Deaths from alcohol-related conditions, all ages, directly age-standardised rate per 100,000 population. 
+Deaths from alcohol-related conditions, all ages, directly age-standardised rate per 100,000 population. 
 
 Source: [PHE Fingertips (Local Alcohol Profiles for England)](https://fingertips.phe.org.uk/profile/local-alcohol-profiles)
 
