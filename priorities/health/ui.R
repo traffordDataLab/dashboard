@@ -17,7 +17,8 @@ tabPanel("Health and wellbeing", width = 11, style="margin-left:4%; margin-right
              uiOutput("smoking_adults_manual_box")
            ),
            fluidRow(
-             uiOutput("admissions_falls_box")
+             uiOutput("admissions_falls_box"),
+             uiOutput("deaths_at_home_box")
            ),
            br(),br()
          )

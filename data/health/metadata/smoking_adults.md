@@ -1,4 +1,4 @@
-This chart shows the proportion of those aged 18+ years in the Annual Population Survey who are self-reported smokers.
+Prevalence of smoking among persons 18 years and over.
 
 Source: [PHE Fingertips (PHOF 2.14)](https://fingertips.phe.org.uk/profile/public-health-outcomes-framework)
 
