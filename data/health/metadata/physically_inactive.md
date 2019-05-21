@@ -1,6 +1,6 @@
-The rate of persons aged 65 and over with a recorded diagnosis of dementia per person estimated to have dementia given the characteristics of the population and the age and sex specific prevalence rates of the Cognitive Function and Ageing Study II, expressed as a percentage with 95% confidence intervals.
+The number of respondents aged 19 and over, with valid responses to questions on physical activity, doing less than 30 moderate intensity equivalent (MIE) minutes physical activity per week in bouts of 10 minutes or more in the previous 28 days expressed as a percentage of the total number of respondents aged 19 and over.
 
-Source: [PHE Fingertips (PHOF 4.16)](https://fingertips.phe.org.uk/profile/public-health-outcomes-framework)
+Source: [PHE Fingertips (PHOF 2.13ii)](https://fingertips.phe.org.uk/profile/public-health-outcomes-framework)
 
-Further information about the indicator can be found [here](https://fingertips.phe.org.uk/search/92949).
+Further information about the indicator can be found [here](https://fingertips.phe.org.uk/search/93015).
 

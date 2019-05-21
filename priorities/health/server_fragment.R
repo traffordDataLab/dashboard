@@ -532,7 +532,7 @@ output$slope_index_of_inequality_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","inequality in life expectancy at birth","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
-      title = "Slope index of inequality",
+      title = "Inequalities in life expectancy",
       withSpinner(
         ggiraphOutput("slope_index_of_inequality_plot"),
         type = 4,
@@ -677,7 +677,7 @@ output$smoking_adults_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","smoking prevalence in adults","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
-      title = "Smoking prevalence in adults",
+      title = "Adult smoking prevalence",
       withSpinner(
         ggiraphOutput("smoking_adults_plot"),
         type = 4,
@@ -822,7 +822,7 @@ output$smoking_adults_manual_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","smoking prevalence in adults in routine and manual occupations","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
-      title = "Smoking prevalence in adults in routine and manual occupations",
+      title = "Smoking amongst Routine and Manual workers",
       withSpinner(
         ggiraphOutput("smoking_adults_manual_plot"),
         type = 4,
@@ -967,7 +967,7 @@ output$admissions_falls_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","emergency admissions due to falls in people aged 65 and over","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
-      title = "Emergency admissions due to falls in people aged 65 and over",
+      title = "Emergency admissions for falls",
       withSpinner(
         ggiraphOutput("admissions_falls_plot"),
         type = 4,
@@ -1109,10 +1109,10 @@ output$deaths_at_home_plot <- renderggiraph({
 })
 
 output$deaths_at_home_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","percentage of deaths in usual place of residence","</b>", "  not set.", "</h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","deaths in usual place of residence","</b>", "  not set.", "</h5>")),
           style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
-      title = "Percentage of deaths in usual place of residence",
+      title = "Deaths in usual place of residence",
       withSpinner(
         ggiraphOutput("deaths_at_home_plot"),
         type = 4,
@@ -1402,7 +1402,7 @@ output$physically_inactive_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","percentage of physically inactive adults","</b>", "  not set.", "</h5>")),
                      style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
-      title = "Percentage of physically inactive adults",
+      title = "Physical inactivity",
       withSpinner(
         ggiraphOutput("physically_inactive_plot"),
         type = 4,
@@ -1544,10 +1544,10 @@ output$dementia_diagnosis_plot <- renderggiraph({
 })
 
 output$dementia_diagnosis_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","estimated dementia diagnosis rate (aged 65+)","</b>", "  not set.", "</h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","dementia diagnosis rate","</b>", "  not set.", "</h5>")),
                      style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
-      title = "Estimated dementia diagnosis rate (aged 65 and over)",
+      title = "Dementia diagnosis rate",
       withSpinner(
         ggiraphOutput("dementia_diagnosis_plot"),
         type = 4,
@@ -1633,7 +1633,7 @@ output$mortality_serious_mental_illness_plot <- renderggiraph({
       labs(title = "Excess under 75 mortality rate in adults with serious mental illness",
            subtitle = NULL,
            caption = "Source: PHE Fingertips (PHOF 4.09i)",
-           x = NULL, y = "Percentage",
+           x = NULL, y = "Indirectly standardised ratio",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
       theme(
@@ -1668,7 +1668,7 @@ output$mortality_serious_mental_illness_plot <- renderggiraph({
         subtitle = NULL,
         caption = "Source: PHE Fingertips (PHOF 4.09i)",
         x = "",
-        y = "Percentage",
+        y = "Indirectly standardised ratio",
         colour = NULL
       ) +
       theme_minimal(base_family = "Open Sans") +
@@ -1688,7 +1688,7 @@ output$mortality_serious_mental_illness_plot <- renderggiraph({
 })
 
 output$mortality_serious_mental_illness_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","estimated dementia diagnosis rate (aged 65+)","</b>", "  not set.", "</h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","mortality rate amongst those with serious mental illness","</b>", "  not set.", "</h5>")),
                      style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
       title = "Excess under 75 mortality rate in adults with serious mental illness",

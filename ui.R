@@ -10,7 +10,7 @@ ui <- fluidPage(
         href = "https://www.trafford.gov.uk", target = "_blank"
       ),
       style = "position: relative; top: -5px;",
-      "Trafford Council's strategic priorities"
+      "Trafford Together"
     ),
     windowTitle = "Trafford's priorities"
   ),
