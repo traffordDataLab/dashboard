@@ -48,3 +48,8 @@ button:active
 {
   box-shadow: none !important;
 }
+
+.col-sm-4 /* to provide space under each "box" - this a bootstrap class */
+{
+  margin-bottom: 30px;
+}
