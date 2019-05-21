@@ -887,7 +887,7 @@ output$admissions_falls_plot <- renderggiraph({
   
   if (input$admissions_falls_selection == "Boxplot") {
     
-    gg <- ggplot(data = filter(admissions_falls, area_name != "England"),
+    gg <- ggplot(data = filter(admissions_falls, !area_name %in% c("Greater Manchester", "England")),
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
@@ -936,7 +936,7 @@ output$admissions_falls_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(admissions_falls, area_name %in% c("Trafford", "England")),
+        filter(admissions_falls, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -944,8 +944,8 @@ output$admissions_falls_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Emergency admissions due to falls in people aged 65 and over",

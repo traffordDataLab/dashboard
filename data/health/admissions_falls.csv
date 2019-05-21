@@ -1,4 +1,12 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2010/11,2565,Emergency hospital admissions due to falls in people aged 65 and over,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2011/12,2488,Emergency hospital admissions due to falls in people aged 65 and over,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2012/13,2400,Emergency hospital admissions due to falls in people aged 65 and over,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2013/14,2533,Emergency hospital admissions due to falls in people aged 65 and over,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2014/15,2576,Emergency hospital admissions due to falls in people aged 65 and over,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2015/16,2512,Emergency hospital admissions due to falls in people aged 65 and over,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2016/17,2398,Emergency hospital admissions due to falls in people aged 65 and over,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2017/18,2531,Emergency hospital admissions due to falls in people aged 65 and over,"Age standardised rate per 100,000",Persons,Worse
 E92000001,England,2010/11,2126,Emergency hospital admissions due to falls in people aged 65 and over,"Age standardised rate per 100,000",Persons,Not compared
 E06000001,Hartlepool,2010/11,1996,Emergency hospital admissions due to falls in people aged 65 and over,"Age standardised rate per 100,000",Persons,Similar
 E06000002,Middlesbrough,2010/11,2463,Emergency hospital admissions due to falls in people aged 65 and over,"Age standardised rate per 100,000",Persons,Worse
