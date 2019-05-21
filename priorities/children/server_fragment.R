@@ -36,7 +36,6 @@ output$excess_weight_reception_plot <- renderggiraph({
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
-      coord_flip() +
       labs(title = "Children aged 4-5 years who have excess weight",
            subtitle = NULL,
            caption = "Source: PHE Fingertips (PHOF 2.10ii)",
@@ -45,7 +44,9 @@ output$excess_weight_reception_plot <- renderggiraph({
       theme_minimal(base_family = "Open Sans") +
       theme(
         panel.grid.major = element_blank(),
-        axis.title.x = element_text(size = 7, hjust = 1),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        plot.caption = element_text(margin = margin(t = 15)),
         legend.position = "top",
         legend.title = element_text(size = 9),
         legend.text = element_text(size = 8))
@@ -181,7 +182,6 @@ output$excess_weight_year6_plot <- renderggiraph({
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
-      coord_flip() +
       labs(title = "Children aged 10-11 years who have excess weight",
            subtitle = NULL,
            caption = "Source: PHE Fingertips (PHOF 2.10ii)",
@@ -190,7 +190,9 @@ output$excess_weight_year6_plot <- renderggiraph({
       theme_minimal(base_family = "Open Sans") +
       theme(
         panel.grid.major = element_blank(),
-        axis.title.x = element_text(size = 7, hjust = 1),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        plot.caption = element_text(margin = margin(t = 15)),
         legend.position = "top",
         legend.title = element_text(size = 9),
         legend.text = element_text(size = 8))
@@ -326,7 +328,6 @@ output$low_income_families_plot <- renderggiraph({
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
-      coord_flip() +
       labs(title = "Children in low income families (under 16s)",
            subtitle = NULL,
            caption = "Source: PHE Fingertips (PHOF 1.01i)",
@@ -335,7 +336,9 @@ output$low_income_families_plot <- renderggiraph({
       theme_minimal(base_family = "Open Sans") +
       theme(
         panel.grid.major = element_blank(),
-        axis.title.x = element_text(size = 7, hjust = 1),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        plot.caption = element_text(margin = margin(t = 15)),
         legend.position = "top",
         legend.title = element_text(size = 9),
         legend.text = element_text(size = 8))
@@ -471,7 +474,6 @@ output$admissions_self_harm_young_people_plot <- renderggiraph({
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
-      coord_flip() +
       labs(title = "Hospital admissions as a result of self-harm (10-24 years)",
            subtitle = NULL,
            caption = "Source: PHE Fingertips (Child and Maternal Health)",
@@ -480,7 +482,9 @@ output$admissions_self_harm_young_people_plot <- renderggiraph({
       theme_minimal(base_family = "Open Sans") +
       theme(
         panel.grid.major = element_blank(),
-        axis.title.x = element_text(size = 7, hjust = 1),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        plot.caption = element_text(margin = margin(t = 15)),
         legend.position = "top",
         legend.title = element_text(size = 9),
         legend.text = element_text(size = 8))
