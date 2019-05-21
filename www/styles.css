@@ -21,15 +21,22 @@ a
   text-decoration: none;
 }
 
-a:hover, a:focus
+a:hover
 {
   color: #fc6721;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:focus {
+    color: #fc6721;
+    text-decoration: none;
     outline: none;
     outline-offset: 0;
+}
+
+.headerContainer a:hover
+{
+  text-decoration: none;
 }
 
 .btn:hover 
