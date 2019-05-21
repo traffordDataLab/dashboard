@@ -6,7 +6,7 @@ ui <- fluidPage(
   titlePanel(
     title = div(
       tags$a(
-        img(src = "https://github.com/traffordDataLab/traffordDataLab.github.io/raw/master/images/trafford_council_logo_black_on_white_100px.png", height = 60),
+        tags$img(src = "https://github.com/traffordDataLab/traffordDataLab.github.io/raw/master/images/trafford_council_logo_black_on_white_100px.png", height = 60),
         href = "https://www.trafford.gov.uk", target = "_blank"
       ),
       style = "position: relative; top: -5px;",

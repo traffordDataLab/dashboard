@@ -21,10 +21,15 @@ a
   text-decoration: none;
 }
 
-a:hover
+a:hover, a:focus
 {
   color: #fc6721;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    outline-offset: 0;
 }
 
 .btn:hover 
@@ -36,4 +41,3 @@ button:active
 {
   box-shadow: none !important;
 }
-
