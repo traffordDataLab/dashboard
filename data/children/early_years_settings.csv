@@ -1,0 +1,13 @@
+area_code,area_name,period,value,indicator,measure,unit,group
+E08000009,Trafford,2018-08,0.266,Early Years Settings Rated 'Good' or 'Outstanding' by Ofsted,Percentage,Early Years Settings,Outstanding
+E47000001,Greater Manchester,2018-08,0.192,Early Years Settings Rated 'Good' or 'Outstanding' by Ofsted,Percentage,Early Years Settings,Outstanding
+E92000001,England,2018-08,0.19,Early Years Settings Rated 'Good' or 'Outstanding' by Ofsted,Percentage,Early Years Settings,Outstanding
+E08000009,Trafford,2018-08,0.7,Early Years Settings Rated 'Good' or 'Outstanding' by Ofsted,Percentage,Early Years Settings,Good
+E47000001,Greater Manchester,2018-08,0.75,Early Years Settings Rated 'Good' or 'Outstanding' by Ofsted,Percentage,Early Years Settings,Good
+E92000001,England,2018-08,0.755,Early Years Settings Rated 'Good' or 'Outstanding' by Ofsted,Percentage,Early Years Settings,Good
+E08000009,Trafford,2018-08,0.028,Early Years Settings Rated 'Good' or 'Outstanding' by Ofsted,Percentage,Early Years Settings,Requires improvement
+E47000001,Greater Manchester,2018-08,0.046,Early Years Settings Rated 'Good' or 'Outstanding' by Ofsted,Percentage,Early Years Settings,Requires improvement
+E92000001,England,2018-08,0.044,Early Years Settings Rated 'Good' or 'Outstanding' by Ofsted,Percentage,Early Years Settings,Requires improvement
+E08000009,Trafford,2018-08,0.006,Early Years Settings Rated 'Good' or 'Outstanding' by Ofsted,Percentage,Early Years Settings,Inadequate
+E47000001,Greater Manchester,2018-08,0.011,Early Years Settings Rated 'Good' or 'Outstanding' by Ofsted,Percentage,Early Years Settings,Inadequate
+E92000001,England,2018-08,0.011,Early Years Settings Rated 'Good' or 'Outstanding' by Ofsted,Percentage,Early Years Settings,Inadequate

@@ -19,6 +19,9 @@ tabPanel("Children and young people", width = 11, style="margin-left:4%; margin-
              uiOutput("neets_box"),
              uiOutput("children_in_care_box")
            ),
+           fluidRow(
+             uiOutput("early_years_settings_box")
+           ),
            br(),br()
          )
 )
