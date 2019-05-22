@@ -14,6 +14,9 @@ tabPanel("Children and young people", width = 11, style="margin-left:4%; margin-
              uiOutput("dental_decay_box"),
              uiOutput("school_readiness_fsm_box")
            ),
+           fluidRow(
+             uiOutput("child_protection_plans_box")
+           ),
            br(),br()
          )
 )
