@@ -36,7 +36,7 @@ output$alcohol_related_admissions_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Admission episodes for alcohol-related conditions (narrow)",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (Local Alcohol Profiles for England)",
+           caption = "Source: NHS Digital, Hospital Episode Statistics",
            x = NULL, y = "per 100,000",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -72,7 +72,7 @@ output$alcohol_related_admissions_plot <- renderggiraph({
       labs(
         title = "Admission episodes for alcohol-related conditions (narrow)",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (Local Alcohol Profiles for England)",
+        caption = "Source: NHS Digital, Hospital Episode Statistics",
         x = "",
         y = "per 100,000",
         colour = NULL
@@ -181,7 +181,7 @@ output$alcohol_related_mortality_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Deaths from alcohol-related conditions",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (Local Alcohol Profiles for England)",
+           caption = "Source: Office for National Statistics",
            x = NULL, y = "per 100,000",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -217,7 +217,7 @@ output$alcohol_related_mortality_plot <- renderggiraph({
       labs(
         title = "Deaths from alcohol-related conditions",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (Local Alcohol Profiles for England)",
+        caption = "Source: Office for National Statistics",
         x = "",
         y = "per 100,000",
         colour = NULL
@@ -330,7 +330,7 @@ output$healthy_life_expectancy_at_birth_plot <- renderggiraph({
       facet_wrap(~group) +
       labs(title = "Healthy life expectancy at birth",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 0.1i)",
+           caption = "Source: Office for National Statistics",
            x = NULL, y = "Years",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -367,7 +367,7 @@ output$healthy_life_expectancy_at_birth_plot <- renderggiraph({
       labs(
         title = "Healthy life expectancy at birth",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 0.1i)",
+        caption = "Source: Office for National Statistics",
         x = "",
         y = "Years",
         colour = NULL
@@ -476,7 +476,7 @@ output$slope_index_of_inequality_plot <- renderggiraph({
     
           labs(title = "Inequality in life expectancy at birth",
                subtitle = NULL,
-               caption = "Source: PHE Fingertips (PHOF 0.2vi)",
+               caption = "Source: Public Health England",
                x = NULL, y = "Years") +
           theme_minimal(base_family = "Open Sans") +
           theme(
@@ -512,7 +512,7 @@ output$slope_index_of_inequality_plot <- renderggiraph({
           labs(
             title = "Inequality in life expectancy at birth",
             subtitle = NULL,
-            caption = "Source: PHE Fingertips (PHOF 0.2vi)",
+            caption = "Source: Public Health England",
             x = "",
             y = "Years",
             colour = NULL
@@ -622,7 +622,7 @@ output$smoking_adults_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Smoking prevalence in adults (18+)",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 2.14)",
+           caption = "Source: Annual Population Survey",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -658,7 +658,7 @@ output$smoking_adults_plot <- renderggiraph({
       labs(
         title = "Smoking prevalence in adults (18+)",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 2.14)",
+        caption = "Source: Annual Population Survey",
         x = "",
         y = "Percentage",
         colour = NULL
@@ -768,7 +768,7 @@ output$smoking_adults_manual_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Smoking prevalence in adults in routine and manual occupations",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (Local Tobacco Control Profiles)",
+           caption = "Source: Annual Population Survey",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -804,7 +804,7 @@ output$smoking_adults_manual_plot <- renderggiraph({
       labs(
         title = "Smoking prevalence in adults in routine and manual occupations",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (Local Tobacco Control Profiles)",
+        caption = "Source: Annual Population Survey",
         x = "",
         y = "Percentage",
         colour = NULL
@@ -914,7 +914,7 @@ output$admissions_falls_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Emergency hospital admissions due to falls in people aged 65 and over",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 2.24i)",
+           caption = "Source: NHS Digital, Hospital Episode Statistics",
            x = NULL, y = "per 100,000",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -950,7 +950,7 @@ output$admissions_falls_plot <- renderggiraph({
       labs(
         title = "Emergency hospital admissions due to falls in people aged 65 and over",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 2.24i)",
+        caption = "Source: NHS Digital, Hospital Episode Statistics",
         x = "",
         y = "per 100,000",
         colour = NULL
@@ -1060,7 +1060,7 @@ output$deaths_at_home_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Percentage of deaths in usual place of residence",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (End of Life Care Profiles)",
+           caption = "Source: Office for National Statistics",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -1096,7 +1096,7 @@ output$deaths_at_home_plot <- renderggiraph({
       labs(
         title = "Percentage of deaths in usual place of residence",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (End of Life Care Profiles)",
+        caption = "Source: Office for National Statistics",
         x = "",
         y = "Percentage",
         colour = NULL
@@ -1206,7 +1206,7 @@ output$preventable_mortality_from_cancer_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Under 75 mortality rate from cancer considered preventable",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 4.05ii)",
+           caption = "Source: Public Health England",
            x = NULL, y = " per 100,000",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -1242,7 +1242,7 @@ output$preventable_mortality_from_cancer_plot <- renderggiraph({
       labs(
         title = "Under 75 mortality rate from cancer considered preventable",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 4.05ii)",
+        caption = "Source: Public Health England",
         x = "",
         y = " per 100,000",
         colour = NULL
@@ -1352,7 +1352,7 @@ output$physically_inactive_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Percentage of physically inactive adults",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 2.13ii)",
+           caption = "Source: Active Lives, Sport England",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -1388,7 +1388,7 @@ output$physically_inactive_plot <- renderggiraph({
       labs(
         title = "Percentage of physically inactive adults",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 2.13ii)",
+        caption = "Source: Active Lives, Sport England",
         x = "",
         y = "Percentage",
         colour = NULL
@@ -1498,7 +1498,7 @@ output$dementia_diagnosis_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Estimated dementia diagnosis rate (aged 65 and over)",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 4.16)",
+           caption = "Source: NHS Digital",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -1534,7 +1534,7 @@ output$dementia_diagnosis_plot <- renderggiraph({
       labs(
         title = "Estimated dementia diagnosis rate (aged 65 and over)",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 4.16)",
+        caption = "Source: NHS Digital",
         x = "",
         y = "Percentage",
         colour = NULL
@@ -1643,7 +1643,7 @@ output$mortality_serious_mental_illness_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Excess under 75 mortality rate in adults\nwith serious mental illness",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 4.09i)",
+           caption = "Source: NHS Digital",
            x = NULL, y = "Indirectly standardised ratio",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -1679,7 +1679,7 @@ output$mortality_serious_mental_illness_plot <- renderggiraph({
       labs(
         title = "Excess under 75 mortality rate in adults\nwith serious mental illness",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 4.09i)",
+        caption = "Source: NHS Digital",
         x = "",
         y = "Indirectly standardised ratio",
         colour = NULL
@@ -1790,7 +1790,7 @@ output$admissions_self_harm_plot <- renderggiraph({
 
       labs(title = "Emergency hospital admissions for intentional self-harm",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 2.10ii)",
+           caption = "Source: NHS Digital, Hospital Episode Statistics",
            x = NULL, y = "per 100,000",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -1826,7 +1826,7 @@ output$admissions_self_harm_plot <- renderggiraph({
       labs(
         title = "Emergency hospital admissions for intentional self-harm",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 2.10ii)",
+        caption = "Source: NHS Digital, Hospital Episode Statistics",
         x = "",
         y = "per 100,000",
         colour = NULL

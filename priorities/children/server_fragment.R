@@ -38,7 +38,7 @@ output$excess_weight_reception_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Children aged 4-5 years who have excess weight",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 2.10ii)",
+           caption = "Source: NHS Digital, National Child Measurement Programme",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -74,7 +74,7 @@ output$excess_weight_reception_plot <- renderggiraph({
       labs(
         title = "Children aged 4-5 years who have excess weight",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 2.10ii)",
+        caption = "Source: NHS Digital, National Child Measurement Programme",
         x = "",
         y = "Percentage",
         colour = NULL
@@ -184,7 +184,7 @@ output$excess_weight_year6_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Children aged 10-11 years who have excess weight",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 2.10ii)",
+           caption = "Source: NHS Digital, National Child Measurement Programme",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -220,7 +220,7 @@ output$excess_weight_year6_plot <- renderggiraph({
       labs(
         title = "Children aged 10-11 years who have excess weight",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 2.10ii)",
+        caption = "Source: NHS Digital, National Child Measurement Programme",
         x = "",
         y = "Percentage",
         colour = NULL
@@ -330,7 +330,7 @@ output$low_income_families_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Children in low income families (under 16s)",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 1.01i)",
+           caption = "Source: HM Revenue and Customs",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -366,7 +366,7 @@ output$low_income_families_plot <- renderggiraph({
       labs(
         title = "Children in low income families (under 16s)",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 1.01i)",
+        caption = "Source: HM Revenue and Customs",
         x = "",
         y = "Percentage",
         colour = NULL
@@ -476,7 +476,7 @@ output$admissions_self_harm_young_people_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Hospital admissions as a result of self-harm (10-24 years)",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (Child and Maternal Health)",
+           caption = "Source: Hospital Episode Statistics",
            x = NULL, y = "per 100,000",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -512,7 +512,7 @@ output$admissions_self_harm_young_people_plot <- renderggiraph({
       labs(
         title = "Hospital admissions as a result of self-harm (10-24 years)",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (Child and Maternal Health)",
+        caption = "Source: Hospital Episode Statistics",
         x = "",
         y = "per 100,000",
         colour = NULL
@@ -622,7 +622,7 @@ output$dental_decay_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Proportion of five year old children free from dental decay",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 4.02)",
+           caption = "Source: Dental Public Health Epidemiology Programme for England",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -658,7 +658,7 @@ output$dental_decay_plot <- renderggiraph({
       labs(
         title = "Proportion of five year old children free from dental decay",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 4.02)",
+        caption = "Source: Dental Public Health Epidemiology Programme for England",
         x = "",
         y = "Percentage",
         colour = NULL
@@ -768,7 +768,7 @@ output$school_readiness_fsm_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Children with free school meal status achieving\na good level of development",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 1.02i)",
+           caption = "Source: Department for Education, Early Years Foundation Stage Profile",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -804,7 +804,7 @@ output$school_readiness_fsm_plot <- renderggiraph({
       labs(
         title = "Children with free school meal status achieving\na good level of development",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 1.02i)",
+        caption = "Source: Department for Education, Early Years Foundation Stage Profile",
         x = "",
         y = "Percentage",
         colour = NULL
@@ -914,7 +914,7 @@ output$child_protection_plans_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "Children on child protection plans",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (Child and Maternal Health)",
+           caption = "Source: Children in need statistics",
            x = NULL, y = "per 10,000",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -950,7 +950,7 @@ output$child_protection_plans_plot <- renderggiraph({
       labs(
         title = "Children on child protection plans",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (Child and Maternal Health)",
+        caption = "Source: Children in need statistics",
         x = "",
         y = "per 10,000",
         colour = NULL
@@ -1060,7 +1060,7 @@ output$neets_plot <- renderggiraph({
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
       labs(title = "16-17 year olds not in education, employment or training (NEET)",
            subtitle = NULL,
-           caption = "Source: PHE Fingertips (PHOF 1.05)",
+           caption = "Source: Department for Education",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
       theme_minimal(base_family = "Open Sans") +
@@ -1096,7 +1096,7 @@ output$neets_plot <- renderggiraph({
       labs(
         title = "16-17 year olds not in education, employment or training (NEET)",
         subtitle = NULL,
-        caption = "Source: PHE Fingertips (PHOF 1.05)",
+        caption = "Source:	Department for Education",
         x = "",
         y = "Percentage",
         colour = NULL
@@ -1167,6 +1167,154 @@ output$neets_box <- renderUI({
   )
   
 })
+
+# Children in care --------------------------------------------------
+
+children_in_care <- read_csv("data/children/children_in_care.csv") %>% 
+  mutate(area_name = as_factor(area_name),
+         period = as_factor(period)) %>% 
+  filter(!is.na(value))
+
+output$children_in_care_plot <- renderggiraph({
+  
+  if (input$children_in_care_selection == "Boxplot") {
+    
+    gg <- ggplot(data = filter(children_in_care, area_name != "England"),
+                 aes(x = period, y = value)) +
+      stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
+      geom_boxplot_interactive(aes(tooltip = value),
+                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
+                               fatten = NULL) +
+      geom_point_interactive(data = filter(children_in_care, area_name == "Trafford"), 
+                             aes(x = period, y = value, fill = significance, 
+                                 tooltip =  paste0(
+                                   "<strong>", value, "</strong>", " per 10,000", "<br/>",
+                                   "<em>", area_name, "</em><br/>",
+                                   period)), 
+                             shape = 21, colour = "#000000", size = 5) +
+      geom_boxplot_interactive(data = filter(children_in_care, area_name == "England"),
+                               aes(x = factor(period), y = value,
+                                   tooltip =  paste0(
+                                     "<strong>", filter(children_in_care, area_name == "England")$value, "</strong>", " per 10,000", "<br/>",
+                                     "<em>", "England", "</em><br/>",
+                                     filter(children_in_care, area_name == "England")$period)),
+                               colour = "red", size = 0.5) +
+      scale_fill_manual(values = c("Better" = "#92D050",
+                                   "Similar" = "#FFC000",
+                                   "Worse" = "#C00000")) +
+      scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
+      labs(title = "Children in care",
+           subtitle = NULL,
+           caption = "Source: Children looked after in England, Department for Education",
+           x = NULL, y = "per 10,000",
+           fill = "Compared with England:") +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major = element_blank(),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        plot.caption = element_text(margin = margin(t = 15)),
+        legend.position = "top",
+        legend.title = element_text(size = 9),
+        legend.text = element_text(size = 8))
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+                   opts_toolbar(saveaspng = FALSE))
+    
+  }
+  else {
+    
+    gg <-
+      ggplot(
+        filter(children_in_care, area_name %in% c("Trafford", "Greater Manchester", "England")),
+        aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
+      geom_line(size = 1) +
+      geom_point_interactive(aes(tooltip = 
+                                   paste0("<strong>", value, "</strong>", " per 10,000", "<br/>",
+                                          "<em>", area_name, "</em><br/>",
+                                          period)), 
+                             shape = 21, size = 2.5, colour = "white") +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_y_continuous(limits = c(0, NA)) +
+      labs(
+        title = "Children in care",
+        subtitle = NULL,
+        caption = "Source: Children looked after in England, Department for Education",
+        x = "",
+        y = "per 10,000",
+        colour = NULL
+      ) +
+      theme_minimal(base_family = "Open Sans") +
+      theme(
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title.y = element_text(size = 7, hjust = 1),
+        axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.position = "none"
+      )
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    
+  }
+  
+})
+
+output$children_in_care_box <- renderUI({
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","children in care","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Children in care",
+      withSpinner(
+        ggiraphOutput("children_in_care_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioGroupButtons(
+            inputId = "children_in_care_selection",
+            label = tags$h4("Show as:"),
+            choiceNames = c("Trend", "Boxplot"),
+            choiceValues = c("Trend", "Boxplot"), 
+            selected = "Trend", 
+            direction = "vertical"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em; ",
+        dropdown(
+          includeMarkdown("data/children/metadata/children_in_care.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
+
 
 # Indicator name --------------------------------------------------
 

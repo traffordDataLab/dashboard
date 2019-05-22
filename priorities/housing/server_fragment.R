@@ -425,7 +425,7 @@ output$affordability_ratio_plot <- renderggiraph({
     labs(
       title = "Ratio of median house prices to median earnings",
       subtitle = NULL,
-      caption = "Source: ONS",
+      caption = "Source: Office for National Statistics",
       x = "",
       y = "Ratio",
       colour = NULL

@@ -16,7 +16,8 @@ tabPanel("Children and young people", width = 11, style="margin-left:4%; margin-
            ),
            fluidRow(
              uiOutput("child_protection_plans_box"),
-             uiOutput("neets_box")
+             uiOutput("neets_box"),
+             uiOutput("children_in_care_box")
            ),
            br(),br()
          )
