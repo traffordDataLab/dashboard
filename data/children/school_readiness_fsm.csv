@@ -1,0 +1,925 @@
+area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2012/13,33.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2013/14,40.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2014/15,47.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2015/16,52.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E47000001,Greater Manchester,2016/17,54.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E47000001,Greater Manchester,2017/18,55.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E92000001,England,2012/13,36.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E06000001,Hartlepool,2012/13,30.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000002,Middlesbrough,2012/13,28.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000003,Redcar and Cleveland,2012/13,33.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000004,Stockton-on-Tees,2012/13,22.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000005,Darlington,2012/13,35.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000006,Halton,2012/13,24.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000007,Warrington,2012/13,17.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000008,Blackburn with Darwen,2012/13,31.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000009,Blackpool,2012/13,40.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000010,Kingston upon Hull,2012/13,34.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000011,East Riding of Yorkshire,2012/13,33.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000012,North East Lincolnshire,2012/13,41.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000013,North Lincolnshire,2012/13,35.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000014,York,2012/13,31.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000015,Derby,2012/13,27.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000016,Leicester,2012/13,20.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000017,Rutland,2012/13,25,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000018,Nottingham,2012/13,27.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000019,Herefordshire,2012/13,34.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000020,Telford and Wrekin,2012/13,30.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000021,Stoke-on-Trent,2012/13,41.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000022,Bath and North East Somerset,2012/13,28.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000023,Bristol,2012/13,33.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000024,North Somerset,2012/13,39.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000025,South Gloucestershire,2012/13,47.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000026,Plymouth,2012/13,42.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000027,Torbay,2012/13,NA,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E06000028,Bournemouth,2012/13,42.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000029,Poole,2012/13,29.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000030,Swindon,2012/13,37.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000031,Peterborough,2012/13,34.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000032,Luton,2012/13,39.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000033,Southend-on-Sea,2012/13,26,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000034,Thurrock,2012/13,41.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000035,Medway,2012/13,41.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000036,Bracknell Forest,2012/13,34.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000037,West Berkshire,2012/13,40.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000038,Reading,2012/13,40.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000039,Slough,2012/13,38.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000040,Windsor and Maidenhead,2012/13,35.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000041,Wokingham,2012/13,25.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000042,Milton Keynes,2012/13,31.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000043,Brighton and Hove,2012/13,26.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000044,Portsmouth,2012/13,45.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000045,Southampton,2012/13,37.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000046,Isle of Wight,2012/13,33.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000047,County Durham,2012/13,26.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000049,Cheshire East,2012/13,35.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000050,Cheshire West and Chester,2012/13,31,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000051,Shropshire,2012/13,35.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000052,Cornwall,2012/13,33,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000053,Isles of Scilly,2012/13,NA,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E06000054,Wiltshire,2012/13,29.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000055,Bedford,2012/13,32.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000056,Central Bedfordshire,2012/13,28.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000057,Northumberland,2012/13,29.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000001,Bolton,2012/13,32.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000002,Bury,2012/13,31.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000003,Manchester,2012/13,39.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000004,Oldham,2012/13,27.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000005,Rochdale,2012/13,28.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000006,Salford,2012/13,41.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000007,Stockport,2012/13,33.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000008,Tameside,2012/13,28.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000009,Trafford,2012/13,39.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000010,Wigan,2012/13,19.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000011,Knowsley,2012/13,44.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000012,Liverpool,2012/13,36.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000013,St. Helens,2012/13,42.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000014,Sefton,2012/13,31.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000015,Wirral,2012/13,27.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000016,Barnsley,2012/13,32.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000017,Doncaster,2012/13,29,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000018,Rotherham,2012/13,39.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000019,Sheffield,2012/13,36.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000021,Newcastle upon Tyne,2012/13,28.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000022,North Tyneside,2012/13,31.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000023,South Tyneside,2012/13,33.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000024,Sunderland,2012/13,33.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000025,Birmingham,2012/13,39.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000026,Coventry,2012/13,42.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000027,Dudley,2012/13,33.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000028,Sandwell,2012/13,35.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000029,Solihull,2012/13,32.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000030,Walsall,2012/13,32.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000031,Wolverhampton,2012/13,34.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000032,Bradford,2012/13,36.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000033,Calderdale,2012/13,29.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000034,Kirklees,2012/13,34.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000035,Leeds,2012/13,33.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000036,Wakefield,2012/13,39.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000037,Gateshead,2012/13,19.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E09000001,City of London,2012/13,42.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000002,Barking and Dagenham,2012/13,36.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000003,Barnet,2012/13,46.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000004,Bexley,2012/13,47.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000005,Brent,2012/13,52.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000006,Bromley,2012/13,39.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000007,Camden,2012/13,34.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000008,Croydon,2012/13,34.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000009,Ealing,2012/13,48.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000010,Enfield,2012/13,41.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000011,Greenwich,2012/13,60,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000012,Hackney,2012/13,54.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000013,Hammersmith and Fulham,2012/13,39.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000014,Haringey,2012/13,40.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000015,Harrow,2012/13,30.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E09000016,Havering,2012/13,39.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000017,Hillingdon,2012/13,28.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E09000018,Hounslow,2012/13,29.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E09000019,Islington,2012/13,35.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000020,Kensington and Chelsea,2012/13,39.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000021,Kingston upon Thames,2012/13,37,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000022,Lambeth,2012/13,36.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000023,Lewisham,2012/13,59.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000024,Merton,2012/13,32.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000025,Newham,2012/13,53.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000026,Redbridge,2012/13,48.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000027,Richmond upon Thames,2012/13,20.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E09000028,Southwark,2012/13,51.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000029,Sutton,2012/13,26.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E09000030,Tower Hamlets,2012/13,42.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000031,Waltham Forest,2012/13,51.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000032,Wandsworth,2012/13,39.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000033,Westminster,2012/13,41.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000002,Buckinghamshire,2012/13,31.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000003,Cambridgeshire,2012/13,30.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000006,Cumbria,2012/13,30,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000007,Derbyshire,2012/13,31.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000008,Devon,2012/13,47.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000009,Dorset (Cty),2012/13,40,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000011,East Sussex,2012/13,26.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000012,Essex,2012/13,34.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000013,Gloucestershire,2012/13,33.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000014,Hampshire,2012/13,37.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000015,Hertfordshire,2012/13,40.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000016,Kent,2012/13,47.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000017,Lancashire,2012/13,39.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000018,Leicestershire,2012/13,24.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000019,Lincolnshire,2012/13,47.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000020,Norfolk,2012/13,31.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000021,Northamptonshire,2012/13,33.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000023,North Yorkshire,2012/13,24.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000024,Nottinghamshire,2012/13,37.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000025,Oxfordshire,2012/13,26.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000027,Somerset,2012/13,31.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000028,Staffordshire,2012/13,36.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000029,Suffolk,2012/13,32.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000030,Surrey,2012/13,27.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000031,Warwickshire,2012/13,26.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000032,West Sussex,2012/13,33.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000034,Worcestershire,2012/13,26.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E92000001,England,2013/14,44.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E06000001,Hartlepool,2013/14,44.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000002,Middlesbrough,2013/14,38.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000003,Redcar and Cleveland,2013/14,36.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000004,Stockton-on-Tees,2013/14,32.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000005,Darlington,2013/14,38.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000006,Halton,2013/14,33.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000007,Warrington,2013/14,38.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000008,Blackburn with Darwen,2013/14,31.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000009,Blackpool,2013/14,42,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000010,Kingston upon Hull,2013/14,41.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000011,East Riding of Yorkshire,2013/14,46.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000012,North East Lincolnshire,2013/14,48,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000013,North Lincolnshire,2013/14,52.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000014,York,2013/14,45.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000015,Derby,2013/14,36.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000016,Leicester,2013/14,33.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000017,Rutland,2013/14,40.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000018,Nottingham,2013/14,37.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000019,Herefordshire,2013/14,33.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000020,Telford and Wrekin,2013/14,47.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000021,Stoke-on-Trent,2013/14,41,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000022,Bath and North East Somerset,2013/14,33,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000023,Bristol,2013/14,43.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000024,North Somerset,2013/14,46.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000025,South Gloucestershire,2013/14,52.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000026,Plymouth,2013/14,45.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000027,Torbay,2013/14,48.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000028,Bournemouth,2013/14,50.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000029,Poole,2013/14,46.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000030,Swindon,2013/14,44.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000031,Peterborough,2013/14,52,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000032,Luton,2013/14,45.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000033,Southend-on-Sea,2013/14,42.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000034,Thurrock,2013/14,54.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000035,Medway,2013/14,49.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000036,Bracknell Forest,2013/14,43,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000037,West Berkshire,2013/14,36.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000038,Reading,2013/14,52.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000039,Slough,2013/14,47.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000040,Windsor and Maidenhead,2013/14,39.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000041,Wokingham,2013/14,34.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000042,Milton Keynes,2013/14,47.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000043,Brighton and Hove,2013/14,42,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000044,Portsmouth,2013/14,52.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000045,Southampton,2013/14,48.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000046,Isle of Wight,2013/14,47,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000047,County Durham,2013/14,40.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000049,Cheshire East,2013/14,42.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000050,Cheshire West and Chester,2013/14,44.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000051,Shropshire,2013/14,47.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000052,Cornwall,2013/14,40.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000053,Isles of Scilly,2013/14,NA,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E06000054,Wiltshire,2013/14,35.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000055,Bedford,2013/14,41.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000056,Central Bedfordshire,2013/14,35.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000057,Northumberland,2013/14,38,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000001,Bolton,2013/14,36.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000002,Bury,2013/14,38.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000003,Manchester,2013/14,46,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000004,Oldham,2013/14,38.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000005,Rochdale,2013/14,34.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000006,Salford,2013/14,47.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000007,Stockport,2013/14,39.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000008,Tameside,2013/14,38.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000009,Trafford,2013/14,47.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000010,Wigan,2013/14,32.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000011,Knowsley,2013/14,49.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000012,Liverpool,2013/14,43.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000013,St. Helens,2013/14,44.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000014,Sefton,2013/14,39.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000015,Wirral,2013/14,46.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000016,Barnsley,2013/14,36.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000017,Doncaster,2013/14,39.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000018,Rotherham,2013/14,45.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000019,Sheffield,2013/14,44.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000021,Newcastle upon Tyne,2013/14,37.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000022,North Tyneside,2013/14,38.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000023,South Tyneside,2013/14,40.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000024,Sunderland,2013/14,44.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000025,Birmingham,2013/14,46.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000026,Coventry,2013/14,49.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000027,Dudley,2013/14,41.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000028,Sandwell,2013/14,44,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000029,Solihull,2013/14,40.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000030,Walsall,2013/14,41.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000031,Wolverhampton,2013/14,47.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000032,Bradford,2013/14,42.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000033,Calderdale,2013/14,38.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000034,Kirklees,2013/14,49.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000035,Leeds,2013/14,37.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000036,Wakefield,2013/14,44.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000037,Gateshead,2013/14,36.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E09000001,City of London,2013/14,NA,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E09000002,Barking and Dagenham,2013/14,53.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000003,Barnet,2013/14,53.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000004,Bexley,2013/14,61.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000005,Brent,2013/14,50.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000006,Bromley,2013/14,51,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000007,Camden,2013/14,43,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000008,Croydon,2013/14,47.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000009,Ealing,2013/14,55,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000010,Enfield,2013/14,49.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000011,Greenwich,2013/14,64.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000012,Hackney,2013/14,60.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000013,Hammersmith and Fulham,2013/14,50.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000014,Haringey,2013/14,52.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000015,Harrow,2013/14,47.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000016,Havering,2013/14,49,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000017,Hillingdon,2013/14,39.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E09000018,Hounslow,2013/14,49.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000019,Islington,2013/14,48.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000020,Kensington and Chelsea,2013/14,43.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000021,Kingston upon Thames,2013/14,43.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000022,Lambeth,2013/14,46.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000023,Lewisham,2013/14,68.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000024,Merton,2013/14,44.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000025,Newham,2013/14,59.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000026,Redbridge,2013/14,50.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000027,Richmond upon Thames,2013/14,36.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E09000028,Southwark,2013/14,55,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000029,Sutton,2013/14,40.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000030,Tower Hamlets,2013/14,50.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000031,Waltham Forest,2013/14,57.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000032,Wandsworth,2013/14,52.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000033,Westminster,2013/14,52.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000002,Buckinghamshire,2013/14,40,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000003,Cambridgeshire,2013/14,41.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000006,Cumbria,2013/14,40.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000007,Derbyshire,2013/14,43.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000008,Devon,2013/14,50,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000009,Dorset (Cty),2013/14,44.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000011,East Sussex,2013/14,49.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000012,Essex,2013/14,43.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000013,Gloucestershire,2013/14,35.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000014,Hampshire,2013/14,46.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000015,Hertfordshire,2013/14,45.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000016,Kent,2013/14,51.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000017,Lancashire,2013/14,48.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000018,Leicestershire,2013/14,34.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000019,Lincolnshire,2013/14,52.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000020,Norfolk,2013/14,43.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000021,Northamptonshire,2013/14,41.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000023,North Yorkshire,2013/14,39.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000024,Nottinghamshire,2013/14,39.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000025,Oxfordshire,2013/14,38.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000027,Somerset,2013/14,40.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000028,Staffordshire,2013/14,45.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000029,Suffolk,2013/14,42.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000030,Surrey,2013/14,39.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000031,Warwickshire,2013/14,37.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000032,West Sussex,2013/14,38.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000034,Worcestershire,2013/14,36,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E92000001,England,2014/15,51.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E06000001,Hartlepool,2014/15,57.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000002,Middlesbrough,2014/15,48.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000003,Redcar and Cleveland,2014/15,48.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000004,Stockton-on-Tees,2014/15,37.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000005,Darlington,2014/15,52.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000006,Halton,2014/15,40.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000007,Warrington,2014/15,47.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000008,Blackburn with Darwen,2014/15,39.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000009,Blackpool,2014/15,47.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000010,Kingston upon Hull,2014/15,50.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000011,East Riding of Yorkshire,2014/15,48.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000012,North East Lincolnshire,2014/15,56.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000013,North Lincolnshire,2014/15,55.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000014,York,2014/15,50.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000015,Derby,2014/15,44.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000016,Leicester,2014/15,41.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000017,Rutland,2014/15,52.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000018,Nottingham,2014/15,49,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000019,Herefordshire,2014/15,40.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000020,Telford and Wrekin,2014/15,52,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000021,Stoke-on-Trent,2014/15,53.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000022,Bath and North East Somerset,2014/15,53.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000023,Bristol,2014/15,49.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000024,North Somerset,2014/15,51.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000025,South Gloucestershire,2014/15,54.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000026,Plymouth,2014/15,48,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000027,Torbay,2014/15,49.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000028,Bournemouth,2014/15,51.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000029,Poole,2014/15,51.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000030,Swindon,2014/15,56.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000031,Peterborough,2014/15,52.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000032,Luton,2014/15,51.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000033,Southend-on-Sea,2014/15,55.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000034,Thurrock,2014/15,61.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000035,Medway,2014/15,57,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000036,Bracknell Forest,2014/15,53.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000037,West Berkshire,2014/15,45.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000038,Reading,2014/15,53.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000039,Slough,2014/15,58.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000040,Windsor and Maidenhead,2014/15,55.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000041,Wokingham,2014/15,50.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000042,Milton Keynes,2014/15,51.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000043,Brighton and Hove,2014/15,52.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000044,Portsmouth,2014/15,56.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000045,Southampton,2014/15,54,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000046,Isle of Wight,2014/15,55.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000047,County Durham,2014/15,48,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000049,Cheshire East,2014/15,48.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000050,Cheshire West and Chester,2014/15,49.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000051,Shropshire,2014/15,45.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000052,Cornwall,2014/15,46.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000053,Isles of Scilly,2014/15,NA,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E06000054,Wiltshire,2014/15,40.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000055,Bedford,2014/15,49.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000056,Central Bedfordshire,2014/15,40.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000057,Northumberland,2014/15,44.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000001,Bolton,2014/15,42,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000002,Bury,2014/15,50.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000003,Manchester,2014/15,52.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000004,Oldham,2014/15,44.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000005,Rochdale,2014/15,43,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000006,Salford,2014/15,52.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000007,Stockport,2014/15,47.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000008,Tameside,2014/15,43,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000009,Trafford,2014/15,54.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000010,Wigan,2014/15,41.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000011,Knowsley,2014/15,50,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000012,Liverpool,2014/15,45.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000013,St. Helens,2014/15,49.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000014,Sefton,2014/15,48.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000015,Wirral,2014/15,54.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000016,Barnsley,2014/15,46.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000017,Doncaster,2014/15,51.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000018,Rotherham,2014/15,51.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000019,Sheffield,2014/15,51.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000021,Newcastle upon Tyne,2014/15,49.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000022,North Tyneside,2014/15,43.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000023,South Tyneside,2014/15,46.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000024,Sunderland,2014/15,51.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000025,Birmingham,2014/15,53.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000026,Coventry,2014/15,53.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000027,Dudley,2014/15,43,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000028,Sandwell,2014/15,50.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000029,Solihull,2014/15,50.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000030,Walsall,2014/15,47.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000031,Wolverhampton,2014/15,51.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000032,Bradford,2014/15,49,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000033,Calderdale,2014/15,43,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000034,Kirklees,2014/15,51.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000035,Leeds,2014/15,44,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000036,Wakefield,2014/15,46.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000037,Gateshead,2014/15,49.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000001,City of London,2014/15,NA,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E09000002,Barking and Dagenham,2014/15,59.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000003,Barnet,2014/15,56.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000004,Bexley,2014/15,65.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000005,Brent,2014/15,58.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000006,Bromley,2014/15,52.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000007,Camden,2014/15,53.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000008,Croydon,2014/15,54.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000009,Ealing,2014/15,60.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000010,Enfield,2014/15,55.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000011,Greenwich,2014/15,67.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000012,Hackney,2014/15,67.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000013,Hammersmith and Fulham,2014/15,67.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000014,Haringey,2014/15,60.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000015,Harrow,2014/15,58.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000016,Havering,2014/15,52.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000017,Hillingdon,2014/15,48.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000018,Hounslow,2014/15,53.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000019,Islington,2014/15,55.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000020,Kensington and Chelsea,2014/15,54.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000021,Kingston upon Thames,2014/15,53.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000022,Lambeth,2014/15,50.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000023,Lewisham,2014/15,70.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000024,Merton,2014/15,55,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000025,Newham,2014/15,68.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000026,Redbridge,2014/15,50.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000027,Richmond upon Thames,2014/15,45.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000028,Southwark,2014/15,63.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000029,Sutton,2014/15,45.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000030,Tower Hamlets,2014/15,55.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000031,Waltham Forest,2014/15,62.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000032,Wandsworth,2014/15,57.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000033,Westminster,2014/15,55.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000002,Buckinghamshire,2014/15,46.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000003,Cambridgeshire,2014/15,43,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000006,Cumbria,2014/15,41.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000007,Derbyshire,2014/15,51.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000008,Devon,2014/15,53.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000009,Dorset (Cty),2014/15,46.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000011,East Sussex,2014/15,57.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000012,Essex,2014/15,50.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000013,Gloucestershire,2014/15,46.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000014,Hampshire,2014/15,49.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000015,Hertfordshire,2014/15,48.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000016,Kent,2014/15,58.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000017,Lancashire,2014/15,53.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000018,Leicestershire,2014/15,39.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000019,Lincolnshire,2014/15,56.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000020,Norfolk,2014/15,51.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000021,Northamptonshire,2014/15,50.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000023,North Yorkshire,2014/15,45.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000024,Nottinghamshire,2014/15,41.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000025,Oxfordshire,2014/15,45.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000027,Somerset,2014/15,46.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000028,Staffordshire,2014/15,54.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000029,Suffolk,2014/15,49.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000030,Surrey,2014/15,51.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000031,Warwickshire,2014/15,48.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000032,West Sussex,2014/15,43.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000034,Worcestershire,2014/15,45.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E92000001,England,2015/16,54.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E06000001,Hartlepool,2015/16,53.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000002,Middlesbrough,2015/16,50.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000003,Redcar and Cleveland,2015/16,51.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000004,Stockton-on-Tees,2015/16,51.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000005,Darlington,2015/16,54.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000006,Halton,2015/16,47.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000007,Warrington,2015/16,52.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000008,Blackburn with Darwen,2015/16,53.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000009,Blackpool,2015/16,53.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000010,Kingston upon Hull,2015/16,58.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000011,East Riding of Yorkshire,2015/16,49.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000012,North East Lincolnshire,2015/16,56.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000013,North Lincolnshire,2015/16,62.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000014,York,2015/16,49.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000015,Derby,2015/16,54.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000016,Leicester,2015/16,52.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000017,Rutland,2015/16,41.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000018,Nottingham,2015/16,54.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000019,Herefordshire,2015/16,50.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000020,Telford and Wrekin,2015/16,54.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000021,Stoke-on-Trent,2015/16,56.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000022,Bath and North East Somerset,2015/16,41,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000023,Bristol,2015/16,52.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000024,North Somerset,2015/16,51,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000025,South Gloucestershire,2015/16,54.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000026,Plymouth,2015/16,50.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000027,Torbay,2015/16,56.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000028,Bournemouth,2015/16,50,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000029,Poole,2015/16,57.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000030,Swindon,2015/16,55.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000031,Peterborough,2015/16,54,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000032,Luton,2015/16,60.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000033,Southend-on-Sea,2015/16,58.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000034,Thurrock,2015/16,59.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000035,Medway,2015/16,60,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000036,Bracknell Forest,2015/16,53.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000037,West Berkshire,2015/16,57.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000038,Reading,2015/16,57.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000039,Slough,2015/16,52.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000040,Windsor and Maidenhead,2015/16,44.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000041,Wokingham,2015/16,50.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000042,Milton Keynes,2015/16,64.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000043,Brighton and Hove,2015/16,52,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000044,Portsmouth,2015/16,60,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000045,Southampton,2015/16,57.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000046,Isle of Wight,2015/16,55.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000047,County Durham,2015/16,54.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000049,Cheshire East,2015/16,47.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000050,Cheshire West and Chester,2015/16,49.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000051,Shropshire,2015/16,49.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000052,Cornwall,2015/16,50.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000053,Isles of Scilly,2015/16,NA,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E06000054,Wiltshire,2015/16,47.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000055,Bedford,2015/16,48.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000056,Central Bedfordshire,2015/16,48.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000057,Northumberland,2015/16,55.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000001,Bolton,2015/16,48.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000002,Bury,2015/16,57.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000003,Manchester,2015/16,55.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000004,Oldham,2015/16,49.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000005,Rochdale,2015/16,49.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000006,Salford,2015/16,56.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000007,Stockport,2015/16,49,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000008,Tameside,2015/16,51.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000009,Trafford,2015/16,47.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000010,Wigan,2015/16,47,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000011,Knowsley,2015/16,56.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000012,Liverpool,2015/16,45.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000013,St. Helens,2015/16,50.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000014,Sefton,2015/16,55.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000015,Wirral,2015/16,55,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000016,Barnsley,2015/16,49.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000017,Doncaster,2015/16,56.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000018,Rotherham,2015/16,58,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000019,Sheffield,2015/16,54.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000021,Newcastle upon Tyne,2015/16,59.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000022,North Tyneside,2015/16,49.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000023,South Tyneside,2015/16,55,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000024,Sunderland,2015/16,51.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000025,Birmingham,2015/16,55.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000026,Coventry,2015/16,57.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000027,Dudley,2015/16,46.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000028,Sandwell,2015/16,51.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000029,Solihull,2015/16,53.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000030,Walsall,2015/16,54.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000031,Wolverhampton,2015/16,54.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000032,Bradford,2015/16,57.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000033,Calderdale,2015/16,51.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000034,Kirklees,2015/16,50.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000035,Leeds,2015/16,45.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000036,Wakefield,2015/16,46.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000037,Gateshead,2015/16,52.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000001,City of London,2015/16,NA,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E09000002,Barking and Dagenham,2015/16,62.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000003,Barnet,2015/16,56,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000004,Bexley,2015/16,67.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000005,Brent,2015/16,59.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000006,Bromley,2015/16,56.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000007,Camden,2015/16,54.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000008,Croydon,2015/16,60.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000009,Ealing,2015/16,58.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000010,Enfield,2015/16,56.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000011,Greenwich,2015/16,67.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000012,Hackney,2015/16,69.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000013,Hammersmith and Fulham,2015/16,61.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000014,Haringey,2015/16,72.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000015,Harrow,2015/16,58.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000016,Havering,2015/16,54.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000017,Hillingdon,2015/16,55.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000018,Hounslow,2015/16,58.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000019,Islington,2015/16,57.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000020,Kensington and Chelsea,2015/16,55.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000021,Kingston upon Thames,2015/16,58.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000022,Lambeth,2015/16,59,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000023,Lewisham,2015/16,70.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000024,Merton,2015/16,58.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000025,Newham,2015/16,69.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000026,Redbridge,2015/16,61.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000027,Richmond upon Thames,2015/16,60.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000028,Southwark,2015/16,62.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000029,Sutton,2015/16,52,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000030,Tower Hamlets,2015/16,61.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000031,Waltham Forest,2015/16,64.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000032,Wandsworth,2015/16,62.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000033,Westminster,2015/16,60.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000002,Buckinghamshire,2015/16,51.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000003,Cambridgeshire,2015/16,49.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000006,Cumbria,2015/16,41.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000007,Derbyshire,2015/16,52.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000008,Devon,2015/16,53,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000009,Dorset (Cty),2015/16,51.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000011,East Sussex,2015/16,59.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000012,Essex,2015/16,54.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000013,Gloucestershire,2015/16,45.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000014,Hampshire,2015/16,53.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000015,Hertfordshire,2015/16,47.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000016,Kent,2015/16,58.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000017,Lancashire,2015/16,52.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000018,Leicestershire,2015/16,43.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000019,Lincolnshire,2015/16,54.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000020,Norfolk,2015/16,53.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000021,Northamptonshire,2015/16,52,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000023,North Yorkshire,2015/16,50.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000024,Nottinghamshire,2015/16,47.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000025,Oxfordshire,2015/16,51.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000027,Somerset,2015/16,51.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000028,Staffordshire,2015/16,57.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000029,Suffolk,2015/16,57.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000030,Surrey,2015/16,53.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000031,Warwickshire,2015/16,49.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000032,West Sussex,2015/16,49.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000034,Worcestershire,2015/16,49.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E92000001,England,2016/17,56,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E06000001,Hartlepool,2016/17,61.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000002,Middlesbrough,2016/17,55.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000003,Redcar and Cleveland,2016/17,55.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000004,Stockton-on-Tees,2016/17,55.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000005,Darlington,2016/17,61.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000006,Halton,2016/17,43.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000007,Warrington,2016/17,53.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000008,Blackburn with Darwen,2016/17,52.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000009,Blackpool,2016/17,55.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000010,Kingston upon Hull,2016/17,53.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000011,East Riding of Yorkshire,2016/17,54.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000012,North East Lincolnshire,2016/17,59.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000013,North Lincolnshire,2016/17,60.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000014,York,2016/17,45.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000015,Derby,2016/17,50.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000016,Leicester,2016/17,53.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000017,Rutland,2016/17,63.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000018,Nottingham,2016/17,57.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000019,Herefordshire,2016/17,59.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000020,Telford and Wrekin,2016/17,53.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000021,Stoke-on-Trent,2016/17,55.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000022,Bath and North East Somerset,2016/17,47.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000023,Bristol,2016/17,52.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000024,North Somerset,2016/17,52.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000025,South Gloucestershire,2016/17,60.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000026,Plymouth,2016/17,51.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000027,Torbay,2016/17,61.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000028,Bournemouth,2016/17,64.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000029,Poole,2016/17,56.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000030,Swindon,2016/17,53.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000031,Peterborough,2016/17,57.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000032,Luton,2016/17,62.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000033,Southend-on-Sea,2016/17,60.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000034,Thurrock,2016/17,60.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000035,Medway,2016/17,60.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000036,Bracknell Forest,2016/17,57.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000037,West Berkshire,2016/17,52.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000038,Reading,2016/17,55,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000039,Slough,2016/17,59.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000040,Windsor and Maidenhead,2016/17,51.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000041,Wokingham,2016/17,52.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000042,Milton Keynes,2016/17,60.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000043,Brighton and Hove,2016/17,50.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000044,Portsmouth,2016/17,62.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000045,Southampton,2016/17,59,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000046,Isle of Wight,2016/17,59.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000047,County Durham,2016/17,56.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000049,Cheshire East,2016/17,52.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000050,Cheshire West and Chester,2016/17,57,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000051,Shropshire,2016/17,53.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000052,Cornwall,2016/17,50.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000053,Isles of Scilly,2016/17,NA,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E06000054,Wiltshire,2016/17,49.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000055,Bedford,2016/17,53.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000056,Central Bedfordshire,2016/17,51.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000057,Northumberland,2016/17,57.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000001,Bolton,2016/17,51.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000002,Bury,2016/17,60.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000003,Manchester,2016/17,59.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000004,Oldham,2016/17,52,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000005,Rochdale,2016/17,50.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000006,Salford,2016/17,57.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000007,Stockport,2016/17,50.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000008,Tameside,2016/17,51.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000009,Trafford,2016/17,48.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000010,Wigan,2016/17,49,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000011,Knowsley,2016/17,54,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000012,Liverpool,2016/17,50.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000013,St. Helens,2016/17,48.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000014,Sefton,2016/17,56.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000015,Wirral,2016/17,52.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000016,Barnsley,2016/17,51.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000017,Doncaster,2016/17,53,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000018,Rotherham,2016/17,57.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000019,Sheffield,2016/17,55.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000021,Newcastle upon Tyne,2016/17,60.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000022,North Tyneside,2016/17,58.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000023,South Tyneside,2016/17,60.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000024,Sunderland,2016/17,55.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000025,Birmingham,2016/17,57.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000026,Coventry,2016/17,56.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000027,Dudley,2016/17,48.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000028,Sandwell,2016/17,54.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000029,Solihull,2016/17,55.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000030,Walsall,2016/17,56.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000031,Wolverhampton,2016/17,53.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000032,Bradford,2016/17,58.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000033,Calderdale,2016/17,50,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000034,Kirklees,2016/17,54.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000035,Leeds,2016/17,47.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000036,Wakefield,2016/17,50.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000037,Gateshead,2016/17,56.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000001,City of London,2016/17,100,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000002,Barking and Dagenham,2016/17,67.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000003,Barnet,2016/17,62.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000004,Bexley,2016/17,64.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000005,Brent,2016/17,58.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000006,Bromley,2016/17,61.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000007,Camden,2016/17,53.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000008,Croydon,2016/17,62.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000009,Ealing,2016/17,62.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000010,Enfield,2016/17,62.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000011,Greenwich,2016/17,69,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000012,Hackney,2016/17,68.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000013,Hammersmith and Fulham,2016/17,66.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000014,Haringey,2016/17,69.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000015,Harrow,2016/17,62.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000016,Havering,2016/17,56.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000017,Hillingdon,2016/17,59.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000018,Hounslow,2016/17,59.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000019,Islington,2016/17,61.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000020,Kensington and Chelsea,2016/17,58.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000021,Kingston upon Thames,2016/17,64.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000022,Lambeth,2016/17,59.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000023,Lewisham,2016/17,70.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000024,Merton,2016/17,63.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000025,Newham,2016/17,70.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000026,Redbridge,2016/17,66.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000027,Richmond upon Thames,2016/17,60.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000028,Southwark,2016/17,67.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000029,Sutton,2016/17,54.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000030,Tower Hamlets,2016/17,61.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000031,Waltham Forest,2016/17,67.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000032,Wandsworth,2016/17,63.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000033,Westminster,2016/17,65.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000002,Buckinghamshire,2016/17,56.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000003,Cambridgeshire,2016/17,47.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000006,Cumbria,2016/17,46.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000007,Derbyshire,2016/17,50.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000008,Devon,2016/17,54.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000009,Dorset (Cty),2016/17,49.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000011,East Sussex,2016/17,58.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000012,Essex,2016/17,57.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000013,Gloucestershire,2016/17,50.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000014,Hampshire,2016/17,55.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000015,Hertfordshire,2016/17,52.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000016,Kent,2016/17,55.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000017,Lancashire,2016/17,53.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000018,Leicestershire,2016/17,46.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000019,Lincolnshire,2016/17,52.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000020,Norfolk,2016/17,53.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000021,Northamptonshire,2016/17,53.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000023,North Yorkshire,2016/17,51.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000024,Nottinghamshire,2016/17,48.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000025,Oxfordshire,2016/17,53,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000027,Somerset,2016/17,55.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000028,Staffordshire,2016/17,59.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000029,Suffolk,2016/17,56.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000030,Surrey,2016/17,54.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000031,Warwickshire,2016/17,57.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000032,West Sussex,2016/17,50.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000034,Worcestershire,2016/17,49.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E92000001,England,2017/18,56.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E06000001,Hartlepool,2017/18,56,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000002,Middlesbrough,2017/18,53.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000003,Redcar and Cleveland,2017/18,53.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000004,Stockton-on-Tees,2017/18,57.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000005,Darlington,2017/18,56.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000006,Halton,2017/18,49.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000007,Warrington,2017/18,53.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000008,Blackburn with Darwen,2017/18,52.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000009,Blackpool,2017/18,54.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000010,Kingston upon Hull,2017/18,57.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000011,East Riding of Yorkshire,2017/18,55.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000012,North East Lincolnshire,2017/18,58.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000013,North Lincolnshire,2017/18,58.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000014,York,2017/18,50.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000015,Derby,2017/18,61.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000016,Leicester,2017/18,56.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000017,Rutland,2017/18,60,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000018,Nottingham,2017/18,59.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000019,Herefordshire,2017/18,55.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000020,Telford and Wrekin,2017/18,60.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000021,Stoke-on-Trent,2017/18,54.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000022,Bath and North East Somerset,2017/18,48.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000023,Bristol,2017/18,51.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000024,North Somerset,2017/18,51.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000025,South Gloucestershire,2017/18,53.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000026,Plymouth,2017/18,49.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000027,Torbay,2017/18,52.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000028,Bournemouth,2017/18,65.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000029,Poole,2017/18,60.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000030,Swindon,2017/18,54.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000031,Peterborough,2017/18,57.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000032,Luton,2017/18,60.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000033,Southend-on-Sea,2017/18,64.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000034,Thurrock,2017/18,66,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000035,Medway,2017/18,60.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000036,Bracknell Forest,2017/18,52.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000037,West Berkshire,2017/18,43,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000038,Reading,2017/18,60,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000039,Slough,2017/18,66.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E06000040,Windsor and Maidenhead,2017/18,43.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000041,Wokingham,2017/18,54.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000042,Milton Keynes,2017/18,60.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000043,Brighton and Hove,2017/18,50.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000044,Portsmouth,2017/18,56.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000045,Southampton,2017/18,59.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000046,Isle of Wight,2017/18,51.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000047,County Durham,2017/18,56,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000049,Cheshire East,2017/18,52.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000050,Cheshire West and Chester,2017/18,52.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000051,Shropshire,2017/18,48,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000052,Cornwall,2017/18,51.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000053,Isles of Scilly,2017/18,NA,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E06000054,Wiltshire,2017/18,48.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000055,Bedford,2017/18,54.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E06000056,Central Bedfordshire,2017/18,44.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E06000057,Northumberland,2017/18,55.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000001,Bolton,2017/18,53.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000002,Bury,2017/18,55.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000003,Manchester,2017/18,61,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000004,Oldham,2017/18,53.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000005,Rochdale,2017/18,53.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000006,Salford,2017/18,59.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000007,Stockport,2017/18,45.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000008,Tameside,2017/18,51.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000009,Trafford,2017/18,50.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000010,Wigan,2017/18,48.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000011,Knowsley,2017/18,59.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000012,Liverpool,2017/18,53.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000013,St. Helens,2017/18,49.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000014,Sefton,2017/18,52.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000015,Wirral,2017/18,56.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000016,Barnsley,2017/18,59.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000017,Doncaster,2017/18,58.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000018,Rotherham,2017/18,58.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000019,Sheffield,2017/18,54.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000021,Newcastle upon Tyne,2017/18,60.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000022,North Tyneside,2017/18,59.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000023,South Tyneside,2017/18,60.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000024,Sunderland,2017/18,56.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000025,Birmingham,2017/18,59.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000026,Coventry,2017/18,55,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000027,Dudley,2017/18,51.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000028,Sandwell,2017/18,55.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000029,Solihull,2017/18,61.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000030,Walsall,2017/18,56.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000031,Wolverhampton,2017/18,62.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E08000032,Bradford,2017/18,57,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000033,Calderdale,2017/18,50.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000034,Kirklees,2017/18,55.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E08000035,Leeds,2017/18,48.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000036,Wakefield,2017/18,48.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E08000037,Gateshead,2017/18,53.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000001,City of London,2017/18,NA,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Not compared
+E09000002,Barking and Dagenham,2017/18,65.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000003,Barnet,2017/18,63,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000004,Bexley,2017/18,64.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000005,Brent,2017/18,61.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000006,Bromley,2017/18,61.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000007,Camden,2017/18,60.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000008,Croydon,2017/18,67.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000009,Ealing,2017/18,58.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000010,Enfield,2017/18,61.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000011,Greenwich,2017/18,66.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000012,Hackney,2017/18,70.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000013,Hammersmith and Fulham,2017/18,69.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000014,Haringey,2017/18,68.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000015,Harrow,2017/18,61.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000016,Havering,2017/18,52.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000017,Hillingdon,2017/18,60.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000018,Hounslow,2017/18,62.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000019,Islington,2017/18,61.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000020,Kensington and Chelsea,2017/18,58.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000021,Kingston upon Thames,2017/18,58.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000022,Lambeth,2017/18,62.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000023,Lewisham,2017/18,67.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000024,Merton,2017/18,64.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000025,Newham,2017/18,72.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000026,Redbridge,2017/18,68.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000027,Richmond upon Thames,2017/18,57.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000028,Southwark,2017/18,66.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000029,Sutton,2017/18,56.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E09000030,Tower Hamlets,2017/18,61.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000031,Waltham Forest,2017/18,64.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000032,Wandsworth,2017/18,64.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E09000033,Westminster,2017/18,64.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000002,Buckinghamshire,2017/18,53,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000003,Cambridgeshire,2017/18,47.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000006,Cumbria,2017/18,53.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000007,Derbyshire,2017/18,51.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000008,Devon,2017/18,49.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000009,Dorset (Cty),2017/18,51.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000011,East Sussex,2017/18,61.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000012,Essex,2017/18,56,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000013,Gloucestershire,2017/18,48.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000014,Hampshire,2017/18,56.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000015,Hertfordshire,2017/18,51.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000016,Kent,2017/18,60,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Better
+E10000017,Lancashire,2017/18,53.6,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000018,Leicestershire,2017/18,48.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000019,Lincolnshire,2017/18,52.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000020,Norfolk,2017/18,57.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000021,Northamptonshire,2017/18,56.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000023,North Yorkshire,2017/18,49.4,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000024,Nottinghamshire,2017/18,49.9,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000025,Oxfordshire,2017/18,50.8,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000027,Somerset,2017/18,57.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000028,Staffordshire,2017/18,58.3,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000029,Suffolk,2017/18,57.2,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000030,Surrey,2017/18,53.5,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000031,Warwickshire,2017/18,55,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Similar
+E10000032,West Sussex,2017/18,51.7,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse
+E10000034,Worcestershire,2017/18,50.1,Children with free school meal status achieving a good level of development at the end of reception,Percentage,Persons,Worse

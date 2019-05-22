@@ -10,7 +10,9 @@ tabPanel("Children and young people", width = 11, style="margin-left:4%; margin-
              uiOutput("low_income_families_box")
            ),
            fluidRow(
-             uiOutput("admissions_self_harm_young_people_box")
+             uiOutput("admissions_self_harm_young_people_box"),
+             uiOutput("dental_decay_box"),
+             uiOutput("school_readiness_fsm_box")
            ),
            br(),br()
          )
