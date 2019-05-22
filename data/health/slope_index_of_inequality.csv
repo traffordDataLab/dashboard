@@ -1,4 +1,16 @@
 area_code,area_name,period,value,indicator,measure,unit,group,significance
+E47000001,Greater Manchester,2010-12,NA,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Male,Not compared
+E47000001,Greater Manchester,2010-12,NA,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Female,Not compared
+E47000001,Greater Manchester,2011-13,NA,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Male,Not compared
+E47000001,Greater Manchester,2011-13,NA,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Female,Not compared
+E47000001,Greater Manchester,2012-14,NA,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Male,Not compared
+E47000001,Greater Manchester,2012-14,NA,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Female,Not compared
+E47000001,Greater Manchester,2013-15,NA,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Male,Not compared
+E47000001,Greater Manchester,2013-15,NA,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Female,Not compared
+E47000001,Greater Manchester,2014-16,NA,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Male,Not compared
+E47000001,Greater Manchester,2014-16,NA,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Female,Not compared
+E47000001,Greater Manchester,2015-17,NA,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Male,Not compared
+E47000001,Greater Manchester,2015-17,NA,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Female,Not compared
 E92000001,England,2010-12,9.1,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Male,Not compared
 E92000001,England,2010-12,6.8,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Female,Not compared
 E06000001,Hartlepool,2010-12,11.6,Inequality in life expectancy at birth,Slope Index of Inequality,Years,Male,Not compared

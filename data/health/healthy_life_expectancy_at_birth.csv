@@ -1,4 +1,18 @@
 area_code,area_name,period,value,indicator,measure,unit,group,significance
+E47000001,Greater Manchester,2009-11,NA,Healthy life expectancy at birth,Life expectancy,Years,Male,Not compared
+E47000001,Greater Manchester,2009-11,NA,Healthy life expectancy at birth,Life expectancy,Years,Female,Not compared
+E47000001,Greater Manchester,2010-12,NA,Healthy life expectancy at birth,Life expectancy,Years,Male,Not compared
+E47000001,Greater Manchester,2010-12,NA,Healthy life expectancy at birth,Life expectancy,Years,Female,Not compared
+E47000001,Greater Manchester,2011-13,60.9,Healthy life expectancy at birth,Life expectancy,Years,Male,Worse
+E47000001,Greater Manchester,2011-13,60.6,Healthy life expectancy at birth,Life expectancy,Years,Female,Worse
+E47000001,Greater Manchester,2012-14,60.4,Healthy life expectancy at birth,Life expectancy,Years,Male,Worse
+E47000001,Greater Manchester,2012-14,60,Healthy life expectancy at birth,Life expectancy,Years,Female,Worse
+E47000001,Greater Manchester,2013-15,59.9,Healthy life expectancy at birth,Life expectancy,Years,Male,Worse
+E47000001,Greater Manchester,2013-15,60.3,Healthy life expectancy at birth,Life expectancy,Years,Female,Worse
+E47000001,Greater Manchester,2014-16,59.4,Healthy life expectancy at birth,Life expectancy,Years,Male,Worse
+E47000001,Greater Manchester,2014-16,60.5,Healthy life expectancy at birth,Life expectancy,Years,Female,Worse
+E47000001,Greater Manchester,2015-17,60,Healthy life expectancy at birth,Life expectancy,Years,Male,Worse
+E47000001,Greater Manchester,2015-17,60.4,Healthy life expectancy at birth,Life expectancy,Years,Female,Worse
 E92000001,England,2009-11,63,Healthy life expectancy at birth,Life expectancy,Years,Male,Not compared
 E92000001,England,2009-11,64,Healthy life expectancy at birth,Life expectancy,Years,Female,Not compared
 E06000001,Hartlepool,2009-11,56.7,Healthy life expectancy at birth,Life expectancy,Years,Male,Worse

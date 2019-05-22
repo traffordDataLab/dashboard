@@ -1,4 +1,14 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2008/09,690,Alcohol related admissions (narrow measure),"Standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2009/10,729,Alcohol related admissions (narrow measure),"Standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2010/11,745,Alcohol related admissions (narrow measure),"Standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2011/12,754,Alcohol related admissions (narrow measure),"Standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2012/13,736,Alcohol related admissions (narrow measure),"Standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2013/14,776,Alcohol related admissions (narrow measure),"Standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2014/15,743,Alcohol related admissions (narrow measure),"Standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2015/16,707,Alcohol related admissions (narrow measure),"Standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2016/17,680,Alcohol related admissions (narrow measure),"Standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2017/18,678,Alcohol related admissions (narrow measure),"Standardised rate per 100,000",Persons,Worse
 E92000001,England,2008/09,606,Alcohol related admissions (narrow measure),"Standardised rate per 100,000",Persons,Not compared
 E06000001,Hartlepool,2008/09,765,Alcohol related admissions (narrow measure),"Standardised rate per 100,000",Persons,Worse
 E06000002,Middlesbrough,2008/09,966,Alcohol related admissions (narrow measure),"Standardised rate per 100,000",Persons,Worse

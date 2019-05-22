@@ -1,4 +1,15 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2006,26.3,Children in low income families,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2007,27.5,Children in low income families,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2008,26.2,Children in low income families,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2009,26.1,Children in low income families,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2010,25.1,Children in low income families,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2011,24.6,Children in low income families,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2012,23.3,Children in low income families,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2013,22.8,Children in low income families,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2014,25,Children in low income families,Percentage,Persons,Worse
+E47000001,Greater Manchester,2015,20.1,Children in low income families,Percentage,Persons,Worse
+E47000001,Greater Manchester,2016,19.5,Children in low income families,Percentage,Persons,Not compared
 E92000001,England,2006,21.8,Children in low income families,Percentage,Persons,Not compared
 E06000001,Hartlepool,2006,29.3,Children in low income families,Percentage,Persons,Worse
 E06000002,Middlesbrough,2006,33.6,Children in low income families,Percentage,Persons,Worse

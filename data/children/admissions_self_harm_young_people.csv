@@ -1,4 +1,11 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2011/12,NA,Hospital admissions as a result of self-harm (10-24 years),"Age standardised rate per 100,000",Persons,Not compared
+E47000001,Greater Manchester,2012/13,402.2,Hospital admissions as a result of self-harm (10-24 years),"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2013/14,502.5,Hospital admissions as a result of self-harm (10-24 years),"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2014/15,486.6,Hospital admissions as a result of self-harm (10-24 years),"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2015/16,427.6,Hospital admissions as a result of self-harm (10-24 years),"Age standardised rate per 100,000",Persons,Similar
+E47000001,Greater Manchester,2016/17,401.5,Hospital admissions as a result of self-harm (10-24 years),"Age standardised rate per 100,000",Persons,Similar
+E47000001,Greater Manchester,2017/18,426.8,Hospital admissions as a result of self-harm (10-24 years),"Age standardised rate per 100,000",Persons,Similar
 E92000001,England,2011/12,347.4,Hospital admissions as a result of self-harm (10-24 years),"Age standardised rate per 100,000",Persons,Not compared
 E06000001,Hartlepool,2011/12,592,Hospital admissions as a result of self-harm (10-24 years),"Age standardised rate per 100,000",Persons,Worse
 E06000002,Middlesbrough,2011/12,696.6,Hospital admissions as a result of self-harm (10-24 years),"Age standardised rate per 100,000",Persons,Worse

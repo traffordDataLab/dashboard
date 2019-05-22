@@ -60,7 +60,7 @@ output$excess_weight_reception_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(excess_weight_reception, area_name %in% c("Trafford", "England")),
+        filter(excess_weight_reception, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -68,8 +68,8 @@ output$excess_weight_reception_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Children aged 4-5 years who have excess weight",
@@ -206,7 +206,7 @@ output$excess_weight_year6_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(excess_weight_year6, area_name %in% c("Trafford", "England")),
+        filter(excess_weight_year6, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -214,8 +214,8 @@ output$excess_weight_year6_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Children aged 10-11 years who have excess weight",
@@ -352,7 +352,7 @@ output$low_income_families_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(low_income_families, area_name %in% c("Trafford", "England")),
+        filter(low_income_families, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -360,8 +360,8 @@ output$low_income_families_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Children in low income families (under 16s)",
@@ -498,7 +498,7 @@ output$admissions_self_harm_young_people_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(admissions_self_harm_young_people, area_name %in% c("Trafford", "England")),
+        filter(admissions_self_harm_young_people, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -506,8 +506,8 @@ output$admissions_self_harm_young_people_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Hospital admissions as a result of self-harm (10-24 years)",

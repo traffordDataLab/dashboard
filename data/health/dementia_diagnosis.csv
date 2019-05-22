@@ -1,4 +1,6 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2017,77.1,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
+E47000001,Greater Manchester,2018,76.3,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
 E92000001,England,2017,67.9,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Not compared
 E06000001,Hartlepool,2017,80.8,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better
 E06000002,Middlesbrough,2017,81,Estimated dementia diagnosis rate (aged 65 and over),Proportion,Persons,Better

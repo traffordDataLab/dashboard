@@ -1,4 +1,7 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2015/16,25.6,Percentage of physically inactive adults,Proportion,Persons,Worse
+E47000001,Greater Manchester,2016/17,24.7,Percentage of physically inactive adults,Proportion,Persons,Worse
+E47000001,Greater Manchester,2017/18,24.5,Percentage of physically inactive adults,Proportion,Persons,Worse
 E92000001,England,2015/16,22.3,Percentage of physically inactive adults,Proportion,Persons,Not compared
 E06000001,Hartlepool,2015/16,27.2,Percentage of physically inactive adults,Proportion,Persons,Worse
 E06000002,Middlesbrough,2015/16,24.7,Percentage of physically inactive adults,Proportion,Persons,Similar

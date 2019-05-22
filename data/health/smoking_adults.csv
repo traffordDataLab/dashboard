@@ -1,4 +1,11 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2011,23.9,Smoking Prevalence in adults - current smokers (APS),Proportion,Persons,Worse
+E47000001,Greater Manchester,2012,22.8,Smoking Prevalence in adults - current smokers (APS),Proportion,Persons,Worse
+E47000001,Greater Manchester,2013,21.1,Smoking Prevalence in adults - current smokers (APS),Proportion,Persons,Worse
+E47000001,Greater Manchester,2014,21.2,Smoking Prevalence in adults - current smokers (APS),Proportion,Persons,Worse
+E47000001,Greater Manchester,2015,20,Smoking Prevalence in adults - current smokers (APS),Proportion,Persons,Worse
+E47000001,Greater Manchester,2016,18.4,Smoking Prevalence in adults - current smokers (APS),Proportion,Persons,Worse
+E47000001,Greater Manchester,2017,17.5,Smoking Prevalence in adults - current smokers (APS),Proportion,Persons,Worse
 E92000001,England,2011,19.8,Smoking Prevalence in adults - current smokers (APS),Proportion,Persons,Not compared
 E06000001,Hartlepool,2011,23.5,Smoking Prevalence in adults - current smokers (APS),Proportion,Persons,Worse
 E06000002,Middlesbrough,2011,25.2,Smoking Prevalence in adults - current smokers (APS),Proportion,Persons,Worse

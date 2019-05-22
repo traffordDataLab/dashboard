@@ -1,4 +1,10 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2009/10,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E47000001,Greater Manchester,2010/11,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E47000001,Greater Manchester,2011/12,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E47000001,Greater Manchester,2012/13,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E47000001,Greater Manchester,2013/14,NA,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
+E47000001,Greater Manchester,2014/15,403.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
 E92000001,England,2009/10,326.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
 E06000001,Hartlepool,2009/10,438.1,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared
 E06000002,Middlesbrough,2009/10,395.7,Excess under 75 mortality rate in adults with serious mental illness,Indirectly standardised ratio,Persons,Not compared

@@ -1,4 +1,14 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2008,61.6,Alcohol related mortality,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2009,61.2,Alcohol related mortality,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2010,56.8,Alcohol related mortality,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2011,57.9,Alcohol related mortality,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2012,58.5,Alcohol related mortality,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2013,56.9,Alcohol related mortality,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2014,58.6,Alcohol related mortality,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2015,56.3,Alcohol related mortality,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2016,55.1,Alcohol related mortality,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2017,57.3,Alcohol related mortality,"Age standardised rate per 100,000",Persons,Worse
 E92000001,England,2008,48.5,Alcohol related mortality,"Age standardised rate per 100,000",Persons,Not compared
 E06000001,Hartlepool,2008,59.3,Alcohol related mortality,"Age standardised rate per 100,000",Persons,Similar
 E06000002,Middlesbrough,2008,56.9,Alcohol related mortality,"Age standardised rate per 100,000",Persons,Similar

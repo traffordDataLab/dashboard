@@ -1,4 +1,12 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2010/11,249.2,Emergency Hospital Admissions for Intentional Self-Harm,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2011/12,248.5,Emergency Hospital Admissions for Intentional Self-Harm,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2012/13,239.6,Emergency Hospital Admissions for Intentional Self-Harm,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2013/14,273.7,Emergency Hospital Admissions for Intentional Self-Harm,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2014/15,248.9,Emergency Hospital Admissions for Intentional Self-Harm,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2015/16,226.8,Emergency Hospital Admissions for Intentional Self-Harm,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2016/17,207.2,Emergency Hospital Admissions for Intentional Self-Harm,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2017/18,217.9,Emergency Hospital Admissions for Intentional Self-Harm,"Age standardised rate per 100,000",Persons,Worse
 E92000001,England,2010/11,197.6,Emergency Hospital Admissions for Intentional Self-Harm,"Age standardised rate per 100,000",Persons,Not compared
 E06000001,Hartlepool,2010/11,365,Emergency Hospital Admissions for Intentional Self-Harm,"Age standardised rate per 100,000",Persons,Worse
 E06000002,Middlesbrough,2010/11,498.3,Emergency Hospital Admissions for Intentional Self-Harm,"Age standardised rate per 100,000",Persons,Worse

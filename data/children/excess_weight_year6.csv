@@ -1,4 +1,16 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2006/07,31.6,Children aged 10-11 years who have excess weight,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2007/08,33,Children aged 10-11 years who have excess weight,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2008/09,32.9,Children aged 10-11 years who have excess weight,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2009/10,34.6,Children aged 10-11 years who have excess weight,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2010/11,34.7,Children aged 10-11 years who have excess weight,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2011/12,35.4,Children aged 10-11 years who have excess weight,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2012/13,34.5,Children aged 10-11 years who have excess weight,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2013/14,35.2,Children aged 10-11 years who have excess weight,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2014/15,34.7,Children aged 10-11 years who have excess weight,Percentage,Persons,Not compared
+E47000001,Greater Manchester,2015/16,35.8,Children aged 10-11 years who have excess weight,Percentage,Persons,Worse
+E47000001,Greater Manchester,2016/17,36.3,Children aged 10-11 years who have excess weight,Percentage,Persons,Worse
+E47000001,Greater Manchester,2017/18,36.5,Children aged 10-11 years who have excess weight,Percentage,Persons,Worse
 E92000001,England,2006/07,31.7,Children aged 10-11 years who have excess weight,Percentage,Persons,Not compared
 E06000001,Hartlepool,2006/07,NA,Children aged 10-11 years who have excess weight,Percentage,Persons,Not compared
 E06000002,Middlesbrough,2006/07,NA,Children aged 10-11 years who have excess weight,Percentage,Persons,Not compared

@@ -1,4 +1,19 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2001-03,118.6,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2002-04,116,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2003-05,114.6,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2004-06,113.6,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2005-07,113,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2006-08,111.2,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2007-09,109.7,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2008-10,109.1,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2009-11,107.3,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2010-12,105.5,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2011-13,102.2,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2012-14,100.7,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2013-15,100,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2014-16,98,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
+E47000001,Greater Manchester,2015-17,96.7,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
 E92000001,England,2001-03,98.3,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Not compared
 E06000001,Hartlepool,2001-03,129.4,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse
 E06000002,Middlesbrough,2001-03,131,Under 75 mortality rate from cancer considered preventable,"Age standardised rate per 100,000",Persons,Worse

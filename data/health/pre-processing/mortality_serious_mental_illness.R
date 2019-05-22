@@ -11,9 +11,16 @@ select_indicators()
 # retrieve corresponding metadata
 indicator_metadata(IndicatorID = 91096) %>% formattable::formattable()
 
-df <- fingertips_data(IndicatorID = 91096, AreaTypeID = 102, rank = TRUE) %>% 
-  filter(AreaType %in% c("England", "County & UA"),
+gm <- fingertips_data(IndicatorID = 91096, AreaTypeID = 102, ParentAreaTypeID = 126, rank = TRUE) %>% 
+  filter(AreaCode == "E47000001",
          Sex == "Persons") %>% 
+  mutate(AreaName = str_replace(AreaName, "CA-Greater Manchester", "Greater Manchester"))
+
+counties <- fingertips_data(IndicatorID = 91096, AreaTypeID = 102, rank = TRUE) %>% 
+  filter(AreaType %in% c("England", "County & UA"),
+         Sex == "Persons")
+
+df <- bind_rows(gm, counties) %>% 
   select(area_code = AreaCode,
          area_name = AreaName,
          period = Timeperiod,

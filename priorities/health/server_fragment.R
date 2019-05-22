@@ -58,7 +58,7 @@ output$alcohol_related_admissions_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(alcohol_related_admissions, area_name %in% c("Trafford", "England")),
+        filter(alcohol_related_admissions, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -66,8 +66,8 @@ output$alcohol_related_admissions_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Admission episodes for alcohol-related conditions (narrow)",
@@ -203,7 +203,7 @@ output$alcohol_related_mortality_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(alcohol_related_mortality, area_name %in% c("Trafford", "England")),
+        filter(alcohol_related_mortality, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -211,8 +211,8 @@ output$alcohol_related_mortality_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Deaths from alcohol-related conditions",
@@ -352,7 +352,7 @@ output$healthy_life_expectancy_at_birth_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(healthy_life_expectancy_at_birth, area_name %in% c("Trafford", "England")),
+        filter(healthy_life_expectancy_at_birth, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -360,8 +360,8 @@ output$healthy_life_expectancy_at_birth_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(55,70), breaks = seq(55,70,5)) +
       facet_wrap(~group) +
       labs(
@@ -497,7 +497,7 @@ output$slope_index_of_inequality_plot <- renderggiraph({
         
         gg <-
           ggplot(
-            filter(slope_index_of_inequality, area_name %in% c("Trafford", "England")),
+            filter(slope_index_of_inequality, area_name %in% c("Trafford", "Greater Manchester", "England")),
             aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
           geom_line(size = 1) +
           geom_point_interactive(aes(tooltip = 
@@ -505,8 +505,8 @@ output$slope_index_of_inequality_plot <- renderggiraph({
                                               "<em>", area_name, "</em><br/>",
                                               period)), 
                                  shape = 21, size = 2.5, colour = "white") +
-          scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-          scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+          scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+          scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
           scale_y_continuous(limits = c(0, NA), breaks = pretty_breaks()) +
           facet_wrap(~group) +
           labs(
@@ -644,7 +644,7 @@ output$smoking_adults_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(smoking_adults, area_name %in% c("Trafford", "England")),
+        filter(smoking_adults, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -652,8 +652,8 @@ output$smoking_adults_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Smoking prevalence in adults (18+)",
@@ -790,7 +790,7 @@ output$smoking_adults_manual_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(smoking_adults_manual, area_name %in% c("Trafford", "England")),
+        filter(smoking_adults_manual, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -798,8 +798,8 @@ output$smoking_adults_manual_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Smoking prevalence in adults in routine and manual occupations",
@@ -912,7 +912,7 @@ output$admissions_falls_plot <- renderggiraph({
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
-      labs(title = "Emergency admissions due to falls in people aged 65 and over",
+      labs(title = "Emergency hospital admissions due to falls in people aged 65 and over",
            subtitle = NULL,
            caption = "Source: PHE Fingertips (PHOF 2.24i)",
            x = NULL, y = "per 100,000",
@@ -948,7 +948,7 @@ output$admissions_falls_plot <- renderggiraph({
       scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
-        title = "Emergency admissions due to falls in people aged 65 and over",
+        title = "Emergency hospital admissions due to falls in people aged 65 and over",
         subtitle = NULL,
         caption = "Source: PHE Fingertips (PHOF 2.24i)",
         x = "",
@@ -1082,7 +1082,7 @@ output$deaths_at_home_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(deaths_at_home, area_name %in% c("Trafford", "England")),
+        filter(deaths_at_home, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -1090,8 +1090,8 @@ output$deaths_at_home_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Percentage of deaths in usual place of residence",
@@ -1228,7 +1228,7 @@ output$preventable_mortality_from_cancer_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(preventable_mortality_from_cancer, area_name %in% c("Trafford", "England")),
+        filter(preventable_mortality_from_cancer, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -1236,8 +1236,8 @@ output$preventable_mortality_from_cancer_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Under 75 mortality rate from cancer considered preventable",
@@ -1374,7 +1374,7 @@ output$physically_inactive_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(physically_inactive, area_name %in% c("Trafford", "England")),
+        filter(physically_inactive, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -1382,8 +1382,8 @@ output$physically_inactive_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Percentage of physically inactive adults",
@@ -1520,7 +1520,7 @@ output$dementia_diagnosis_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(dementia_diagnosis, area_name %in% c("Trafford", "England")),
+        filter(dementia_diagnosis, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -1528,8 +1528,8 @@ output$dementia_diagnosis_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Estimated dementia diagnosis rate (aged 65 and over)",
@@ -1641,7 +1641,7 @@ output$mortality_serious_mental_illness_plot <- renderggiraph({
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
-      labs(title = "Excess under 75 mortality rate in adults with serious mental illness",
+      labs(title = "Excess under 75 mortality rate in adults\nwith serious mental illness",
            subtitle = NULL,
            caption = "Source: PHE Fingertips (PHOF 4.09i)",
            x = NULL, y = "Indirectly standardised ratio",
@@ -1665,7 +1665,7 @@ output$mortality_serious_mental_illness_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(mortality_serious_mental_illness, area_name %in% c("Trafford", "England")),
+        filter(mortality_serious_mental_illness, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -1673,11 +1673,11 @@ output$mortality_serious_mental_illness_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
-        title = "Excess under 75 mortality rate in adults with serious mental illness",
+        title = "Excess under 75 mortality rate in adults\nwith serious mental illness",
         subtitle = NULL,
         caption = "Source: PHE Fingertips (PHOF 4.09i)",
         x = "",
@@ -1812,7 +1812,7 @@ output$admissions_self_harm_plot <- renderggiraph({
     
     gg <-
       ggplot(
-        filter(admissions_self_harm, area_name %in% c("Trafford", "England")),
+        filter(admissions_self_harm, area_name %in% c("Trafford", "Greater Manchester", "England")),
         aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
       geom_line(size = 1) +
       geom_point_interactive(aes(tooltip = 
@@ -1820,8 +1820,8 @@ output$admissions_self_harm_plot <- renderggiraph({
                                           "<em>", area_name, "</em><br/>",
                                           period)), 
                              shape = 21, size = 2.5, colour = "white") +
-      scale_colour_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
-      scale_fill_manual(values = c("Trafford" = "#00AFBB", "England" = "#757575")) +
+      scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+      scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
         title = "Emergency hospital admissions for intentional self-harm",

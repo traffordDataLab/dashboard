@@ -1,4 +1,10 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
+E47000001,Greater Manchester,2012,34.9,Smoking prevalence in adults in routine and manual occupations (18-64) - current smokers,Proportion,Persons,Worse
+E47000001,Greater Manchester,2013,33.2,Smoking prevalence in adults in routine and manual occupations (18-64) - current smokers,Proportion,Persons,Worse
+E47000001,Greater Manchester,2014,32.4,Smoking prevalence in adults in routine and manual occupations (18-64) - current smokers,Proportion,Persons,Worse
+E47000001,Greater Manchester,2015,31.1,Smoking prevalence in adults in routine and manual occupations (18-64) - current smokers,Proportion,Persons,Worse
+E47000001,Greater Manchester,2016,28.6,Smoking prevalence in adults in routine and manual occupations (18-64) - current smokers,Proportion,Persons,Worse
+E47000001,Greater Manchester,2017,28.8,Smoking prevalence in adults in routine and manual occupations (18-64) - current smokers,Proportion,Persons,Worse
 E92000001,England,2012,31.1,Smoking prevalence in adults in routine and manual occupations (18-64) - current smokers,Proportion,Persons,Not compared
 E06000001,Hartlepool,2012,36.5,Smoking prevalence in adults in routine and manual occupations (18-64) - current smokers,Proportion,Persons,Similar
 E06000002,Middlesbrough,2012,33,Smoking prevalence in adults in routine and manual occupations (18-64) - current smokers,Proportion,Persons,Similar
