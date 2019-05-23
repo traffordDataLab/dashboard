@@ -514,9 +514,9 @@ output$licensed_hmos_map = renderLeaflet({
                      lng = ~lon, lat = ~lat,
                      stroke = TRUE, color = "#212121", weight = 2, 
                      fillColor = "#00AFBB", fillOpacity = 0.5, radius = 4,
-                     popup = paste("<strong>", "Address:", "</strong>", sf$address, "<br>",
-                                   "<strong>","Households:", "</strong>", sf$households, "<br>",
-                                   "<strong>","Expiry date:", "</strong>", sf$expiry))
+                     popup = paste("<strong>", sf$address, "</strong><br>",
+                                   "<em>","Households:", "</em>", sf$households, "<br>",
+                                   "<em>","Expiry date:", "</em>", sf$expiry))
   
 })
 

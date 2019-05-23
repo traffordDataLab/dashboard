@@ -1314,54 +1314,41 @@ output$children_in_care_box <- renderUI({
   
 })
 
-# Early years settings rated 'Good' or 'Outstanding' --------------------------------------------------
+# Childcare provider Ofsted ratings --------------------------------------------------
 
-early_years_settings <- read_csv("data/children/early_years_settings.csv") %>% 
-  mutate(area_name = as_factor(area_name),
-         group = as_factor(group, levels = c("Oustanding", "Good", "Requires improvement", "Inadequate"), ordered = TRUE),
-         tooltip = 
-           paste0("<strong>", paste(round(value*100, 1)), "</strong>", "%", "<br/>",
-                  "<em>", area_name, "</em><br/>",
-                  group))
+childcare_providers <- read_csv("data/children/childcare_providers.csv") %>% 
+  mutate(rating = as_factor(rating))
+boundary <- st_read("data/geospatial/trafford_local_authority.geojson")
 
-output$early_years_settings_plot <- renderggiraph({
+output$childcare_providers_map = renderLeaflet({
   
-  gg <-
-    ggplot(
-      filter(early_years_settings, area_name %in% input$early_years_settings_selection),
-      aes(x = factor(group), y = value, fill = area_name)) +
-    geom_bar_interactive(aes(tooltip = tooltip), stat = "identity", position = "dodge", colour = "#FFFFFF", size = 1) +
-    scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
-    scale_y_continuous(limits = c(0, NA), labels = percent_format(accuracy = 1)) +
-    labs(
-      title = "Early years settings rated 'Good' or 'Outstanding'",
-      subtitle = NULL,
-      caption = "Source: Ofsted",
-      x = "",
-      y = "Percentage",
-      colour = NULL
-    ) +
-    guides(fill = FALSE) +
-    theme_minimal(base_family = "Open Sans") +
-    theme(
-      panel.grid.major.x = element_blank(),
-      axis.title.y = element_text(size = 7, hjust = 1),
-      axis.text.x = element_text(angle = 90, hjust = 1),
-      legend.position = "bottom"
-    )
+  sf <- filter(childcare_providers, rating == input$childcare_providers_selection)
   
-  gg <- girafe(ggobj = gg)
-  girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+  leaflet() %>% 
+    addProviderTiles(providers$CartoDB.Positron) %>% 
+    addPolygons(data = boundary,
+                fillColor = "#DDDDCC", 
+                color = "#DDDDCC", weight = 3) %>% 
+    addCircleMarkers(data = sf,
+                     lng = ~lon, lat = ~lat,
+                     stroke = TRUE, color = "#212121", weight = 2, 
+                     fillColor = "#00AFBB", fillOpacity = 0.5, radius = 4,
+                     popup = paste("<strong>", sf$name, "</strong><br />",
+                                   "<em>", sf$rating, "</em><br />",
+                                   "Last inspection date:",  sf$inspection_date, "<br />",
+                                   "<a href='", sf$url, "'>View latest Ofsted report</a>")) %>% 
+    addControl("<strong>Childcare providers</strong>", position = 'topright')
   
 })
 
-output$early_years_settings_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","Early years settings rated 'Good' or 'Outstanding'","</b>", "  not set.", "</h5>")),
+output$childcare_providers_box <- renderUI({
+  
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","childcare provider Ofsted ratings","</b>", "  not set.", "</h5>")),
                      style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
-      title = "Early years settings rated 'Good' or 'Outstanding'",
+      title = "Childcare providers",
       withSpinner(
-        ggiraphOutput("early_years_settings_plot"),
+        leafletOutput("childcare_providers_map"),
         type = 4,
         color = "#bdbdbd",
         size = 1
@@ -1369,11 +1356,10 @@ output$early_years_settings_box <- renderUI({
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
-          checkboxGroupInput(
-            inputId = "early_years_settings_selection",
-            label = tags$h4("Select area:"),
-            choices = unique(levels(early_years_settings$area_name)),
-            selected = "Trafford"
+          radioButtons(inputId = "childcare_providers_selection", 
+                       tags$h4("Inspection rating:"),
+                       choices = unique(levels(childcare_providers$rating)), 
+                       selected = "Outstanding"
           ),
           icon = icon("filter"),
           size = "xs",
@@ -1383,9 +1369,9 @@ output$early_years_settings_box <- renderUI({
         )
       ),
       div(
-        style = "position: absolute; left: 4em; bottom: 0.5em; ",
+        style = "position: absolute; left: 4em; bottom: 0.5em;",
         dropdown(
-          includeMarkdown("data/children/metadata/early_years_settings.md"),
+          includeMarkdown("data/children/metadata/childcare_providers.md"),
           icon = icon("question"),
           size = "xs",
           style = "jelly",
@@ -1395,8 +1381,8 @@ output$early_years_settings_box <- renderUI({
         tags$style(
           HTML(
             '.fa {color: #212121;}
-              .bttn-jelly.bttn-default{color:#f0f0f0;}
-              .bttn-jelly:hover:before{opacity:1};'
+            .bttn-jelly.bttn-default{color:#f0f0f0;}
+            .bttn-jelly:hover:before{opacity:1};'
           )
         )
       )

@@ -5,22 +5,22 @@ tabPanel("Children and young people", width = 11, style="margin-left:4%; margin-
          fluidPage(
            br(),
            fluidRow(
+             uiOutput("childcare_providers_box"),
              uiOutput("excess_weight_reception_box"),
-             uiOutput("excess_weight_year6_box"),
-             uiOutput("low_income_families_box")
+             uiOutput("excess_weight_year6_box")
            ),
            fluidRow(
+             uiOutput("low_income_families_box"),
              uiOutput("admissions_self_harm_young_people_box"),
-             uiOutput("dental_decay_box"),
-             uiOutput("school_readiness_fsm_box")
+             uiOutput("dental_decay_box")
            ),
            fluidRow(
+             uiOutput("school_readiness_fsm_box"),
              uiOutput("child_protection_plans_box"),
-             uiOutput("neets_box"),
-             uiOutput("children_in_care_box")
+             uiOutput("neets_box")
            ),
            fluidRow(
-             uiOutput("early_years_settings_box")
+             uiOutput("children_in_care_box")
            ),
            br(),br()
          )
