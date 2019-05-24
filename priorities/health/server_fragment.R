@@ -13,7 +13,7 @@ output$alcohol_related_admissions_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
-                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL) +
       geom_point_interactive(data = filter(alcohol_related_admissions, area_name == "Trafford"), 
@@ -29,7 +29,7 @@ output$alcohol_related_admissions_plot <- renderggiraph({
                                      "<strong>", round(filter(alcohol_related_admissions, area_name == "England")$value, 1), "</strong>", " per 100,000", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(alcohol_related_admissions, area_name == "England")$period)),
-                               colour = "#C9C9C9", size = 0.5) +
+                               fill = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -148,7 +148,7 @@ output$alcohol_related_mortality_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value), 
-                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL) +
       geom_point_interactive(data = filter(alcohol_related_mortality, area_name == "Trafford"), 
@@ -164,7 +164,7 @@ output$alcohol_related_mortality_plot <- renderggiraph({
                                      "<strong>", round(filter(alcohol_related_mortality, area_name == "England")$value, 1), "</strong>", " per 100,000", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(alcohol_related_mortality, area_name == "England")$period)),
-                               colour = "#C9C9C9", size = 0.5) +
+                               fill = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -286,7 +286,7 @@ output$healthy_life_expectancy_at_birth_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
-                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL)  +
       geom_point_interactive(data = filter(healthy_life_expectancy_at_birth, area_name == "Trafford"), 
@@ -302,7 +302,7 @@ output$healthy_life_expectancy_at_birth_plot <- renderggiraph({
                                      "<strong>", round(filter(healthy_life_expectancy_at_birth, area_name == "England")$value, 1), "</strong>", " years", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(healthy_life_expectancy_at_birth, area_name == "England")$period)),
-                               colour = "#C9C9C9", size = 0.5) +
+                               fill = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -425,7 +425,7 @@ output$slope_index_of_inequality_plot <- renderggiraph({
         gg <- ggplot(data = filter(slope_index_of_inequality, area_name != "England"),
                      aes(x = period, y = value)) +
           stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
-          geom_boxplot_interactive(fill = "#FFFFFF", colour = "#C9C9C9",
+          geom_boxplot_interactive(colour = "#C9C9C9",
                                    outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                    fatten = NULL)  +
           geom_point_interactive(data = filter(slope_index_of_inequality, area_name == "Trafford"), 
@@ -440,7 +440,7 @@ output$slope_index_of_inequality_plot <- renderggiraph({
                                          "<strong>", round(filter(slope_index_of_inequality, area_name == "England")$value, 1), "</strong>", " years", "<br/>",
                                          "<em>", "England", "</em><br/>",
                                          filter(slope_index_of_inequality, area_name == "England")$period)),
-                                   colour = "#C9C9C9", size = 0.5) +
+                                   fill = "#C9C9C9", size = 0.5) +
           scale_y_continuous(limits = c(0, NA), breaks = pretty_breaks()) +
           facet_wrap(~group) +
     
@@ -554,7 +554,7 @@ output$smoking_adults_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
-                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL) +
       geom_point_interactive(data = filter(smoking_adults, area_name == "Trafford"), 
@@ -570,7 +570,7 @@ output$smoking_adults_plot <- renderggiraph({
                                      "<strong>", round(filter(smoking_adults, area_name == "England")$value, 1), "</strong>", "%", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(smoking_adults, area_name == "England")$period)),
-                               colour = "#C9C9C9", size = 0.5) +
+                               fill = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -690,7 +690,7 @@ output$smoking_adults_manual_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
-                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL) +
       geom_point_interactive(data = filter(smoking_adults_manual, area_name == "Trafford"), 
@@ -706,7 +706,7 @@ output$smoking_adults_manual_plot <- renderggiraph({
                                      "<strong>", round(filter(smoking_adults_manual, area_name == "England")$value, 1), "</strong>", "%", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(smoking_adults_manual, area_name == "England")$period)),
-                               colour = "#C9C9C9", size = 0.5) +
+                               fill = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -826,7 +826,7 @@ output$admissions_falls_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
-                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL) +
       geom_point_interactive(data = filter(admissions_falls, area_name == "Trafford"), 
@@ -842,7 +842,7 @@ output$admissions_falls_plot <- renderggiraph({
                                      "<strong>", comma(filter(admissions_falls, area_name == "England")$value), "</strong>", " per 100,000", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(admissions_falls, area_name == "England")$period)),
-                               colour = "#C9C9C9", size = 0.5) +
+                               fill = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -962,7 +962,7 @@ output$deaths_at_home_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
-                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL) +
       geom_point_interactive(data = filter(deaths_at_home, area_name == "Trafford"), 
@@ -978,7 +978,7 @@ output$deaths_at_home_plot <- renderggiraph({
                                      "<strong>", filter(deaths_at_home, area_name == "England")$value, "</strong>", "%", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(deaths_at_home, area_name == "England")$period)),
-                               colour = "#C9C9C9", size = 0.5) +
+                               fill = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -1098,7 +1098,7 @@ output$preventable_mortality_from_cancer_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
-                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL) +
       geom_point_interactive(data = filter(preventable_mortality_from_cancer, area_name == "Trafford"), 
@@ -1114,7 +1114,7 @@ output$preventable_mortality_from_cancer_plot <- renderggiraph({
                                      "<strong>", filter(preventable_mortality_from_cancer, area_name == "England")$value, "</strong>", "  per 100,000", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(preventable_mortality_from_cancer, area_name == "England")$period)),
-                               colour = "#C9C9C9", size = 0.5) +
+                               fill = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -1234,7 +1234,7 @@ output$physically_inactive_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
-                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL) +
       geom_point_interactive(data = filter(physically_inactive, area_name == "Trafford"), 
@@ -1250,7 +1250,7 @@ output$physically_inactive_plot <- renderggiraph({
                                      "<strong>", filter(physically_inactive, area_name == "England")$value, "</strong>", "%", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(physically_inactive, area_name == "England")$period)),
-                               colour = "#C9C9C9", size = 0.5) +
+                               fill = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -1370,7 +1370,7 @@ output$dementia_diagnosis_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
-                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL) +
       geom_point_interactive(data = filter(dementia_diagnosis, area_name == "Trafford"), 
@@ -1386,7 +1386,7 @@ output$dementia_diagnosis_plot <- renderggiraph({
                                      "<strong>", filter(dementia_diagnosis, area_name == "England")$value, "</strong>", "%", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(dementia_diagnosis, area_name == "England")$period)),
-                               colour = "#C9C9C9", size = 0.5) +
+                               fill = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -1506,7 +1506,7 @@ output$mortality_serious_mental_illness_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
-                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL) +
       geom_point_interactive(data = filter(mortality_serious_mental_illness, area_name == "Trafford"), 
@@ -1521,7 +1521,7 @@ output$mortality_serious_mental_illness_plot <- renderggiraph({
                                      "<strong>", filter(mortality_serious_mental_illness, area_name == "England")$value, "</strong>", "%", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(mortality_serious_mental_illness, area_name == "England")$period)),
-                               colour = "#C9C9C9", size = 0.5) +
+                               fill = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -1636,7 +1636,7 @@ output$admissions_self_harm_plot <- renderggiraph({
                  aes(x = period, y = value)) +
       stat_boxplot(geom = "errorbar", colour = "#C9C9C9", width = 0.2) +
       geom_boxplot_interactive(aes(tooltip = value),
-                               fill = "#FFFFFF", colour = "#C9C9C9",
+                               colour = "#C9C9C9",
                                outlier.shape = 21, outlier.colour = "#C9C9C9", outlier.size = 1,
                                fatten = NULL) +
       geom_point_interactive(data = filter(admissions_self_harm, area_name == "Trafford"), 
@@ -1652,7 +1652,7 @@ output$admissions_self_harm_plot <- renderggiraph({
                                      "<strong>", filter(admissions_self_harm, area_name == "England")$value, "</strong>", " per 100,000", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(admissions_self_harm, area_name == "England")$period)),
-                               colour = "#C9C9C9", size = 0.5) +
+                               fill = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
