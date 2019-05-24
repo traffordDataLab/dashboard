@@ -191,4 +191,251 @@ output$crime_severity_box <- renderUI({
   
 })
 
+# Potholes --------------------------------------------------
+
+potholes <- read_csv("data/pride/potholes.csv") %>% 
+  mutate(area_name = factor(area_name),
+         period = as.Date(paste(period, 1, 1, sep = "-")),
+         tooltip = 
+           paste0("<strong>", paste(round(value, 1)), "</strong><br/>",
+                  "<em>", area_name, "</em><br/>",
+                  year(period)))
+
+output$potholes_plot <- renderggiraph({
+  
+  if (input$potholes_selection == "GM boroughs") {
+    
+    gg <-
+      ggplot(
+        potholes, aes(x = period, y = value, fill = area_name)) +
+      geom_bar_interactive(aes(tooltip = tooltip), stat = "identity") +
+      scale_fill_manual(values = c("Bolton" = "#E7B800", "Bury" = "#E7B800", "Manchester" = "#E7B800", 
+                                   "Oldham" = "#E7B800", "Rochdale" = "#E7B800", "Salford" = "#E7B800", 
+                                   "Tameside" = "#E7B800", "Stockport" = "#E7B800", "Trafford" = "#00AFBB", 
+                                   "Wigan" = "#E7B800")) +
+      scale_x_date(date_labels = "%Y", date_breaks = "2 year", expand = c(0,0)) +
+      scale_y_continuous(limits = c(0, NA)) +
+      labs(
+        title = "Reports of potholes",
+        subtitle = NULL,
+        caption = "Source: FixMyStreet.com",
+        x = NULL,
+        y = "Count",
+        colour = NULL
+      ) +
+      facet_wrap(~area_name, nrow = 2) +
+      theme_x() +
+      theme(
+        axis.text.x = element_text(angle = 90, hjust = 1, margin = margin(t = 0))
+      )
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    
+  }
+  else {
+    
+    gg <-
+      ggplot(
+        filter(potholes, area_name == "Trafford"),
+        aes(x = period, y = value)) +
+      geom_bar_interactive(aes(tooltip = tooltip), stat = "identity", fill = "#00AFBB") +
+      scale_x_date(date_labels = "%Y", date_breaks = "1 year", expand = c(0,0)) +
+      scale_y_continuous(limits = c(0, NA)) +
+      labs(
+        title = "Reports of potholes",
+        subtitle = NULL,
+        caption = "Source: FixMyStreet.com",
+        x = NULL,
+        y = "Count",
+        colour = NULL
+      ) +
+      theme_x() 
+    
+    x <- girafe(ggobj = gg)
+    x <- girafe_options(x, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    x
+    
+  }
+  
+})
+
+output$potholes_box <- renderUI({
+  
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","reports of potholes","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Potholes",
+      withSpinner(
+        ggiraphOutput("potholes_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioGroupButtons(
+            inputId = "potholes_selection",
+            label = tags$h4("Group by:"),
+            choiceNames = c("Trafford", "GM boroughs"),
+            choiceValues = c("Trafford", "GM boroughs"), 
+            selected = "Trafford", 
+            direction = "vertical"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em; ",
+        dropdown(
+          includeMarkdown("data/pride/metadata/potholes.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
+
+# Flytipping --------------------------------------------------
+
+flytipping <- read_csv("data/pride/flytipping.csv") %>% 
+  mutate(area_name = factor(area_name),
+         period = as.Date(paste(period, 1, 1, sep = "-")),
+         tooltip = 
+           paste0("<strong>", paste(round(value, 1)), "</strong><br/>",
+                  "<em>", area_name, "</em><br/>",
+                  year(period)))
+
+output$flytipping_plot <- renderggiraph({
+  
+  if (input$flytipping_selection == "GM boroughs") {
+    
+    gg <-
+      ggplot(
+        flytipping, aes(x = period, y = value, fill = area_name)) +
+      geom_bar_interactive(aes(tooltip = tooltip), stat = "identity") +
+      scale_fill_manual(values = c("Bolton" = "#E7B800", "Bury" = "#E7B800", "Manchester" = "#E7B800", 
+                                   "Oldham" = "#E7B800", "Rochdale" = "#E7B800", "Salford" = "#E7B800", 
+                                   "Tameside" = "#E7B800", "Stockport" = "#E7B800", "Trafford" = "#00AFBB", 
+                                   "Wigan" = "#E7B800")) +
+      scale_x_date(date_labels = "%Y", date_breaks = "2 year", expand = c(0,0)) +
+      scale_y_continuous(limits = c(0, NA)) +
+      labs(
+        title = "Reports of flytipping",
+        subtitle = NULL,
+        caption = "Source: FixMyStreet.com",
+        x = NULL,
+        y = "Count",
+        colour = NULL
+      ) +
+      facet_wrap(~area_name, nrow = 2) +
+      theme_x() +
+      theme(
+        axis.text.x = element_text(angle = 90, hjust = 1, margin = margin(t = 10))
+      )
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    
+  }
+  else {
+    
+    gg <-
+      ggplot(
+        filter(flytipping, area_name == "Trafford"),
+        aes(x = period, y = value)) +
+      geom_bar_interactive(aes(tooltip = tooltip), stat = "identity", fill = "#00AFBB") +
+      scale_x_date(date_labels = "%Y", date_breaks = "1 year", expand = c(0,0)) +
+      scale_y_continuous(limits = c(0, NA)) +
+      labs(
+        title = "Reports of flytipping",
+        subtitle = NULL,
+        caption = "Source: FixMyStreet.com",
+        x = NULL,
+        y = "Count",
+        colour = NULL
+      ) +
+      theme_x() 
+    
+    x <- girafe(ggobj = gg)
+    x <- girafe_options(x, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    x
+    
+  }
+  
+})
+
+output$flytipping_box <- renderUI({
+  
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","reports of flytipping","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Flytipping",
+      withSpinner(
+        ggiraphOutput("flytipping_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioGroupButtons(
+            inputId = "flytipping_selection",
+            label = tags$h4("Group by:"),
+            choiceNames = c("Trafford", "GM boroughs"),
+            choiceValues = c("Trafford", "GM boroughs"), 
+            selected = "Trafford", 
+            direction = "vertical"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em; ",
+        dropdown(
+          includeMarkdown("data/pride/metadata/flytipping.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
 # Indicator name --------------------------------------------------
+
+
+
+

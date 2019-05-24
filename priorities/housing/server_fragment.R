@@ -117,7 +117,10 @@ output$rough_sleeping_plot <- renderggiraph({
         colour = NULL
       ) +
       facet_wrap(~area_name, nrow = 2) +
-      theme_x()
+      theme_x() +
+      theme(
+        axis.text.x = element_text(angle = 90, hjust = 1, margin = margin(t = 5))
+      )
     
     gg <- girafe(ggobj = gg)
     girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
