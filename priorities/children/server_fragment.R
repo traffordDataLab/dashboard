@@ -24,14 +24,14 @@ output$excess_weight_reception_plot <- renderggiraph({
                                    "<strong>", value, "</strong>", "%", "<br/>",
                                    "<em>", area_name, "</em><br/>",
                                    period)), 
-                             shape = 21, colour = "#000000", size = 5) +
+                             shape = 21, colour = "#000000", size = 3) +
       geom_boxplot_interactive(data = filter(excess_weight_reception, area_name == "England"),
                                aes(x = factor(period), y = value,
                                    tooltip =  paste0(
                                      "<strong>", filter(excess_weight_reception, area_name == "England")$value, "</strong>", "%", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(excess_weight_reception, area_name == "England")$period)),
-                               colour = "red", size = 0.5) +
+                               colour = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -41,18 +41,15 @@ output$excess_weight_reception_plot <- renderggiraph({
            caption = "Source: NHS Digital, National Child Measurement Programme",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
-      theme_minimal(base_family = "Open Sans") +
+      theme_x() +
       theme(
-        panel.grid.major = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        plot.caption = element_text(margin = margin(t = 15)),
         legend.position = "top",
         legend.title = element_text(size = 9),
-        legend.text = element_text(size = 8))
+        legend.text = element_text(size = 8)
+      )
     
     gg <- girafe(ggobj = gg)
-    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+    girafe_options(gg, opts_tooltip(use_fill = TRUE),
                    opts_toolbar(saveaspng = FALSE))
     
   }
@@ -75,18 +72,11 @@ output$excess_weight_reception_plot <- renderggiraph({
         title = "Children aged 4-5 years who have excess weight",
         subtitle = NULL,
         caption = "Source: NHS Digital, National Child Measurement Programme",
-        x = "",
+        x = NULL,
         y = "Percentage",
         colour = NULL
       ) +
-      theme_minimal(base_family = "Open Sans") +
-      theme(
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        legend.position = "none"
-      )
+      theme_x()
     
     gg <- girafe(ggobj = gg)
     girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -170,14 +160,14 @@ output$excess_weight_year6_plot <- renderggiraph({
                                    "<strong>", value, "</strong>", "%", "<br/>",
                                    "<em>", area_name, "</em><br/>",
                                    period)), 
-                             shape = 21, colour = "#000000", size = 5) +
+                             shape = 21, colour = "#000000", size = 3) +
       geom_boxplot_interactive(data = filter(excess_weight_year6, area_name == "England"),
                                aes(x = factor(period), y = value,
                                    tooltip =  paste0(
                                      "<strong>", filter(excess_weight_year6, area_name == "England")$value, "</strong>", "%", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(excess_weight_year6, area_name == "England")$period)),
-                               colour = "red", size = 0.5) +
+                               colour = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -187,18 +177,15 @@ output$excess_weight_year6_plot <- renderggiraph({
            caption = "Source: NHS Digital, National Child Measurement Programme",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
-      theme_minimal(base_family = "Open Sans") +
+      theme_x() +
       theme(
-        panel.grid.major = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        plot.caption = element_text(margin = margin(t = 15)),
         legend.position = "top",
         legend.title = element_text(size = 9),
-        legend.text = element_text(size = 8))
+        legend.text = element_text(size = 8)
+      )
     
     gg <- girafe(ggobj = gg)
-    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+    girafe_options(gg, opts_tooltip(use_fill = TRUE),
                    opts_toolbar(saveaspng = FALSE))
     
   }
@@ -221,18 +208,11 @@ output$excess_weight_year6_plot <- renderggiraph({
         title = "Children aged 10-11 years who have excess weight",
         subtitle = NULL,
         caption = "Source: NHS Digital, National Child Measurement Programme",
-        x = "",
+        x = NULL,
         y = "Percentage",
         colour = NULL
       ) +
-      theme_minimal(base_family = "Open Sans") +
-      theme(
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        legend.position = "none"
-      )
+      theme_x()
     
     gg <- girafe(ggobj = gg)
     girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -316,14 +296,14 @@ output$low_income_families_plot <- renderggiraph({
                                    "<strong>", value, "</strong>", "%", "<br/>",
                                    "<em>", area_name, "</em><br/>",
                                    period)), 
-                             shape = 21, colour = "#000000", size = 5) +
+                             shape = 21, colour = "#000000", size = 3) +
       geom_boxplot_interactive(data = filter(low_income_families, area_name == "England"),
                                aes(x = factor(period), y = value,
                                    tooltip =  paste0(
                                      "<strong>", filter(low_income_families, area_name == "England")$value, "</strong>", "%", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(low_income_families, area_name == "England")$period)),
-                               colour = "red", size = 0.5) +
+                               colour = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -333,18 +313,15 @@ output$low_income_families_plot <- renderggiraph({
            caption = "Source: HM Revenue and Customs",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
-      theme_minimal(base_family = "Open Sans") +
+      theme_x() +
       theme(
-        panel.grid.major = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        plot.caption = element_text(margin = margin(t = 15)),
         legend.position = "top",
         legend.title = element_text(size = 9),
-        legend.text = element_text(size = 8))
+        legend.text = element_text(size = 8)
+      )
     
     gg <- girafe(ggobj = gg)
-    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+    girafe_options(gg, opts_tooltip(use_fill = TRUE),
                    opts_toolbar(saveaspng = FALSE))
     
   }
@@ -367,18 +344,11 @@ output$low_income_families_plot <- renderggiraph({
         title = "Children in low income families (under 16s)",
         subtitle = NULL,
         caption = "Source: HM Revenue and Customs",
-        x = "",
+        x = NULL,
         y = "Percentage",
         colour = NULL
       ) +
-      theme_minimal(base_family = "Open Sans") +
-      theme(
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        legend.position = "none"
-      )
+      theme_x()
     
     gg <- girafe(ggobj = gg)
     girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -462,14 +432,14 @@ output$admissions_self_harm_young_people_plot <- renderggiraph({
                                    "<strong>", value, "</strong>", " per 100,000", "<br/>",
                                    "<em>", area_name, "</em><br/>",
                                    period)), 
-                             shape = 21, colour = "#000000", size = 5) +
+                             shape = 21, colour = "#000000", size = 3) +
       geom_boxplot_interactive(data = filter(admissions_self_harm_young_people, area_name == "England"),
                                aes(x = factor(period), y = value,
                                    tooltip =  paste0(
                                      "<strong>", filter(admissions_self_harm_young_people, area_name == "England")$value, "</strong>", " per 100,000", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(admissions_self_harm_young_people, area_name == "England")$period)),
-                               colour = "red", size = 0.5) +
+                               colour = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -479,18 +449,15 @@ output$admissions_self_harm_young_people_plot <- renderggiraph({
            caption = "Source: Hospital Episode Statistics",
            x = NULL, y = "per 100,000",
            fill = "Compared with England:") +
-      theme_minimal(base_family = "Open Sans") +
+      theme_x() +
       theme(
-        panel.grid.major = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        plot.caption = element_text(margin = margin(t = 15)),
         legend.position = "top",
         legend.title = element_text(size = 9),
-        legend.text = element_text(size = 8))
+        legend.text = element_text(size = 8)
+      )
     
     gg <- girafe(ggobj = gg)
-    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+    girafe_options(gg, opts_tooltip(use_fill = TRUE),
                    opts_toolbar(saveaspng = FALSE))
     
   }
@@ -513,18 +480,11 @@ output$admissions_self_harm_young_people_plot <- renderggiraph({
         title = "Hospital admissions as a result of self-harm (10-24 years)",
         subtitle = NULL,
         caption = "Source: Hospital Episode Statistics",
-        x = "",
+        x = NULL,
         y = "per 100,000",
         colour = NULL
       ) +
-      theme_minimal(base_family = "Open Sans") +
-      theme(
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        legend.position = "none"
-      )
+      theme_x()
     
     gg <- girafe(ggobj = gg)
     girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -608,14 +568,14 @@ output$dental_decay_plot <- renderggiraph({
                                    "<strong>", value, "</strong>", "%", "<br/>",
                                    "<em>", area_name, "</em><br/>",
                                    period)), 
-                             shape = 21, colour = "#000000", size = 5) +
+                             shape = 21, colour = "#000000", size = 3) +
       geom_boxplot_interactive(data = filter(dental_decay, area_name == "England"),
                                aes(x = factor(period), y = value,
                                    tooltip =  paste0(
                                      "<strong>", filter(dental_decay, area_name == "England")$value, "</strong>", "%", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(dental_decay, area_name == "England")$period)),
-                               colour = "red", size = 0.5) +
+                               colour = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -625,18 +585,15 @@ output$dental_decay_plot <- renderggiraph({
            caption = "Source: Dental Public Health Epidemiology Programme for England",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
-      theme_minimal(base_family = "Open Sans") +
+      theme_x() +
       theme(
-        panel.grid.major = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        plot.caption = element_text(margin = margin(t = 15)),
         legend.position = "top",
         legend.title = element_text(size = 9),
-        legend.text = element_text(size = 8))
+        legend.text = element_text(size = 8)
+      )
     
     gg <- girafe(ggobj = gg)
-    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+    girafe_options(gg, opts_tooltip(use_fill = TRUE),
                    opts_toolbar(saveaspng = FALSE))
     
   }
@@ -659,18 +616,11 @@ output$dental_decay_plot <- renderggiraph({
         title = "Proportion of five year old children free from dental decay",
         subtitle = NULL,
         caption = "Source: Dental Public Health Epidemiology Programme for England",
-        x = "",
+        x = NULL,
         y = "Percentage",
         colour = NULL
       ) +
-      theme_minimal(base_family = "Open Sans") +
-      theme(
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        legend.position = "none"
-      )
+      theme_x()
     
     gg <- girafe(ggobj = gg)
     girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -754,14 +704,14 @@ output$school_readiness_fsm_plot <- renderggiraph({
                                    "<strong>", value, "</strong>", "%", "<br/>",
                                    "<em>", area_name, "</em><br/>",
                                    period)), 
-                             shape = 21, colour = "#000000", size = 5) +
+                             shape = 21, colour = "#000000", size = 3) +
       geom_boxplot_interactive(data = filter(school_readiness_fsm, area_name == "England"),
                                aes(x = factor(period), y = value,
                                    tooltip =  paste0(
                                      "<strong>", filter(school_readiness_fsm, area_name == "England")$value, "</strong>", "%", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(school_readiness_fsm, area_name == "England")$period)),
-                               colour = "red", size = 0.5) +
+                               colour = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -771,18 +721,15 @@ output$school_readiness_fsm_plot <- renderggiraph({
            caption = "Source: Department for Education, Early Years Foundation Stage Profile",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
-      theme_minimal(base_family = "Open Sans") +
+      theme_x() +
       theme(
-        panel.grid.major = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        plot.caption = element_text(margin = margin(t = 15)),
         legend.position = "top",
         legend.title = element_text(size = 9),
-        legend.text = element_text(size = 8))
+        legend.text = element_text(size = 8)
+        )
     
     gg <- girafe(ggobj = gg)
-    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+    girafe_options(gg, opts_tooltip(use_fill = TRUE),
                    opts_toolbar(saveaspng = FALSE))
     
   }
@@ -805,18 +752,11 @@ output$school_readiness_fsm_plot <- renderggiraph({
         title = "Children with free school meal status achieving\na good level of development",
         subtitle = NULL,
         caption = "Source: Department for Education, Early Years Foundation Stage Profile",
-        x = "",
+        x = NULL,
         y = "Percentage",
         colour = NULL
       ) +
-      theme_minimal(base_family = "Open Sans") +
-      theme(
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        legend.position = "none"
-      )
+      theme_x()
     
     gg <- girafe(ggobj = gg)
     girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -900,14 +840,14 @@ output$child_protection_plans_plot <- renderggiraph({
                                    "<strong>", value, "</strong>", " per 10,000", "<br/>",
                                    "<em>", area_name, "</em><br/>",
                                    period)), 
-                             shape = 21, colour = "#000000", size = 5) +
+                             shape = 21, colour = "#000000", size = 3) +
       geom_boxplot_interactive(data = filter(child_protection_plans, area_name == "England"),
                                aes(x = factor(period), y = value,
                                    tooltip =  paste0(
                                      "<strong>", filter(child_protection_plans, area_name == "England")$value, "</strong>", " per 10,000", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(child_protection_plans, area_name == "England")$period)),
-                               colour = "red", size = 0.5) +
+                               colour = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -917,18 +857,15 @@ output$child_protection_plans_plot <- renderggiraph({
            caption = "Source: Children in need statistics",
            x = NULL, y = "per 10,000",
            fill = "Compared with England:") +
-      theme_minimal(base_family = "Open Sans") +
+      theme_x() +
       theme(
-        panel.grid.major = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        plot.caption = element_text(margin = margin(t = 15)),
         legend.position = "top",
         legend.title = element_text(size = 9),
-        legend.text = element_text(size = 8))
+        legend.text = element_text(size = 8)
+      )
     
     gg <- girafe(ggobj = gg)
-    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+    girafe_options(gg, opts_tooltip(use_fill = TRUE),
                    opts_toolbar(saveaspng = FALSE))
     
   }
@@ -951,18 +888,11 @@ output$child_protection_plans_plot <- renderggiraph({
         title = "Children on child protection plans",
         subtitle = NULL,
         caption = "Source: Children in need statistics",
-        x = "",
+        x = NULL,
         y = "per 10,000",
         colour = NULL
       ) +
-      theme_minimal(base_family = "Open Sans") +
-      theme(
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        legend.position = "none"
-      )
+      theme_x()
     
     gg <- girafe(ggobj = gg)
     girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -1046,35 +976,32 @@ output$neets_plot <- renderggiraph({
                                    "<strong>", value, "</strong>", "%", "<br/>",
                                    "<em>", area_name, "</em><br/>",
                                    period)), 
-                             shape = 21, colour = "#000000", size = 5) +
+                             shape = 21, colour = "#000000", size = 3) +
       geom_boxplot_interactive(data = filter(neets, area_name == "England"),
                                aes(x = factor(period), y = value,
                                    tooltip =  paste0(
                                      "<strong>", filter(neets, area_name == "England")$value, "</strong>", "%", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(neets, area_name == "England")$period)),
-                               colour = "red", size = 0.5) +
+                               colour = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
-      labs(title = "16-17 year olds not in education, employment or training (NEET)",
+      labs(title = "16-17 year olds not in education, employment or training",
            subtitle = NULL,
            caption = "Source: Department for Education",
            x = NULL, y = "Percentage",
            fill = "Compared with England:") +
-      theme_minimal(base_family = "Open Sans") +
+      theme_x() +
       theme(
-        panel.grid.major = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        plot.caption = element_text(margin = margin(t = 15)),
         legend.position = "top",
         legend.title = element_text(size = 9),
-        legend.text = element_text(size = 8))
+        legend.text = element_text(size = 8)
+      )
     
     gg <- girafe(ggobj = gg)
-    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+    girafe_options(gg, opts_tooltip(use_fill = TRUE),
                    opts_toolbar(saveaspng = FALSE))
     
   }
@@ -1094,21 +1021,14 @@ output$neets_plot <- renderggiraph({
       scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
-        title = "16-17 year olds not in education, employment or training (NEET)",
+        title = "16-17 year olds not in education, employment or training",
         subtitle = NULL,
         caption = "Source:	Department for Education",
-        x = "",
+        x = NULL,
         y = "Percentage",
         colour = NULL
       ) +
-      theme_minimal(base_family = "Open Sans") +
-      theme(
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        legend.position = "none"
-      )
+      theme_x()
     
     gg <- girafe(ggobj = gg)
     girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -1192,14 +1112,14 @@ output$children_in_care_plot <- renderggiraph({
                                    "<strong>", value, "</strong>", " per 10,000", "<br/>",
                                    "<em>", area_name, "</em><br/>",
                                    period)), 
-                             shape = 21, colour = "#000000", size = 5) +
+                             shape = 21, colour = "#000000", size = 3) +
       geom_boxplot_interactive(data = filter(children_in_care, area_name == "England"),
                                aes(x = factor(period), y = value,
                                    tooltip =  paste0(
                                      "<strong>", filter(children_in_care, area_name == "England")$value, "</strong>", " per 10,000", "<br/>",
                                      "<em>", "England", "</em><br/>",
                                      filter(children_in_care, area_name == "England")$period)),
-                               colour = "red", size = 0.5) +
+                               colour = "#C9C9C9", size = 0.5) +
       scale_fill_manual(values = c("Better" = "#92D050",
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
@@ -1209,18 +1129,15 @@ output$children_in_care_plot <- renderggiraph({
            caption = "Source: Children looked after in England, Department for Education",
            x = NULL, y = "per 10,000",
            fill = "Compared with England:") +
-      theme_minimal(base_family = "Open Sans") +
+      theme_x() +
       theme(
-        panel.grid.major = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        plot.caption = element_text(margin = margin(t = 15)),
         legend.position = "top",
         legend.title = element_text(size = 9),
-        legend.text = element_text(size = 8))
+        legend.text = element_text(size = 8)
+      )
     
     gg <- girafe(ggobj = gg)
-    girafe_options(gg, opts_tooltip(css = "background-color:#8B8B8B;font-family:'Open Sans',sans-serif;color:white;padding:10px;border-radius:5px;"),
+    girafe_options(gg, opts_tooltip(use_fill = TRUE),
                    opts_toolbar(saveaspng = FALSE))
     
   }
@@ -1243,18 +1160,11 @@ output$children_in_care_plot <- renderggiraph({
         title = "Children in care",
         subtitle = NULL,
         caption = "Source: Children looked after in England, Department for Education",
-        x = "",
+        x = NULL,
         y = "per 10,000",
         colour = NULL
       ) +
-      theme_minimal(base_family = "Open Sans") +
-      theme(
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        legend.position = "none"
-      )
+      theme_x()
     
     gg <- girafe(ggobj = gg)
     girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))

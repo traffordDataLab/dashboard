@@ -26,18 +26,12 @@ output$net_additional_dwellings_plot <- renderggiraph({
       title = "Housing supply",
       subtitle = NULL,
       caption = "Source: MHCLG",
-      x = "",
+      x = NULL,
       y = "Index of values (Base year = 2007-08)",
       colour = NULL
     ) +
     guides(fill = FALSE) +
-    theme_minimal(base_family = "Open Sans") +
-    theme(
-      panel.grid.major.x = element_blank(),
-      axis.title.y = element_text(size = 7, hjust = 1),
-      axis.text.x = element_text(angle = 90, hjust = 1),
-      legend.position = "bottom"
-    )
+    theme_x()
   
   gg <- girafe(ggobj = gg)
   girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -118,19 +112,12 @@ output$rough_sleeping_plot <- renderggiraph({
         title = "Rough sleeping estimates",
         subtitle = NULL,
         caption = "Source: MHCLG",
-        x = "",
+        x = NULL,
         y = "Count",
         colour = NULL
       ) +
       facet_wrap(~area_name, nrow = 2) +
-      theme_minimal(base_family = "Open Sans") +
-      theme(
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        legend.position = "none"
-      )
+      theme_x()
     
     gg <- girafe(ggobj = gg)
     girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -148,18 +135,11 @@ output$rough_sleeping_plot <- renderggiraph({
         title = "Rough sleeping estimates",
         subtitle = NULL,
         caption = "Source: MHCLG",
-        x = "",
+        x = NULL,
         y = "Count",
         colour = NULL
       ) +
-      theme_minimal(base_family = "Open Sans") +
-      theme(
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.title.y = element_text(size = 7, hjust = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1),
-        legend.position = "none"
-      )
+      theme_x()
     
     x <- girafe(ggobj = gg)
     x <- girafe_options(x, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -244,18 +224,12 @@ output$vacant_properties_plot <- renderggiraph({
       title = "Proportion of long-term vacant dwellings",
       subtitle = NULL,
       caption = "Source: MHCLG",
-      x = "",
+      x = NULL,
       y = "Percentage",
       colour = NULL
     ) +
     guides(fill = FALSE) +
-    theme_minimal(base_family = "Open Sans") +
-    theme(
-      panel.grid.major.x = element_blank(),
-      axis.title.y = element_text(size = 7, hjust = 1),
-      axis.text.x = element_text(angle = 90, hjust = 1),
-      legend.position = "bottom"
-    )
+    theme_x()
   
   gg <- girafe(ggobj = gg)
   girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -314,8 +288,8 @@ output$vacant_properties_box <- renderUI({
 
 # New properties by council tax band --------------------------------------------------
 council_tax_bands <- read_csv("data/housing/council_tax_bands.csv") %>%
-  mutate(area_name = factor(area_name),
-         band = fct_rev(factor(band)),
+  mutate(area_name = as_factor(area_name),
+         band = as_factor(band),
          tooltip = 
            paste0("<strong>", paste(round(value*100, 1)), "</strong>", "%", "<br/>",
                   "<em>", area_name, "</em><br/>",
@@ -334,19 +308,12 @@ output$council_tax_bands_plot <- renderggiraph({
       title = "Properties by council tax band",
       subtitle = NULL,
       caption = "Source: Valuation Office Agency ",
-      x = "",
-      y = "",
+      x = NULL,
+      y = NULL,
       fill = NULL
     ) +
-    coord_flip() +
-    theme_minimal(base_family = "Open Sans") +
-    theme(
-      panel.grid.major.y = element_blank(),
-      panel.grid.minor = element_blank(),
-      axis.title.y = element_text(size = 7, hjust = 1),
-      axis.text.x = element_text(angle = 90, hjust = 1),
-      legend.position = "bottom"
-    )
+    theme_x() +
+    theme(axis.text.x = element_text(angle = 0))
   
   gg <- girafe(ggobj = gg)
   girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -426,18 +393,12 @@ output$affordability_ratio_plot <- renderggiraph({
       title = "Ratio of median house prices to median earnings",
       subtitle = NULL,
       caption = "Source: Office for National Statistics",
-      x = "",
+      x = NULL,
       y = "Ratio",
       colour = NULL
     ) +
     guides(fill = FALSE) +
-    theme_minimal(base_family = "Open Sans") +
-    theme(
-      panel.grid.major.x = element_blank(),
-      axis.title.y = element_text(size = 7, hjust = 1),
-      axis.text.x = element_text(angle = 90, hjust = 1),
-      legend.position = "bottom"
-    )
+    theme_x()
   
   gg <- girafe(ggobj = gg)
   girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))

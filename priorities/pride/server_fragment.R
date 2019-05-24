@@ -3,10 +3,7 @@
 # Crime rate  --------------------------------------------------
 
 crime_rate <- read_csv("data/pride/crime_rate.csv") %>% 
-  mutate(area_name = fct_relevel(as_factor(area_name),
-                                 "Trafford", 
-                                 "Greater Manchester",
-                                 "England"),
+  mutate(area_name = as_factor(area_name),
          group = fct_relevel(as_factor(group), 
                              "Criminal damage and arson", 
                              "Other crimes against society",
@@ -41,13 +38,7 @@ output$crime_rate_plot <- renderggiraph({
       colour = NULL
     ) +
     guides(fill = FALSE) +
-    theme_minimal(base_family = "Open Sans") +
-    theme(
-      panel.grid.major.x = element_blank(),
-      axis.title.y = element_text(size = 7, hjust = 1),
-      axis.text.x = element_text(angle = 90, hjust = 1),
-      legend.position = "bottom"
-    )
+    theme_x()
   
   gg <- girafe(ggobj = gg)
   girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
@@ -108,10 +99,7 @@ output$crime_rate_box <- renderUI({
 # Crime severity  --------------------------------------------------
 
 crime_severity <- read_csv("data/pride/crime_severity.csv") %>% 
-  mutate(area_name = fct_relevel(as_factor(area_name),
-                                 "Trafford", 
-                                 "Greater Manchester",
-                                 "England"),
+  mutate(area_name = as_factor(area_name),
          group = fct_relevel(as_factor(group), 
                              "Criminal damage and arson", 
                              "Other crimes against society",
@@ -146,13 +134,7 @@ output$crime_severity_plot <- renderggiraph({
       colour = NULL
     ) +
     guides(fill = FALSE) +
-    theme_minimal(base_family = "Open Sans") +
-    theme(
-      panel.grid.major.x = element_blank(),
-      axis.title.y = element_text(size = 7, hjust = 1),
-      axis.text.x = element_text(angle = 90, hjust = 1),
-      legend.position = "bottom"
-    )
+    theme_x()
   
   gg <- girafe(ggobj = gg)
   girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
