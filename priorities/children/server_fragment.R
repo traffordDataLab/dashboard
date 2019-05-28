@@ -1227,7 +1227,8 @@ output$children_in_care_box <- renderUI({
 # Childcare provider Ofsted ratings --------------------------------------------------
 
 childcare_providers <- read_csv("data/children/childcare_providers.csv") %>% 
-  mutate(rating = as_factor(rating))
+  mutate(rating = fct_relevel(as_factor(rating),
+                              level = c("Outstanding", "Good", "Satisfactory / Requires improvement", "Inadequate")))
 boundary <- st_read("data/geospatial/trafford_local_authority.geojson")
 
 output$childcare_providers_map = renderLeaflet({

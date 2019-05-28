@@ -3,6 +3,7 @@ server <- function(input, output, session) {
   source("priorities/housing/server_fragment.R", local = TRUE)$value
   source("priorities/health/server_fragment.R", local = TRUE)$value
   source("priorities/children/server_fragment.R", local = TRUE)$value
+  source("priorities/places/server_fragment.R", local = TRUE)$value
   source("priorities/pride/server_fragment.R", local = TRUE)$value
   
   ## Landing page -------------------
