@@ -24,5 +24,6 @@ theme_x <- function () {
     )
 }
 
-
+# Trafford local authority district boundary
+boundary <- st_read("data/geospatial/trafford_local_authority.geojson")
 

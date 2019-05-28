@@ -6,7 +6,7 @@
 
 library(tidyverse) ; library(readODS)
 
-raw <- read_ods("https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/788933/Childcare_provider_level_data_as_at_31_December_2018.ods", sheet = 4) %>% 
+df <- read_ods("https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/788933/Childcare_provider_level_data_as_at_31_December_2018.ods", sheet = 4) %>% 
   filter(`Provider status` == "Active" & 
            `Local authority` == "Trafford" & 
            `Provider type` == "Childcare on non-domestic premises") %>% 
@@ -25,13 +25,10 @@ raw <- read_ods("https://assets.publishing.service.gov.uk/government/uploads/sys
     TRUE ~ "NA"
   ))
 
-# Latest postcode centroids #
-
-# Source: ONS Postcode Directory
-# Licence: Open Government Licence v3.0
-postcodes <- selectread_csv("https://www.trafforddatalab.io/spatial_data/postcodes/trafford_postcodes.csv") %>% 
+postcodes <- read_csv("https://www.trafforddatalab.io/spatial_data/postcodes/trafford_postcodes.csv") %>% 
   select(postcode, lon, lat)
 
-df <- left_join(raw, postcodes, by = "postcode")
+left_join(df, postcodes, by = "postcode") %>% 
+  write_csv("../childcare_providers.csv")
+          
 
-write_csv(df, "../childcare_providers.csv")

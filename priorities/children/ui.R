@@ -6,6 +6,11 @@ tabPanel("Children and young people", width = 11, style="margin-left:4%; margin-
            br(),
            fluidRow(
              uiOutput("childcare_providers_box"),
+             uiOutput("primary_schools_box"),
+             uiOutput("secondary_schools_box")
+           ),
+           fluidRow(
+             uiOutput("special_schools_box"),
              uiOutput("excess_weight_reception_box"),
              uiOutput("excess_weight_year6_box")
            ),

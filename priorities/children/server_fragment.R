@@ -1229,7 +1229,6 @@ output$children_in_care_box <- renderUI({
 childcare_providers <- read_csv("data/children/childcare_providers.csv") %>% 
   mutate(rating = fct_relevel(as_factor(rating),
                               level = c("Outstanding", "Good", "Satisfactory / Requires improvement", "Inadequate")))
-boundary <- st_read("data/geospatial/trafford_local_authority.geojson")
 
 output$childcare_providers_map = renderLeaflet({
   
@@ -1247,14 +1246,14 @@ output$childcare_providers_map = renderLeaflet({
                      popup = paste("<strong>", sf$name, "</strong><br />",
                                    "<em>", sf$rating, "</em><br />",
                                    "Last inspection date:",  sf$inspection_date, "<br />",
-                                   "<a href='", sf$url, "'>View latest Ofsted report</a>")) %>% 
+                                   "<a href='", sf$url, "'target='_blank'>View latest Ofsted report</a>")) %>% 
     addControl("<strong>Childcare providers</strong>", position = 'topright')
   
 })
 
 output$childcare_providers_box <- renderUI({
   
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","childcare provider Ofsted ratings","</b>", "  not set.", "</h5>")),
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","latest childcare provider Ofsted ratings","</b>", "  not set.", "</h5>")),
                      style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
       br(),
       title = "Childcare providers",
@@ -1283,6 +1282,231 @@ output$childcare_providers_box <- renderUI({
         style = "position: absolute; left: 4em; bottom: 0.5em;",
         dropdown(
           includeMarkdown("data/children/metadata/childcare_providers.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+            .bttn-jelly.bttn-default{color:#f0f0f0;}
+            .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
+# Primary school Ofsted ratings --------------------------------------------------
+primary_schools <- read_csv("data/children/primary_schools.csv") %>% 
+  mutate(rating = fct_relevel(as_factor(rating),
+                              level = c("Outstanding", "Good", "Satisfactory / Requires improvement", "Inadequate")))
+
+output$primary_schools_map = renderLeaflet({
+  
+  sf <- filter(primary_schools, rating == input$primary_schools_selection)
+  
+  leaflet() %>% 
+    addProviderTiles(providers$CartoDB.Positron) %>% 
+    addPolygons(data = boundary,
+                fillColor = "#DDDDCC", 
+                color = "#DDDDCC", weight = 3) %>% 
+    addCircleMarkers(data = sf,
+                     lng = ~lon, lat = ~lat,
+                     stroke = TRUE, color = "#212121", weight = 2, 
+                     fillColor = "#00AFBB", fillOpacity = 0.5, radius = 4,
+                     popup = paste("<strong>", sf$name, "</strong><br />",
+                                   "<em>", sf$rating, "</em><br />",
+                                   "Last inspection date:",  sf$inspection_date, "<br />",
+                                   "<a href='", sf$url, "'target='_blank'>View latest Ofsted report</a>")) %>% 
+    addControl("<strong>Primary schools</strong>", position = 'topright')
+  
+})
+
+output$primary_schools_box <- renderUI({
+  
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","latest state-funded primary school Ofsted ratings","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Primary schools",
+      withSpinner(
+        leafletOutput("primary_schools_map"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioButtons(inputId = "primary_schools_selection", 
+                       tags$h4("Inspection rating:"),
+                       choices = unique(levels(primary_schools$rating)), 
+                       selected = "Outstanding"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em;",
+        dropdown(
+          includeMarkdown("data/children/metadata/primary_schools.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+            .bttn-jelly.bttn-default{color:#f0f0f0;}
+            .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
+# Secondary school Ofsted ratings --------------------------------------------------
+secondary_schools <- read_csv("data/children/secondary_schools.csv") %>% 
+  mutate(rating = fct_relevel(as_factor(rating),
+                              level = c("Outstanding", "Good", "Satisfactory / Requires improvement", "Inadequate")))
+
+output$secondary_schools_map = renderLeaflet({
+  
+  sf <- filter(secondary_schools, rating == input$secondary_schools_selection)
+  
+  leaflet() %>% 
+    addProviderTiles(providers$CartoDB.Positron) %>% 
+    addPolygons(data = boundary,
+                fillColor = "#DDDDCC", 
+                color = "#DDDDCC", weight = 3) %>% 
+    addCircleMarkers(data = sf,
+                     lng = ~lon, lat = ~lat,
+                     stroke = TRUE, color = "#212121", weight = 2, 
+                     fillColor = "#00AFBB", fillOpacity = 0.5, radius = 4,
+                     popup = paste("<strong>", sf$name, "</strong><br />",
+                                   "<em>", sf$rating, "</em><br />",
+                                   "Last inspection date:",  sf$inspection_date, "<br />",
+                                   "<a href='", sf$url, "'target='_blank'>View latest Ofsted report</a>")) %>% 
+    addControl("<strong>Secondary schools</strong>", position = 'topright')
+  
+})
+
+output$secondary_schools_box <- renderUI({
+  
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","latest state-funded secondary school Ofsted ratings","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Secondary schools",
+      withSpinner(
+        leafletOutput("secondary_schools_map"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioButtons(inputId = "secondary_schools_selection", 
+                       tags$h4("Inspection rating:"),
+                       choices = unique(levels(secondary_schools$rating)), 
+                       selected = "Outstanding"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em;",
+        dropdown(
+          includeMarkdown("data/children/metadata/secondary_schools.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+            .bttn-jelly.bttn-default{color:#f0f0f0;}
+            .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
+# Special school Ofsted ratings --------------------------------------------------
+special_schools <- read_csv("data/children/special_schools.csv") %>% 
+  mutate(rating = fct_relevel(as_factor(rating),
+                              level = c("Outstanding", "Good", "Satisfactory / Requires improvement", "Inadequate")))
+
+output$special_schools_map = renderLeaflet({
+  
+  sf <- filter(special_schools, rating == input$special_schools_selection)
+  
+  leaflet() %>% 
+    addProviderTiles(providers$CartoDB.Positron) %>% 
+    addPolygons(data = boundary,
+                fillColor = "#DDDDCC", 
+                color = "#DDDDCC", weight = 3) %>% 
+    addCircleMarkers(data = sf,
+                     lng = ~lon, lat = ~lat,
+                     stroke = TRUE, color = "#212121", weight = 2, 
+                     fillColor = "#00AFBB", fillOpacity = 0.5, radius = 4,
+                     popup = paste("<strong>", sf$name, "</strong><br />",
+                                   "<em>", sf$rating, "</em><br />",
+                                   "Last inspection date:",  sf$inspection_date, "<br />",
+                                   "<a href='", sf$url, "'target='_blank'>View latest Ofsted report</a>")) %>% 
+    addControl("<strong>Special schools</strong>", position = 'topright')
+  
+})
+
+output$special_schools_box <- renderUI({
+  
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","latest state-funded special school Ofsted ratings","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Special schools",
+      withSpinner(
+        leafletOutput("special_schools_map"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioButtons(inputId = "special_schools_selection", 
+                       tags$h4("Inspection rating:"),
+                       choices = unique(levels(special_schools$rating)), 
+                       selected = "Outstanding"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em;",
+        dropdown(
+          includeMarkdown("data/children/metadata/special_schools.md"),
           icon = icon("question"),
           size = "xs",
           style = "jelly",
