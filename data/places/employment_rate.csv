@@ -1,0 +1,31 @@
+area_code,area_name,indicator,period,measure,unit,value
+E92000001,England,Employment rate - aged 16-64,2009-12-01,Percentage,Persons,70.8
+E11000001,Greater Manchester,Employment rate - aged 16-64,2009-12-01,Percentage,Persons,67
+E08000009,Trafford,Employment rate - aged 16-64,2009-12-01,Percentage,Persons,71
+E92000001,England,Employment rate - aged 16-64,2010-12-01,Percentage,Persons,70.3
+E11000001,Greater Manchester,Employment rate - aged 16-64,2010-12-01,Percentage,Persons,67
+E08000009,Trafford,Employment rate - aged 16-64,2010-12-01,Percentage,Persons,71.6
+E92000001,England,Employment rate - aged 16-64,2011-12-01,Percentage,Persons,70
+E11000001,Greater Manchester,Employment rate - aged 16-64,2011-12-01,Percentage,Persons,66.3
+E08000009,Trafford,Employment rate - aged 16-64,2011-12-01,Percentage,Persons,71.9
+E92000001,England,Employment rate - aged 16-64,2012-12-01,Percentage,Persons,70.8
+E11000001,Greater Manchester,Employment rate - aged 16-64,2012-12-01,Percentage,Persons,66.9
+E08000009,Trafford,Employment rate - aged 16-64,2012-12-01,Percentage,Persons,71.3
+E92000001,England,Employment rate - aged 16-64,2013-12-01,Percentage,Persons,71.5
+E11000001,Greater Manchester,Employment rate - aged 16-64,2013-12-01,Percentage,Persons,67.5
+E08000009,Trafford,Employment rate - aged 16-64,2013-12-01,Percentage,Persons,72.8
+E92000001,England,Employment rate - aged 16-64,2014-12-01,Percentage,Persons,72.5
+E11000001,Greater Manchester,Employment rate - aged 16-64,2014-12-01,Percentage,Persons,69
+E08000009,Trafford,Employment rate - aged 16-64,2014-12-01,Percentage,Persons,75
+E92000001,England,Employment rate - aged 16-64,2015-12-01,Percentage,Persons,73.8
+E11000001,Greater Manchester,Employment rate - aged 16-64,2015-12-01,Percentage,Persons,70.1
+E08000009,Trafford,Employment rate - aged 16-64,2015-12-01,Percentage,Persons,78.9
+E92000001,England,Employment rate - aged 16-64,2016-12-01,Percentage,Persons,74.2
+E11000001,Greater Manchester,Employment rate - aged 16-64,2016-12-01,Percentage,Persons,70.4
+E08000009,Trafford,Employment rate - aged 16-64,2016-12-01,Percentage,Persons,79.8
+E92000001,England,Employment rate - aged 16-64,2017-12-01,Percentage,Persons,75.1
+E11000001,Greater Manchester,Employment rate - aged 16-64,2017-12-01,Percentage,Persons,72
+E08000009,Trafford,Employment rate - aged 16-64,2017-12-01,Percentage,Persons,77.8
+E92000001,England,Employment rate - aged 16-64,2018-12-01,Percentage,Persons,75.4
+E11000001,Greater Manchester,Employment rate - aged 16-64,2018-12-01,Percentage,Persons,72.8
+E08000009,Trafford,Employment rate - aged 16-64,2018-12-01,Percentage,Persons,76.8
