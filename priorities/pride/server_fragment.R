@@ -434,6 +434,96 @@ output$flytipping_box <- renderUI({
   
 })
 
+# Green Flag Awards --------------------------------------------------
+
+green_flags <- read_csv("data/pride/green_flags.csv") %>% 
+  mutate(area_name = as_factor(area_name))
+
+output$green_flags_map = renderLeaflet({
+  
+  if(input$green_flags_selection == "Greater Manchester"){
+    leaflet() %>% 
+      addProviderTiles(providers$CartoDB.Positron) %>% 
+      addPolygons(data = gm_boundary,
+                  fillColor = "#DDDDCC", 
+                  color = "#DDDDCC", weight = 3) %>% 
+      addCircleMarkers(data = green_flags,
+                       lng = ~lon, lat = ~lat,
+                       stroke = TRUE, color = "#212121", weight = 2, 
+                       fillColor = ifelse(green_flags$area_name == "Trafford", "#00AFBB", "#E7B800"),
+                       fillOpacity = 0.5, radius = 4,
+                       popup = paste("<strong>", green_flags$name, "</strong><br />",
+                                     "<em>", green_flags$area_name, "</em><br/>",
+                                     "<a href='", green_flags$url, "' target='_blank'>Further info</a>")) %>% 
+      addControl("<strong>Green Flag Awards</strong>", position = 'topright')
+  }
+  else {
+    leaflet() %>% 
+      addProviderTiles(providers$CartoDB.Positron) %>% 
+      addPolygons(data = boundary,
+                  fillColor = "#DDDDCC", 
+                  color = "#DDDDCC", weight = 3) %>% 
+      addCircleMarkers(data = filter(green_flags, area_name == "Trafford"),
+                       lng = ~lon, lat = ~lat,
+                       stroke = TRUE, color = "#212121", weight = 2, 
+                       fillColor = "#00AFBB", fillOpacity = 0.5, radius = 4,
+                       popup = paste("<strong>", filter(green_flags, area_name == "Trafford")$name, "</strong><br />",
+                                     "<em>", filter(green_flags, area_name == "Trafford")$area_name, "</em><br/>",
+                                     "<a href='", filter(green_flags, area_name == "Trafford")$url, "' target='_blank'>Further info</a>")) %>% 
+      addControl("<strong>Green Flag Awards</strong>", position = 'topright')
+  }
+})
+
+output$green_flags_box <- renderUI({
+  
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","Green Flag Awards","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Green Flag Awards",
+      withSpinner(
+        leafletOutput("green_flags_map"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioButtons(inputId = "green_flags_selection", 
+                       tags$h4("Show:"),
+                       choices = c("Trafford", "Greater Manchester"), 
+                       selected = "Trafford"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em;",
+        dropdown(
+          includeMarkdown("data/pride/metadata/green_flags.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+            .bttn-jelly.bttn-default{color:#f0f0f0;}
+            .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
+
 # Indicator name --------------------------------------------------
 
 
