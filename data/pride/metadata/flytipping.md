@@ -1,6 +1,6 @@
-Reports of flytipping on <a href="https://www.fixmystreet.com/" target="_blank">www.FixMyStreet.com</a>. 
+Incidents of fly tipping reported by local authorities.
 
-Source: <a href="https://research.mysociety.org/sites/fms_maps/" target="_blank">mySociety Research</a>
+Source: <a href="https://www.gov.uk/government/statistical-data-sets/env24-fly-tipping-incidents-and-actions-taken-in-england" target="_blank">Department for Environment, Food & Rural Affairs</a>
 
 
 

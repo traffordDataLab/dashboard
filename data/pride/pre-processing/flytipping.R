@@ -1,46 +1,42 @@
 # Flytipping #
 
-# Source: fixmystreet.com
-# URL: https://github.com/mysociety/fms_geographic_data
-# Licence: Open Data Commons Attribution License
-# NB for category lookup: https://github.com/mysociety/fms_meta_categories
+# Source: Department for Environment, Food & Rural Affairs
+# URL: https://www.gov.uk/government/statistical-data-sets/env24-fly-tipping-incidents-and-actions-taken-in-england
+# Licence: Open Government Licence
 
-urls <- c("https://github.com/mysociety/fms_geographic_data/raw/master/LAD/fixmystreet/SHEF_A/2007.csv",
-          "https://github.com/mysociety/fms_geographic_data/raw/master/LAD/fixmystreet/SHEF_A/2008.csv",
-          "https://github.com/mysociety/fms_geographic_data/raw/master/LAD/fixmystreet/SHEF_A/2009.csv",
-          "https://github.com/mysociety/fms_geographic_data/raw/master/LAD/fixmystreet/SHEF_A/2010.csv", 
-          "https://github.com/mysociety/fms_geographic_data/raw/master/LAD/fixmystreet/SHEF_A/2011.csv",
-          "https://github.com/mysociety/fms_geographic_data/raw/master/LAD/fixmystreet/SHEF_A/2012.csv",
-          "https://github.com/mysociety/fms_geographic_data/raw/master/LAD/fixmystreet/SHEF_A/2013.csv",
-          "https://github.com/mysociety/fms_geographic_data/raw/master/LAD/fixmystreet/SHEF_A/2014.csv",
-          "https://github.com/mysociety/fms_geographic_data/raw/master/LAD/fixmystreet/SHEF_A/2015.csv",
-          "https://github.com/mysociety/fms_geographic_data/raw/master/LAD/fixmystreet/SHEF_A/2016.csv",
-          "https://github.com/mysociety/fms_geographic_data/raw/master/LAD/fixmystreet/SHEF_A/2017.csv",
-          "https://github.com/mysociety/fms_geographic_data/raw/master/LAD/fixmystreet/SHEF_A/2018.csv"
-)
+library(tidyverse) ; library(readxl)
 
-df <- map_dfr(urls, read_csv) %>% 
-  filter(SHEF_A_CODE == "A29",
-         LAD %in% paste0("E0", seq(8000001, 8000010, 1))) %>% 
-  mutate(area_name = 
-           case_when(
-             LAD == "E08000001" ~ "Bolton", 
-             LAD == "E08000002" ~ "Bury", 
-             LAD == "E08000003"	~ "Manchester",
-             LAD == "E08000004" ~ "Oldham", 
-             LAD == "E08000005" ~ "Rochdale", 
-             LAD == "E08000006" ~ "Salford",
-             LAD == "E08000007" ~ "Stockport", 
-             LAD == "E08000008"	~ "Tameside", 
-             LAD == "E08000009" ~	"Trafford",
-             LAD == "E08000010" ~ "Wigan"),
-         indicator = "Reports of flytipping on FixMyStreet.com",
+url <- "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/765449/fly_tipping_datasets_in_Excel_rev_3.zip"
+download.file(url, dest = "fly_tipping_datasets_in_Excel_rev_3.zip")
+unzip("fly_tipping_datasets_in_Excel_rev_3.zip", exdir = ".")
+file.remove("fly_tipping_datasets_in_Excel_rev_3.zip")
+
+england <- read_xlsx("Flytipping_incidents_actions_taken_reported_by_LAs_in_England_201213_to_201718_Dec_rev.xlsx", sheet = 3, skip = 2) %>%
+  filter(Region == "*Total England") %>% 
+  mutate(area_code = case_when(`ONS Code`== "*Total" ~ "E92000001", TRUE ~ `ONS Code`),
+         area_name = case_when(`LA Name`== "*Total" ~ "England", TRUE ~ `LA Name`),
+         value = as.integer(`Total Incidents`)) %>% 
+  select(area_code, area_name,
+         period = Year,
+         value) 
+
+gm <- read_xlsx("Flytipping_incidents_actions_taken_reported_by_LAs_in_England_201213_to_201718_Dec_rev.xlsx", sheet = 3, skip = 2) %>%
+  filter(`ONS Code` %in% paste0("E0", seq(8000001, 8000010, 1))) %>% 
+  select(area_code = `ONS Code`, 
+         area_name = `LA Name`,
+         period = Year,
+         value = `Total Incidents`) %>% 
+  mutate(value = as.integer(value)) %>% 
+  spread(period, value) %>% 
+  janitor::adorn_totals(where = "row", fill = "Greater Manchester", na.rm = TRUE, name = "E47000001") %>% 
+  gather(period, value, -area_code, -area_name) %>% 
+  filter(area_name %in% c("Greater Manchester", "Trafford"))
+
+df <- bind_rows(england, gm) %>% 
+  mutate(indicator = "Fly-tipping incidents",
          measure = "Count",
-         unit = "Reports") %>% 
-  select(area_code = LAD, area_name, period, indicator, measure, unit,
-       value = report_count, group = SHEF_A_CODE)
+         unit = "Incidents") %>% 
+  select(area_code, area_name, period, indicator, measure, unit, value)
 
 write_csv(df, "../flytipping.csv")
-
-
 

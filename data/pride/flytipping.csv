@@ -1,115 +1,19 @@
-area_code,area_name,period,indicator,measure,unit,value,group
-E08000001,Bolton,2007,Reports of flytipping on FixMyStreet.com,Count,Reports,2,A29
-E08000002,Bury,2007,Reports of flytipping on FixMyStreet.com,Count,Reports,1,A29
-E08000003,Manchester,2007,Reports of flytipping on FixMyStreet.com,Count,Reports,11,A29
-E08000004,Oldham,2007,Reports of flytipping on FixMyStreet.com,Count,Reports,2,A29
-E08000005,Rochdale,2007,Reports of flytipping on FixMyStreet.com,Count,Reports,1,A29
-E08000006,Salford,2007,Reports of flytipping on FixMyStreet.com,Count,Reports,4,A29
-E08000007,Stockport,2007,Reports of flytipping on FixMyStreet.com,Count,Reports,1,A29
-E08000008,Tameside,2007,Reports of flytipping on FixMyStreet.com,Count,Reports,3,A29
-E08000010,Wigan,2007,Reports of flytipping on FixMyStreet.com,Count,Reports,6,A29
-E08000001,Bolton,2008,Reports of flytipping on FixMyStreet.com,Count,Reports,4,A29
-E08000002,Bury,2008,Reports of flytipping on FixMyStreet.com,Count,Reports,1,A29
-E08000003,Manchester,2008,Reports of flytipping on FixMyStreet.com,Count,Reports,29,A29
-E08000004,Oldham,2008,Reports of flytipping on FixMyStreet.com,Count,Reports,3,A29
-E08000006,Salford,2008,Reports of flytipping on FixMyStreet.com,Count,Reports,9,A29
-E08000007,Stockport,2008,Reports of flytipping on FixMyStreet.com,Count,Reports,2,A29
-E08000008,Tameside,2008,Reports of flytipping on FixMyStreet.com,Count,Reports,1,A29
-E08000009,Trafford,2008,Reports of flytipping on FixMyStreet.com,Count,Reports,4,A29
-E08000010,Wigan,2008,Reports of flytipping on FixMyStreet.com,Count,Reports,4,A29
-E08000001,Bolton,2009,Reports of flytipping on FixMyStreet.com,Count,Reports,14,A29
-E08000002,Bury,2009,Reports of flytipping on FixMyStreet.com,Count,Reports,6,A29
-E08000003,Manchester,2009,Reports of flytipping on FixMyStreet.com,Count,Reports,29,A29
-E08000004,Oldham,2009,Reports of flytipping on FixMyStreet.com,Count,Reports,6,A29
-E08000005,Rochdale,2009,Reports of flytipping on FixMyStreet.com,Count,Reports,9,A29
-E08000006,Salford,2009,Reports of flytipping on FixMyStreet.com,Count,Reports,52,A29
-E08000007,Stockport,2009,Reports of flytipping on FixMyStreet.com,Count,Reports,3,A29
-E08000008,Tameside,2009,Reports of flytipping on FixMyStreet.com,Count,Reports,4,A29
-E08000009,Trafford,2009,Reports of flytipping on FixMyStreet.com,Count,Reports,9,A29
-E08000010,Wigan,2009,Reports of flytipping on FixMyStreet.com,Count,Reports,9,A29
-E08000001,Bolton,2010,Reports of flytipping on FixMyStreet.com,Count,Reports,6,A29
-E08000002,Bury,2010,Reports of flytipping on FixMyStreet.com,Count,Reports,2,A29
-E08000003,Manchester,2010,Reports of flytipping on FixMyStreet.com,Count,Reports,20,A29
-E08000004,Oldham,2010,Reports of flytipping on FixMyStreet.com,Count,Reports,4,A29
-E08000005,Rochdale,2010,Reports of flytipping on FixMyStreet.com,Count,Reports,7,A29
-E08000006,Salford,2010,Reports of flytipping on FixMyStreet.com,Count,Reports,13,A29
-E08000007,Stockport,2010,Reports of flytipping on FixMyStreet.com,Count,Reports,3,A29
-E08000008,Tameside,2010,Reports of flytipping on FixMyStreet.com,Count,Reports,4,A29
-E08000009,Trafford,2010,Reports of flytipping on FixMyStreet.com,Count,Reports,14,A29
-E08000010,Wigan,2010,Reports of flytipping on FixMyStreet.com,Count,Reports,6,A29
-E08000001,Bolton,2011,Reports of flytipping on FixMyStreet.com,Count,Reports,6,A29
-E08000002,Bury,2011,Reports of flytipping on FixMyStreet.com,Count,Reports,2,A29
-E08000003,Manchester,2011,Reports of flytipping on FixMyStreet.com,Count,Reports,31,A29
-E08000004,Oldham,2011,Reports of flytipping on FixMyStreet.com,Count,Reports,13,A29
-E08000005,Rochdale,2011,Reports of flytipping on FixMyStreet.com,Count,Reports,9,A29
-E08000006,Salford,2011,Reports of flytipping on FixMyStreet.com,Count,Reports,19,A29
-E08000007,Stockport,2011,Reports of flytipping on FixMyStreet.com,Count,Reports,9,A29
-E08000008,Tameside,2011,Reports of flytipping on FixMyStreet.com,Count,Reports,14,A29
-E08000009,Trafford,2011,Reports of flytipping on FixMyStreet.com,Count,Reports,15,A29
-E08000010,Wigan,2011,Reports of flytipping on FixMyStreet.com,Count,Reports,6,A29
-E08000001,Bolton,2012,Reports of flytipping on FixMyStreet.com,Count,Reports,6,A29
-E08000002,Bury,2012,Reports of flytipping on FixMyStreet.com,Count,Reports,22,A29
-E08000003,Manchester,2012,Reports of flytipping on FixMyStreet.com,Count,Reports,52,A29
-E08000004,Oldham,2012,Reports of flytipping on FixMyStreet.com,Count,Reports,14,A29
-E08000005,Rochdale,2012,Reports of flytipping on FixMyStreet.com,Count,Reports,20,A29
-E08000006,Salford,2012,Reports of flytipping on FixMyStreet.com,Count,Reports,16,A29
-E08000007,Stockport,2012,Reports of flytipping on FixMyStreet.com,Count,Reports,17,A29
-E08000008,Tameside,2012,Reports of flytipping on FixMyStreet.com,Count,Reports,6,A29
-E08000009,Trafford,2012,Reports of flytipping on FixMyStreet.com,Count,Reports,35,A29
-E08000010,Wigan,2012,Reports of flytipping on FixMyStreet.com,Count,Reports,11,A29
-E08000001,Bolton,2013,Reports of flytipping on FixMyStreet.com,Count,Reports,15,A29
-E08000002,Bury,2013,Reports of flytipping on FixMyStreet.com,Count,Reports,10,A29
-E08000003,Manchester,2013,Reports of flytipping on FixMyStreet.com,Count,Reports,48,A29
-E08000004,Oldham,2013,Reports of flytipping on FixMyStreet.com,Count,Reports,10,A29
-E08000005,Rochdale,2013,Reports of flytipping on FixMyStreet.com,Count,Reports,11,A29
-E08000006,Salford,2013,Reports of flytipping on FixMyStreet.com,Count,Reports,11,A29
-E08000007,Stockport,2013,Reports of flytipping on FixMyStreet.com,Count,Reports,14,A29
-E08000008,Tameside,2013,Reports of flytipping on FixMyStreet.com,Count,Reports,10,A29
-E08000009,Trafford,2013,Reports of flytipping on FixMyStreet.com,Count,Reports,36,A29
-E08000010,Wigan,2013,Reports of flytipping on FixMyStreet.com,Count,Reports,7,A29
-E08000001,Bolton,2014,Reports of flytipping on FixMyStreet.com,Count,Reports,31,A29
-E08000002,Bury,2014,Reports of flytipping on FixMyStreet.com,Count,Reports,17,A29
-E08000003,Manchester,2014,Reports of flytipping on FixMyStreet.com,Count,Reports,70,A29
-E08000004,Oldham,2014,Reports of flytipping on FixMyStreet.com,Count,Reports,19,A29
-E08000005,Rochdale,2014,Reports of flytipping on FixMyStreet.com,Count,Reports,12,A29
-E08000006,Salford,2014,Reports of flytipping on FixMyStreet.com,Count,Reports,18,A29
-E08000007,Stockport,2014,Reports of flytipping on FixMyStreet.com,Count,Reports,7,A29
-E08000008,Tameside,2014,Reports of flytipping on FixMyStreet.com,Count,Reports,9,A29
-E08000009,Trafford,2014,Reports of flytipping on FixMyStreet.com,Count,Reports,63,A29
-E08000010,Wigan,2014,Reports of flytipping on FixMyStreet.com,Count,Reports,13,A29
-E08000001,Bolton,2015,Reports of flytipping on FixMyStreet.com,Count,Reports,22,A29
-E08000002,Bury,2015,Reports of flytipping on FixMyStreet.com,Count,Reports,27,A29
-E08000003,Manchester,2015,Reports of flytipping on FixMyStreet.com,Count,Reports,294,A29
-E08000004,Oldham,2015,Reports of flytipping on FixMyStreet.com,Count,Reports,10,A29
-E08000005,Rochdale,2015,Reports of flytipping on FixMyStreet.com,Count,Reports,20,A29
-E08000007,Stockport,2015,Reports of flytipping on FixMyStreet.com,Count,Reports,13,A29
-E08000008,Tameside,2015,Reports of flytipping on FixMyStreet.com,Count,Reports,32,A29
-E08000009,Trafford,2015,Reports of flytipping on FixMyStreet.com,Count,Reports,157,A29
-E08000010,Wigan,2015,Reports of flytipping on FixMyStreet.com,Count,Reports,16,A29
-E08000001,Bolton,2016,Reports of flytipping on FixMyStreet.com,Count,Reports,421,A29
-E08000002,Bury,2016,Reports of flytipping on FixMyStreet.com,Count,Reports,47,A29
-E08000003,Manchester,2016,Reports of flytipping on FixMyStreet.com,Count,Reports,359,A29
-E08000004,Oldham,2016,Reports of flytipping on FixMyStreet.com,Count,Reports,57,A29
-E08000005,Rochdale,2016,Reports of flytipping on FixMyStreet.com,Count,Reports,22,A29
-E08000007,Stockport,2016,Reports of flytipping on FixMyStreet.com,Count,Reports,13,A29
-E08000008,Tameside,2016,Reports of flytipping on FixMyStreet.com,Count,Reports,38,A29
-E08000009,Trafford,2016,Reports of flytipping on FixMyStreet.com,Count,Reports,297,A29
-E08000010,Wigan,2016,Reports of flytipping on FixMyStreet.com,Count,Reports,22,A29
-E08000001,Bolton,2017,Reports of flytipping on FixMyStreet.com,Count,Reports,229,A29
-E08000002,Bury,2017,Reports of flytipping on FixMyStreet.com,Count,Reports,53,A29
-E08000003,Manchester,2017,Reports of flytipping on FixMyStreet.com,Count,Reports,656,A29
-E08000004,Oldham,2017,Reports of flytipping on FixMyStreet.com,Count,Reports,68,A29
-E08000005,Rochdale,2017,Reports of flytipping on FixMyStreet.com,Count,Reports,40,A29
-E08000007,Stockport,2017,Reports of flytipping on FixMyStreet.com,Count,Reports,35,A29
-E08000008,Tameside,2017,Reports of flytipping on FixMyStreet.com,Count,Reports,34,A29
-E08000009,Trafford,2017,Reports of flytipping on FixMyStreet.com,Count,Reports,301,A29
-E08000010,Wigan,2017,Reports of flytipping on FixMyStreet.com,Count,Reports,24,A29
-E08000001,Bolton,2018,Reports of flytipping on FixMyStreet.com,Count,Reports,233,A29
-E08000002,Bury,2018,Reports of flytipping on FixMyStreet.com,Count,Reports,49,A29
-E08000003,Manchester,2018,Reports of flytipping on FixMyStreet.com,Count,Reports,879,A29
-E08000004,Oldham,2018,Reports of flytipping on FixMyStreet.com,Count,Reports,56,A29
-E08000005,Rochdale,2018,Reports of flytipping on FixMyStreet.com,Count,Reports,25,A29
-E08000007,Stockport,2018,Reports of flytipping on FixMyStreet.com,Count,Reports,22,A29
-E08000008,Tameside,2018,Reports of flytipping on FixMyStreet.com,Count,Reports,34,A29
-E08000009,Trafford,2018,Reports of flytipping on FixMyStreet.com,Count,Reports,141,A29
-E08000010,Wigan,2018,Reports of flytipping on FixMyStreet.com,Count,Reports,13,A29
+area_code,area_name,period,indicator,measure,unit,value
+E92000001,England,2012-13,Fly-tipping incidents,Count,Incidents,714637
+E92000001,England,2013-14,Fly-tipping incidents,Count,Incidents,857655
+E92000001,England,2014-15,Fly-tipping incidents,Count,Incidents,905604
+E92000001,England,2015-16,Fly-tipping incidents,Count,Incidents,941895
+E92000001,England,2016-17,Fly-tipping incidents,Count,Incidents,1011199
+E92000001,England,2017-18,Fly-tipping incidents,Count,Incidents,997553
+E08000009,Trafford,2012-13,Fly-tipping incidents,Count,Incidents,1104
+E47000001,Greater Manchester,2012-13,Fly-tipping incidents,Count,Incidents,38307
+E08000009,Trafford,2013-14,Fly-tipping incidents,Count,Incidents,1360
+E47000001,Greater Manchester,2013-14,Fly-tipping incidents,Count,Incidents,43274
+E08000009,Trafford,2014-15,Fly-tipping incidents,Count,Incidents,1724
+E47000001,Greater Manchester,2014-15,Fly-tipping incidents,Count,Incidents,44992
+E08000009,Trafford,2015-16,Fly-tipping incidents,Count,Incidents,1487
+E47000001,Greater Manchester,2015-16,Fly-tipping incidents,Count,Incidents,46105
+E08000009,Trafford,2016-17,Fly-tipping incidents,Count,Incidents,2649
+E47000001,Greater Manchester,2016-17,Fly-tipping incidents,Count,Incidents,52804
+E08000009,Trafford,2017-18,Fly-tipping incidents,Count,Incidents,2837
+E47000001,Greater Manchester,2017-18,Fly-tipping incidents,Count,Incidents,38099
