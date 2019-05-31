@@ -10,7 +10,7 @@ library(sf)
 library(leaflet)
 library(lubridate)
 
-# generic ggplot2 theme
+# ggplot2 theme
 theme_x <- function () { 
   theme_minimal(base_size = 12, base_family = "Open Sans") %+replace% 
     theme(

@@ -17,7 +17,7 @@ ui <- fluidPage(
   tabsetPanel(
     id = "tabs",
     tabPanel(
-      title = "Home",
+      title = icon("home"),
       width = 11,
       style = "margin-left:4%; margin-right:4%",
       br(),

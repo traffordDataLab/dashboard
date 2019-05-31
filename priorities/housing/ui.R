@@ -6,7 +6,7 @@ tabPanel("Affordable and quality homes", width = 11, style="margin-left:4%; marg
            br(),
            fluidRow(
              uiOutput("net_additional_dwellings_box"),
-             uiOutput("rough_sleeping_box"),
+             #uiOutput("_box"),
              uiOutput("licensed_hmos_box")
            ),
            fluidRow(
