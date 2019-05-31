@@ -5,7 +5,8 @@ tabPanel("Successful and thriving places", width = 11, style="margin-left:4%; ma
          fluidPage(
            br(),
            fluidRow(
-             uiOutput("employment_rate_box")
+             uiOutput("employment_rate_box"),
+             uiOutput("median_resident_earnings_box")
            ),
            br(),br()
          )

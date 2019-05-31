@@ -1,0 +1,31 @@
+area_code,area_name,indicator,period,measure,unit,value
+E92000001,England,"Median resident earnings, all employees",2009,Median,Persons,21680
+E11000001,Greater Manchester,"Median resident earnings, all employees",2009,Median,Persons,20233
+E08000009,Trafford,"Median resident earnings, all employees",2009,Median,Persons,22937
+E92000001,England,"Median resident earnings, all employees",2010,Median,Persons,21564
+E11000001,Greater Manchester,"Median resident earnings, all employees",2010,Median,Persons,20091
+E08000009,Trafford,"Median resident earnings, all employees",2010,Median,Persons,23280
+E92000001,England,"Median resident earnings, all employees",2011,Median,Persons,21454
+E11000001,Greater Manchester,"Median resident earnings, all employees",2011,Median,Persons,19788
+E08000009,Trafford,"Median resident earnings, all employees",2011,Median,Persons,22881
+E92000001,England,"Median resident earnings, all employees",2012,Median,Persons,21813
+E11000001,Greater Manchester,"Median resident earnings, all employees",2012,Median,Persons,20229
+E08000009,Trafford,"Median resident earnings, all employees",2012,Median,Persons,23054
+E92000001,England,"Median resident earnings, all employees",2013,Median,Persons,22168
+E11000001,Greater Manchester,"Median resident earnings, all employees",2013,Median,Persons,20663
+E08000009,Trafford,"Median resident earnings, all employees",2013,Median,Persons,23934
+E92000001,England,"Median resident earnings, all employees",2014,Median,Persons,22350
+E11000001,Greater Manchester,"Median resident earnings, all employees",2014,Median,Persons,20688
+E08000009,Trafford,"Median resident earnings, all employees",2014,Median,Persons,23941
+E92000001,England,"Median resident earnings, all employees",2015,Median,Persons,22654
+E11000001,Greater Manchester,"Median resident earnings, all employees",2015,Median,Persons,21103
+E08000009,Trafford,"Median resident earnings, all employees",2015,Median,Persons,24762
+E92000001,England,"Median resident earnings, all employees",2016,Median,Persons,23337
+E11000001,Greater Manchester,"Median resident earnings, all employees",2016,Median,Persons,21587
+E08000009,Trafford,"Median resident earnings, all employees",2016,Median,Persons,26635
+E92000001,England,"Median resident earnings, all employees",2017,Median,Persons,23754
+E11000001,Greater Manchester,"Median resident earnings, all employees",2017,Median,Persons,22029
+E08000009,Trafford,"Median resident earnings, all employees",2017,Median,Persons,26167
+E92000001,England,"Median resident earnings, all employees",2018,Median,Persons,24298
+E11000001,Greater Manchester,"Median resident earnings, all employees",2018,Median,Persons,22565
+E08000009,Trafford,"Median resident earnings, all employees",2018,Median,Persons,28167
