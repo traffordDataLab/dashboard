@@ -1,19 +1,21 @@
-site,site_id,lon,lat,period,value,indicator,measure,unit
-Trafford,TRAF,-2.320941,53.448876,2013,15,PM10,Mean annual concentration,µg/m3
-Trafford A56,TRF2,-2.311421,53.442476,2013,20,PM10,Mean annual concentration,µg/m3
-Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2013,NA,PM10,Mean annual concentration,µg/m3
-Trafford,TRAF,-2.320941,53.448876,2014,16,PM10,Mean annual concentration,µg/m3
-Trafford A56,TRF2,-2.311421,53.442476,2014,18,PM10,Mean annual concentration,µg/m3
-Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2014,NA,PM10,Mean annual concentration,µg/m3
-Trafford,TRAF,-2.320941,53.448876,2015,15,PM10,Mean annual concentration,µg/m3
-Trafford A56,TRF2,-2.311421,53.442476,2015,18,PM10,Mean annual concentration,µg/m3
-Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2015,NA,PM10,Mean annual concentration,µg/m3
-Trafford,TRAF,-2.320941,53.448876,2016,14,PM10,Mean annual concentration,µg/m3
-Trafford A56,TRF2,-2.311421,53.442476,2016,16,PM10,Mean annual concentration,µg/m3
-Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2016,NA,PM10,Mean annual concentration,µg/m3
-Trafford,TRAF,-2.320941,53.448876,2017,13,PM10,Mean annual concentration,µg/m3
-Trafford A56,TRF2,-2.311421,53.442476,2017,15,PM10,Mean annual concentration,µg/m3
-Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2017,NA,PM10,Mean annual concentration,µg/m3
-Trafford,TRAF,-2.320941,53.448876,2018,14,PM10,Mean annual concentration,µg/m3
-Trafford A56,TRF2,-2.311421,53.442476,2018,18,PM10,Mean annual concentration,µg/m3
-Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2018,NA,PM10,Mean annual concentration,µg/m3
+site,site_id,site_type,period,value,indicator,measure,unit
+Trafford,TRAF,Urban Background,2009,18,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford A56,TRF2,Urban Traffic,2009,22,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford,TRAF,Urban Background,2010,19,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford A56,TRF2,Urban Traffic,2010,24,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford,TRAF,Urban Background,2011,18,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford A56,TRF2,Urban Traffic,2011,24,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford,TRAF,Urban Background,2012,17,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford A56,TRF2,Urban Traffic,2012,20,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford,TRAF,Urban Background,2013,15,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford A56,TRF2,Urban Traffic,2013,20,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford,TRAF,Urban Background,2014,16,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford A56,TRF2,Urban Traffic,2014,18,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford,TRAF,Urban Background,2015,15,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford A56,TRF2,Urban Traffic,2015,18,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford,TRAF,Urban Background,2016,14,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford A56,TRF2,Urban Traffic,2016,16,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford,TRAF,Urban Background,2017,13,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford A56,TRF2,Urban Traffic,2017,15,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford,TRAF,Urban Background,2018,14,Particulate Matter,PM10 annual mean concentration,µg/m3
+Trafford A56,TRF2,Urban Traffic,2018,18,Particulate Matter,PM10 annual mean concentration,µg/m3
