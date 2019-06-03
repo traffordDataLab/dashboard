@@ -9,6 +9,7 @@ library(scales)
 library(sf)
 library(leaflet)
 library(lubridate)
+library(rvest)
 
 # ggplot2 theme
 theme_x <- function () { 

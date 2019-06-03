@@ -5,7 +5,8 @@ tabPanel("Green and connected", width = 11, style="margin-left:4%; margin-right:
          fluidPage(
            br(),
            fluidRow(
-             uiOutput("nitrogen_dioxide_box")
+             uiOutput("nitrogen_dioxide_box"),
+             uiOutput("particulate_matter_box")
            ),
            br(),br()
          )
