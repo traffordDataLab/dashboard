@@ -1,0 +1,25 @@
+site,site_id,lon,lat,period,value,indicator,measure,unit
+Trafford,TRAF,-2.320941,53.448876,2011,26,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford A56,TRF2,-2.311421,53.442476,2011,41,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2011,NA,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford,TRAF,-2.320941,53.448876,2012,26,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford A56,TRF2,-2.311421,53.442476,2012,49,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2012,NA,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford,TRAF,-2.320941,53.448876,2013,22,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford A56,TRF2,-2.311421,53.442476,2013,39,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2013,NA,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford,TRAF,-2.320941,53.448876,2014,22,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford A56,TRF2,-2.311421,53.442476,2014,32,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2014,17,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford,TRAF,-2.320941,53.448876,2015,20,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford A56,TRF2,-2.311421,53.442476,2015,30,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2015,17,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford,TRAF,-2.320941,53.448876,2016,22,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford A56,TRF2,-2.311421,53.442476,2016,33,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2016,17,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford,TRAF,-2.320941,53.448876,2017,19,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford A56,TRF2,-2.311421,53.442476,2017,30,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2017,15,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford,TRAF,-2.320941,53.448876,2018,18,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford A56,TRF2,-2.311421,53.442476,2018,29,Nitrogen dioxide,Mean annual concentration,µg/m3
+Trafford Wellacre Academy,TRF3,-2.395067,53.447759,2018,15,Nitrogen dioxide,Mean annual concentration,µg/m3
