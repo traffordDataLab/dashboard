@@ -1,7 +1,8 @@
 # Pride in our area #
 
 tabPanel("Pride in our area", width = 11, style="margin-left:4%; margin-right:4%",
-         HTML(paste('<br/>', em("People in Trafford will take pride in their local area."))),
+         HTML(paste(h2("Pride in our area"))),
+         includeHTML("help.html"),
          fluidPage(
            br(),
            fluidRow(
@@ -11,7 +12,8 @@ tabPanel("Pride in our area", width = 11, style="margin-left:4%; margin-right:4%
            ),
            fluidRow(
              uiOutput("potholes_box"),
-             uiOutput("flytipping_box")
+             uiOutput("flytipping_box"),
+             uiOutput("recycling_box")
            ),
            br(),br()
          )

@@ -35,8 +35,8 @@ ui <- fluidPage(
             id = "housing_tab",
             class = "btn action-button",
             style = "color: #212121; background-color: #fff; border: none;",
-            tags$img(src = "icons/housing.png", height = "50px"),
-            "Affordable and quality homes"
+            tags$img(src = "icons/housing.png", height = "50px", style = "float: left; margin-right:1rem;"),
+            HTML(paste('<p align="left">', "Affordable and quality homes", '<br />', em("Trafford has a choice of quality homes that people can afford."), '</p>'))
           )
         ),
         div(
@@ -45,8 +45,8 @@ ui <- fluidPage(
             id = "health_tab",
             class = "btn action-button",
             style = "color: #212121; background-color: #fff; border: none;",
-            tags$img(src = "icons/health.png", height = "50px"),
-            "Health and wellbeing"
+            tags$img(src = "icons/health.png", height = "50px", style = "float: left; margin-right:1rem;"),
+            HTML(paste('<p align="left">', "Health and wellbeing", '<br />', em("Trafford has improved health and wellbeing, and reduced health inequalities."), '</p>'))
           )
         ),
         div(
@@ -55,8 +55,8 @@ ui <- fluidPage(
             id = "places_tab",
             class = "btn action-button",
             style = "color: #212121; background-color: #fff; border: none;",
-            tags$img(src = "icons/places.png", height = "50px"),
-            "Successful and thriving places"
+            tags$img(src = "icons/places.png", height = "50px", style = "float: left; margin-right:1rem;"),
+            HTML(paste('<p align="left">', "Successful and thriving places", '<br />', em("Trafford has successful and thriving town centres and communities."), '</p>'))
           )
         ),
         div(
@@ -65,8 +65,8 @@ ui <- fluidPage(
             id = "children_tab",
             class = "btn action-button",
             style = "color: #212121; background-color: #fff; border: none;",
-            tags$img(src = "icons/children.png", height = "50px"),
-            "Children and young people"
+            tags$img(src = "icons/children.png", height = "50px", style = "float: left; margin-right:1rem;"),
+            HTML(paste('<p align="left">', "Children and young people", '<br />', em("All children and young people in Trafford will have a fair start."), '</p>'))
           )
         ),
         div(
@@ -75,8 +75,8 @@ ui <- fluidPage(
             id = "pride_tab",
             class = "btn action-button",
             style = "color: #212121; background-color: #fff; border: none;",
-            tags$img(src = "icons/pride.png", height = "50px"),
-            "Pride in our area"
+            tags$img(src = "icons/pride.png", height = "50px", style = "float: left; margin-right:1rem;"),
+            HTML(paste('<p align="left">', "Pride in our area", '<br />', em("People in Trafford will take pride in their local area."), '</p>'))
           )
         ),
         div(
@@ -85,8 +85,8 @@ ui <- fluidPage(
             id = "green_tab",
             class = "btn action-button",
             style = "color: #212121; background-color: #fff; border: none;",
-            tags$img(src = "icons/green.png", height = "50px"),
-            "Green and connected"
+            tags$img(src = "icons/green.png", height = "50px", style = "float: left; margin-right:1rem;"),
+            HTML(paste('<p align="left">', "Green and connected", '<br />', em("Trafford will maximise its green spaces, transport and digital connectivity."), '</p>'))
           )
         ),
         div(
@@ -95,12 +95,14 @@ ui <- fluidPage(
             id = "targeted_tab",
             class = "btn action-button",
             style = "color: #212121; background-color: #fff; border: none;",
-            tags$img(src = "icons/targeted.png", height = "50px"),
-            "Targeted support"
+            tags$img(src = "icons/targeted.png", height = "50px", style = "float: left; margin-right:1rem;"),
+            HTML(paste('<p align="left">', "Targeted support", '<br />', em("People in Trafford will get support when they need it most."), '</p>'))
           )
         )
         
-      )), tags$br(), tags$br()
+      )), tags$br(), tags$br(),
+      HTML(paste("Trafford Council's Corporate Plan (2018-2022) can be found", '<a href="https://www.trafford.gov.uk/about-your-council/strategies-plans-and-policies/docs/Corporate-Plan-2019.pdf" target="_blank">here</a>.')),
+      tags$br(), tags$br()
     ),
     source("priorities/housing/ui.R", local = TRUE)$value,
     source("priorities/health/ui.R", local = TRUE)$value,

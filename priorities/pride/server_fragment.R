@@ -489,7 +489,75 @@ output$green_flags_box <- renderUI({
 })
 
 
-# Indicator name --------------------------------------------------
+# Recycling --------------------------------------------------
+
+recycling <- read_csv("data/pride/recycling.csv") %>% 
+  mutate(area_name = factor(area_name, levels = c("Trafford", "Greater Manchester", "England"), ordered = TRUE),
+         tooltip = 
+           paste0("<strong>", percent(value), "</strong><br/>",
+                  "<em>", area_name, "</em><br/>",
+                  period))  
+
+output$recycling_plot <- renderggiraph({
+  
+  gg <-
+    ggplot(recycling, aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
+    geom_line(size = 1) +
+    geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, colour = "white") +
+    scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+    scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
+    scale_y_continuous(limits = c(0, NA), labels = percent_format(accuracy = 1)) +
+    labs(
+      title = "Household waste sent for recycling",
+      subtitle = input$recycling_selection,
+      caption = "Source: DEFRA",
+      x = NULL,
+      y = "Percentage",
+      colour = NULL
+    ) +
+    guides(fill = FALSE) +
+    theme_x()
+  
+  gg <- girafe(ggobj = gg)
+  girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+  
+})
+
+output$recycling_box <- renderUI({
+  
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","recycling household waste","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Recycled household waste",
+      withSpinner(
+        ggiraphOutput("recycling_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          includeMarkdown("data/pride/metadata/recycling.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+          .bttn-jelly.bttn-default{color:#f0f0f0;}
+          .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
+
 
 
 

@@ -1,16 +1,16 @@
 # Housing #
 
 tabPanel("Affordable and quality homes", width = 11, style="margin-left:4%; margin-right:4%",
-         HTML(paste("<br/>", em("Trafford has a choice of quality homes that people can afford."))),
+         HTML(paste(h2("Affordable and quality homes"))),
+         includeHTML("help.html"),
          fluidPage(
            br(),
            fluidRow(
              uiOutput("net_additional_dwellings_box"),
-             #uiOutput("_box"),
+             uiOutput("council_tax_bands_box"),
              uiOutput("licensed_hmos_box")
            ),
            fluidRow(
-             uiOutput("council_tax_bands_box"),
              uiOutput("affordability_ratio_box"),
              uiOutput("vacant_properties_box")
            ),
