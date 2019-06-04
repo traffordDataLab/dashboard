@@ -48,7 +48,7 @@ output$crime_rate_plot <- renderggiraph({
 output$crime_rate_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","crime rate per 1,000 population","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Crime rates",
       withSpinner(
@@ -144,7 +144,7 @@ output$crime_severity_plot <- renderggiraph({
 output$crime_severity_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","crime severity score","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Crime Severity Score",
       withSpinner(
@@ -263,7 +263,7 @@ output$potholes_plot <- renderggiraph({
 output$potholes_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","reports of potholes","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Potholes",
       withSpinner(
@@ -352,7 +352,7 @@ output$flytipping_plot <- renderggiraph({
 output$flytipping_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","flytipping indcients","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Flytipping incidents",
       withSpinner(
@@ -410,8 +410,7 @@ output$green_flags_map = renderLeaflet({
     leaflet() %>% 
       addProviderTiles(providers$CartoDB.Positron) %>% 
       addPolygons(data = gm_boundary,
-                  fillColor = "#DDDDCC", 
-                  color = "#DDDDCC", weight = 3) %>% 
+                  fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
       addCircleMarkers(data = green_flags,
                        lng = ~lon, lat = ~lat,
                        stroke = TRUE, color = "#212121", weight = 2, 
@@ -426,8 +425,7 @@ output$green_flags_map = renderLeaflet({
     leaflet() %>% 
       addProviderTiles(providers$CartoDB.Positron) %>% 
       addPolygons(data = boundary,
-                  fillColor = "#DDDDCC", 
-                  color = "#DDDDCC", weight = 3) %>% 
+                  fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
       addCircleMarkers(data = filter(green_flags, area_name == "Trafford"),
                        lng = ~lon, lat = ~lat,
                        stroke = TRUE, color = "#212121", weight = 2, 
@@ -442,7 +440,7 @@ output$green_flags_map = renderLeaflet({
 output$green_flags_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","Green Flag Awards","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Green Flag Awards",
       withSpinner(
@@ -526,7 +524,7 @@ output$recycling_plot <- renderggiraph({
 output$recycling_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","recycling household waste","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Recycled household waste",
       withSpinner(

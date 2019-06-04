@@ -1,5 +1,66 @@
 # Green and connected #
 
+# Greater Manchester Accessibility Levels (GMAL --------------------------------------------------
+
+gmal <- st_read("data/green/gmal.geojson")
+
+output$gmal_map = renderLeaflet({
+  
+  pal <- colorFactor(c("#084594","#4292c6","#9ecae1","#deebf7","#ffffb3",
+                       "#fdb462","#e41a1c","#a65628"), domain = 1:8, ordered = TRUE)
+  
+  leaflet() %>% 
+    addProviderTiles(providers$CartoDB.Positron,
+                     options = tileOptions(minZoom = 11, maxZoom = 17)) %>% 
+    addPolygons(data = gmal,
+                fillColor = ~pal(GMALLevel), fillOpacity = 0.5, 
+                stroke = FALSE) %>% 
+    addPolygons(data = boundary, 
+                fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>%
+    addLegend(position = "bottomright", 
+              colors = c("#084594","#4292c6","#9ecae1","#deebf7","#ffffb3","#fdb462","#e41a1c","#a65628"),
+              title = NULL,
+              labels = c("1 Low accessibility", 
+                         "2","3","4","5","6","7",
+                         "8 High accessibility"), opacity = 0.5) %>% 
+    addControl("<strong>Public transport accessibility</strong>", position = 'topright')
+  })
+
+output$gmal_box <- renderUI({
+  
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","public transport accessibility","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+      br(),
+      title = "Public transport accessibility",
+      withSpinner(
+        leafletOutput("gmal_map"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          includeMarkdown("data/green/metadata/gmal.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+            .bttn-jelly.bttn-default{color:#f0f0f0;}
+            .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
+
+
 # Nitrogen dioxide concentrations --------------------------------------------------
 
 stations <- tibble(
@@ -92,7 +153,7 @@ nitrogen_dioxide <- read_csv("data/green/nitrogen_dioxide.csv") %>%
   output$nitrogen_dioxide_box <- renderUI({
     
     box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","NO", "<sub>", 2, "</sub>", " concentrations","</b>", "  not set.", "</h5>")),
-                       style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                       style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
         br(),
         title = "Nitrogen dioxide concentrations",
         withSpinner(
@@ -233,7 +294,7 @@ nitrogen_dioxide <- read_csv("data/green/nitrogen_dioxide.csv") %>%
   output$particulate_matter_box <- renderUI({
     
     box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","PM", "<sub>", 10, "</sub>", " concentrations","</b>", "  not set.", "</h5>")),
-                       style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                       style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
         br(),
         title = "Particulate Matter concentrations",
         withSpinner(

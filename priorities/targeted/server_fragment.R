@@ -68,7 +68,7 @@ output$rough_sleeping_plot <- renderggiraph({
 output$rough_sleeping_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","rough sleepers","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Rough sleeping",
       withSpinner(

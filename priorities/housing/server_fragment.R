@@ -40,7 +40,7 @@ output$net_additional_dwellings_plot <- renderggiraph({
 
 output$net_additional_dwellings_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","net additional dwellings","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
     title = "Net additional dwellings",
     withSpinner(
@@ -125,7 +125,7 @@ output$vacant_properties_plot <- renderggiraph({
 output$vacant_properties_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","long-term vacant properties","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
     title = "Long-term vacant properties",
     withSpinner(
@@ -209,7 +209,7 @@ output$council_tax_bands_plot <- renderggiraph({
 output$council_tax_bands_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","the proportion of new builds with low council tax bands","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "New properties by council tax band",
       withSpinner(
@@ -294,7 +294,7 @@ output$affordability_ratio_plot <- renderggiraph({
 output$affordability_ratio_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","the affordability ratio","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Affordability ratio",
       withSpinner(
@@ -355,8 +355,7 @@ output$licensed_hmos_map = renderLeaflet({
   leaflet() %>% 
     addProviderTiles(providers$CartoDB.Positron) %>% 
     addPolygons(data = boundary,
-                fillColor = "#DDDDCC", 
-                color = "#DDDDCC", weight = 3) %>% 
+                fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
     addCircleMarkers(data = sf,
                      lng = ~lon, lat = ~lat,
                      stroke = TRUE, color = "#212121", weight = 2, 
@@ -370,7 +369,7 @@ output$licensed_hmos_map = renderLeaflet({
 output$licensed_hmos_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","licensed HMOs","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Licensed HMOs",
       withSpinner(

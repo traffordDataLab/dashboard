@@ -87,7 +87,7 @@ output$excess_weight_reception_plot <- renderggiraph({
 
 output$excess_weight_reception_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","excess weight in Reception year children","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "4-5 year olds with excess weight",
       withSpinner(
@@ -223,7 +223,7 @@ output$excess_weight_year6_plot <- renderggiraph({
 
 output$excess_weight_year6_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","excess weight in Year 6 children","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "10-11 year olds with excess weight",
       withSpinner(
@@ -359,7 +359,7 @@ output$low_income_families_plot <- renderggiraph({
 
 output$low_income_families_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","children living in poverty aged under 16 years","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Children living in poverty",
       withSpinner(
@@ -495,7 +495,7 @@ output$admissions_self_harm_young_people_plot <- renderggiraph({
 
 output$admissions_self_harm_young_people_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","levels of self-harm among young people","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Young people admitted to hospital as a result of self-harm",
       withSpinner(
@@ -631,7 +631,7 @@ output$dental_decay_plot <- renderggiraph({
 
 output$dental_decay_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","children free from tooth decay","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Children free from tooth decay",
       withSpinner(
@@ -767,7 +767,7 @@ output$school_readiness_fsm_plot <- renderggiraph({
 
 output$school_readiness_fsm_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","school readiness amongst children with free school meal","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "School readiness amongst children with free school meals",
       withSpinner(
@@ -903,7 +903,7 @@ output$child_protection_plans_plot <- renderggiraph({
 
 output$child_protection_plans_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","children on child protection plans","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Children on child protection plans",
       withSpinner(
@@ -1039,7 +1039,7 @@ output$neets_plot <- renderggiraph({
 
 output$neets_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","16-17 year olds not in education, employment or training (NEET)","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "NEETS",
       withSpinner(
@@ -1175,7 +1175,7 @@ output$children_in_care_plot <- renderggiraph({
 
 output$children_in_care_box <- renderUI({
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","children in care","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Children in care",
       withSpinner(
@@ -1237,8 +1237,7 @@ output$childcare_providers_map = renderLeaflet({
   leaflet() %>% 
     addProviderTiles(providers$CartoDB.Positron) %>% 
     addPolygons(data = boundary,
-                fillColor = "#DDDDCC", 
-                color = "#DDDDCC", weight = 3) %>% 
+                fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
     addCircleMarkers(data = sf,
                      lng = ~lon, lat = ~lat,
                      stroke = TRUE, color = "#212121", weight = 2, 
@@ -1254,7 +1253,7 @@ output$childcare_providers_map = renderLeaflet({
 output$childcare_providers_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","latest childcare provider Ofsted ratings","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Childcare providers",
       withSpinner(
@@ -1312,8 +1311,7 @@ output$primary_schools_map = renderLeaflet({
   leaflet() %>% 
     addProviderTiles(providers$CartoDB.Positron) %>% 
     addPolygons(data = boundary,
-                fillColor = "#DDDDCC", 
-                color = "#DDDDCC", weight = 3) %>% 
+                fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
     addCircleMarkers(data = sf,
                      lng = ~lon, lat = ~lat,
                      stroke = TRUE, color = "#212121", weight = 2, 
@@ -1329,7 +1327,7 @@ output$primary_schools_map = renderLeaflet({
 output$primary_schools_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","latest state-funded primary school Ofsted ratings","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Primary schools",
       withSpinner(
@@ -1387,8 +1385,7 @@ output$secondary_schools_map = renderLeaflet({
   leaflet() %>% 
     addProviderTiles(providers$CartoDB.Positron) %>% 
     addPolygons(data = boundary,
-                fillColor = "#DDDDCC", 
-                color = "#DDDDCC", weight = 3) %>% 
+                fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
     addCircleMarkers(data = sf,
                      lng = ~lon, lat = ~lat,
                      stroke = TRUE, color = "#212121", weight = 2, 
@@ -1404,7 +1401,7 @@ output$secondary_schools_map = renderLeaflet({
 output$secondary_schools_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","latest state-funded secondary school Ofsted ratings","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Secondary schools",
       withSpinner(
@@ -1462,8 +1459,7 @@ output$special_schools_map = renderLeaflet({
   leaflet() %>% 
     addProviderTiles(providers$CartoDB.Positron) %>% 
     addPolygons(data = boundary,
-                fillColor = "#DDDDCC", 
-                color = "#DDDDCC", weight = 3) %>% 
+                fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
     addCircleMarkers(data = sf,
                      lng = ~lon, lat = ~lat,
                      stroke = TRUE, color = "#212121", weight = 2, 
@@ -1479,7 +1475,7 @@ output$special_schools_map = renderLeaflet({
 output$special_schools_box <- renderUI({
   
   box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","latest state-funded special school Ofsted ratings","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
       br(),
       title = "Special schools",
       withSpinner(
