@@ -170,3 +170,71 @@ output$median_resident_earnings_box <- renderUI({
   )
   
 })
+
+# Claimant count  --------------------------------------------------
+
+claimant_count <- read_csv("data/places/claimant_count.csv") %>% 
+  filter(area_name == "Trafford") %>% 
+  mutate(tooltip = 
+           paste0("<strong>", comma(value), "</strong><br/>",
+                  "<strong><em>", group, "</strong></em><br/>",
+                  "<em>", area_name, "</em><br/>",
+                  period))
+
+output$claimant_count_plot <- renderggiraph({
+  
+  gg <-
+    ggplot(claimant_count, aes(x = period, y = value, group = group)) +
+    geom_vline_interactive(xintercept = as.Date("2016-05-01"), tooltip = "Universal Credit full roll-out") +
+    geom_line_interactive(aes(linetype = group, tooltip = tooltip), size = 1, colour = "#00AFBB") +
+    scale_y_continuous(limits = c(0, NA), labels = comma)+
+    labs(
+      title = "Claimant counts",
+      subtitle = input$claimant_count_selection,
+      caption = "Source: DWP and ONS",
+      x = NULL,
+      y = "Count",
+      linetype = NULL
+    ) +
+    theme_x() +
+    theme(legend.position = "top")
+  
+  gg <- girafe(ggobj = gg)
+  tooltip_css <- "background-color:#00AFBB;color:#FFFFFF;padding:0.3em;"
+  girafe_options(gg, opts_tooltip(css = tooltip_css), opts_toolbar(saveaspng = FALSE))
+  
+})
+
+output$claimant_count_box <- renderUI({
+  
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","claimant count","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
+      br(),
+      title = "Claimant count",
+      withSpinner(
+        ggiraphOutput("claimant_count_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          includeMarkdown("data/places/metadata/claimant_count.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+          .bttn-jelly.bttn-default{color:#f0f0f0;}
+          .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
