@@ -238,3 +238,122 @@ output$claimant_count_box <- renderUI({
   )
   
 })
+
+# Apprenticeships  --------------------------------------------------
+
+apprenticeships <- read_csv("data/places/apprenticeships.csv") %>% 
+  mutate(area_name = factor(area_name),
+         period = factor(period),
+         tooltip = 
+           paste0("<strong>", comma(value), "</strong><br/>",
+                  "<em>", area_name, "</em><br/>",
+                  period))
+
+output$apprenticeships_plot <- renderggiraph({
+  
+  if (input$apprenticeships_selection == "GM boroughs") {
+    
+    gg <-
+      ggplot(
+        apprenticeships, aes(x = period, y = value, fill = area_name)) +
+      geom_bar_interactive(aes(tooltip = tooltip), stat = "identity") +
+      scale_fill_manual(values = c("Bolton" = "#E7B800", "Bury" = "#E7B800", "Manchester" = "#E7B800", 
+                                   "Oldham" = "#E7B800", "Rochdale" = "#E7B800", "Salford" = "#E7B800", 
+                                   "Tameside" = "#E7B800", "Stockport" = "#E7B800", "Trafford" = "#00AFBB", 
+                                   "Wigan" = "#E7B800")) +
+      scale_y_continuous(limits = c(0, NA), label = comma) +
+      labs(
+        title = "Apprenticeship starts",
+        subtitle = NULL,
+        caption = "Source: Department for Education",
+        x = NULL,
+        y = "Count",
+        colour = NULL
+      ) +
+      facet_wrap(~area_name, nrow = 2) +
+      theme_x() +
+      theme(
+        axis.text.x = element_text(angle = 90, hjust = 1, margin = margin(t = 0))
+      )
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    
+  }
+  else {
+    
+    gg <-
+      ggplot(
+        filter(apprenticeships, area_name == "Trafford"),
+        aes(x = period, y = value)) +
+      geom_bar_interactive(aes(tooltip = tooltip), stat = "identity", fill = "#00AFBB") +
+      scale_y_continuous(limits = c(0, NA), label = comma) +
+      labs(
+        title = "Apprenticeship starts",
+        subtitle = NULL,
+        caption = "Source: Department for Education",
+        x = NULL,
+        y = "Count",
+        colour = NULL
+      ) +
+      theme_x() 
+    
+    x <- girafe(ggobj = gg)
+    x <- girafe_options(x, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    x
+    
+  }
+  
+})
+
+output$apprenticeships_box <- renderUI({
+  
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","apprenticeship starts","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
+      br(),
+      title = "Apprenticeships",
+      withSpinner(
+        ggiraphOutput("apprenticeships_plot"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          radioGroupButtons(
+            inputId = "apprenticeships_selection",
+            label = tags$h4("Group by:"),
+            choiceNames = c("Trafford", "GM boroughs"),
+            choiceValues = c("Trafford", "GM boroughs"), 
+            selected = "Trafford", 
+            direction = "vertical"
+          ),
+          icon = icon("filter"),
+          size = "xs",
+          style = "jelly",
+          width = "200px",
+          up = TRUE
+        )
+      ),
+      div(
+        style = "position: absolute; left: 4em; bottom: 0.5em; ",
+        dropdown(
+          includeMarkdown("data/places/metadata/apprenticeships.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
