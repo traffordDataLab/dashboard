@@ -1,0 +1,25 @@
+area_code,area_name,indicator,period,measure,unit,value
+E92000001,England,Employees earning below the Real Living Wage,2017,Percentage,Employees,22.2
+E11000001,Greater Manchester,Employees earning below the Real Living Wage,2017,Percentage,Employees,22
+E08000001,Bolton,Employees earning below the Real Living Wage,2017,Percentage,Employees,24.8
+E08000002,Bury,Employees earning below the Real Living Wage,2017,Percentage,Employees,27.1
+E08000003,Manchester,Employees earning below the Real Living Wage,2017,Percentage,Employees,15.3
+E08000004,Oldham,Employees earning below the Real Living Wage,2017,Percentage,Employees,30.2
+E08000005,Rochdale,Employees earning below the Real Living Wage,2017,Percentage,Employees,29
+E08000006,Salford,Employees earning below the Real Living Wage,2017,Percentage,Employees,16.5
+E08000007,Stockport,Employees earning below the Real Living Wage,2017,Percentage,Employees,25.6
+E08000008,Tameside,Employees earning below the Real Living Wage,2017,Percentage,Employees,25.7
+E08000009,Trafford,Employees earning below the Real Living Wage,2017,Percentage,Employees,25.3
+E08000010,Wigan,Employees earning below the Real Living Wage,2017,Percentage,Employees,29.3
+E92000001,England,Employees earning below the Real Living Wage,2018,Percentage,Employees,22.9
+E11000001,Greater Manchester,Employees earning below the Real Living Wage,2018,Percentage,Employees,23.8
+E08000001,Bolton,Employees earning below the Real Living Wage,2018,Percentage,Employees,27.6
+E08000002,Bury,Employees earning below the Real Living Wage,2018,Percentage,Employees,27.5
+E08000003,Manchester,Employees earning below the Real Living Wage,2018,Percentage,Employees,18.1
+E08000004,Oldham,Employees earning below the Real Living Wage,2018,Percentage,Employees,27.8
+E08000005,Rochdale,Employees earning below the Real Living Wage,2018,Percentage,Employees,29.8
+E08000006,Salford,Employees earning below the Real Living Wage,2018,Percentage,Employees,18.8
+E08000007,Stockport,Employees earning below the Real Living Wage,2018,Percentage,Employees,26.8
+E08000008,Tameside,Employees earning below the Real Living Wage,2018,Percentage,Employees,27
+E08000009,Trafford,Employees earning below the Real Living Wage,2018,Percentage,Employees,23.6
+E08000010,Wigan,Employees earning below the Real Living Wage,2018,Percentage,Employees,31.5

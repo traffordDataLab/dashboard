@@ -11,7 +11,8 @@ tabPanel("Successful and thriving places", width = 11, style="margin-left:4%; ma
              uiOutput("median_resident_earnings_box")
            ),
            fluidRow(
-             uiOutput("apprenticeships_box")
+             uiOutput("apprenticeships_box"),
+             uiOutput("real_living_wage_box")
            ),
            br(),br()
          )

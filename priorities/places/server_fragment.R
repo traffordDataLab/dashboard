@@ -357,3 +357,71 @@ output$apprenticeships_box <- renderUI({
   )
   
 })
+
+# Real living wage  --------------------------------------------------
+
+real_living_wage <- read_csv("data/places/real_living_wage.csv") %>% 
+  # filter(area_name %in% c("England", "Greater Manchester", "Trafford")) %>% 
+  spread(period, value) %>% 
+  mutate(diff = round(`2018`-`2017`,1)) %>% 
+  select(area_name, `2017`, `2018`, diff)
+
+output$real_living_wage_table <- DT::renderDataTable({
+  DT::datatable(real_living_wage, 
+                caption = 'Proportion of employee jobs with hourly pay below the living wage',
+                extensions = "Scroller", 
+                style = "bootstrap", 
+                class = "compact", 
+                width = "100%", 
+                rownames = FALSE,
+                options = list(dom = 't',
+                               deferRender = TRUE, 
+                               scrollX = TRUE, 
+                               scrollY = 250, 
+                               scroller = TRUE, 
+                               initComplete = JS(
+                                 "function(settings, json) {",
+                                 "$(this.api().table().header()).css({'background-color': '#F8F8F8', 'color': '#000'});", 
+                                 "}")),
+                colnames = c(
+                  "Area" = "area_name",
+                  "2017" = "2017",
+                  "2018" = "2018",
+                  "Change" = "diff")
+  )
+})
+
+output$real_living_wage_box <- renderUI({
+  
+  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","employee jobs below the living wage","</b>", "  not set.", "</h5>")),
+                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
+      br(),
+      title = "Employee jobs below the living wage",
+      withSpinner(
+        DT::dataTableOutput("real_living_wage_table"),
+        type = 4,
+        color = "#bdbdbd",
+        size = 1
+      ), 
+      br(),br(),
+      div(
+        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+        dropdown(
+          includeMarkdown("data/places/metadata/real_living_wage.md"),
+          icon = icon("question"),
+          size = "xs",
+          style = "jelly",
+          width = "300px",
+          up = TRUE
+        ),
+        tags$style(
+          HTML(
+            '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+          )
+        )
+      )
+  )
+  
+})
