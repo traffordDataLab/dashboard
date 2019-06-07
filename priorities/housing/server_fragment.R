@@ -13,9 +13,7 @@ net_additional_dwellings <- read_csv("data/housing/net_additional_dwellings.csv"
 
 output$net_additional_dwellings_plot <- renderggiraph({
   
-  gg <- ggplot(
-    filter(net_additional_dwellings, area_name %in% input$net_additional_dwellings_selection),
-    aes(x = period, y = index, colour = area_name, fill = area_name, group = area_name)) +
+  gg <- ggplot(net_additional_dwellings, aes(x = period, y = index, colour = area_name, fill = area_name, group = area_name)) +
     geom_hline(aes(yintercept = 100), colour = "#212121", linetype = "dashed") +
     geom_line(size = 1) +
     geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, colour = "white") +
@@ -49,24 +47,8 @@ output$net_additional_dwellings_box <- renderUI({
       color = "#bdbdbd",
       size = 1
     ),
-    div(
+   div(
       style = "position: absolute; left: 1.5em; bottom: 0.5em;",
-      dropdown(
-        checkboxGroupInput(
-          inputId = "net_additional_dwellings_selection",
-          label = tags$h4("Select area:"),
-          choices = unique(levels(net_additional_dwellings$area_name)),
-          selected = "Trafford"
-        ),
-        icon = icon("filter"),
-        size = "xs",
-        style = "jelly",
-        width = "200px",
-        up = TRUE
-      )
-    ),
-    div(
-      style = "position: absolute; left: 4em; bottom: 0.5em; ",
       dropdown(
         includeMarkdown("data/housing/metadata/net_additional_dwellings.md"),
         icon = icon("question"),
@@ -98,9 +80,7 @@ vacant_properties <- read_csv("data/housing/vacant_properties.csv") %>%
 output$vacant_properties_plot <- renderggiraph({
   
   gg <-
-    ggplot(
-      filter(vacant_properties, area_name %in% input$vacant_properties_selection),
-      aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
+    ggplot(vacant_properties, aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
     geom_line(size = 1) +
     geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, colour = "white") +
     scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
@@ -134,24 +114,8 @@ output$vacant_properties_box <- renderUI({
       color = "#bdbdbd",
       size = 1
     ),
-    div(
+     div(
       style = "position: absolute; left: 1.5em; bottom: 0.5em;",
-      dropdown(
-        checkboxGroupInput(
-          inputId = "vacant_properties_selection",
-          label = tags$h4("Select area:"),
-          choices = unique(levels(vacant_properties$area_name)),
-          selected = "Trafford"
-        ),
-        icon = icon("filter"),
-        size = "xs",
-        style = "jelly",
-        width = "200px",
-        up = TRUE
-      )
-    ),
-    div(
-      style = "position: absolute; left: 4em; bottom: 0.5em; ",
       dropdown(
         includeMarkdown("data/housing/metadata/vacant_properties.md"),
         icon = icon("question"),
@@ -267,9 +231,7 @@ affordability_ratio <- read_csv("data/housing/affordability_ratio.csv") %>%
 output$affordability_ratio_plot <- renderggiraph({
   
   gg <-
-    ggplot(
-      filter(affordability_ratio, area_name %in% input$affordability_ratio_selection),
-      aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
+    ggplot(affordability_ratio, aes(x = period, y = value, colour = area_name, fill = area_name, group = area_name)) +
     geom_line(size = 1) +
     geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, colour = "white") +
     scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
@@ -306,22 +268,6 @@ output$affordability_ratio_box <- renderUI({
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
-          checkboxGroupInput(
-            inputId = "affordability_ratio_selection",
-            label = tags$h4("Select area:"),
-            choices = unique(levels(affordability_ratio$area_name)),
-            selected = "Trafford"
-          ),
-          icon = icon("filter"),
-          size = "xs",
-          style = "jelly",
-          width = "200px",
-          up = TRUE
-        )
-      ),
-      div(
-        style = "position: absolute; left: 4em; bottom: 0.5em; ",
-        dropdown(
           includeMarkdown("data/housing/metadata/affordability_ratio.md"),
           icon = icon("question"),
           size = "xs",
@@ -353,7 +299,8 @@ output$licensed_hmos_map = renderLeaflet({
                  households <= input$licensed_hmos_selection[2])
   
   leaflet() %>% 
-    addProviderTiles(providers$CartoDB.Positron) %>% 
+    addProviderTiles(providers$CartoDB.Positron,
+                     options = tileOptions(minZoom = 11, maxZoom = 17)) %>% 
     addPolygons(data = boundary,
                 fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
     addCircleMarkers(data = sf,

@@ -1235,7 +1235,8 @@ output$childcare_providers_map = renderLeaflet({
   sf <- filter(childcare_providers, rating == input$childcare_providers_selection)
   
   leaflet() %>% 
-    addProviderTiles(providers$CartoDB.Positron) %>% 
+    addProviderTiles(providers$CartoDB.Positron,
+                     options = tileOptions(minZoom = 11, maxZoom = 17)) %>% 
     addPolygons(data = boundary,
                 fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
     addCircleMarkers(data = sf,
@@ -1309,7 +1310,8 @@ output$primary_schools_map = renderLeaflet({
   sf <- filter(primary_schools, rating == input$primary_schools_selection)
   
   leaflet() %>% 
-    addProviderTiles(providers$CartoDB.Positron) %>% 
+    addProviderTiles(providers$CartoDB.Positron,
+                     options = tileOptions(minZoom = 11, maxZoom = 17)) %>% 
     addPolygons(data = boundary,
                 fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
     addCircleMarkers(data = sf,
@@ -1383,7 +1385,8 @@ output$secondary_schools_map = renderLeaflet({
   sf <- filter(secondary_schools, rating == input$secondary_schools_selection)
   
   leaflet() %>% 
-    addProviderTiles(providers$CartoDB.Positron) %>% 
+    addProviderTiles(providers$CartoDB.Positron,
+                     options = tileOptions(minZoom = 11, maxZoom = 17)) %>% 
     addPolygons(data = boundary,
                 fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
     addCircleMarkers(data = sf,
@@ -1457,7 +1460,8 @@ output$special_schools_map = renderLeaflet({
   sf <- filter(special_schools, rating == input$special_schools_selection)
   
   leaflet() %>% 
-    addProviderTiles(providers$CartoDB.Positron) %>% 
+    addProviderTiles(providers$CartoDB.Positron,
+                     options = tileOptions(minZoom = 11, maxZoom = 17)) %>% 
     addPolygons(data = boundary,
                 fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
     addCircleMarkers(data = sf,

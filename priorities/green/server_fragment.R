@@ -104,7 +104,7 @@ nitrogen_dioxide <- read_csv("data/green/nitrogen_dioxide.csv") %>%
       gg <-
         ggplot(filter(nitrogen_dioxide, site_id == input$nitrogen_dioxide_selection), 
                aes(x = period, y = value)) +
-        geom_hline_interactive(aes(yintercept = 40, tooltip = paste0("NO", "<sub>", 2, "</sub>", " annual mean objective")), linetype = "dashed", color = "#000000", size = 1.5) +
+        geom_hline_interactive(aes(yintercept = 40, tooltip = paste0("NO", "<sub>", 2, "</sub>", " annual mean objective")), linetype = "dotted", color = "#000000", size = 1.5) +
         geom_line(colour = "#00AFBB", size = 1) +
         geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, fill = "#00AFBB", colour = "white") +
         scale_y_continuous(limits = c(0, NA)) +
@@ -244,7 +244,7 @@ nitrogen_dioxide <- read_csv("data/green/nitrogen_dioxide.csv") %>%
       gg <-
         ggplot(filter(particulate_matter, site_id == input$particulate_matter_selection), 
                aes(x = period, y = value)) +
-        geom_hline_interactive(aes(yintercept = 40, tooltip = paste0("PM", "<sub>", 10, "</sub>", " annual mean objective")), linetype = "dashed", color = "#000000", size = 1.5) +
+        geom_hline_interactive(aes(yintercept = 40, tooltip = paste0("PM", "<sub>", 10, "</sub>", " annual mean objective")), linetype = "dotted", color = "#000000", size = 1.5) +
         geom_line(colour = "#00AFBB", size = 1) +
         geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, fill = "#00AFBB", colour = "white") +
         scale_y_continuous(limits = c(0, NA)) +
@@ -272,7 +272,7 @@ nitrogen_dioxide <- read_csv("data/green/nitrogen_dioxide.csv") %>%
       
       gg <-
         ggplot(daily_means, aes(x = date, y = mean)) +
-        geom_hline_interactive(aes(yintercept = 50, tooltip = paste0("PM", "<sub>", 10, "</sub>", " annual mean objective")), linetype = "dashed", color = "#000000", size = 1.5) +
+        geom_hline_interactive(aes(yintercept = 50, tooltip = paste0("PM", "<sub>", 10, "</sub>", " annual mean objective")), linetype = "dotted", color = "#000000", size = 1.5) +
         geom_line(colour = "#00AFBB", size = 1) +
         geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, fill = "#00AFBB", colour = "white") +
         scale_x_date(breaks = daily_means$date, date_labels = "%b", date_breaks = "1 month") +

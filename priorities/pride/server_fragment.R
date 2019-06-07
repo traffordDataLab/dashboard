@@ -408,7 +408,8 @@ output$green_flags_map = renderLeaflet({
   
   if(input$green_flags_selection == "Greater Manchester"){
     leaflet() %>% 
-      addProviderTiles(providers$CartoDB.Positron) %>% 
+      addProviderTiles(providers$CartoDB.Positron,
+                       options = tileOptions(minZoom = 9, maxZoom = 17)) %>% 
       addPolygons(data = gm_boundary,
                   fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
       addCircleMarkers(data = green_flags,
@@ -423,7 +424,8 @@ output$green_flags_map = renderLeaflet({
   }
   else {
     leaflet() %>% 
-      addProviderTiles(providers$CartoDB.Positron) %>% 
+      addProviderTiles(providers$CartoDB.Positron,
+                       options = tileOptions(minZoom = 11, maxZoom = 17)) %>% 
       addPolygons(data = boundary,
                   fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
       addCircleMarkers(data = filter(green_flags, area_name == "Trafford"),
