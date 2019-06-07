@@ -25,7 +25,6 @@
 | Successful and Thriving Place | GVA | [Office for National Statistics](https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/regionalgrossvalueaddedbalancedbylocalauthorityintheuk) | x |
 | Successful and Thriving Place | Apprenticeships | [Department for Education](https://www.gov.uk/government/statistical-data-sets/fe-data-library-apprenticeships) | x |
 |Successful and Thriving Places | Real Living Wage | [ONS](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/adhocs/009211annualsurveyofhoursandearningsasheestimatesofthenumberandproportionofemployeejobswithhourlypaybelowthelivingwagebyworkgeographylocalauthorityandparliamentaryconstituencyukapril2017andapril2018) | x |
-
 |Successful and Thriving Places | Claimant count | [DWP and ONS](https://www.gov.uk/government/statistics/alternative-claimant-count-statistics-great-britain-january-2013-to-february-2019) | x |
 |Successful and Thriving Places | Employment rate - aged 16-64 | [Annual Population Survey, ONS](https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=17) | x  | 
 |Successful and Thriving Places | Median resident earnings, all employees | [Annual Survey of Hours and Earnings - resident analysis, ONS](https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=30) | x |
