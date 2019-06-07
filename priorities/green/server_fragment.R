@@ -347,7 +347,7 @@ nitrogen_dioxide <- read_csv("data/green/nitrogen_dioxide.csv") %>%
     
   })
   
-  # CO2 emissions --------------------------------------------------
+# CO2 emissions --------------------------------------------------
   
 co2_emissions <- read_csv("data/green/co2_emissions.csv") %>% 
     mutate(group = fct_relevel(group, "Total"),
@@ -427,7 +427,90 @@ co2_emissions <- read_csv("data/green/co2_emissions.csv") %>%
     
   })
   
+# Licensed vehicles  -------------------------------------------------- 
   
+licensed_vehicles <- read_csv("data/green/licensed_vehicles.csv") %>% 
+    mutate(group = fct_relevel(group, "Diesel vehicles"),
+           tooltip = 
+             paste0("<strong>", comma(value), "</strong><br/>",
+                    "<strong><em>", group, "</strong></em><br/>",
+                    "<em>", area_name, "</em><br/>",
+                    period))
   
+  output$licensed_vehicles_plot <- renderggiraph({
+    
+    gg <- ggplot(filter(licensed_vehicles, group %in% input$licensed_vehicles_selection),
+                 aes(x = period, y = value, colour = area_name, fill = area_name,
+                     group = fct_relevel(area_name, "Trafford", after = Inf))) +
+      geom_line(size = 1) +
+      geom_point_interactive(aes(tooltip = tooltip, data_id = area_name), 
+                             shape = 21, size = 2.5, colour = "white", alpha = 0.01) +
+      scale_colour_manual(values = ifelse(licensed_vehicles$area_name == "Trafford", "#00AFBB", "#d9d9d9")) +
+      scale_fill_manual(values = ifelse(licensed_vehicles$area_name == "Trafford", "#00AFBB", "#d9d9d9")) +
+      scale_y_continuous(limits = c(0, NA), labels = comma) +
+      labs(title = "Number of licensed vehicles",
+           subtitle = input$licensed_vehicles_selection,
+           caption = "Source: DfT and DVLA",
+           x = NULL,
+           y = "Count",
+           fill = NULL) +
+      theme_x() 
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(use_fill = TRUE, opacity = 1),
+                   opts_hover(css = "fill-opacity:1;stroke:white;stroke-opacity:1;r:2.5pt"),
+                   opts_selection(type = "single"),
+                   opts_toolbar(saveaspng = FALSE))
+    
+  })
   
+  output$licensed_vehicles_box <- renderUI({
+    
+    box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>", "licenced vehicles", "</b>", "  not set.", "</h5>")),
+                       style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
+        br(),
+        title = "Licensed vehicles",
+        withSpinner(
+          ggiraphOutput("licensed_vehicles_plot"),
+          type = 4,
+          color = "#bdbdbd",
+          size = 1
+        ),
+        div(
+          style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+          dropdown(
+            radioButtons(
+              inputId = "licensed_vehicles_selection",
+              label = tags$h4("Select type:"),
+              choices = unique(levels(licensed_vehicles$group)),
+              selected = "Diesel vehicles"
+            ),
+            icon = icon("filter"),
+            size = "xs",
+            style = "jelly",
+            width = "200px",
+            up = TRUE
+          )
+        ),
+        div(
+          style = "position: absolute; left: 4em; bottom: 0.5em; ",
+          dropdown(
+            includeMarkdown("data/green/metadata/licensed_vehicles.md"),
+            icon = icon("question"),
+            size = "xs",
+            style = "jelly",
+            width = "300px",
+            up = TRUE
+          ),
+          tags$style(
+            HTML(
+              '.fa {color: #212121;}
+          .bttn-jelly.bttn-default{color:#f0f0f0;}
+          .bttn-jelly:hover:before{opacity:1};'
+            )
+          )
+        )
+    )
+    
+  })
   
