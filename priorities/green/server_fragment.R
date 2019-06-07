@@ -1,6 +1,6 @@
 # Green and connected #
 
-# Greater Manchester Accessibility Levels (GMAL --------------------------------------------------
+# Greater Manchester Accessibility Levels --------------------------------------------------
 
 gmal <- st_read("data/green/gmal.geojson")
 
@@ -346,4 +346,88 @@ nitrogen_dioxide <- read_csv("data/green/nitrogen_dioxide.csv") %>%
     )
     
   })
+  
+  # CO2 emissions --------------------------------------------------
+  
+co2_emissions <- read_csv("data/green/co2_emissions.csv") %>% 
+    mutate(group = fct_relevel(group, "Total"),
+           tooltip = 
+             paste0("<strong>", round(value,1), " (kt CO", "<sub>", 2, ")", "</sub>", "</strong><br/>",
+                    "<strong><em>", group, "</strong></em><br/>",
+                    "<em>", area_name, "</em><br/>",
+                    period))
+  
+  output$co2_emissions_plot <- renderggiraph({
+    
+    gg <- ggplot(filter(co2_emissions, group %in% input$co2_emissions_selection),
+                 aes(x = period, y = value, fill = group)) +
+      geom_line(size = 1, colour = "#00AFBB") +
+      geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, colour = "white", fill = "#00AFBB") +
+      scale_y_continuous(limits = c(0, NA), labels = comma) +
+      labs(title = expression(paste(CO[2], " emissions")),
+           subtitle = input$co2_emissions_selection,
+           caption = "Source: Department for Business, Energy & Industrial Strategy",
+           x = NULL,
+           y = expression(paste("kt ", CO[2])),
+           fill = NULL) +
+      theme_x() 
+    
+    gg <- girafe(ggobj = gg)
+    girafe_options(gg, opts_tooltip(use_fill = TRUE), opts_toolbar(saveaspng = FALSE))
+    
+  })
+  
+  output$co2_emissions_box <- renderUI({
+    
+    box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>", "CO", "<sub>", 2, "</sub>", " emission estimates",  "</b>", "  not set.", "</h5>")),
+                       style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
+        br(),
+        title = HTML(paste0("CO", "<sub>", 2, "</sub>", " emissions")),
+        withSpinner(
+          ggiraphOutput("co2_emissions_plot"),
+          type = 4,
+          color = "#bdbdbd",
+          size = 1
+        ),
+        div(
+          style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+          dropdown(
+            radioButtons(
+              inputId = "co2_emissions_selection",
+              label = tags$h4("Select sector:"),
+              choices = unique(levels(co2_emissions$group)),
+              selected = "Total"
+            ),
+            icon = icon("filter"),
+            size = "xs",
+            style = "jelly",
+            width = "200px",
+            up = TRUE
+          )
+        ),
+        div(
+          style = "position: absolute; left: 4em; bottom: 0.5em; ",
+          dropdown(
+            includeMarkdown("data/green/metadata/co2_emissions.md"),
+            icon = icon("question"),
+            size = "xs",
+            style = "jelly",
+            width = "300px",
+            up = TRUE
+          ),
+          tags$style(
+            HTML(
+              '.fa {color: #212121;}
+          .bttn-jelly.bttn-default{color:#f0f0f0;}
+          .bttn-jelly:hover:before{opacity:1};'
+            )
+          )
+        )
+    )
+    
+  })
+  
+  
+  
+  
   
