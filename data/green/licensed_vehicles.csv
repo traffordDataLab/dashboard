@@ -1,261 +1,681 @@
 area_code,area_name,indicator,period,measure,unit,value,group
-E08000001,Bolton,Vehicles,2018,Frequency,Vehicles,58132.00000000001,Diesel vehicles
-E08000002,Bury,Vehicles,2018,Frequency,Vehicles,47092,Diesel vehicles
-E08000003,Manchester,Vehicles,2018,Frequency,Vehicles,72320,Diesel vehicles
-E08000004,Oldham,Vehicles,2018,Frequency,Vehicles,42842,Diesel vehicles
-E08000005,Rochdale,Vehicles,2018,Frequency,Vehicles,43775,Diesel vehicles
-E08000006,Salford,Vehicles,2018,Frequency,Vehicles,42540,Diesel vehicles
-E08000007,Stockport,Vehicles,2018,Frequency,Vehicles,61312,Diesel vehicles
-E08000008,Tameside,Vehicles,2018,Frequency,Vehicles,44762,Diesel vehicles
-E08000009,Trafford,Vehicles,2018,Frequency,Vehicles,49009,Diesel vehicles
-E08000010,Wigan,Vehicles,2018,Frequency,Vehicles,73871.00000000001,Diesel vehicles
-E08000001,Bolton,Vehicles,2017,Frequency,Vehicles,56554,Diesel vehicles
-E08000002,Bury,Vehicles,2017,Frequency,Vehicles,47655,Diesel vehicles
-E08000003,Manchester,Vehicles,2017,Frequency,Vehicles,69454,Diesel vehicles
-E08000004,Oldham,Vehicles,2017,Frequency,Vehicles,41213,Diesel vehicles
-E08000005,Rochdale,Vehicles,2017,Frequency,Vehicles,42317,Diesel vehicles
-E08000006,Salford,Vehicles,2017,Frequency,Vehicles,41418,Diesel vehicles
-E08000007,Stockport,Vehicles,2017,Frequency,Vehicles,60826,Diesel vehicles
-E08000008,Tameside,Vehicles,2017,Frequency,Vehicles,43324,Diesel vehicles
-E08000009,Trafford,Vehicles,2017,Frequency,Vehicles,48248.99999999999,Diesel vehicles
-E08000010,Wigan,Vehicles,2017,Frequency,Vehicles,71383.00000000001,Diesel vehicles
-E08000001,Bolton,Vehicles,2016,Frequency,Vehicles,54562.00000000001,Diesel vehicles
-E08000002,Bury,Vehicles,2016,Frequency,Vehicles,43444,Diesel vehicles
-E08000003,Manchester,Vehicles,2016,Frequency,Vehicles,66732,Diesel vehicles
-E08000004,Oldham,Vehicles,2016,Frequency,Vehicles,39506,Diesel vehicles
-E08000005,Rochdale,Vehicles,2016,Frequency,Vehicles,40748.99999999999,Diesel vehicles
-E08000006,Salford,Vehicles,2016,Frequency,Vehicles,39492.00000000001,Diesel vehicles
-E08000007,Stockport,Vehicles,2016,Frequency,Vehicles,59324,Diesel vehicles
-E08000008,Tameside,Vehicles,2016,Frequency,Vehicles,41748,Diesel vehicles
-E08000009,Trafford,Vehicles,2016,Frequency,Vehicles,47133,Diesel vehicles
-E08000010,Wigan,Vehicles,2016,Frequency,Vehicles,68704.00000000001,Diesel vehicles
-E08000001,Bolton,Vehicles,2015,Frequency,Vehicles,51753,Diesel vehicles
-E08000002,Bury,Vehicles,2015,Frequency,Vehicles,39693,Diesel vehicles
-E08000003,Manchester,Vehicles,2015,Frequency,Vehicles,61509,Diesel vehicles
-E08000004,Oldham,Vehicles,2015,Frequency,Vehicles,37425,Diesel vehicles
-E08000005,Rochdale,Vehicles,2015,Frequency,Vehicles,38220,Diesel vehicles
-E08000006,Salford,Vehicles,2015,Frequency,Vehicles,36879,Diesel vehicles
-E08000007,Stockport,Vehicles,2015,Frequency,Vehicles,56936,Diesel vehicles
-E08000008,Tameside,Vehicles,2015,Frequency,Vehicles,39528,Diesel vehicles
-E08000009,Trafford,Vehicles,2015,Frequency,Vehicles,69438,Diesel vehicles
-E08000010,Wigan,Vehicles,2015,Frequency,Vehicles,64884,Diesel vehicles
-E08000001,Bolton,Vehicles,2014,Frequency,Vehicles,48574,Diesel vehicles
-E08000002,Bury,Vehicles,2014,Frequency,Vehicles,37122,Diesel vehicles
-E08000003,Manchester,Vehicles,2014,Frequency,Vehicles,55178,Diesel vehicles
-E08000004,Oldham,Vehicles,2014,Frequency,Vehicles,35261,Diesel vehicles
-E08000005,Rochdale,Vehicles,2014,Frequency,Vehicles,35825,Diesel vehicles
-E08000006,Salford,Vehicles,2014,Frequency,Vehicles,34059,Diesel vehicles
-E08000007,Stockport,Vehicles,2014,Frequency,Vehicles,54147.99999999999,Diesel vehicles
-E08000008,Tameside,Vehicles,2014,Frequency,Vehicles,36954,Diesel vehicles
-E08000009,Trafford,Vehicles,2014,Frequency,Vehicles,66218,Diesel vehicles
-E08000010,Wigan,Vehicles,2014,Frequency,Vehicles,60929.99999999999,Diesel vehicles
-E08000001,Bolton,Vehicles,2013,Frequency,Vehicles,45681,Diesel vehicles
-E08000002,Bury,Vehicles,2013,Frequency,Vehicles,34183,Diesel vehicles
-E08000003,Manchester,Vehicles,2013,Frequency,Vehicles,50832,Diesel vehicles
-E08000004,Oldham,Vehicles,2013,Frequency,Vehicles,33062,Diesel vehicles
-E08000005,Rochdale,Vehicles,2013,Frequency,Vehicles,33966,Diesel vehicles
-E08000006,Salford,Vehicles,2013,Frequency,Vehicles,31573,Diesel vehicles
-E08000007,Stockport,Vehicles,2013,Frequency,Vehicles,50829,Diesel vehicles
-E08000008,Tameside,Vehicles,2013,Frequency,Vehicles,34647,Diesel vehicles
-E08000009,Trafford,Vehicles,2013,Frequency,Vehicles,63635.99999999999,Diesel vehicles
-E08000010,Wigan,Vehicles,2013,Frequency,Vehicles,57189,Diesel vehicles
-E08000001,Bolton,Vehicles,2012,Frequency,Vehicles,43297,Diesel vehicles
-E08000002,Bury,Vehicles,2012,Frequency,Vehicles,32080.999999999996,Diesel vehicles
-E08000003,Manchester,Vehicles,2012,Frequency,Vehicles,47542,Diesel vehicles
-E08000004,Oldham,Vehicles,2012,Frequency,Vehicles,31397,Diesel vehicles
-E08000005,Rochdale,Vehicles,2012,Frequency,Vehicles,32159,Diesel vehicles
-E08000006,Salford,Vehicles,2012,Frequency,Vehicles,30268,Diesel vehicles
-E08000007,Stockport,Vehicles,2012,Frequency,Vehicles,47625,Diesel vehicles
-E08000008,Tameside,Vehicles,2012,Frequency,Vehicles,33039,Diesel vehicles
-E08000009,Trafford,Vehicles,2012,Frequency,Vehicles,58956.99999999999,Diesel vehicles
-E08000010,Wigan,Vehicles,2012,Frequency,Vehicles,53030,Diesel vehicles
-E08000001,Bolton,Vehicles,2011,Frequency,Vehicles,41007,Diesel vehicles
-E08000002,Bury,Vehicles,2011,Frequency,Vehicles,30336,Diesel vehicles
-E08000003,Manchester,Vehicles,2011,Frequency,Vehicles,45482,Diesel vehicles
-E08000004,Oldham,Vehicles,2011,Frequency,Vehicles,30124.000000000004,Diesel vehicles
-E08000005,Rochdale,Vehicles,2011,Frequency,Vehicles,30709,Diesel vehicles
-E08000006,Salford,Vehicles,2011,Frequency,Vehicles,28880.000000000004,Diesel vehicles
-E08000007,Stockport,Vehicles,2011,Frequency,Vehicles,45605.00000000001,Diesel vehicles
-E08000008,Tameside,Vehicles,2011,Frequency,Vehicles,31674,Diesel vehicles
-E08000009,Trafford,Vehicles,2011,Frequency,Vehicles,57028,Diesel vehicles
-E08000010,Wigan,Vehicles,2011,Frequency,Vehicles,50391.99999999999,Diesel vehicles
-E08000001,Bolton,Vehicles,2010,Frequency,Vehicles,46461,Diesel vehicles
-E08000002,Bury,Vehicles,2010,Frequency,Vehicles,28953.000000000004,Diesel vehicles
-E08000003,Manchester,Vehicles,2010,Frequency,Vehicles,43099,Diesel vehicles
-E08000004,Oldham,Vehicles,2010,Frequency,Vehicles,29389,Diesel vehicles
-E08000005,Rochdale,Vehicles,2010,Frequency,Vehicles,29805.999999999996,Diesel vehicles
-E08000006,Salford,Vehicles,2010,Frequency,Vehicles,27237,Diesel vehicles
-E08000007,Stockport,Vehicles,2010,Frequency,Vehicles,66434,Diesel vehicles
-E08000008,Tameside,Vehicles,2010,Frequency,Vehicles,30636.000000000004,Diesel vehicles
-E08000009,Trafford,Vehicles,2010,Frequency,Vehicles,57912,Diesel vehicles
-E08000010,Wigan,Vehicles,2010,Frequency,Vehicles,48116,Diesel vehicles
-E08000001,Bolton,Vehicles,2009,Frequency,Vehicles,40800,Diesel vehicles
-E08000002,Bury,Vehicles,2009,Frequency,Vehicles,27154,Diesel vehicles
-E08000003,Manchester,Vehicles,2009,Frequency,Vehicles,40873.99999999999,Diesel vehicles
-E08000004,Oldham,Vehicles,2009,Frequency,Vehicles,28349.999999999996,Diesel vehicles
-E08000005,Rochdale,Vehicles,2009,Frequency,Vehicles,28270,Diesel vehicles
-E08000006,Salford,Vehicles,2009,Frequency,Vehicles,26442,Diesel vehicles
-E08000007,Stockport,Vehicles,2009,Frequency,Vehicles,66583,Diesel vehicles
-E08000008,Tameside,Vehicles,2009,Frequency,Vehicles,28829,Diesel vehicles
-E08000009,Trafford,Vehicles,2009,Frequency,Vehicles,69084,Diesel vehicles
-E08000010,Wigan,Vehicles,2009,Frequency,Vehicles,45442.00000000001,Diesel vehicles
-E08000001,Bolton,Vehicles,2011,Frequency,Vehicles,7,Electric vehicles
-E08000002,Bury,Vehicles,2011,Frequency,Vehicles,NA,Electric vehicles
-E08000003,Manchester,Vehicles,2011,Frequency,Vehicles,22,Electric vehicles
-E08000004,Oldham,Vehicles,2011,Frequency,Vehicles,9,Electric vehicles
-E08000005,Rochdale,Vehicles,2011,Frequency,Vehicles,NA,Electric vehicles
-E08000006,Salford,Vehicles,2011,Frequency,Vehicles,43,Electric vehicles
-E08000007,Stockport,Vehicles,2011,Frequency,Vehicles,15,Electric vehicles
-E08000008,Tameside,Vehicles,2011,Frequency,Vehicles,NA,Electric vehicles
-E08000009,Trafford,Vehicles,2011,Frequency,Vehicles,10,Electric vehicles
-E08000010,Wigan,Vehicles,2011,Frequency,Vehicles,29,Electric vehicles
-E08000001,Bolton,Vehicles,2012,Frequency,Vehicles,29,Electric vehicles
-E08000002,Bury,Vehicles,2012,Frequency,Vehicles,NA,Electric vehicles
-E08000003,Manchester,Vehicles,2012,Frequency,Vehicles,102,Electric vehicles
-E08000004,Oldham,Vehicles,2012,Frequency,Vehicles,32,Electric vehicles
-E08000005,Rochdale,Vehicles,2012,Frequency,Vehicles,NA,Electric vehicles
-E08000006,Salford,Vehicles,2012,Frequency,Vehicles,203,Electric vehicles
-E08000007,Stockport,Vehicles,2012,Frequency,Vehicles,90,Electric vehicles
-E08000008,Tameside,Vehicles,2012,Frequency,Vehicles,NA,Electric vehicles
-E08000009,Trafford,Vehicles,2012,Frequency,Vehicles,55,Electric vehicles
-E08000010,Wigan,Vehicles,2012,Frequency,Vehicles,111,Electric vehicles
-E08000001,Bolton,Vehicles,2013,Frequency,Vehicles,67,Electric vehicles
-E08000002,Bury,Vehicles,2013,Frequency,Vehicles,36,Electric vehicles
-E08000003,Manchester,Vehicles,2013,Frequency,Vehicles,158,Electric vehicles
-E08000004,Oldham,Vehicles,2013,Frequency,Vehicles,61,Electric vehicles
-E08000005,Rochdale,Vehicles,2013,Frequency,Vehicles,31,Electric vehicles
-E08000006,Salford,Vehicles,2013,Frequency,Vehicles,337,Electric vehicles
-E08000007,Stockport,Vehicles,2013,Frequency,Vehicles,150,Electric vehicles
-E08000008,Tameside,Vehicles,2013,Frequency,Vehicles,NA,Electric vehicles
-E08000009,Trafford,Vehicles,2013,Frequency,Vehicles,87,Electric vehicles
-E08000010,Wigan,Vehicles,2013,Frequency,Vehicles,117,Electric vehicles
-E08000001,Bolton,Vehicles,2014,Frequency,Vehicles,141,Electric vehicles
-E08000002,Bury,Vehicles,2014,Frequency,Vehicles,254,Electric vehicles
-E08000003,Manchester,Vehicles,2014,Frequency,Vehicles,295,Electric vehicles
-E08000004,Oldham,Vehicles,2014,Frequency,Vehicles,184,Electric vehicles
-E08000005,Rochdale,Vehicles,2014,Frequency,Vehicles,94,Electric vehicles
-E08000006,Salford,Vehicles,2014,Frequency,Vehicles,494,Electric vehicles
-E08000007,Stockport,Vehicles,2014,Frequency,Vehicles,250,Electric vehicles
-E08000008,Tameside,Vehicles,2014,Frequency,Vehicles,52,Electric vehicles
-E08000009,Trafford,Vehicles,2014,Frequency,Vehicles,154,Electric vehicles
-E08000010,Wigan,Vehicles,2014,Frequency,Vehicles,187,Electric vehicles
-E08000001,Bolton,Vehicles,2015,Frequency,Vehicles,297,Electric vehicles
-E08000002,Bury,Vehicles,2015,Frequency,Vehicles,719,Electric vehicles
-E08000003,Manchester,Vehicles,2015,Frequency,Vehicles,492,Electric vehicles
-E08000004,Oldham,Vehicles,2015,Frequency,Vehicles,390,Electric vehicles
-E08000005,Rochdale,Vehicles,2015,Frequency,Vehicles,229,Electric vehicles
-E08000006,Salford,Vehicles,2015,Frequency,Vehicles,628,Electric vehicles
-E08000007,Stockport,Vehicles,2015,Frequency,Vehicles,504,Electric vehicles
-E08000008,Tameside,Vehicles,2015,Frequency,Vehicles,186,Electric vehicles
-E08000009,Trafford,Vehicles,2015,Frequency,Vehicles,438,Electric vehicles
-E08000010,Wigan,Vehicles,2015,Frequency,Vehicles,396,Electric vehicles
-E08000001,Bolton,Vehicles,2016,Frequency,Vehicles,522,Electric vehicles
-E08000002,Bury,Vehicles,2016,Frequency,Vehicles,843,Electric vehicles
-E08000003,Manchester,Vehicles,2016,Frequency,Vehicles,832,Electric vehicles
-E08000004,Oldham,Vehicles,2016,Frequency,Vehicles,526,Electric vehicles
-E08000005,Rochdale,Vehicles,2016,Frequency,Vehicles,423,Electric vehicles
-E08000006,Salford,Vehicles,2016,Frequency,Vehicles,789,Electric vehicles
-E08000007,Stockport,Vehicles,2016,Frequency,Vehicles,772,Electric vehicles
-E08000008,Tameside,Vehicles,2016,Frequency,Vehicles,347,Electric vehicles
-E08000009,Trafford,Vehicles,2016,Frequency,Vehicles,793,Electric vehicles
-E08000010,Wigan,Vehicles,2016,Frequency,Vehicles,657,Electric vehicles
-E08000001,Bolton,Vehicles,2017,Frequency,Vehicles,680,Electric vehicles
-E08000002,Bury,Vehicles,2017,Frequency,Vehicles,1185,Electric vehicles
-E08000003,Manchester,Vehicles,2017,Frequency,Vehicles,1162,Electric vehicles
-E08000004,Oldham,Vehicles,2017,Frequency,Vehicles,593,Electric vehicles
-E08000005,Rochdale,Vehicles,2017,Frequency,Vehicles,625,Electric vehicles
-E08000006,Salford,Vehicles,2017,Frequency,Vehicles,931,Electric vehicles
-E08000007,Stockport,Vehicles,2017,Frequency,Vehicles,1200,Electric vehicles
-E08000008,Tameside,Vehicles,2017,Frequency,Vehicles,504,Electric vehicles
-E08000009,Trafford,Vehicles,2017,Frequency,Vehicles,1160,Electric vehicles
-E08000010,Wigan,Vehicles,2017,Frequency,Vehicles,928,Electric vehicles
-E08000001,Bolton,Vehicles,2018,Frequency,Vehicles,926,Electric vehicles
-E08000002,Bury,Vehicles,2018,Frequency,Vehicles,1032,Electric vehicles
-E08000003,Manchester,Vehicles,2018,Frequency,Vehicles,1648,Electric vehicles
-E08000004,Oldham,Vehicles,2018,Frequency,Vehicles,739,Electric vehicles
-E08000005,Rochdale,Vehicles,2018,Frequency,Vehicles,884,Electric vehicles
-E08000006,Salford,Vehicles,2018,Frequency,Vehicles,1134,Electric vehicles
-E08000007,Stockport,Vehicles,2018,Frequency,Vehicles,1829,Electric vehicles
-E08000008,Tameside,Vehicles,2018,Frequency,Vehicles,707,Electric vehicles
-E08000009,Trafford,Vehicles,2018,Frequency,Vehicles,1674,Electric vehicles
-E08000010,Wigan,Vehicles,2018,Frequency,Vehicles,1206,Electric vehicles
-E08000001,Bolton,Vehicles,2011,Frequency,Vehicles,39,Ultra low emission vehicles
-E08000002,Bury,Vehicles,2011,Frequency,Vehicles,13,Ultra low emission vehicles
-E08000003,Manchester,Vehicles,2011,Frequency,Vehicles,52,Ultra low emission vehicles
-E08000004,Oldham,Vehicles,2011,Frequency,Vehicles,22,Ultra low emission vehicles
-E08000005,Rochdale,Vehicles,2011,Frequency,Vehicles,12,Ultra low emission vehicles
-E08000006,Salford,Vehicles,2011,Frequency,Vehicles,87,Ultra low emission vehicles
-E08000007,Stockport,Vehicles,2011,Frequency,Vehicles,36,Ultra low emission vehicles
-E08000008,Tameside,Vehicles,2011,Frequency,Vehicles,11,Ultra low emission vehicles
-E08000009,Trafford,Vehicles,2011,Frequency,Vehicles,37,Ultra low emission vehicles
-E08000010,Wigan,Vehicles,2011,Frequency,Vehicles,37,Ultra low emission vehicles
-E08000001,Bolton,Vehicles,2012,Frequency,Vehicles,163,Ultra low emission vehicles
-E08000002,Bury,Vehicles,2012,Frequency,Vehicles,52,Ultra low emission vehicles
-E08000003,Manchester,Vehicles,2012,Frequency,Vehicles,213,Ultra low emission vehicles
-E08000004,Oldham,Vehicles,2012,Frequency,Vehicles,86,Ultra low emission vehicles
-E08000005,Rochdale,Vehicles,2012,Frequency,Vehicles,48,Ultra low emission vehicles
-E08000006,Salford,Vehicles,2012,Frequency,Vehicles,383,Ultra low emission vehicles
-E08000007,Stockport,Vehicles,2012,Frequency,Vehicles,167,Ultra low emission vehicles
-E08000008,Tameside,Vehicles,2012,Frequency,Vehicles,58,Ultra low emission vehicles
-E08000009,Trafford,Vehicles,2012,Frequency,Vehicles,155,Ultra low emission vehicles
-E08000010,Wigan,Vehicles,2012,Frequency,Vehicles,144,Ultra low emission vehicles
-E08000001,Bolton,Vehicles,2013,Frequency,Vehicles,208,Ultra low emission vehicles
-E08000002,Bury,Vehicles,2013,Frequency,Vehicles,65,Ultra low emission vehicles
-E08000003,Manchester,Vehicles,2013,Frequency,Vehicles,272,Ultra low emission vehicles
-E08000004,Oldham,Vehicles,2013,Frequency,Vehicles,110,Ultra low emission vehicles
-E08000005,Rochdale,Vehicles,2013,Frequency,Vehicles,68,Ultra low emission vehicles
-E08000006,Salford,Vehicles,2013,Frequency,Vehicles,559,Ultra low emission vehicles
-E08000007,Stockport,Vehicles,2013,Frequency,Vehicles,218,Ultra low emission vehicles
-E08000008,Tameside,Vehicles,2013,Frequency,Vehicles,58,Ultra low emission vehicles
-E08000009,Trafford,Vehicles,2013,Frequency,Vehicles,187,Ultra low emission vehicles
-E08000010,Wigan,Vehicles,2013,Frequency,Vehicles,140,Ultra low emission vehicles
-E08000001,Bolton,Vehicles,2014,Frequency,Vehicles,293,Ultra low emission vehicles
-E08000002,Bury,Vehicles,2014,Frequency,Vehicles,278,Ultra low emission vehicles
-E08000003,Manchester,Vehicles,2014,Frequency,Vehicles,412,Ultra low emission vehicles
-E08000004,Oldham,Vehicles,2014,Frequency,Vehicles,224,Ultra low emission vehicles
-E08000005,Rochdale,Vehicles,2014,Frequency,Vehicles,121,Ultra low emission vehicles
-E08000006,Salford,Vehicles,2014,Frequency,Vehicles,784,Ultra low emission vehicles
-E08000007,Stockport,Vehicles,2014,Frequency,Vehicles,310,Ultra low emission vehicles
-E08000008,Tameside,Vehicles,2014,Frequency,Vehicles,89,Ultra low emission vehicles
-E08000009,Trafford,Vehicles,2014,Frequency,Vehicles,249,Ultra low emission vehicles
-E08000010,Wigan,Vehicles,2014,Frequency,Vehicles,213,Ultra low emission vehicles
-E08000001,Bolton,Vehicles,2015,Frequency,Vehicles,457,Ultra low emission vehicles
-E08000002,Bury,Vehicles,2015,Frequency,Vehicles,742,Ultra low emission vehicles
-E08000003,Manchester,Vehicles,2015,Frequency,Vehicles,605,Ultra low emission vehicles
-E08000004,Oldham,Vehicles,2015,Frequency,Vehicles,435,Ultra low emission vehicles
-E08000005,Rochdale,Vehicles,2015,Frequency,Vehicles,249,Ultra low emission vehicles
-E08000006,Salford,Vehicles,2015,Frequency,Vehicles,878,Ultra low emission vehicles
-E08000007,Stockport,Vehicles,2015,Frequency,Vehicles,554,Ultra low emission vehicles
-E08000008,Tameside,Vehicles,2015,Frequency,Vehicles,223,Ultra low emission vehicles
-E08000009,Trafford,Vehicles,2015,Frequency,Vehicles,527,Ultra low emission vehicles
-E08000010,Wigan,Vehicles,2015,Frequency,Vehicles,421,Ultra low emission vehicles
-E08000001,Bolton,Vehicles,2016,Frequency,Vehicles,726,Ultra low emission vehicles
-E08000002,Bury,Vehicles,2016,Frequency,Vehicles,868,Ultra low emission vehicles
-E08000003,Manchester,Vehicles,2016,Frequency,Vehicles,952,Ultra low emission vehicles
-E08000004,Oldham,Vehicles,2016,Frequency,Vehicles,583,Ultra low emission vehicles
-E08000005,Rochdale,Vehicles,2016,Frequency,Vehicles,457,Ultra low emission vehicles
-E08000006,Salford,Vehicles,2016,Frequency,Vehicles,1017,Ultra low emission vehicles
-E08000007,Stockport,Vehicles,2016,Frequency,Vehicles,841,Ultra low emission vehicles
-E08000008,Tameside,Vehicles,2016,Frequency,Vehicles,379,Ultra low emission vehicles
-E08000009,Trafford,Vehicles,2016,Frequency,Vehicles,870,Ultra low emission vehicles
-E08000010,Wigan,Vehicles,2016,Frequency,Vehicles,682,Ultra low emission vehicles
-E08000001,Bolton,Vehicles,2017,Frequency,Vehicles,999,Ultra low emission vehicles
-E08000002,Bury,Vehicles,2017,Frequency,Vehicles,1258,Ultra low emission vehicles
-E08000003,Manchester,Vehicles,2017,Frequency,Vehicles,1303,Ultra low emission vehicles
-E08000004,Oldham,Vehicles,2017,Frequency,Vehicles,652,Ultra low emission vehicles
-E08000005,Rochdale,Vehicles,2017,Frequency,Vehicles,671,Ultra low emission vehicles
-E08000006,Salford,Vehicles,2017,Frequency,Vehicles,1145,Ultra low emission vehicles
-E08000007,Stockport,Vehicles,2017,Frequency,Vehicles,1303,Ultra low emission vehicles
-E08000008,Tameside,Vehicles,2017,Frequency,Vehicles,539,Ultra low emission vehicles
-E08000009,Trafford,Vehicles,2017,Frequency,Vehicles,1207,Ultra low emission vehicles
-E08000010,Wigan,Vehicles,2017,Frequency,Vehicles,966,Ultra low emission vehicles
-E08000001,Bolton,Vehicles,2018,Frequency,Vehicles,1348,Ultra low emission vehicles
-E08000002,Bury,Vehicles,2018,Frequency,Vehicles,1091,Ultra low emission vehicles
-E08000003,Manchester,Vehicles,2018,Frequency,Vehicles,1809,Ultra low emission vehicles
-E08000004,Oldham,Vehicles,2018,Frequency,Vehicles,809,Ultra low emission vehicles
-E08000005,Rochdale,Vehicles,2018,Frequency,Vehicles,939,Ultra low emission vehicles
-E08000006,Salford,Vehicles,2018,Frequency,Vehicles,1326,Ultra low emission vehicles
-E08000007,Stockport,Vehicles,2018,Frequency,Vehicles,1953,Ultra low emission vehicles
-E08000008,Tameside,Vehicles,2018,Frequency,Vehicles,754,Ultra low emission vehicles
-E08000009,Trafford,Vehicles,2018,Frequency,Vehicles,1718,Ultra low emission vehicles
-E08000010,Wigan,Vehicles,2018,Frequency,Vehicles,1245,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2018-01-01,Frequency,Vehicles,58132.00000000001,Diesel vehicles
+E08000002,Bury,Vehicles,2018-01-01,Frequency,Vehicles,47092,Diesel vehicles
+E08000003,Manchester,Vehicles,2018-01-01,Frequency,Vehicles,72320,Diesel vehicles
+E08000004,Oldham,Vehicles,2018-01-01,Frequency,Vehicles,42842,Diesel vehicles
+E08000005,Rochdale,Vehicles,2018-01-01,Frequency,Vehicles,43775,Diesel vehicles
+E08000006,Salford,Vehicles,2018-01-01,Frequency,Vehicles,42540,Diesel vehicles
+E08000007,Stockport,Vehicles,2018-01-01,Frequency,Vehicles,61312,Diesel vehicles
+E08000008,Tameside,Vehicles,2018-01-01,Frequency,Vehicles,44762,Diesel vehicles
+E08000009,Trafford,Vehicles,2018-01-01,Frequency,Vehicles,49009,Diesel vehicles
+E08000010,Wigan,Vehicles,2018-01-01,Frequency,Vehicles,73871.00000000001,Diesel vehicles
+E08000001,Bolton,Vehicles,2017-01-01,Frequency,Vehicles,56554,Diesel vehicles
+E08000002,Bury,Vehicles,2017-01-01,Frequency,Vehicles,47655,Diesel vehicles
+E08000003,Manchester,Vehicles,2017-01-01,Frequency,Vehicles,69454,Diesel vehicles
+E08000004,Oldham,Vehicles,2017-01-01,Frequency,Vehicles,41213,Diesel vehicles
+E08000005,Rochdale,Vehicles,2017-01-01,Frequency,Vehicles,42317,Diesel vehicles
+E08000006,Salford,Vehicles,2017-01-01,Frequency,Vehicles,41418,Diesel vehicles
+E08000007,Stockport,Vehicles,2017-01-01,Frequency,Vehicles,60826,Diesel vehicles
+E08000008,Tameside,Vehicles,2017-01-01,Frequency,Vehicles,43324,Diesel vehicles
+E08000009,Trafford,Vehicles,2017-01-01,Frequency,Vehicles,48248.99999999999,Diesel vehicles
+E08000010,Wigan,Vehicles,2017-01-01,Frequency,Vehicles,71383.00000000001,Diesel vehicles
+E08000001,Bolton,Vehicles,2016-01-01,Frequency,Vehicles,54562.00000000001,Diesel vehicles
+E08000002,Bury,Vehicles,2016-01-01,Frequency,Vehicles,43444,Diesel vehicles
+E08000003,Manchester,Vehicles,2016-01-01,Frequency,Vehicles,66732,Diesel vehicles
+E08000004,Oldham,Vehicles,2016-01-01,Frequency,Vehicles,39506,Diesel vehicles
+E08000005,Rochdale,Vehicles,2016-01-01,Frequency,Vehicles,40748.99999999999,Diesel vehicles
+E08000006,Salford,Vehicles,2016-01-01,Frequency,Vehicles,39492.00000000001,Diesel vehicles
+E08000007,Stockport,Vehicles,2016-01-01,Frequency,Vehicles,59324,Diesel vehicles
+E08000008,Tameside,Vehicles,2016-01-01,Frequency,Vehicles,41748,Diesel vehicles
+E08000009,Trafford,Vehicles,2016-01-01,Frequency,Vehicles,47133,Diesel vehicles
+E08000010,Wigan,Vehicles,2016-01-01,Frequency,Vehicles,68704.00000000001,Diesel vehicles
+E08000001,Bolton,Vehicles,2015-01-01,Frequency,Vehicles,51753,Diesel vehicles
+E08000002,Bury,Vehicles,2015-01-01,Frequency,Vehicles,39693,Diesel vehicles
+E08000003,Manchester,Vehicles,2015-01-01,Frequency,Vehicles,61509,Diesel vehicles
+E08000004,Oldham,Vehicles,2015-01-01,Frequency,Vehicles,37425,Diesel vehicles
+E08000005,Rochdale,Vehicles,2015-01-01,Frequency,Vehicles,38220,Diesel vehicles
+E08000006,Salford,Vehicles,2015-01-01,Frequency,Vehicles,36879,Diesel vehicles
+E08000007,Stockport,Vehicles,2015-01-01,Frequency,Vehicles,56936,Diesel vehicles
+E08000008,Tameside,Vehicles,2015-01-01,Frequency,Vehicles,39528,Diesel vehicles
+E08000009,Trafford,Vehicles,2015-01-01,Frequency,Vehicles,69438,Diesel vehicles
+E08000010,Wigan,Vehicles,2015-01-01,Frequency,Vehicles,64884,Diesel vehicles
+E08000001,Bolton,Vehicles,2014-01-01,Frequency,Vehicles,48574,Diesel vehicles
+E08000002,Bury,Vehicles,2014-01-01,Frequency,Vehicles,37122,Diesel vehicles
+E08000003,Manchester,Vehicles,2014-01-01,Frequency,Vehicles,55178,Diesel vehicles
+E08000004,Oldham,Vehicles,2014-01-01,Frequency,Vehicles,35261,Diesel vehicles
+E08000005,Rochdale,Vehicles,2014-01-01,Frequency,Vehicles,35825,Diesel vehicles
+E08000006,Salford,Vehicles,2014-01-01,Frequency,Vehicles,34059,Diesel vehicles
+E08000007,Stockport,Vehicles,2014-01-01,Frequency,Vehicles,54147.99999999999,Diesel vehicles
+E08000008,Tameside,Vehicles,2014-01-01,Frequency,Vehicles,36954,Diesel vehicles
+E08000009,Trafford,Vehicles,2014-01-01,Frequency,Vehicles,66218,Diesel vehicles
+E08000010,Wigan,Vehicles,2014-01-01,Frequency,Vehicles,60929.99999999999,Diesel vehicles
+E08000001,Bolton,Vehicles,2013-01-01,Frequency,Vehicles,45681,Diesel vehicles
+E08000002,Bury,Vehicles,2013-01-01,Frequency,Vehicles,34183,Diesel vehicles
+E08000003,Manchester,Vehicles,2013-01-01,Frequency,Vehicles,50832,Diesel vehicles
+E08000004,Oldham,Vehicles,2013-01-01,Frequency,Vehicles,33062,Diesel vehicles
+E08000005,Rochdale,Vehicles,2013-01-01,Frequency,Vehicles,33966,Diesel vehicles
+E08000006,Salford,Vehicles,2013-01-01,Frequency,Vehicles,31573,Diesel vehicles
+E08000007,Stockport,Vehicles,2013-01-01,Frequency,Vehicles,50829,Diesel vehicles
+E08000008,Tameside,Vehicles,2013-01-01,Frequency,Vehicles,34647,Diesel vehicles
+E08000009,Trafford,Vehicles,2013-01-01,Frequency,Vehicles,63635.99999999999,Diesel vehicles
+E08000010,Wigan,Vehicles,2013-01-01,Frequency,Vehicles,57189,Diesel vehicles
+E08000001,Bolton,Vehicles,2012-01-01,Frequency,Vehicles,43297,Diesel vehicles
+E08000002,Bury,Vehicles,2012-01-01,Frequency,Vehicles,32080.999999999996,Diesel vehicles
+E08000003,Manchester,Vehicles,2012-01-01,Frequency,Vehicles,47542,Diesel vehicles
+E08000004,Oldham,Vehicles,2012-01-01,Frequency,Vehicles,31397,Diesel vehicles
+E08000005,Rochdale,Vehicles,2012-01-01,Frequency,Vehicles,32159,Diesel vehicles
+E08000006,Salford,Vehicles,2012-01-01,Frequency,Vehicles,30268,Diesel vehicles
+E08000007,Stockport,Vehicles,2012-01-01,Frequency,Vehicles,47625,Diesel vehicles
+E08000008,Tameside,Vehicles,2012-01-01,Frequency,Vehicles,33039,Diesel vehicles
+E08000009,Trafford,Vehicles,2012-01-01,Frequency,Vehicles,58956.99999999999,Diesel vehicles
+E08000010,Wigan,Vehicles,2012-01-01,Frequency,Vehicles,53030,Diesel vehicles
+E08000001,Bolton,Vehicles,2011-01-01,Frequency,Vehicles,41007,Diesel vehicles
+E08000002,Bury,Vehicles,2011-01-01,Frequency,Vehicles,30336,Diesel vehicles
+E08000003,Manchester,Vehicles,2011-01-01,Frequency,Vehicles,45482,Diesel vehicles
+E08000004,Oldham,Vehicles,2011-01-01,Frequency,Vehicles,30124.000000000004,Diesel vehicles
+E08000005,Rochdale,Vehicles,2011-01-01,Frequency,Vehicles,30709,Diesel vehicles
+E08000006,Salford,Vehicles,2011-01-01,Frequency,Vehicles,28880.000000000004,Diesel vehicles
+E08000007,Stockport,Vehicles,2011-01-01,Frequency,Vehicles,45605.00000000001,Diesel vehicles
+E08000008,Tameside,Vehicles,2011-01-01,Frequency,Vehicles,31674,Diesel vehicles
+E08000009,Trafford,Vehicles,2011-01-01,Frequency,Vehicles,57028,Diesel vehicles
+E08000010,Wigan,Vehicles,2011-01-01,Frequency,Vehicles,50391.99999999999,Diesel vehicles
+E08000001,Bolton,Vehicles,2010-01-01,Frequency,Vehicles,46461,Diesel vehicles
+E08000002,Bury,Vehicles,2010-01-01,Frequency,Vehicles,28953.000000000004,Diesel vehicles
+E08000003,Manchester,Vehicles,2010-01-01,Frequency,Vehicles,43099,Diesel vehicles
+E08000004,Oldham,Vehicles,2010-01-01,Frequency,Vehicles,29389,Diesel vehicles
+E08000005,Rochdale,Vehicles,2010-01-01,Frequency,Vehicles,29805.999999999996,Diesel vehicles
+E08000006,Salford,Vehicles,2010-01-01,Frequency,Vehicles,27237,Diesel vehicles
+E08000007,Stockport,Vehicles,2010-01-01,Frequency,Vehicles,66434,Diesel vehicles
+E08000008,Tameside,Vehicles,2010-01-01,Frequency,Vehicles,30636.000000000004,Diesel vehicles
+E08000009,Trafford,Vehicles,2010-01-01,Frequency,Vehicles,57912,Diesel vehicles
+E08000010,Wigan,Vehicles,2010-01-01,Frequency,Vehicles,48116,Diesel vehicles
+E08000001,Bolton,Vehicles,2009-01-01,Frequency,Vehicles,40800,Diesel vehicles
+E08000002,Bury,Vehicles,2009-01-01,Frequency,Vehicles,27154,Diesel vehicles
+E08000003,Manchester,Vehicles,2009-01-01,Frequency,Vehicles,40873.99999999999,Diesel vehicles
+E08000004,Oldham,Vehicles,2009-01-01,Frequency,Vehicles,28349.999999999996,Diesel vehicles
+E08000005,Rochdale,Vehicles,2009-01-01,Frequency,Vehicles,28270,Diesel vehicles
+E08000006,Salford,Vehicles,2009-01-01,Frequency,Vehicles,26442,Diesel vehicles
+E08000007,Stockport,Vehicles,2009-01-01,Frequency,Vehicles,66583,Diesel vehicles
+E08000008,Tameside,Vehicles,2009-01-01,Frequency,Vehicles,28829,Diesel vehicles
+E08000009,Trafford,Vehicles,2009-01-01,Frequency,Vehicles,69084,Diesel vehicles
+E08000010,Wigan,Vehicles,2009-01-01,Frequency,Vehicles,45442.00000000001,Diesel vehicles
+E08000001,Bolton,Vehicles,2018-10-01,Frequency,Vehicles,257,Electric vehicles
+E08000002,Bury,Vehicles,2018-10-01,Frequency,Vehicles,293,Electric vehicles
+E08000003,Manchester,Vehicles,2018-10-01,Frequency,Vehicles,449,Electric vehicles
+E08000004,Oldham,Vehicles,2018-10-01,Frequency,Vehicles,195,Electric vehicles
+E08000005,Rochdale,Vehicles,2018-10-01,Frequency,Vehicles,247,Electric vehicles
+E08000006,Salford,Vehicles,2018-10-01,Frequency,Vehicles,311,Electric vehicles
+E08000007,Stockport,Vehicles,2018-10-01,Frequency,Vehicles,522,Electric vehicles
+E08000008,Tameside,Vehicles,2018-10-01,Frequency,Vehicles,197,Electric vehicles
+E08000009,Trafford,Vehicles,2018-10-01,Frequency,Vehicles,465,Electric vehicles
+E08000010,Wigan,Vehicles,2018-10-01,Frequency,Vehicles,324,Electric vehicles
+E08000001,Bolton,Vehicles,2018-07-01,Frequency,Vehicles,238,Electric vehicles
+E08000002,Bury,Vehicles,2018-07-01,Frequency,Vehicles,250,Electric vehicles
+E08000003,Manchester,Vehicles,2018-07-01,Frequency,Vehicles,425,Electric vehicles
+E08000004,Oldham,Vehicles,2018-07-01,Frequency,Vehicles,196,Electric vehicles
+E08000005,Rochdale,Vehicles,2018-07-01,Frequency,Vehicles,232,Electric vehicles
+E08000006,Salford,Vehicles,2018-07-01,Frequency,Vehicles,293,Electric vehicles
+E08000007,Stockport,Vehicles,2018-07-01,Frequency,Vehicles,480,Electric vehicles
+E08000008,Tameside,Vehicles,2018-07-01,Frequency,Vehicles,185,Electric vehicles
+E08000009,Trafford,Vehicles,2018-07-01,Frequency,Vehicles,448,Electric vehicles
+E08000010,Wigan,Vehicles,2018-07-01,Frequency,Vehicles,305,Electric vehicles
+E08000001,Bolton,Vehicles,2018-04-01,Frequency,Vehicles,224,Electric vehicles
+E08000002,Bury,Vehicles,2018-04-01,Frequency,Vehicles,226,Electric vehicles
+E08000003,Manchester,Vehicles,2018-04-01,Frequency,Vehicles,398,Electric vehicles
+E08000004,Oldham,Vehicles,2018-04-01,Frequency,Vehicles,178,Electric vehicles
+E08000005,Rochdale,Vehicles,2018-04-01,Frequency,Vehicles,210,Electric vehicles
+E08000006,Salford,Vehicles,2018-04-01,Frequency,Vehicles,270,Electric vehicles
+E08000007,Stockport,Vehicles,2018-04-01,Frequency,Vehicles,429,Electric vehicles
+E08000008,Tameside,Vehicles,2018-04-01,Frequency,Vehicles,170,Electric vehicles
+E08000009,Trafford,Vehicles,2018-04-01,Frequency,Vehicles,402,Electric vehicles
+E08000010,Wigan,Vehicles,2018-04-01,Frequency,Vehicles,296,Electric vehicles
+E08000001,Bolton,Vehicles,2018-01-01,Frequency,Vehicles,207,Electric vehicles
+E08000002,Bury,Vehicles,2018-01-01,Frequency,Vehicles,263,Electric vehicles
+E08000003,Manchester,Vehicles,2018-01-01,Frequency,Vehicles,376,Electric vehicles
+E08000004,Oldham,Vehicles,2018-01-01,Frequency,Vehicles,170,Electric vehicles
+E08000005,Rochdale,Vehicles,2018-01-01,Frequency,Vehicles,195,Electric vehicles
+E08000006,Salford,Vehicles,2018-01-01,Frequency,Vehicles,260,Electric vehicles
+E08000007,Stockport,Vehicles,2018-01-01,Frequency,Vehicles,398,Electric vehicles
+E08000008,Tameside,Vehicles,2018-01-01,Frequency,Vehicles,155,Electric vehicles
+E08000009,Trafford,Vehicles,2018-01-01,Frequency,Vehicles,359,Electric vehicles
+E08000010,Wigan,Vehicles,2018-01-01,Frequency,Vehicles,281,Electric vehicles
+E08000001,Bolton,Vehicles,2017-10-01,Frequency,Vehicles,183,Electric vehicles
+E08000002,Bury,Vehicles,2017-10-01,Frequency,Vehicles,354,Electric vehicles
+E08000003,Manchester,Vehicles,2017-10-01,Frequency,Vehicles,342,Electric vehicles
+E08000004,Oldham,Vehicles,2017-10-01,Frequency,Vehicles,159,Electric vehicles
+E08000005,Rochdale,Vehicles,2017-10-01,Frequency,Vehicles,176,Electric vehicles
+E08000006,Salford,Vehicles,2017-10-01,Frequency,Vehicles,241,Electric vehicles
+E08000007,Stockport,Vehicles,2017-10-01,Frequency,Vehicles,343,Electric vehicles
+E08000008,Tameside,Vehicles,2017-10-01,Frequency,Vehicles,147,Electric vehicles
+E08000009,Trafford,Vehicles,2017-10-01,Frequency,Vehicles,332,Electric vehicles
+E08000010,Wigan,Vehicles,2017-10-01,Frequency,Vehicles,256,Electric vehicles
+E08000001,Bolton,Vehicles,2017-07-01,Frequency,Vehicles,176,Electric vehicles
+E08000002,Bury,Vehicles,2017-07-01,Frequency,Vehicles,330,Electric vehicles
+E08000003,Manchester,Vehicles,2017-07-01,Frequency,Vehicles,295,Electric vehicles
+E08000004,Oldham,Vehicles,2017-07-01,Frequency,Vehicles,149,Electric vehicles
+E08000005,Rochdale,Vehicles,2017-07-01,Frequency,Vehicles,169,Electric vehicles
+E08000006,Salford,Vehicles,2017-07-01,Frequency,Vehicles,235,Electric vehicles
+E08000007,Stockport,Vehicles,2017-07-01,Frequency,Vehicles,328,Electric vehicles
+E08000008,Tameside,Vehicles,2017-07-01,Frequency,Vehicles,137,Electric vehicles
+E08000009,Trafford,Vehicles,2017-07-01,Frequency,Vehicles,310,Electric vehicles
+E08000010,Wigan,Vehicles,2017-07-01,Frequency,Vehicles,243,Electric vehicles
+E08000001,Bolton,Vehicles,2017-04-01,Frequency,Vehicles,163,Electric vehicles
+E08000002,Bury,Vehicles,2017-04-01,Frequency,Vehicles,257,Electric vehicles
+E08000003,Manchester,Vehicles,2017-04-01,Frequency,Vehicles,270,Electric vehicles
+E08000004,Oldham,Vehicles,2017-04-01,Frequency,Vehicles,145,Electric vehicles
+E08000005,Rochdale,Vehicles,2017-04-01,Frequency,Vehicles,149,Electric vehicles
+E08000006,Salford,Vehicles,2017-04-01,Frequency,Vehicles,231,Electric vehicles
+E08000007,Stockport,Vehicles,2017-04-01,Frequency,Vehicles,282,Electric vehicles
+E08000008,Tameside,Vehicles,2017-04-01,Frequency,Vehicles,115,Electric vehicles
+E08000009,Trafford,Vehicles,2017-04-01,Frequency,Vehicles,273,Electric vehicles
+E08000010,Wigan,Vehicles,2017-04-01,Frequency,Vehicles,221,Electric vehicles
+E08000001,Bolton,Vehicles,2017-01-01,Frequency,Vehicles,158,Electric vehicles
+E08000002,Bury,Vehicles,2017-01-01,Frequency,Vehicles,244,Electric vehicles
+E08000003,Manchester,Vehicles,2017-01-01,Frequency,Vehicles,255,Electric vehicles
+E08000004,Oldham,Vehicles,2017-01-01,Frequency,Vehicles,140,Electric vehicles
+E08000005,Rochdale,Vehicles,2017-01-01,Frequency,Vehicles,131,Electric vehicles
+E08000006,Salford,Vehicles,2017-01-01,Frequency,Vehicles,224,Electric vehicles
+E08000007,Stockport,Vehicles,2017-01-01,Frequency,Vehicles,247,Electric vehicles
+E08000008,Tameside,Vehicles,2017-01-01,Frequency,Vehicles,105,Electric vehicles
+E08000009,Trafford,Vehicles,2017-01-01,Frequency,Vehicles,245,Electric vehicles
+E08000010,Wigan,Vehicles,2017-01-01,Frequency,Vehicles,208,Electric vehicles
+E08000001,Bolton,Vehicles,2016-10-01,Frequency,Vehicles,144,Electric vehicles
+E08000002,Bury,Vehicles,2016-10-01,Frequency,Vehicles,194,Electric vehicles
+E08000003,Manchester,Vehicles,2016-10-01,Frequency,Vehicles,231,Electric vehicles
+E08000004,Oldham,Vehicles,2016-10-01,Frequency,Vehicles,135,Electric vehicles
+E08000005,Rochdale,Vehicles,2016-10-01,Frequency,Vehicles,118,Electric vehicles
+E08000006,Salford,Vehicles,2016-10-01,Frequency,Vehicles,206,Electric vehicles
+E08000007,Stockport,Vehicles,2016-10-01,Frequency,Vehicles,221,Electric vehicles
+E08000008,Tameside,Vehicles,2016-10-01,Frequency,Vehicles,95,Electric vehicles
+E08000009,Trafford,Vehicles,2016-10-01,Frequency,Vehicles,209,Electric vehicles
+E08000010,Wigan,Vehicles,2016-10-01,Frequency,Vehicles,178,Electric vehicles
+E08000001,Bolton,Vehicles,2016-07-01,Frequency,Vehicles,134,Electric vehicles
+E08000002,Bury,Vehicles,2016-07-01,Frequency,Vehicles,186,Electric vehicles
+E08000003,Manchester,Vehicles,2016-07-01,Frequency,Vehicles,229,Electric vehicles
+E08000004,Oldham,Vehicles,2016-07-01,Frequency,Vehicles,131,Electric vehicles
+E08000005,Rochdale,Vehicles,2016-07-01,Frequency,Vehicles,113,Electric vehicles
+E08000006,Salford,Vehicles,2016-07-01,Frequency,Vehicles,202,Electric vehicles
+E08000007,Stockport,Vehicles,2016-07-01,Frequency,Vehicles,203,Electric vehicles
+E08000008,Tameside,Vehicles,2016-07-01,Frequency,Vehicles,89,Electric vehicles
+E08000009,Trafford,Vehicles,2016-07-01,Frequency,Vehicles,192,Electric vehicles
+E08000010,Wigan,Vehicles,2016-07-01,Frequency,Vehicles,167,Electric vehicles
+E08000001,Bolton,Vehicles,2016-04-01,Frequency,Vehicles,124,Electric vehicles
+E08000002,Bury,Vehicles,2016-04-01,Frequency,Vehicles,208,Electric vehicles
+E08000003,Manchester,Vehicles,2016-04-01,Frequency,Vehicles,208,Electric vehicles
+E08000004,Oldham,Vehicles,2016-04-01,Frequency,Vehicles,132,Electric vehicles
+E08000005,Rochdale,Vehicles,2016-04-01,Frequency,Vehicles,102,Electric vehicles
+E08000006,Salford,Vehicles,2016-04-01,Frequency,Vehicles,195,Electric vehicles
+E08000007,Stockport,Vehicles,2016-04-01,Frequency,Vehicles,178,Electric vehicles
+E08000008,Tameside,Vehicles,2016-04-01,Frequency,Vehicles,86,Electric vehicles
+E08000009,Trafford,Vehicles,2016-04-01,Frequency,Vehicles,209,Electric vehicles
+E08000010,Wigan,Vehicles,2016-04-01,Frequency,Vehicles,162,Electric vehicles
+E08000001,Bolton,Vehicles,2016-01-01,Frequency,Vehicles,120,Electric vehicles
+E08000002,Bury,Vehicles,2016-01-01,Frequency,Vehicles,255,Electric vehicles
+E08000003,Manchester,Vehicles,2016-01-01,Frequency,Vehicles,164,Electric vehicles
+E08000004,Oldham,Vehicles,2016-01-01,Frequency,Vehicles,128,Electric vehicles
+E08000005,Rochdale,Vehicles,2016-01-01,Frequency,Vehicles,90,Electric vehicles
+E08000006,Salford,Vehicles,2016-01-01,Frequency,Vehicles,186,Electric vehicles
+E08000007,Stockport,Vehicles,2016-01-01,Frequency,Vehicles,170,Electric vehicles
+E08000008,Tameside,Vehicles,2016-01-01,Frequency,Vehicles,77,Electric vehicles
+E08000009,Trafford,Vehicles,2016-01-01,Frequency,Vehicles,183,Electric vehicles
+E08000010,Wigan,Vehicles,2016-01-01,Frequency,Vehicles,150,Electric vehicles
+E08000001,Bolton,Vehicles,2015-10-01,Frequency,Vehicles,102,Electric vehicles
+E08000002,Bury,Vehicles,2015-10-01,Frequency,Vehicles,238,Electric vehicles
+E08000003,Manchester,Vehicles,2015-10-01,Frequency,Vehicles,139,Electric vehicles
+E08000004,Oldham,Vehicles,2015-10-01,Frequency,Vehicles,122,Electric vehicles
+E08000005,Rochdale,Vehicles,2015-10-01,Frequency,Vehicles,71,Electric vehicles
+E08000006,Salford,Vehicles,2015-10-01,Frequency,Vehicles,169,Electric vehicles
+E08000007,Stockport,Vehicles,2015-10-01,Frequency,Vehicles,145,Electric vehicles
+E08000008,Tameside,Vehicles,2015-10-01,Frequency,Vehicles,60,Electric vehicles
+E08000009,Trafford,Vehicles,2015-10-01,Frequency,Vehicles,146,Electric vehicles
+E08000010,Wigan,Vehicles,2015-10-01,Frequency,Vehicles,133,Electric vehicles
+E08000001,Bolton,Vehicles,2015-07-01,Frequency,Vehicles,80,Electric vehicles
+E08000002,Bury,Vehicles,2015-07-01,Frequency,Vehicles,170,Electric vehicles
+E08000003,Manchester,Vehicles,2015-07-01,Frequency,Vehicles,132,Electric vehicles
+E08000004,Oldham,Vehicles,2015-07-01,Frequency,Vehicles,102,Electric vehicles
+E08000005,Rochdale,Vehicles,2015-07-01,Frequency,Vehicles,61,Electric vehicles
+E08000006,Salford,Vehicles,2015-07-01,Frequency,Vehicles,164,Electric vehicles
+E08000007,Stockport,Vehicles,2015-07-01,Frequency,Vehicles,135,Electric vehicles
+E08000008,Tameside,Vehicles,2015-07-01,Frequency,Vehicles,55,Electric vehicles
+E08000009,Trafford,Vehicles,2015-07-01,Frequency,Vehicles,120,Electric vehicles
+E08000010,Wigan,Vehicles,2015-07-01,Frequency,Vehicles,103,Electric vehicles
+E08000001,Bolton,Vehicles,2015-04-01,Frequency,Vehicles,64,Electric vehicles
+E08000002,Bury,Vehicles,2015-04-01,Frequency,Vehicles,156,Electric vehicles
+E08000003,Manchester,Vehicles,2015-04-01,Frequency,Vehicles,114,Electric vehicles
+E08000004,Oldham,Vehicles,2015-04-01,Frequency,Vehicles,86,Electric vehicles
+E08000005,Rochdale,Vehicles,2015-04-01,Frequency,Vehicles,55,Electric vehicles
+E08000006,Salford,Vehicles,2015-04-01,Frequency,Vehicles,151,Electric vehicles
+E08000007,Stockport,Vehicles,2015-04-01,Frequency,Vehicles,119,Electric vehicles
+E08000008,Tameside,Vehicles,2015-04-01,Frequency,Vehicles,41,Electric vehicles
+E08000009,Trafford,Vehicles,2015-04-01,Frequency,Vehicles,99,Electric vehicles
+E08000010,Wigan,Vehicles,2015-04-01,Frequency,Vehicles,84,Electric vehicles
+E08000001,Bolton,Vehicles,2015-01-01,Frequency,Vehicles,51,Electric vehicles
+E08000002,Bury,Vehicles,2015-01-01,Frequency,Vehicles,155,Electric vehicles
+E08000003,Manchester,Vehicles,2015-01-01,Frequency,Vehicles,107,Electric vehicles
+E08000004,Oldham,Vehicles,2015-01-01,Frequency,Vehicles,80,Electric vehicles
+E08000005,Rochdale,Vehicles,2015-01-01,Frequency,Vehicles,42,Electric vehicles
+E08000006,Salford,Vehicles,2015-01-01,Frequency,Vehicles,144,Electric vehicles
+E08000007,Stockport,Vehicles,2015-01-01,Frequency,Vehicles,105,Electric vehicles
+E08000008,Tameside,Vehicles,2015-01-01,Frequency,Vehicles,30,Electric vehicles
+E08000009,Trafford,Vehicles,2015-01-01,Frequency,Vehicles,73,Electric vehicles
+E08000010,Wigan,Vehicles,2015-01-01,Frequency,Vehicles,76,Electric vehicles
+E08000001,Bolton,Vehicles,2014-10-01,Frequency,Vehicles,43,Electric vehicles
+E08000002,Bury,Vehicles,2014-10-01,Frequency,Vehicles,98,Electric vehicles
+E08000003,Manchester,Vehicles,2014-10-01,Frequency,Vehicles,89,Electric vehicles
+E08000004,Oldham,Vehicles,2014-10-01,Frequency,Vehicles,65,Electric vehicles
+E08000005,Rochdale,Vehicles,2014-10-01,Frequency,Vehicles,33,Electric vehicles
+E08000006,Salford,Vehicles,2014-10-01,Frequency,Vehicles,137,Electric vehicles
+E08000007,Stockport,Vehicles,2014-10-01,Frequency,Vehicles,84,Electric vehicles
+E08000008,Tameside,Vehicles,2014-10-01,Frequency,Vehicles,25,Electric vehicles
+E08000009,Trafford,Vehicles,2014-10-01,Frequency,Vehicles,55,Electric vehicles
+E08000010,Wigan,Vehicles,2014-10-01,Frequency,Vehicles,67,Electric vehicles
+E08000001,Bolton,Vehicles,2014-07-01,Frequency,Vehicles,38,Electric vehicles
+E08000002,Bury,Vehicles,2014-07-01,Frequency,Vehicles,91,Electric vehicles
+E08000003,Manchester,Vehicles,2014-07-01,Frequency,Vehicles,78,Electric vehicles
+E08000004,Oldham,Vehicles,2014-07-01,Frequency,Vehicles,59,Electric vehicles
+E08000005,Rochdale,Vehicles,2014-07-01,Frequency,Vehicles,26,Electric vehicles
+E08000006,Salford,Vehicles,2014-07-01,Frequency,Vehicles,128,Electric vehicles
+E08000007,Stockport,Vehicles,2014-07-01,Frequency,Vehicles,68,Electric vehicles
+E08000008,Tameside,Vehicles,2014-07-01,Frequency,Vehicles,12,Electric vehicles
+E08000009,Trafford,Vehicles,2014-07-01,Frequency,Vehicles,38,Electric vehicles
+E08000010,Wigan,Vehicles,2014-07-01,Frequency,Vehicles,50,Electric vehicles
+E08000001,Bolton,Vehicles,2014-04-01,Frequency,Vehicles,34,Electric vehicles
+E08000002,Bury,Vehicles,2014-04-01,Frequency,Vehicles,47,Electric vehicles
+E08000003,Manchester,Vehicles,2014-04-01,Frequency,Vehicles,69,Electric vehicles
+E08000004,Oldham,Vehicles,2014-04-01,Frequency,Vehicles,37,Electric vehicles
+E08000005,Rochdale,Vehicles,2014-04-01,Frequency,Vehicles,21,Electric vehicles
+E08000006,Salford,Vehicles,2014-04-01,Frequency,Vehicles,117,Electric vehicles
+E08000007,Stockport,Vehicles,2014-04-01,Frequency,Vehicles,52,Electric vehicles
+E08000008,Tameside,Vehicles,2014-04-01,Frequency,Vehicles,10,Electric vehicles
+E08000009,Trafford,Vehicles,2014-04-01,Frequency,Vehicles,33,Electric vehicles
+E08000010,Wigan,Vehicles,2014-04-01,Frequency,Vehicles,38,Electric vehicles
+E08000001,Bolton,Vehicles,2014-01-01,Frequency,Vehicles,26,Electric vehicles
+E08000002,Bury,Vehicles,2014-01-01,Frequency,Vehicles,18,Electric vehicles
+E08000003,Manchester,Vehicles,2014-01-01,Frequency,Vehicles,59,Electric vehicles
+E08000004,Oldham,Vehicles,2014-01-01,Frequency,Vehicles,23,Electric vehicles
+E08000005,Rochdale,Vehicles,2014-01-01,Frequency,Vehicles,14,Electric vehicles
+E08000006,Salford,Vehicles,2014-01-01,Frequency,Vehicles,112,Electric vehicles
+E08000007,Stockport,Vehicles,2014-01-01,Frequency,Vehicles,46,Electric vehicles
+E08000008,Tameside,Vehicles,2014-01-01,Frequency,Vehicles,5,Electric vehicles
+E08000009,Trafford,Vehicles,2014-01-01,Frequency,Vehicles,28,Electric vehicles
+E08000010,Wigan,Vehicles,2014-01-01,Frequency,Vehicles,32,Electric vehicles
+E08000001,Bolton,Vehicles,2013-10-01,Frequency,Vehicles,23,Electric vehicles
+E08000002,Bury,Vehicles,2013-10-01,Frequency,Vehicles,12,Electric vehicles
+E08000003,Manchester,Vehicles,2013-10-01,Frequency,Vehicles,45,Electric vehicles
+E08000004,Oldham,Vehicles,2013-10-01,Frequency,Vehicles,20,Electric vehicles
+E08000005,Rochdale,Vehicles,2013-10-01,Frequency,Vehicles,11,Electric vehicles
+E08000006,Salford,Vehicles,2013-10-01,Frequency,Vehicles,109,Electric vehicles
+E08000007,Stockport,Vehicles,2013-10-01,Frequency,Vehicles,40,Electric vehicles
+E08000008,Tameside,Vehicles,2013-10-01,Frequency,Vehicles,5,Electric vehicles
+E08000009,Trafford,Vehicles,2013-10-01,Frequency,Vehicles,24,Electric vehicles
+E08000010,Wigan,Vehicles,2013-10-01,Frequency,Vehicles,30,Electric vehicles
+E08000001,Bolton,Vehicles,2013-07-01,Frequency,Vehicles,19,Electric vehicles
+E08000002,Bury,Vehicles,2013-07-01,Frequency,Vehicles,11,Electric vehicles
+E08000003,Manchester,Vehicles,2013-07-01,Frequency,Vehicles,44,Electric vehicles
+E08000004,Oldham,Vehicles,2013-07-01,Frequency,Vehicles,17,Electric vehicles
+E08000005,Rochdale,Vehicles,2013-07-01,Frequency,Vehicles,9,Electric vehicles
+E08000006,Salford,Vehicles,2013-07-01,Frequency,Vehicles,101,Electric vehicles
+E08000007,Stockport,Vehicles,2013-07-01,Frequency,Vehicles,43,Electric vehicles
+E08000008,Tameside,Vehicles,2013-07-01,Frequency,Vehicles,NA,Electric vehicles
+E08000009,Trafford,Vehicles,2013-07-01,Frequency,Vehicles,25,Electric vehicles
+E08000010,Wigan,Vehicles,2013-07-01,Frequency,Vehicles,31,Electric vehicles
+E08000001,Bolton,Vehicles,2013-04-01,Frequency,Vehicles,15,Electric vehicles
+E08000002,Bury,Vehicles,2013-04-01,Frequency,Vehicles,7,Electric vehicles
+E08000003,Manchester,Vehicles,2013-04-01,Frequency,Vehicles,37,Electric vehicles
+E08000004,Oldham,Vehicles,2013-04-01,Frequency,Vehicles,12,Electric vehicles
+E08000005,Rochdale,Vehicles,2013-04-01,Frequency,Vehicles,6,Electric vehicles
+E08000006,Salford,Vehicles,2013-04-01,Frequency,Vehicles,75,Electric vehicles
+E08000007,Stockport,Vehicles,2013-04-01,Frequency,Vehicles,35,Electric vehicles
+E08000008,Tameside,Vehicles,2013-04-01,Frequency,Vehicles,NA,Electric vehicles
+E08000009,Trafford,Vehicles,2013-04-01,Frequency,Vehicles,20,Electric vehicles
+E08000010,Wigan,Vehicles,2013-04-01,Frequency,Vehicles,28,Electric vehicles
+E08000001,Bolton,Vehicles,2013-01-01,Frequency,Vehicles,10,Electric vehicles
+E08000002,Bury,Vehicles,2013-01-01,Frequency,Vehicles,6,Electric vehicles
+E08000003,Manchester,Vehicles,2013-01-01,Frequency,Vehicles,32,Electric vehicles
+E08000004,Oldham,Vehicles,2013-01-01,Frequency,Vehicles,12,Electric vehicles
+E08000005,Rochdale,Vehicles,2013-01-01,Frequency,Vehicles,5,Electric vehicles
+E08000006,Salford,Vehicles,2013-01-01,Frequency,Vehicles,52,Electric vehicles
+E08000007,Stockport,Vehicles,2013-01-01,Frequency,Vehicles,32,Electric vehicles
+E08000008,Tameside,Vehicles,2013-01-01,Frequency,Vehicles,NA,Electric vehicles
+E08000009,Trafford,Vehicles,2013-01-01,Frequency,Vehicles,18,Electric vehicles
+E08000010,Wigan,Vehicles,2013-01-01,Frequency,Vehicles,28,Electric vehicles
+E08000001,Bolton,Vehicles,2012-10-01,Frequency,Vehicles,8,Electric vehicles
+E08000002,Bury,Vehicles,2012-10-01,Frequency,Vehicles,NA,Electric vehicles
+E08000003,Manchester,Vehicles,2012-10-01,Frequency,Vehicles,30,Electric vehicles
+E08000004,Oldham,Vehicles,2012-10-01,Frequency,Vehicles,8,Electric vehicles
+E08000005,Rochdale,Vehicles,2012-10-01,Frequency,Vehicles,NA,Electric vehicles
+E08000006,Salford,Vehicles,2012-10-01,Frequency,Vehicles,54,Electric vehicles
+E08000007,Stockport,Vehicles,2012-10-01,Frequency,Vehicles,29,Electric vehicles
+E08000008,Tameside,Vehicles,2012-10-01,Frequency,Vehicles,NA,Electric vehicles
+E08000009,Trafford,Vehicles,2012-10-01,Frequency,Vehicles,16,Electric vehicles
+E08000010,Wigan,Vehicles,2012-10-01,Frequency,Vehicles,25,Electric vehicles
+E08000001,Bolton,Vehicles,2012-07-01,Frequency,Vehicles,7,Electric vehicles
+E08000002,Bury,Vehicles,2012-07-01,Frequency,Vehicles,5,Electric vehicles
+E08000003,Manchester,Vehicles,2012-07-01,Frequency,Vehicles,26,Electric vehicles
+E08000004,Oldham,Vehicles,2012-07-01,Frequency,Vehicles,8,Electric vehicles
+E08000005,Rochdale,Vehicles,2012-07-01,Frequency,Vehicles,NA,Electric vehicles
+E08000006,Salford,Vehicles,2012-07-01,Frequency,Vehicles,53,Electric vehicles
+E08000007,Stockport,Vehicles,2012-07-01,Frequency,Vehicles,25,Electric vehicles
+E08000008,Tameside,Vehicles,2012-07-01,Frequency,Vehicles,NA,Electric vehicles
+E08000009,Trafford,Vehicles,2012-07-01,Frequency,Vehicles,15,Electric vehicles
+E08000010,Wigan,Vehicles,2012-07-01,Frequency,Vehicles,29,Electric vehicles
+E08000001,Bolton,Vehicles,2012-04-01,Frequency,Vehicles,8,Electric vehicles
+E08000002,Bury,Vehicles,2012-04-01,Frequency,Vehicles,NA,Electric vehicles
+E08000003,Manchester,Vehicles,2012-04-01,Frequency,Vehicles,23,Electric vehicles
+E08000004,Oldham,Vehicles,2012-04-01,Frequency,Vehicles,9,Electric vehicles
+E08000005,Rochdale,Vehicles,2012-04-01,Frequency,Vehicles,NA,Electric vehicles
+E08000006,Salford,Vehicles,2012-04-01,Frequency,Vehicles,51,Electric vehicles
+E08000007,Stockport,Vehicles,2012-04-01,Frequency,Vehicles,20,Electric vehicles
+E08000008,Tameside,Vehicles,2012-04-01,Frequency,Vehicles,NA,Electric vehicles
+E08000009,Trafford,Vehicles,2012-04-01,Frequency,Vehicles,13,Electric vehicles
+E08000010,Wigan,Vehicles,2012-04-01,Frequency,Vehicles,29,Electric vehicles
+E08000001,Bolton,Vehicles,2012-01-01,Frequency,Vehicles,6,Electric vehicles
+E08000002,Bury,Vehicles,2012-01-01,Frequency,Vehicles,NA,Electric vehicles
+E08000003,Manchester,Vehicles,2012-01-01,Frequency,Vehicles,23,Electric vehicles
+E08000004,Oldham,Vehicles,2012-01-01,Frequency,Vehicles,7,Electric vehicles
+E08000005,Rochdale,Vehicles,2012-01-01,Frequency,Vehicles,NA,Electric vehicles
+E08000006,Salford,Vehicles,2012-01-01,Frequency,Vehicles,45,Electric vehicles
+E08000007,Stockport,Vehicles,2012-01-01,Frequency,Vehicles,16,Electric vehicles
+E08000008,Tameside,Vehicles,2012-01-01,Frequency,Vehicles,NA,Electric vehicles
+E08000009,Trafford,Vehicles,2012-01-01,Frequency,Vehicles,11,Electric vehicles
+E08000010,Wigan,Vehicles,2012-01-01,Frequency,Vehicles,28,Electric vehicles
+E08000001,Bolton,Vehicles,2011-10-01,Frequency,Vehicles,7,Electric vehicles
+E08000002,Bury,Vehicles,2011-10-01,Frequency,Vehicles,NA,Electric vehicles
+E08000003,Manchester,Vehicles,2011-10-01,Frequency,Vehicles,22,Electric vehicles
+E08000004,Oldham,Vehicles,2011-10-01,Frequency,Vehicles,9,Electric vehicles
+E08000005,Rochdale,Vehicles,2011-10-01,Frequency,Vehicles,NA,Electric vehicles
+E08000006,Salford,Vehicles,2011-10-01,Frequency,Vehicles,43,Electric vehicles
+E08000007,Stockport,Vehicles,2011-10-01,Frequency,Vehicles,15,Electric vehicles
+E08000008,Tameside,Vehicles,2011-10-01,Frequency,Vehicles,NA,Electric vehicles
+E08000009,Trafford,Vehicles,2011-10-01,Frequency,Vehicles,10,Electric vehicles
+E08000010,Wigan,Vehicles,2011-10-01,Frequency,Vehicles,29,Electric vehicles
+E08000001,Bolton,Vehicles,2018-10-01,Frequency,Vehicles,362,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2018-10-01,Frequency,Vehicles,304,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2018-10-01,Frequency,Vehicles,495,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2018-10-01,Frequency,Vehicles,216,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2018-10-01,Frequency,Vehicles,263,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2018-10-01,Frequency,Vehicles,359,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2018-10-01,Frequency,Vehicles,553,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2018-10-01,Frequency,Vehicles,208,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2018-10-01,Frequency,Vehicles,477,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2018-10-01,Frequency,Vehicles,335,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2018-07-01,Frequency,Vehicles,343,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2018-07-01,Frequency,Vehicles,262,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2018-07-01,Frequency,Vehicles,464,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2018-07-01,Frequency,Vehicles,216,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2018-07-01,Frequency,Vehicles,246,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2018-07-01,Frequency,Vehicles,340,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2018-07-01,Frequency,Vehicles,511,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2018-07-01,Frequency,Vehicles,196,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2018-07-01,Frequency,Vehicles,459,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2018-07-01,Frequency,Vehicles,316,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2018-04-01,Frequency,Vehicles,330,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2018-04-01,Frequency,Vehicles,243,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2018-04-01,Frequency,Vehicles,437,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2018-04-01,Frequency,Vehicles,192,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2018-04-01,Frequency,Vehicles,223,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2018-04-01,Frequency,Vehicles,318,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2018-04-01,Frequency,Vehicles,460,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2018-04-01,Frequency,Vehicles,184,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2018-04-01,Frequency,Vehicles,413,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2018-04-01,Frequency,Vehicles,304,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2018-01-01,Frequency,Vehicles,313,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2018-01-01,Frequency,Vehicles,282,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2018-01-01,Frequency,Vehicles,413,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2018-01-01,Frequency,Vehicles,185,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2018-01-01,Frequency,Vehicles,207,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2018-01-01,Frequency,Vehicles,309,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2018-01-01,Frequency,Vehicles,429,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2018-01-01,Frequency,Vehicles,166,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2018-01-01,Frequency,Vehicles,369,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2018-01-01,Frequency,Vehicles,290,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2017-10-01,Frequency,Vehicles,270,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2017-10-01,Frequency,Vehicles,374,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2017-10-01,Frequency,Vehicles,380,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2017-10-01,Frequency,Vehicles,175,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2017-10-01,Frequency,Vehicles,187,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2017-10-01,Frequency,Vehicles,290,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2017-10-01,Frequency,Vehicles,372,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2017-10-01,Frequency,Vehicles,158,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2017-10-01,Frequency,Vehicles,342,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2017-10-01,Frequency,Vehicles,264,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2017-07-01,Frequency,Vehicles,254,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2017-07-01,Frequency,Vehicles,349,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2017-07-01,Frequency,Vehicles,329,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2017-07-01,Frequency,Vehicles,163,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2017-07-01,Frequency,Vehicles,182,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2017-07-01,Frequency,Vehicles,286,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2017-07-01,Frequency,Vehicles,354,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2017-07-01,Frequency,Vehicles,146,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2017-07-01,Frequency,Vehicles,321,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2017-07-01,Frequency,Vehicles,253,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2017-04-01,Frequency,Vehicles,240,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2017-04-01,Frequency,Vehicles,274,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2017-04-01,Frequency,Vehicles,305,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2017-04-01,Frequency,Vehicles,159,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2017-04-01,Frequency,Vehicles,160,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2017-04-01,Frequency,Vehicles,287,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2017-04-01,Frequency,Vehicles,308,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2017-04-01,Frequency,Vehicles,123,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2017-04-01,Frequency,Vehicles,284,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2017-04-01,Frequency,Vehicles,232,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2017-01-01,Frequency,Vehicles,235,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2017-01-01,Frequency,Vehicles,261,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2017-01-01,Frequency,Vehicles,289,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2017-01-01,Frequency,Vehicles,155,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2017-01-01,Frequency,Vehicles,142,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2017-01-01,Frequency,Vehicles,282,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2017-01-01,Frequency,Vehicles,269,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2017-01-01,Frequency,Vehicles,112,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2017-01-01,Frequency,Vehicles,260,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2017-01-01,Frequency,Vehicles,217,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2016-10-01,Frequency,Vehicles,203,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2016-10-01,Frequency,Vehicles,200,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2016-10-01,Frequency,Vehicles,261,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2016-10-01,Frequency,Vehicles,151,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2016-10-01,Frequency,Vehicles,127,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2016-10-01,Frequency,Vehicles,265,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2016-10-01,Frequency,Vehicles,239,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2016-10-01,Frequency,Vehicles,102,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2016-10-01,Frequency,Vehicles,226,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2016-10-01,Frequency,Vehicles,186,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2016-07-01,Frequency,Vehicles,185,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2016-07-01,Frequency,Vehicles,192,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2016-07-01,Frequency,Vehicles,260,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2016-07-01,Frequency,Vehicles,147,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2016-07-01,Frequency,Vehicles,123,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2016-07-01,Frequency,Vehicles,261,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2016-07-01,Frequency,Vehicles,221,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2016-07-01,Frequency,Vehicles,97,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2016-07-01,Frequency,Vehicles,210,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2016-07-01,Frequency,Vehicles,173,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2016-04-01,Frequency,Vehicles,172,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2016-04-01,Frequency,Vehicles,215,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2016-04-01,Frequency,Vehicles,238,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2016-04-01,Frequency,Vehicles,145,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2016-04-01,Frequency,Vehicles,110,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2016-04-01,Frequency,Vehicles,253,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2016-04-01,Frequency,Vehicles,195,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2016-04-01,Frequency,Vehicles,94,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2016-04-01,Frequency,Vehicles,229,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2016-04-01,Frequency,Vehicles,168,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2016-01-01,Frequency,Vehicles,166,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2016-01-01,Frequency,Vehicles,261,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2016-01-01,Frequency,Vehicles,193,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2016-01-01,Frequency,Vehicles,140,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2016-01-01,Frequency,Vehicles,97,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2016-01-01,Frequency,Vehicles,238,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2016-01-01,Frequency,Vehicles,186,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2016-01-01,Frequency,Vehicles,86,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2016-01-01,Frequency,Vehicles,205,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2016-01-01,Frequency,Vehicles,155,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2015-10-01,Frequency,Vehicles,144,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2015-10-01,Frequency,Vehicles,244,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2015-10-01,Frequency,Vehicles,168,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2015-10-01,Frequency,Vehicles,132,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2015-10-01,Frequency,Vehicles,76,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2015-10-01,Frequency,Vehicles,223,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2015-10-01,Frequency,Vehicles,157,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2015-10-01,Frequency,Vehicles,70,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2015-10-01,Frequency,Vehicles,168,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2015-10-01,Frequency,Vehicles,138,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2015-07-01,Frequency,Vehicles,122,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2015-07-01,Frequency,Vehicles,176,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2015-07-01,Frequency,Vehicles,160,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2015-07-01,Frequency,Vehicles,114,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2015-07-01,Frequency,Vehicles,66,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2015-07-01,Frequency,Vehicles,222,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2015-07-01,Frequency,Vehicles,147,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2015-07-01,Frequency,Vehicles,64,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2015-07-01,Frequency,Vehicles,142,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2015-07-01,Frequency,Vehicles,109,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2015-04-01,Frequency,Vehicles,102,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2015-04-01,Frequency,Vehicles,161,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2015-04-01,Frequency,Vehicles,142,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2015-04-01,Frequency,Vehicles,98,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2015-04-01,Frequency,Vehicles,60,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2015-04-01,Frequency,Vehicles,216,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2015-04-01,Frequency,Vehicles,131,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2015-04-01,Frequency,Vehicles,50,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2015-04-01,Frequency,Vehicles,120,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2015-04-01,Frequency,Vehicles,91,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2015-01-01,Frequency,Vehicles,89,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2015-01-01,Frequency,Vehicles,161,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2015-01-01,Frequency,Vehicles,135,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2015-01-01,Frequency,Vehicles,91,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2015-01-01,Frequency,Vehicles,47,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2015-01-01,Frequency,Vehicles,217,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2015-01-01,Frequency,Vehicles,119,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2015-01-01,Frequency,Vehicles,39,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2015-01-01,Frequency,Vehicles,97,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2015-01-01,Frequency,Vehicles,83,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2014-10-01,Frequency,Vehicles,80,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2014-10-01,Frequency,Vehicles,104,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2014-10-01,Frequency,Vehicles,118,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2014-10-01,Frequency,Vehicles,76,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2014-10-01,Frequency,Vehicles,37,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2014-10-01,Frequency,Vehicles,211,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2014-10-01,Frequency,Vehicles,99,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2014-10-01,Frequency,Vehicles,34,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2014-10-01,Frequency,Vehicles,78,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2014-10-01,Frequency,Vehicles,74,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2014-07-01,Frequency,Vehicles,79,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2014-07-01,Frequency,Vehicles,96,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2014-07-01,Frequency,Vehicles,110,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2014-07-01,Frequency,Vehicles,69,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2014-07-01,Frequency,Vehicles,33,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2014-07-01,Frequency,Vehicles,201,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2014-07-01,Frequency,Vehicles,84,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2014-07-01,Frequency,Vehicles,21,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2014-07-01,Frequency,Vehicles,61,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2014-07-01,Frequency,Vehicles,57,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2014-04-01,Frequency,Vehicles,71,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2014-04-01,Frequency,Vehicles,53,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2014-04-01,Frequency,Vehicles,97,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2014-04-01,Frequency,Vehicles,46,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2014-04-01,Frequency,Vehicles,29,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2014-04-01,Frequency,Vehicles,188,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2014-04-01,Frequency,Vehicles,66,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2014-04-01,Frequency,Vehicles,19,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2014-04-01,Frequency,Vehicles,56,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2014-04-01,Frequency,Vehicles,44,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2014-01-01,Frequency,Vehicles,63,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2014-01-01,Frequency,Vehicles,25,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2014-01-01,Frequency,Vehicles,87,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2014-01-01,Frequency,Vehicles,33,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2014-01-01,Frequency,Vehicles,22,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2014-01-01,Frequency,Vehicles,184,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2014-01-01,Frequency,Vehicles,61,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2014-01-01,Frequency,Vehicles,15,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2014-01-01,Frequency,Vehicles,54,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2014-01-01,Frequency,Vehicles,38,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2013-10-01,Frequency,Vehicles,58,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2013-10-01,Frequency,Vehicles,19,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2013-10-01,Frequency,Vehicles,72,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2013-10-01,Frequency,Vehicles,30,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2013-10-01,Frequency,Vehicles,19,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2013-10-01,Frequency,Vehicles,177,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2013-10-01,Frequency,Vehicles,56,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2013-10-01,Frequency,Vehicles,15,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2013-10-01,Frequency,Vehicles,48,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2013-10-01,Frequency,Vehicles,36,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2013-07-01,Frequency,Vehicles,56,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2013-07-01,Frequency,Vehicles,17,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2013-07-01,Frequency,Vehicles,72,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2013-07-01,Frequency,Vehicles,29,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2013-07-01,Frequency,Vehicles,17,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2013-07-01,Frequency,Vehicles,163,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2013-07-01,Frequency,Vehicles,61,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2013-07-01,Frequency,Vehicles,14,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2013-07-01,Frequency,Vehicles,49,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2013-07-01,Frequency,Vehicles,36,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2013-04-01,Frequency,Vehicles,50,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2013-04-01,Frequency,Vehicles,15,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2013-04-01,Frequency,Vehicles,66,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2013-04-01,Frequency,Vehicles,26,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2013-04-01,Frequency,Vehicles,17,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2013-04-01,Frequency,Vehicles,125,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2013-04-01,Frequency,Vehicles,52,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2013-04-01,Frequency,Vehicles,14,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2013-04-01,Frequency,Vehicles,46,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2013-04-01,Frequency,Vehicles,34,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2013-01-01,Frequency,Vehicles,44,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2013-01-01,Frequency,Vehicles,14,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2013-01-01,Frequency,Vehicles,62,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2013-01-01,Frequency,Vehicles,25,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2013-01-01,Frequency,Vehicles,15,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2013-01-01,Frequency,Vehicles,94,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2013-01-01,Frequency,Vehicles,49,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2013-01-01,Frequency,Vehicles,15,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2013-01-01,Frequency,Vehicles,44,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2013-01-01,Frequency,Vehicles,34,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2012-10-01,Frequency,Vehicles,42,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2012-10-01,Frequency,Vehicles,13,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2012-10-01,Frequency,Vehicles,59,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2012-10-01,Frequency,Vehicles,24,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2012-10-01,Frequency,Vehicles,12,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2012-10-01,Frequency,Vehicles,99,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2012-10-01,Frequency,Vehicles,48,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2012-10-01,Frequency,Vehicles,14,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2012-10-01,Frequency,Vehicles,42,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2012-10-01,Frequency,Vehicles,34,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2012-07-01,Frequency,Vehicles,43,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2012-07-01,Frequency,Vehicles,14,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2012-07-01,Frequency,Vehicles,55,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2012-07-01,Frequency,Vehicles,22,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2012-07-01,Frequency,Vehicles,13,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2012-07-01,Frequency,Vehicles,98,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2012-07-01,Frequency,Vehicles,45,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2012-07-01,Frequency,Vehicles,13,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2012-07-01,Frequency,Vehicles,40,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2012-07-01,Frequency,Vehicles,36,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2012-04-01,Frequency,Vehicles,40,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2012-04-01,Frequency,Vehicles,13,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2012-04-01,Frequency,Vehicles,48,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2012-04-01,Frequency,Vehicles,21,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2012-04-01,Frequency,Vehicles,12,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2012-04-01,Frequency,Vehicles,97,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2012-04-01,Frequency,Vehicles,39,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2012-04-01,Frequency,Vehicles,17,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2012-04-01,Frequency,Vehicles,37,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2012-04-01,Frequency,Vehicles,38,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2012-01-01,Frequency,Vehicles,38,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2012-01-01,Frequency,Vehicles,12,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2012-01-01,Frequency,Vehicles,51,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2012-01-01,Frequency,Vehicles,19,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2012-01-01,Frequency,Vehicles,11,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2012-01-01,Frequency,Vehicles,89,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2012-01-01,Frequency,Vehicles,35,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2012-01-01,Frequency,Vehicles,14,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2012-01-01,Frequency,Vehicles,36,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2012-01-01,Frequency,Vehicles,36,Ultra low emission vehicles
+E08000001,Bolton,Vehicles,2011-10-01,Frequency,Vehicles,39,Ultra low emission vehicles
+E08000002,Bury,Vehicles,2011-10-01,Frequency,Vehicles,13,Ultra low emission vehicles
+E08000003,Manchester,Vehicles,2011-10-01,Frequency,Vehicles,52,Ultra low emission vehicles
+E08000004,Oldham,Vehicles,2011-10-01,Frequency,Vehicles,22,Ultra low emission vehicles
+E08000005,Rochdale,Vehicles,2011-10-01,Frequency,Vehicles,12,Ultra low emission vehicles
+E08000006,Salford,Vehicles,2011-10-01,Frequency,Vehicles,87,Ultra low emission vehicles
+E08000007,Stockport,Vehicles,2011-10-01,Frequency,Vehicles,36,Ultra low emission vehicles
+E08000008,Tameside,Vehicles,2011-10-01,Frequency,Vehicles,11,Ultra low emission vehicles
+E08000009,Trafford,Vehicles,2011-10-01,Frequency,Vehicles,37,Ultra low emission vehicles
+E08000010,Wigan,Vehicles,2011-10-01,Frequency,Vehicles,37,Ultra low emission vehicles
