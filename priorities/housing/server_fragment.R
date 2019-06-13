@@ -37,9 +37,8 @@ output$net_additional_dwellings_plot <- renderggiraph({
 })
 
 output$net_additional_dwellings_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","net additional dwellings","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
     title = "Net additional dwellings",
     withSpinner(
       ggiraphOutput("net_additional_dwellings_plot"),
@@ -104,9 +103,8 @@ output$vacant_properties_plot <- renderggiraph({
 
 output$vacant_properties_box <- renderUI({
   
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","long-term vacant properties","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4,  
+      hr(style = "border-top: 1px dashed #757575;"),
     title = "Long-term vacant properties",
     withSpinner(
       ggiraphOutput("vacant_properties_plot"),
@@ -172,9 +170,8 @@ output$council_tax_bands_plot <- renderggiraph({
 
 output$council_tax_bands_box <- renderUI({
   
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","the proportion of new builds with low council tax bands","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "New properties by council tax band",
       withSpinner(
         ggiraphOutput("council_tax_bands_plot"),
@@ -255,9 +252,8 @@ output$affordability_ratio_plot <- renderggiraph({
 
 output$affordability_ratio_box <- renderUI({
   
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","the affordability ratio","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Affordability ratio",
       withSpinner(
         ggiraphOutput("affordability_ratio_plot"),
@@ -309,15 +305,15 @@ output$licensed_hmos_map = renderLeaflet({
                      fillColor = "#00AFBB", fillOpacity = 0.5, radius = 4,
                      popup = paste("<strong>", sf$address, "</strong><br>",
                                    "<em>","Households:", "</em>", sf$households, "<br>",
-                                   "<em>","Expiry date:", "</em>", sf$expiry))
+                                   "<em>","Expiry date:", "</em>", sf$expiry)) %>% 
+    addControl("<strong>HMOs</strong>", position = 'topright')
   
 })
 
 output$licensed_hmos_box <- renderUI({
   
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","licensed HMOs","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Licensed HMOs",
       withSpinner(
         leafletOutput("licensed_hmos_map"),

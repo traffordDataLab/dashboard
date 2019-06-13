@@ -84,9 +84,8 @@ output$alcohol_related_admissions_plot <- renderggiraph({
 })
 
 output$alcohol_related_admissions_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","alcohol related admissions","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Alcohol related admissions",
       withSpinner(
         ggiraphOutput("alcohol_related_admissions_plot"),
@@ -220,9 +219,8 @@ output$alcohol_related_mortality_plot <- renderggiraph({
 })
 
 output$alcohol_related_mortality_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","alcohol related mortality","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Alcohol related mortality",
       withSpinner(
         ggiraphOutput("alcohol_related_mortality_plot"),
@@ -359,9 +357,8 @@ output$healthy_life_expectancy_at_birth_plot <- renderggiraph({
 })
 
 output$healthy_life_expectancy_at_birth_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","healthy life expectancy at birth","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Healthy life expectancy at birth",
       withSpinner(
         ggiraphOutput("healthy_life_expectancy_at_birth_plot"),
@@ -489,9 +486,8 @@ output$slope_index_of_inequality_plot <- renderggiraph({
     })
 
 output$slope_index_of_inequality_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","inequality in life expectancy at birth","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Inequalities in life expectancy",
       withSpinner(
         ggiraphOutput("slope_index_of_inequality_plot"),
@@ -625,9 +621,8 @@ output$smoking_adults_plot <- renderggiraph({
 })
 
 output$smoking_adults_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","smoking prevalence in adults","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Adult smoking prevalence",
       withSpinner(
         ggiraphOutput("smoking_adults_plot"),
@@ -761,9 +756,8 @@ output$smoking_adults_manual_plot <- renderggiraph({
 })
 
 output$smoking_adults_manual_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","smoking prevalence in adults in routine and manual occupations","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Smoking amongst Routine and Manual workers",
       withSpinner(
         ggiraphOutput("smoking_adults_manual_plot"),
@@ -897,9 +891,8 @@ output$admissions_falls_plot <- renderggiraph({
 })
 
 output$admissions_falls_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","emergency admissions due to falls in people aged 65 and over","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Emergency admissions for falls",
       withSpinner(
         ggiraphOutput("admissions_falls_plot"),
@@ -1033,9 +1026,8 @@ output$deaths_at_home_plot <- renderggiraph({
 })
 
 output$deaths_at_home_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","deaths in usual place of residence","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Deaths in usual place of residence",
       withSpinner(
         ggiraphOutput("deaths_at_home_plot"),
@@ -1169,9 +1161,8 @@ output$preventable_mortality_from_cancer_plot <- renderggiraph({
 })
 
 output$preventable_mortality_from_cancer_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","under 75 mortality rate from cancer considered preventable","</b>", "  not set.", "</h5>")),
-          style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Under 75 mortality rate from cancer considered preventable",
       withSpinner(
         ggiraphOutput("preventable_mortality_from_cancer_plot"),
@@ -1305,9 +1296,8 @@ output$physically_inactive_plot <- renderggiraph({
 })
 
 output$physically_inactive_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","percentage of physically inactive adults","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Physical inactivity",
       withSpinner(
         ggiraphOutput("physically_inactive_plot"),
@@ -1441,9 +1431,8 @@ output$dementia_diagnosis_plot <- renderggiraph({
 })
 
 output$dementia_diagnosis_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","dementia diagnosis rate","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Dementia diagnosis rate",
       withSpinner(
         ggiraphOutput("dementia_diagnosis_plot"),
@@ -1571,9 +1560,8 @@ output$mortality_serious_mental_illness_plot <- renderggiraph({
 })
 
 output$mortality_serious_mental_illness_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","mortality rate amongst those with serious mental illness","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Excess under 75 mortality rate in adults with serious mental illness",
       withSpinner(
         ggiraphOutput("mortality_serious_mental_illness_plot"),
@@ -1708,9 +1696,8 @@ output$admissions_self_harm_plot <- renderggiraph({
 })
 
 output$admissions_self_harm_box <- renderUI({
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","emergency hospital admissions for intentional self-harm","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Emergency hospital admissions for intentional self-harm",
       withSpinner(
         ggiraphOutput("admissions_self_harm_plot"),
@@ -1757,6 +1744,3 @@ output$admissions_self_harm_box <- renderUI({
   )
   
 })
-
-
-# Indicator name --------------------------------------------------

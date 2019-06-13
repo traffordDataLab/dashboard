@@ -23,14 +23,13 @@ output$gmal_map = renderLeaflet({
               labels = c("1 Low accessibility", 
                          "2","3","4","5","6","7",
                          "8 High accessibility"), opacity = 0.5) %>% 
-    addControl("<strong>Public transport accessibility</strong>", position = 'topright')
+    addControl("<strong>GMAL</strong>", position = 'topright')
   })
 
 output$gmal_box <- renderUI({
   
-  box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","public transport accessibility","</b>", "  not set.", "</h5>")),
-                     style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em;"),
-      br(),
+  box(width = 4, 
+      hr(style = "border-top: 1px dashed #757575;"),
       title = "Public transport accessibility",
       withSpinner(
         leafletOutput("gmal_map"),
@@ -152,9 +151,8 @@ nitrogen_dioxide <- read_csv("data/green/nitrogen_dioxide.csv") %>%
   
   output$nitrogen_dioxide_box <- renderUI({
     
-    box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","NO", "<sub>", 2, "</sub>", " concentrations","</b>", "  not set.", "</h5>")),
-                       style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-        br(),
+    box(width = 4,
+        hr(style = "border-top: 1px dashed #757575;"),
         title = "Nitrogen dioxide concentrations",
         withSpinner(
           ggiraphOutput("nitrogen_dioxide_plot"),
@@ -293,9 +291,8 @@ nitrogen_dioxide <- read_csv("data/green/nitrogen_dioxide.csv") %>%
   
   output$particulate_matter_box <- renderUI({
     
-    box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>","PM", "<sub>", 10, "</sub>", " concentrations","</b>", "  not set.", "</h5>")),
-                       style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-        br(),
+    box(width = 4, 
+        hr(style = "border-top: 1px dashed #757575;"),
         title = "Particulate Matter concentrations",
         withSpinner(
           ggiraphOutput("particulate_matter_plot"),
@@ -379,9 +376,8 @@ co2_emissions <- read_csv("data/green/co2_emissions.csv") %>%
   
   output$co2_emissions_box <- renderUI({
     
-    box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>", "CO", "<sub>", 2, "</sub>", " emission estimates",  "</b>", "  not set.", "</h5>")),
-                       style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-        br(),
+    box(width = 4, 
+        hr(style = "border-top: 1px dashed #757575;"),
         title = HTML(paste0("CO", "<sub>", 2, "</sub>", " emissions")),
         withSpinner(
           ggiraphOutput("co2_emissions_plot"),
@@ -466,9 +462,8 @@ licensed_vehicles <- read_csv("data/green/licensed_vehicles.csv") %>%
   
   output$licensed_vehicles_box <- renderUI({
     
-    box(width = 4, div(HTML(paste0("<h5>", "Target for ", "<b>", "licenced vehicles", "</b>", "  not set.", "</h5>")),
-                       style = "background-color: #E7E7E7; border: 1px solid #FFFFFF; padding-left:1em; padding-right:1em;"),
-        br(),
+    box(width = 4, 
+        hr(style = "border-top: 1px dashed #757575;"),
         title = "Licensed vehicles",
         withSpinner(
           ggiraphOutput("licensed_vehicles_plot"),
