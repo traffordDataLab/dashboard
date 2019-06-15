@@ -6,13 +6,13 @@ tabPanel("Green and connected", width = 11, style="margin-left:4%; margin-right:
          fluidPage(
            br(),
            fluidRow(
-             uiOutput("gmal_box"),
-             uiOutput("licensed_vehicles_box"),
-             uiOutput("nitrogen_dioxide_box")
-           ),
-           fluidRow(
+             uiOutput("nitrogen_dioxide_box"),
              uiOutput("particulate_matter_box"),
              uiOutput("co2_emissions_box")
+           ),
+           fluidRow(
+             uiOutput("licensed_vehicles_box"),
+             uiOutput("gmal_box")
            ),
            br(),br()
          )

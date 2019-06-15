@@ -1,4 +1,4 @@
-The annual mean concentration of Particulate Matter (PM<sub>10</sub>) is measured in microgrammes per cubic metre of air (µg/m<sup>3</sup>). 
+The annual mean concentration of Particulate Matter (PM<sub>10</sub>) is measured in micrometres per cubic metre of air (µg/m<sup>3</sup>). 
 
 The legals limits for PM<sub>10</sub> concentrations are:
 
