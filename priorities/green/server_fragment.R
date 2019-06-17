@@ -197,7 +197,7 @@ output$nitrogen_dioxide_box <- renderUI({
         ggplot(pm10_readings(), aes(x = date, y = mean)) +
         geom_hline_interactive(aes(yintercept = 50, tooltip = paste0("PM", "<sub>", 10, "</sub>", " annual mean objective")), linetype = "dotted", color = "#000000", size = 1.5) +
         geom_line(colour = "#00AFBB", size = 1) +
-        geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, fill = "#00AFBB", colour = "white") +
+        #geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, fill = "#00AFBB", colour = "white") +
         scale_x_date(breaks = pm10_readings()$date, date_labels = "%b-%y", date_breaks = "1 month") +
         scale_y_continuous(limits = c(0, max(pm10_readings()$mean))) +
         labs(title = expression(paste("24-hour mean ", PM[10], " concentrations")),
