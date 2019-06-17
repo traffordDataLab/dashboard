@@ -16,14 +16,23 @@ nitrogen_dioxide <- read_csv("data/green/nitrogen_dioxide.csv") %>%
 no2_readings <- reactive({
   
   site_id <- input$nitrogen_dioxide_selection
-  start_date <- as.Date(Sys.time()) %m-% months(6)
+  start_date <- as.Date(Sys.time()) %m-% months(12)
   end_date <- Sys.Date()
   
-  url <- paste0("https://cleanairgm.com/locations/history/", tolower(site_id), "/no2?fromdate=", start_date, "&enddate=", end_date)
-  readings <- read_csv(url) %>% 
-    mutate(date_hour = as.POSIXct(paste(`Measurement Date`, `Measurement Hour`), format = "%Y-%m-%d %H:%M:%S"),
-           value = as.double(str_replace_all(`Measurement Value`, "No data", "NA"))) %>% 
-    select(date_hour:value)
+  url <- paste0("http://www.airqualityengland.co.uk/local-authority/data.php?site_id=", site_id, "&parameter_id%5B%5D=NO2&f_query_id=920788&data=%3C%3Fphp+print+htmlentities%28%24data%29%3B+%3F%3E&f_date_started=", start_date, "&f_date_ended=", end_date, "&la_id=368&action=download&submit=Download+Data")
+  readings <- read_html(url) %>% 
+    html_node("a.b_xls.valignt") %>% 
+    html_attr('href') %>% 
+    read_csv(skip = 5) %>% 
+    mutate(`End Date` = as.Date(`End Date`, format = "%d/%m/%Y"),
+           date_hour = as.POSIXct(paste(`End Date`, `End Time`), format = "%Y-%m-%d %H:%M:%S"),
+           value = as.double(NO2)) %>% 
+    select(date_hour:value) %>%
+    arrange(date_hour) %>% 
+    mutate(tooltip = 
+             paste0("<strong>", round(value, 1), " μg/m", "<sup>", 3, "</sup>", "</strong><br/>",
+                    "<em>", filter(stations, site_id == input$nitrogen_dioxide_selection)$site, "</em><br/>",
+                    date_hour))
   
 })
 
@@ -51,21 +60,14 @@ output$nitrogen_dioxide_plot <- renderggiraph({
   }
   else {
     
-    hourly_means <- no2_readings() %>%
-      arrange(date_hour) %>% 
-      mutate(tooltip = 
-               paste0("<strong>", round(value, 1), " μg/m", "<sup>", 3, "</sup>", "</strong><br/>",
-                      "<em>", filter(stations, site_id == input$nitrogen_dioxide_selection)$site, "</em><br/>",
-                      date_hour))
-    
     gg <-
-      ggplot(hourly_means, aes(x = date_hour, y = value)) +
+      ggplot(no2_readings(), aes(x = date_hour, y = value)) +
       geom_hline_interactive(aes(yintercept = 200, tooltip = paste0("NO", "<sub>", 2, "</sub>", " 1-hour mean objective")), linetype = "dotted", color = "#000000", size = 1.5) +
       geom_line(colour = "#00AFBB", size = 1) +
-      scale_x_datetime(breaks = hourly_means$date_hour, date_labels = "%b", date_breaks = "1 month") +
-      scale_y_continuous(limits = c(0, max(hourly_means$value))) +
+      scale_x_datetime(breaks = no2_readings()$date_hour, date_labels = "%b-%y", date_breaks = "1 month") +
+      scale_y_continuous(limits = c(0, max(no2_readings()$value))) +
       labs(title = expression(paste("1-hour mean ", NO[2], " concentrations")),
-           subtitle = filter(stations, site_id == input$nitrogen_dioxide_selection)$site,
+           subtitle = paste0(sum(no2_readings()$value >= 200, na.rm = TRUE), " exceedances at ", filter(stations, site_id == input$nitrogen_dioxide_selection)$site, " over last 12 months"),
            caption = "Source: Trafford Council / Ricardo EE",
            x = "",
            y = expression(paste("μg/m"^3))) +
@@ -145,15 +147,25 @@ output$nitrogen_dioxide_box <- renderUI({
   pm10_readings <- reactive({
     
     site_id <- input$particulate_matter_selection
-    start_date <- as.Date(Sys.time()) %m-% months(6)
+    start_date <- as.Date(Sys.time()) %m-% months(12)
     end_date <- Sys.Date()
     
-    url <- paste0("https://cleanairgm.com/locations/history/", tolower(site_id), "/pm10?fromdate=", start_date, "&enddate=", end_date)
-    readings <- read_csv(url) %>% 
-      mutate(date = as.Date(`Measurement Date`, format = "%d/%m/%Y"),
-             hour = hour(strptime(`Measurement Hour`, format = "%H:%M:%S")),
-             value = as.double(str_replace_all(`Measurement Value`, "No data", "NA"))) %>% 
-      select(date:value)
+    url <- paste0("http://www.airqualityengland.co.uk/local-authority/data.php?site_id=", site_id, "&parameter_id%5B%5D=GE10&f_query_id=920788&data=%3C%3Fphp+print+htmlentities%28%24data%29%3B+%3F%3E&f_date_started=", start_date, "&f_date_ended=", end_date, "&la_id=368&action=download&submit=Download+Data")
+    readings <- read_html(url) %>% 
+      html_node("a.b_xls.valignt") %>% 
+      html_attr('href') %>% 
+      read_csv(skip = 5) %>% 
+      mutate(date = as.Date(`End Date`, format = "%d/%m/%Y"),
+             hour = hour(strptime(`End Time`, format = "%H:%M:%S")),
+             value = as.double(PM10)) %>% 
+      select(date:value) %>% 
+      group_by(date) %>% 
+      summarise(mean = mean(value, na.rm = TRUE)) %>% 
+      arrange(date) %>% 
+      mutate(tooltip = 
+               paste0("<strong>", round(mean, 1), " μg/m", "<sup>", 3, "</sup>", "</strong><br/>",
+                      "<em>", filter(stations, site_id == input$particulate_matter_selection)$site, "</em><br/>",
+                      paste0(day(date), "-", month(date), "-", year(date))))
     
   })
   
@@ -181,24 +193,15 @@ output$nitrogen_dioxide_box <- renderUI({
     }
     else {
       
-      daily_means <- pm10_readings() %>% 
-        group_by(date) %>% 
-        summarise(mean = mean(value, na.rm = TRUE)) %>% 
-        arrange(date) %>% 
-        mutate(tooltip = 
-                 paste0("<strong>", round(mean, 1), " μg/m", "<sup>", 3, "</sup>", "</strong><br/>",
-                        "<em>", filter(stations, site_id == input$particulate_matter_selection)$site, "</em><br/>",
-                        paste0(day(date), "-", month(date), "-", year(date))))
-      
       gg <-
-        ggplot(daily_means, aes(x = date, y = mean)) +
+        ggplot(pm10_readings(), aes(x = date, y = mean)) +
         geom_hline_interactive(aes(yintercept = 50, tooltip = paste0("PM", "<sub>", 10, "</sub>", " annual mean objective")), linetype = "dotted", color = "#000000", size = 1.5) +
         geom_line(colour = "#00AFBB", size = 1) +
         geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, fill = "#00AFBB", colour = "white") +
-        scale_x_date(breaks = daily_means$date, date_labels = "%b", date_breaks = "1 month") +
-        scale_y_continuous(limits = c(0, max(daily_means$mean))) +
+        scale_x_date(breaks = pm10_readings()$date, date_labels = "%b-%y", date_breaks = "1 month") +
+        scale_y_continuous(limits = c(0, max(pm10_readings()$mean))) +
         labs(title = expression(paste("24-hour mean ", PM[10], " concentrations")),
-             subtitle = filter(stations, site_id == input$particulate_matter_selection)$site,
+             subtitle = paste0(sum(pm10_readings()$mean >= 50, na.rm = TRUE), " exceedances at ", filter(stations, site_id == input$particulate_matter_selection)$site, " over last 12 months"),
              caption = "Source: Trafford Council / Ricardo EE",
              x = "",
              y = expression(paste("μg/m"^3))) +
