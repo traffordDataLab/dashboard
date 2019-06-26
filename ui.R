@@ -43,7 +43,7 @@ ui <- fluidPage(
             id = "places_tab",
             class = "btn action-button",
             style = "color: #212121; background-color: #fff; border: none; width: 100%;",
-            tags$img(src = "icons/places.png", height = "50px", style = "float: left; margin-right:1 em;"),
+            tags$img(src = "icons/places.png", height = "50px", style = "float: left; margin-right: 1em;"),
             HTML(paste('<p align="left">', "Successful and thriving places", '<br />', em("Trafford has successful and thriving town centres and communities."), '</p>'))
           )
         ),

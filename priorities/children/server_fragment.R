@@ -1261,49 +1261,49 @@ output$childcare_providers_map = renderLeaflet({
 
 output$childcare_providers_box <- renderUI({
   div(class = "col-sm-12 col-md-6 col-lg-4",
-  box(width = '100%', 
-      hr(style = "border-top: 1px solid #757575;"),
-      title = "Childcare providers",
-      withSpinner(
-        leafletOutput("childcare_providers_map"),
-        type = 4,
-        color = "#bdbdbd",
-        size = 1
-      ),
-      div(
-        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
-        dropdown(
-          radioButtons(inputId = "childcare_providers_selection", 
-                       tags$h4("Inspection rating:"),
-                       choices = unique(levels(childcare_providers$rating)), 
-                       selected = "Outstanding"
+      box(width = '100%', 
+          hr(style = "border-top: 1px solid #757575;"),
+          title = "Childcare providers",
+          withSpinner(
+            leafletOutput("childcare_providers_map"),
+            type = 4,
+            color = "#bdbdbd",
+            size = 1
           ),
-          icon = icon("filter"),
-          size = "xs",
-          style = "jelly",
-          width = "200px",
-          up = TRUE
-        )
-      ),
-      div(
-        style = "position: absolute; left: 4em; bottom: 0.5em;",
-        dropdown(
-          includeMarkdown("data/children/metadata/childcare_providers.md"),
-          icon = icon("question"),
-          size = "xs",
-          style = "jelly",
-          width = "300px",
-          up = TRUE
-        ),
-        tags$style(
-          HTML(
-            '.fa {color: #212121;}
+          div(
+            style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+            dropdown(
+              radioButtons(inputId = "childcare_providers_selection", 
+                           tags$h4("Inspection rating:"),
+                           choices = unique(levels(childcare_providers$rating)), 
+                           selected = "Outstanding"
+              ),
+              icon = icon("filter"),
+              size = "xs",
+              style = "jelly",
+              width = "200px",
+              up = TRUE
+            )
+          ),
+          div(
+            style = "position: absolute; left: 4em; bottom: 0.5em;",
+            dropdown(
+              includeMarkdown("data/children/metadata/childcare_providers.md"),
+              icon = icon("question"),
+              size = "xs",
+              style = "jelly",
+              width = "300px",
+              up = TRUE
+            ),
+            tags$style(
+              HTML(
+                '.fa {color: #212121;}
             .bttn-jelly.bttn-default{color:#f0f0f0;}
             .bttn-jelly:hover:before{opacity:1};'
+              )
+            )
           )
-        )
       )
-  )
   )
   
 })
@@ -1335,49 +1335,49 @@ output$primary_schools_map = renderLeaflet({
 
 output$primary_schools_box <- renderUI({
   div(class = "col-sm-12 col-md-6 col-lg-4",
-  box(width = '100%', 
-      hr(style = "border-top: 1px solid #757575;"),
-      title = "Primary schools",
-      withSpinner(
-        leafletOutput("primary_schools_map"),
-        type = 4,
-        color = "#bdbdbd",
-        size = 1
-      ),
-      div(
-        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
-        dropdown(
-          radioButtons(inputId = "primary_schools_selection", 
-                       tags$h4("Inspection rating:"),
-                       choices = unique(levels(primary_schools$rating)), 
-                       selected = "Outstanding"
+      box(width = '100%', 
+          hr(style = "border-top: 1px solid #757575;"),
+          title = "Primary schools",
+          withSpinner(
+            leafletOutput("primary_schools_map"),
+            type = 4,
+            color = "#bdbdbd",
+            size = 1
           ),
-          icon = icon("filter"),
-          size = "xs",
-          style = "jelly",
-          width = "200px",
-          up = TRUE
-        )
-      ),
-      div(
-        style = "position: absolute; left: 4em; bottom: 0.5em;",
-        dropdown(
-          includeMarkdown("data/children/metadata/primary_schools.md"),
-          icon = icon("question"),
-          size = "xs",
-          style = "jelly",
-          width = "300px",
-          up = TRUE
-        ),
-        tags$style(
-          HTML(
-            '.fa {color: #212121;}
+          div(
+            style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+            dropdown(
+              radioButtons(inputId = "primary_schools_selection", 
+                           tags$h4("Inspection rating:"),
+                           choices = unique(levels(primary_schools$rating)), 
+                           selected = "Outstanding"
+              ),
+              icon = icon("filter"),
+              size = "xs",
+              style = "jelly",
+              width = "200px",
+              up = TRUE
+            )
+          ),
+          div(
+            style = "position: absolute; left: 4em; bottom: 0.5em;",
+            dropdown(
+              includeMarkdown("data/children/metadata/primary_schools.md"),
+              icon = icon("question"),
+              size = "xs",
+              style = "jelly",
+              width = "300px",
+              up = TRUE
+            ),
+            tags$style(
+              HTML(
+                '.fa {color: #212121;}
             .bttn-jelly.bttn-default{color:#f0f0f0;}
             .bttn-jelly:hover:before{opacity:1};'
+              )
+            )
           )
-        )
       )
-  )
   )
   
 })
@@ -1408,49 +1408,49 @@ output$secondary_schools_map = renderLeaflet({
 
 output$secondary_schools_box <- renderUI({
   div(class = "col-sm-12 col-md-6 col-lg-4",
-  box(width = '100%', 
-      hr(style = "border-top: 1px solid #757575;"),
-      title = "Secondary schools",
-      withSpinner(
-        leafletOutput("secondary_schools_map"),
-        type = 4,
-        color = "#bdbdbd",
-        size = 1
-      ),
-      div(
-        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
-        dropdown(
-          radioButtons(inputId = "secondary_schools_selection", 
-                       tags$h4("Inspection rating:"),
-                       choices = unique(levels(secondary_schools$rating)), 
-                       selected = "Outstanding"
+      box(width = '100%', 
+          hr(style = "border-top: 1px solid #757575;"),
+          title = "Secondary schools",
+          withSpinner(
+            leafletOutput("secondary_schools_map"),
+            type = 4,
+            color = "#bdbdbd",
+            size = 1
           ),
-          icon = icon("filter"),
-          size = "xs",
-          style = "jelly",
-          width = "200px",
-          up = TRUE
-        )
-      ),
-      div(
-        style = "position: absolute; left: 4em; bottom: 0.5em;",
-        dropdown(
-          includeMarkdown("data/children/metadata/secondary_schools.md"),
-          icon = icon("question"),
-          size = "xs",
-          style = "jelly",
-          width = "300px",
-          up = TRUE
-        ),
-        tags$style(
-          HTML(
-            '.fa {color: #212121;}
+          div(
+            style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+            dropdown(
+              radioButtons(inputId = "secondary_schools_selection", 
+                           tags$h4("Inspection rating:"),
+                           choices = unique(levels(secondary_schools$rating)), 
+                           selected = "Outstanding"
+              ),
+              icon = icon("filter"),
+              size = "xs",
+              style = "jelly",
+              width = "200px",
+              up = TRUE
+            )
+          ),
+          div(
+            style = "position: absolute; left: 4em; bottom: 0.5em;",
+            dropdown(
+              includeMarkdown("data/children/metadata/secondary_schools.md"),
+              icon = icon("question"),
+              size = "xs",
+              style = "jelly",
+              width = "300px",
+              up = TRUE
+            ),
+            tags$style(
+              HTML(
+                '.fa {color: #212121;}
             .bttn-jelly.bttn-default{color:#f0f0f0;}
             .bttn-jelly:hover:before{opacity:1};'
+              )
+            )
           )
-        )
       )
-  )
   )
   
 })
@@ -1482,49 +1482,49 @@ output$special_schools_map = renderLeaflet({
 
 output$special_schools_box <- renderUI({
   div(class = "col-sm-12 col-md-6 col-lg-4",
-  box(width = '100%', 
-      hr(style = "border-top: 1px solid #757575;"),
-      title = "Special schools",
-      withSpinner(
-        leafletOutput("special_schools_map"),
-        type = 4,
-        color = "#bdbdbd",
-        size = 1
-      ),
-      div(
-        style = "position: absolute; left: 1.5em; bottom: 0.5em;",
-        dropdown(
-          radioButtons(inputId = "special_schools_selection", 
-                       tags$h4("Inspection rating:"),
-                       choices = unique(levels(special_schools$rating)), 
-                       selected = "Outstanding"
+      box(width = '100%', 
+          hr(style = "border-top: 1px solid #757575;"),
+          title = "Special schools",
+          withSpinner(
+            leafletOutput("special_schools_map"),
+            type = 4,
+            color = "#bdbdbd",
+            size = 1
           ),
-          icon = icon("filter"),
-          size = "xs",
-          style = "jelly",
-          width = "200px",
-          up = TRUE
-        )
-      ),
-      div(
-        style = "position: absolute; left: 4em; bottom: 0.5em;",
-        dropdown(
-          includeMarkdown("data/children/metadata/special_schools.md"),
-          icon = icon("question"),
-          size = "xs",
-          style = "jelly",
-          width = "300px",
-          up = TRUE
-        ),
-        tags$style(
-          HTML(
-            '.fa {color: #212121;}
+          div(
+            style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+            dropdown(
+              radioButtons(inputId = "special_schools_selection", 
+                           tags$h4("Inspection rating:"),
+                           choices = unique(levels(special_schools$rating)), 
+                           selected = "Outstanding"
+              ),
+              icon = icon("filter"),
+              size = "xs",
+              style = "jelly",
+              width = "200px",
+              up = TRUE
+            )
+          ),
+          div(
+            style = "position: absolute; left: 4em; bottom: 0.5em;",
+            dropdown(
+              includeMarkdown("data/children/metadata/special_schools.md"),
+              icon = icon("question"),
+              size = "xs",
+              style = "jelly",
+              width = "300px",
+              up = TRUE
+            ),
+            tags$style(
+              HTML(
+                '.fa {color: #212121;}
             .bttn-jelly.bttn-default{color:#f0f0f0;}
             .bttn-jelly:hover:before{opacity:1};'
+              )
+            )
           )
-        )
       )
-  )
   )
   
 })
