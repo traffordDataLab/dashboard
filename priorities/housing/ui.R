@@ -8,9 +8,7 @@ tabPanel("Affordable and quality homes", width = 11, style="margin-left:4%; marg
            fluidRow(
              uiOutput("net_additional_dwellings_box"),
              uiOutput("council_tax_bands_box"),
-             uiOutput("licensed_hmos_box")
-           ),
-           fluidRow(
+             uiOutput("licensed_hmos_box"),
              uiOutput("affordability_ratio_box"),
              uiOutput("vacant_properties_box")
            ),

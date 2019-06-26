@@ -46,8 +46,8 @@ output$crime_rate_plot <- renderggiraph({
 })
 
 output$crime_rate_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Crime rates",
       withSpinner(
@@ -90,6 +90,7 @@ output$crime_rate_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -141,8 +142,8 @@ output$crime_severity_plot <- renderggiraph({
 })
 
 output$crime_severity_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Crime Severity Score",
       withSpinner(
@@ -185,6 +186,7 @@ output$crime_severity_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -259,8 +261,8 @@ output$potholes_plot <- renderggiraph({
 })
 
 output$potholes_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Potholes",
       withSpinner(
@@ -306,6 +308,7 @@ output$potholes_box <- renderUI({
         )
       )
   )
+  )
   
 })
 
@@ -347,8 +350,8 @@ output$flytipping_plot <- renderggiraph({
 })
 
 output$flytipping_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Flytipping incidents",
       withSpinner(
@@ -392,6 +395,7 @@ output$flytipping_box <- renderUI({
         )
       )
   )
+  )
   
 })
 
@@ -415,8 +419,7 @@ output$green_flags_map = renderLeaflet({
                        fillOpacity = 0.5, radius = 4,
                        popup = paste("<strong>", green_flags$name, "</strong><br />",
                                      "<em>", green_flags$area_name, "</em><br/>",
-                                     "<a href='", green_flags$url, "' target='_blank'>Further info</a>")) %>% 
-      addControl("<strong>Green Flag Awards</strong>", position = 'topright')
+                                     "<a href='", green_flags$url, "' target='_blank'>Further info</a>"))
   }
   else {
     leaflet() %>% 
@@ -430,14 +433,13 @@ output$green_flags_map = renderLeaflet({
                        fillColor = "#00AFBB", fillOpacity = 0.5, radius = 4,
                        popup = paste("<strong>", filter(green_flags, area_name == "Trafford")$name, "</strong><br />",
                                      "<em>", filter(green_flags, area_name == "Trafford")$area_name, "</em><br/>",
-                                     "<a href='", filter(green_flags, area_name == "Trafford")$url, "' target='_blank'>Further info</a>")) %>% 
-      addControl("<strong>Green Flag Awards</strong>", position = 'topright')
+                                     "<a href='", filter(green_flags, area_name == "Trafford")$url, "' target='_blank'>Further info</a>"))
   }
 })
 
 output$green_flags_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Green Flag Awards",
       withSpinner(
@@ -480,6 +482,7 @@ output$green_flags_box <- renderUI({
         )
       )
   )
+  )
   
 })
 
@@ -519,8 +522,8 @@ output$recycling_plot <- renderggiraph({
 })
 
 output$recycling_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Recycled household waste",
       withSpinner(
@@ -547,6 +550,7 @@ output$recycling_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })

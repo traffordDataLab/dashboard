@@ -37,7 +37,8 @@ output$net_additional_dwellings_plot <- renderggiraph({
 })
 
 output$net_additional_dwellings_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
     title = "Net additional dwellings",
     withSpinner(
@@ -65,6 +66,7 @@ output$net_additional_dwellings_box <- renderUI({
         )
         )
       )
+  )
   
 })
 
@@ -102,8 +104,8 @@ output$vacant_properties_plot <- renderggiraph({
 })
 
 output$vacant_properties_box <- renderUI({
-  
-  box(width = 4,  
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%',  
       hr(style = "border-top: 1px solid #757575;"),
     title = "Long-term vacant properties",
     withSpinner(
@@ -131,6 +133,7 @@ output$vacant_properties_box <- renderUI({
         )
         )
       )
+  )
   
 })
 
@@ -169,8 +172,8 @@ output$council_tax_bands_plot <- renderggiraph({
 })
 
 output$council_tax_bands_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "New properties by council tax band",
       withSpinner(
@@ -214,6 +217,7 @@ output$council_tax_bands_box <- renderUI({
           )
           )
         )
+  )
   
 })
 
@@ -251,8 +255,8 @@ output$affordability_ratio_plot <- renderggiraph({
 })
 
 output$affordability_ratio_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Affordability ratio",
       withSpinner(
@@ -280,6 +284,7 @@ output$affordability_ratio_box <- renderUI({
           )
           )
         )
+  )
   
 })
 
@@ -305,14 +310,13 @@ output$licensed_hmos_map = renderLeaflet({
                      fillColor = "#00AFBB", fillOpacity = 0.5, radius = 4,
                      popup = paste("<strong>", sf$address, "</strong><br>",
                                    "<em>","Households:", "</em>", sf$households, "<br>",
-                                   "<em>","Expiry date:", "</em>", sf$expiry)) %>% 
-    addControl("<strong>HMOs</strong>", position = 'topright')
+                                   "<em>","Expiry date:", "</em>", sf$expiry))
   
 })
 
 output$licensed_hmos_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Licensed HMOs",
       withSpinner(
@@ -359,6 +363,7 @@ output$licensed_hmos_box <- renderUI({
           )
           )
         )
+  )
   
 })
 

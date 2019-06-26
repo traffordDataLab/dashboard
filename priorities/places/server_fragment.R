@@ -35,8 +35,8 @@ output$employment_rate_plot <- renderggiraph({
 })
 
 output$employment_rate_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Employment rate",
       withSpinner(
@@ -63,6 +63,7 @@ output$employment_rate_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -101,8 +102,8 @@ output$median_resident_earnings_plot <- renderggiraph({
 })
 
 output$median_resident_earnings_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Median pay",
       withSpinner(
@@ -129,6 +130,7 @@ output$median_resident_earnings_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -168,8 +170,8 @@ output$claimant_count_plot <- renderggiraph({
 })
 
 output$claimant_count_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Claimant count",
       withSpinner(
@@ -196,6 +198,7 @@ output$claimant_count_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -268,8 +271,8 @@ output$apprenticeships_plot <- renderggiraph({
 })
 
 output$apprenticeships_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Apprenticeships",
       withSpinner(
@@ -315,6 +318,7 @@ output$apprenticeships_box <- renderUI({
         )
       )
   )
+  )
   
 })
 
@@ -352,8 +356,8 @@ output$real_living_wage_table <- DT::renderDataTable({
 })
 
 output$real_living_wage_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Employee jobs below the living wage",
       withSpinner(
@@ -381,6 +385,7 @@ output$real_living_wage_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -417,8 +422,8 @@ output$gva_plot <- renderggiraph({
 })
 
 output$gva_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Gross Value Added",
       withSpinner(
@@ -461,6 +466,7 @@ output$gva_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })

@@ -8,9 +8,7 @@ tabPanel("Green and connected", width = 11, style="margin-left:4%; margin-right:
            fluidRow(
              uiOutput("nitrogen_dioxide_box"),
              uiOutput("particulate_matter_box"),
-             uiOutput("co2_emissions_box")
-           ),
-           fluidRow(
+             uiOutput("co2_emissions_box"),
              uiOutput("licensed_vehicles_box")
              #,uiOutput("gmal_box")
            ),

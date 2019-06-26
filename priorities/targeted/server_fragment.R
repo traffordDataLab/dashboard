@@ -66,8 +66,8 @@ output$rough_sleeping_plot <- renderggiraph({
 })
 
 output$rough_sleeping_box <- renderUI({
-  
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Rough sleeping",
       withSpinner(
@@ -112,6 +112,7 @@ output$rough_sleeping_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })

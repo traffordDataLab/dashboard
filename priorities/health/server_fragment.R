@@ -84,7 +84,8 @@ output$alcohol_related_admissions_plot <- renderggiraph({
 })
 
 output$alcohol_related_admissions_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Alcohol related admissions",
       withSpinner(
@@ -129,6 +130,7 @@ output$alcohol_related_admissions_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -219,7 +221,8 @@ output$alcohol_related_mortality_plot <- renderggiraph({
 })
 
 output$alcohol_related_mortality_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Alcohol related mortality",
       withSpinner(
@@ -264,6 +267,7 @@ output$alcohol_related_mortality_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -357,7 +361,8 @@ output$healthy_life_expectancy_at_birth_plot <- renderggiraph({
 })
 
 output$healthy_life_expectancy_at_birth_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Healthy life expectancy at birth",
       withSpinner(
@@ -402,6 +407,7 @@ output$healthy_life_expectancy_at_birth_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -486,7 +492,8 @@ output$slope_index_of_inequality_plot <- renderggiraph({
     })
 
 output$slope_index_of_inequality_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Inequalities in life expectancy",
       withSpinner(
@@ -531,6 +538,7 @@ output$slope_index_of_inequality_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -621,7 +629,8 @@ output$smoking_adults_plot <- renderggiraph({
 })
 
 output$smoking_adults_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Adult smoking prevalence",
       withSpinner(
@@ -666,6 +675,7 @@ output$smoking_adults_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -756,7 +766,8 @@ output$smoking_adults_manual_plot <- renderggiraph({
 })
 
 output$smoking_adults_manual_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Smoking amongst Routine and Manual workers",
       withSpinner(
@@ -801,6 +812,7 @@ output$smoking_adults_manual_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -891,7 +903,8 @@ output$admissions_falls_plot <- renderggiraph({
 })
 
 output$admissions_falls_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Emergency admissions for falls",
       withSpinner(
@@ -936,6 +949,7 @@ output$admissions_falls_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -1026,7 +1040,8 @@ output$deaths_at_home_plot <- renderggiraph({
 })
 
 output$deaths_at_home_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Deaths in usual place of residence",
       withSpinner(
@@ -1071,6 +1086,7 @@ output$deaths_at_home_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -1161,7 +1177,8 @@ output$preventable_mortality_from_cancer_plot <- renderggiraph({
 })
 
 output$preventable_mortality_from_cancer_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Under 75 mortality rate from cancer considered preventable",
       withSpinner(
@@ -1206,6 +1223,7 @@ output$preventable_mortality_from_cancer_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -1296,7 +1314,8 @@ output$physically_inactive_plot <- renderggiraph({
 })
 
 output$physically_inactive_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Physical inactivity",
       withSpinner(
@@ -1341,6 +1360,7 @@ output$physically_inactive_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -1431,7 +1451,8 @@ output$dementia_diagnosis_plot <- renderggiraph({
 })
 
 output$dementia_diagnosis_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Dementia diagnosis rate",
       withSpinner(
@@ -1476,6 +1497,7 @@ output$dementia_diagnosis_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -1560,7 +1582,8 @@ output$mortality_serious_mental_illness_plot <- renderggiraph({
 })
 
 output$mortality_serious_mental_illness_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Excess under 75 mortality rate in adults with serious mental illness",
       withSpinner(
@@ -1605,6 +1628,7 @@ output$mortality_serious_mental_illness_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -1696,7 +1720,8 @@ output$admissions_self_harm_plot <- renderggiraph({
 })
 
 output$admissions_self_harm_box <- renderUI({
-  box(width = 4, 
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
       title = "Emergency hospital admissions for intentional self-harm",
       withSpinner(
@@ -1741,6 +1766,7 @@ output$admissions_self_harm_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })

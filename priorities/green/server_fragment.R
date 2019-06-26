@@ -82,8 +82,8 @@ output$nitrogen_dioxide_plot <- renderggiraph({
 })
 
 output$nitrogen_dioxide_box <- renderUI({
-  
-  box(width = 4,
+  div(class = "col-sm-12 col-md-6 col-lg-4",
+  box(width = '100%',
       hr(style = "border-top: 1px solid #757575;"),
       title = "Nitrogen dioxide concentrations",
       withSpinner(
@@ -132,6 +132,7 @@ output$nitrogen_dioxide_box <- renderUI({
           )
         )
       )
+  )
   )
   
 })
@@ -215,8 +216,8 @@ output$nitrogen_dioxide_box <- renderUI({
   })
   
   output$particulate_matter_box <- renderUI({
-    
-    box(width = 4, 
+    div(class = "col-sm-12 col-md-6 col-lg-4",
+    box(width = '100%', 
         hr(style = "border-top: 1px solid #757575;"),
         title = "Particulate Matter concentrations",
         withSpinner(
@@ -266,6 +267,7 @@ output$nitrogen_dioxide_box <- renderUI({
           )
         )
     )
+    )
     
   })
   
@@ -300,8 +302,8 @@ co2_emissions <- read_csv("data/green/co2_emissions.csv") %>%
   })
   
   output$co2_emissions_box <- renderUI({
-    
-    box(width = 4, 
+    div(class = "col-sm-12 col-md-6 col-lg-4",
+    box(width = '100%', 
         hr(style = "border-top: 1px solid #757575;"),
         title = HTML(paste0("CO", "<sub>", 2, "</sub>", " emissions")),
         withSpinner(
@@ -345,6 +347,7 @@ co2_emissions <- read_csv("data/green/co2_emissions.csv") %>%
           )
         )
     )
+    )
     
   })
   
@@ -386,8 +389,8 @@ licensed_vehicles <- read_csv("data/green/licensed_vehicles.csv") %>%
   })
   
   output$licensed_vehicles_box <- renderUI({
-    
-    box(width = 4, 
+    div(class = "col-sm-12 col-md-6 col-lg-4",
+    box(width = '100%', 
         hr(style = "border-top: 1px solid #757575;"),
         title = "Licensed vehicles",
         withSpinner(
@@ -431,6 +434,7 @@ licensed_vehicles <- read_csv("data/green/licensed_vehicles.csv") %>%
           )
         )
     )
+    )
     
   })
 
@@ -456,13 +460,12 @@ gmal <- st_read("data/green/gmal.geojson")
                 title = NULL,
                 labels = c("1 Low accessibility",
                            "2","3","4","5","6","7",
-                           "8 High accessibility"), opacity = 0.5) %>%
-      addControl("<strong>GMAL</strong>", position = 'topright')
+                           "8 High accessibility"), opacity = 0.5)
   })
   
   output$gmal_box <- renderUI({
-    
-    box(width = 4,
+    div(class = "col-sm-12 col-md-6 col-lg-4",
+    box(width = '100%',
         hr(style = "border-top: 1px solid #757575;"),
         title = "Public transport accessibility",
         withSpinner(
@@ -489,6 +492,7 @@ gmal <- st_read("data/green/gmal.geojson")
             )
           )
         )
+    )
     )
     
   }) 

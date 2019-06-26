@@ -1,5 +1,4 @@
 ui <- fluidPage(
-  HTML('<meta name="viewport" content="width=1024">'),
   theme = shinytheme("yeti"),
   tags$head(
     tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")
