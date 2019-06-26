@@ -14,7 +14,7 @@ net_additional_dwellings <- read_csv("data/housing/net_additional_dwellings.csv"
 output$net_additional_dwellings_plot <- renderggiraph({
   
   gg <- ggplot(net_additional_dwellings, aes(x = period, y = index, colour = area_name, fill = area_name, group = area_name)) +
-    geom_hline(aes(yintercept = 100), colour = "#212121", linetype = "dashed") +
+    geom_hline(aes(yintercept = 100), colour = "#212121", linetype = "solid") +
     geom_line(size = 1) +
     geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, colour = "white") +
     scale_colour_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
@@ -38,7 +38,7 @@ output$net_additional_dwellings_plot <- renderggiraph({
 
 output$net_additional_dwellings_box <- renderUI({
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
     title = "Net additional dwellings",
     withSpinner(
       ggiraphOutput("net_additional_dwellings_plot"),
@@ -104,7 +104,7 @@ output$vacant_properties_plot <- renderggiraph({
 output$vacant_properties_box <- renderUI({
   
   box(width = 4,  
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
     title = "Long-term vacant properties",
     withSpinner(
       ggiraphOutput("vacant_properties_plot"),
@@ -171,7 +171,7 @@ output$council_tax_bands_plot <- renderggiraph({
 output$council_tax_bands_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "New properties by council tax band",
       withSpinner(
         ggiraphOutput("council_tax_bands_plot"),
@@ -253,7 +253,7 @@ output$affordability_ratio_plot <- renderggiraph({
 output$affordability_ratio_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Affordability ratio",
       withSpinner(
         ggiraphOutput("affordability_ratio_plot"),
@@ -313,7 +313,7 @@ output$licensed_hmos_map = renderLeaflet({
 output$licensed_hmos_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Licensed HMOs",
       withSpinner(
         leafletOutput("licensed_hmos_map"),

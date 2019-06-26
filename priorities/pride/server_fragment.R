@@ -48,7 +48,7 @@ output$crime_rate_plot <- renderggiraph({
 output$crime_rate_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Crime rates",
       withSpinner(
         ggiraphOutput("crime_rate_plot"),
@@ -143,7 +143,7 @@ output$crime_severity_plot <- renderggiraph({
 output$crime_severity_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Crime Severity Score",
       withSpinner(
         ggiraphOutput("crime_severity_plot"),
@@ -261,7 +261,7 @@ output$potholes_plot <- renderggiraph({
 output$potholes_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Potholes",
       withSpinner(
         ggiraphOutput("potholes_plot"),
@@ -349,7 +349,7 @@ output$flytipping_plot <- renderggiraph({
 output$flytipping_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Flytipping incidents",
       withSpinner(
         ggiraphOutput("flytipping_plot"),
@@ -438,7 +438,7 @@ output$green_flags_map = renderLeaflet({
 output$green_flags_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Green Flag Awards",
       withSpinner(
         leafletOutput("green_flags_map"),
@@ -521,7 +521,7 @@ output$recycling_plot <- renderggiraph({
 output$recycling_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Recycled household waste",
       withSpinner(
         ggiraphOutput("recycling_plot"),

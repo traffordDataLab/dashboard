@@ -84,7 +84,7 @@ output$nitrogen_dioxide_plot <- renderggiraph({
 output$nitrogen_dioxide_box <- renderUI({
   
   box(width = 4,
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Nitrogen dioxide concentrations",
       withSpinner(
         ggiraphOutput("nitrogen_dioxide_plot"),
@@ -217,7 +217,7 @@ output$nitrogen_dioxide_box <- renderUI({
   output$particulate_matter_box <- renderUI({
     
     box(width = 4, 
-        hr(style = "border-top: 1px dashed #757575;"),
+        hr(style = "border-top: 1px solid #757575;"),
         title = "Particulate Matter concentrations",
         withSpinner(
           ggiraphOutput("particulate_matter_plot"),
@@ -302,7 +302,7 @@ co2_emissions <- read_csv("data/green/co2_emissions.csv") %>%
   output$co2_emissions_box <- renderUI({
     
     box(width = 4, 
-        hr(style = "border-top: 1px dashed #757575;"),
+        hr(style = "border-top: 1px solid #757575;"),
         title = HTML(paste0("CO", "<sub>", 2, "</sub>", " emissions")),
         withSpinner(
           ggiraphOutput("co2_emissions_plot"),
@@ -388,7 +388,7 @@ licensed_vehicles <- read_csv("data/green/licensed_vehicles.csv") %>%
   output$licensed_vehicles_box <- renderUI({
     
     box(width = 4, 
-        hr(style = "border-top: 1px dashed #757575;"),
+        hr(style = "border-top: 1px solid #757575;"),
         title = "Licensed vehicles",
         withSpinner(
           ggiraphOutput("licensed_vehicles_plot"),
@@ -463,7 +463,7 @@ gmal <- st_read("data/green/gmal.geojson")
   output$gmal_box <- renderUI({
     
     box(width = 4,
-        hr(style = "border-top: 1px dashed #757575;"),
+        hr(style = "border-top: 1px solid #757575;"),
         title = "Public transport accessibility",
         withSpinner(
           leafletOutput("gmal_map"),

@@ -37,7 +37,7 @@ output$employment_rate_plot <- renderggiraph({
 output$employment_rate_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Employment rate",
       withSpinner(
         ggiraphOutput("employment_rate_plot"),
@@ -103,7 +103,7 @@ output$median_resident_earnings_plot <- renderggiraph({
 output$median_resident_earnings_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Median pay",
       withSpinner(
         ggiraphOutput("median_resident_earnings_plot"),
@@ -170,7 +170,7 @@ output$claimant_count_plot <- renderggiraph({
 output$claimant_count_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Claimant count",
       withSpinner(
         ggiraphOutput("claimant_count_plot"),
@@ -270,7 +270,7 @@ output$apprenticeships_plot <- renderggiraph({
 output$apprenticeships_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Apprenticeships",
       withSpinner(
         ggiraphOutput("apprenticeships_plot"),
@@ -354,7 +354,7 @@ output$real_living_wage_table <- DT::renderDataTable({
 output$real_living_wage_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Employee jobs below the living wage",
       withSpinner(
         DT::dataTableOutput("real_living_wage_table"),
@@ -419,7 +419,7 @@ output$gva_plot <- renderggiraph({
 output$gva_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Gross Value Added",
       withSpinner(
         ggiraphOutput("gva_plot"),

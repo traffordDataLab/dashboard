@@ -102,7 +102,7 @@ ui <- fluidPage(
         
       )), tags$br(), tags$br(),
       HTML(paste("Trafford Council's Corporate Plan (2018-2022) can be found", '<a href="https://www.trafford.gov.uk/about-your-council/strategies-plans-and-policies/docs/Corporate-Plan-2019.pdf" target="_blank">here</a>.')),
-      tags$br(), tags$br()
+      tags$br(), tags$br(), tags$br(), tags$br()
     ),
     source("priorities/housing/ui.R", local = TRUE)$value,
     source("priorities/health/ui.R", local = TRUE)$value,

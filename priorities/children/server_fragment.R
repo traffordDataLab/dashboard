@@ -87,7 +87,7 @@ output$excess_weight_reception_plot <- renderggiraph({
 
 output$excess_weight_reception_box <- renderUI({
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "4-5 year olds with excess weight",
       withSpinner(
         ggiraphOutput("excess_weight_reception_plot"),
@@ -222,7 +222,7 @@ output$excess_weight_year6_plot <- renderggiraph({
 
 output$excess_weight_year6_box <- renderUI({
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "10-11 year olds with excess weight",
       withSpinner(
         ggiraphOutput("excess_weight_year6_plot"),
@@ -357,7 +357,7 @@ output$low_income_families_plot <- renderggiraph({
 
 output$low_income_families_box <- renderUI({
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Children living in poverty",
       withSpinner(
         ggiraphOutput("low_income_families_plot"),
@@ -492,7 +492,7 @@ output$admissions_self_harm_young_people_plot <- renderggiraph({
 
 output$admissions_self_harm_young_people_box <- renderUI({
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Young people admitted to hospital as a result of self-harm",
       withSpinner(
         ggiraphOutput("admissions_self_harm_young_people_plot"),
@@ -627,7 +627,7 @@ output$dental_decay_plot <- renderggiraph({
 
 output$dental_decay_box <- renderUI({
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Children free from tooth decay",
       withSpinner(
         ggiraphOutput("dental_decay_plot"),
@@ -762,7 +762,7 @@ output$school_readiness_fsm_plot <- renderggiraph({
 
 output$school_readiness_fsm_box <- renderUI({
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "School readiness amongst children with free school meals",
       withSpinner(
         ggiraphOutput("school_readiness_fsm_plot"),
@@ -897,7 +897,7 @@ output$child_protection_plans_plot <- renderggiraph({
 
 output$child_protection_plans_box <- renderUI({
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Children on child protection plans",
       withSpinner(
         ggiraphOutput("child_protection_plans_plot"),
@@ -1032,7 +1032,7 @@ output$neets_plot <- renderggiraph({
 
 output$neets_box <- renderUI({
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "NEETS",
       withSpinner(
         ggiraphOutput("neets_plot"),
@@ -1167,7 +1167,7 @@ output$children_in_care_plot <- renderggiraph({
 
 output$children_in_care_box <- renderUI({
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Children in care",
       withSpinner(
         ggiraphOutput("children_in_care_plot"),
@@ -1245,7 +1245,7 @@ output$childcare_providers_map = renderLeaflet({
 output$childcare_providers_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Childcare providers",
       withSpinner(
         leafletOutput("childcare_providers_map"),
@@ -1319,7 +1319,7 @@ output$primary_schools_map = renderLeaflet({
 output$primary_schools_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Primary schools",
       withSpinner(
         leafletOutput("primary_schools_map"),
@@ -1393,7 +1393,7 @@ output$secondary_schools_map = renderLeaflet({
 output$secondary_schools_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Secondary schools",
       withSpinner(
         leafletOutput("secondary_schools_map"),
@@ -1467,7 +1467,7 @@ output$special_schools_map = renderLeaflet({
 output$special_schools_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Special schools",
       withSpinner(
         leafletOutput("special_schools_map"),

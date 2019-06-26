@@ -68,7 +68,7 @@ output$rough_sleeping_plot <- renderggiraph({
 output$rough_sleeping_box <- renderUI({
   
   box(width = 4, 
-      hr(style = "border-top: 1px dashed #757575;"),
+      hr(style = "border-top: 1px solid #757575;"),
       title = "Rough sleeping",
       withSpinner(
         ggiraphOutput("rough_sleeping_plot"),
