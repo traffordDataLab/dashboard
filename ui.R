@@ -1,21 +1,12 @@
 ui <- fluidPage(
-  theme = shinytheme("yeti"),
   tags$head(
     tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")
   ),
-  titlePanel(
-    title = div(class = "headerContainer",
-      tags$a(
-        tags$img(src = "https://github.com/traffordDataLab/traffordDataLab.github.io/raw/master/images/trafford_council_logo_black_on_white_100px.png", height = 60),
-        href = "https://www.trafford.gov.uk", target = "_blank"
-      ),
-      style = "position: relative; top: -5px;",
-      "Trafford Together"
-    ),
-    windowTitle = "Trafford's priorities"
-  ),
-  tabsetPanel(
-    id = "tabs",
+  titlePanel(div(a(img(src="https://github.com/traffordDataLab/traffordDataLab.github.io/raw/master/images/trafford_council_logo_black_on_white_100px.png", style = "position: relative; top: -5px;", height = 60),
+                   href = "https://www.trafford.gov.uk", target = "_blank"), "Trafford Together"),
+             windowTitle = "Trafford Together"),
+  tagList(tags$head(tags$style(type = 'text/css','.navbar-brand{display:none;}')),
+          navbarPage(title = "", collapsible = TRUE, id = "tabs",
     tabPanel(
       title = icon("home"),
       width = 11,
@@ -104,7 +95,7 @@ ui <- fluidPage(
     source("priorities/pride/ui.R", local = TRUE)$value,
     source("priorities/green/ui.R", local = TRUE)$value,
     source("priorities/targeted/ui.R", local = TRUE)$value
-  ),
+  )),
   tags$footer(
     fluidRow(
       "Developed by the ",
@@ -116,3 +107,4 @@ ui <- fluidPage(
     style = "position:fixed; text-align:center; left: 0; bottom:0; width:100%; z-index:1000; height:30px; color: #212121; padding: 5px 20px; background-color: #E7E7E7"
   )
 )
+
