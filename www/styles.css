@@ -33,12 +33,24 @@ a:focus {
   text-decoration: none;
 }
 
-.btn:hover {
-  font-weight: bold;
-}
-
 button:active {
   box-shadow: none !important;
+}
+
+.homeMenuButtonText {
+  text-align: left;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.homeMenuButtonText:hover {
+  color: #333333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* to provide space under each "box" - this a bootstrap class 
