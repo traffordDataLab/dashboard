@@ -91,7 +91,7 @@ output$nitrogen_dioxide_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -132,7 +132,6 @@ output$nitrogen_dioxide_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -225,7 +224,7 @@ output$nitrogen_dioxide_box <- renderUI({
           type = 4,
           color = "#bdbdbd",
           size = 1
-        ),
+        )), br(),
         div(
           style = "position: absolute; left: 1.5em; bottom: 0.5em;",
           dropdown(
@@ -266,7 +265,6 @@ output$nitrogen_dioxide_box <- renderUI({
             )
           )
         )
-    )
     )
     
   })
@@ -311,7 +309,7 @@ co2_emissions <- read_csv("data/green/co2_emissions.csv") %>%
           type = 4,
           color = "#bdbdbd",
           size = 1
-        ),
+        )), br(),
         div(
           style = "position: absolute; left: 1.5em; bottom: 0.5em;",
           dropdown(
@@ -346,7 +344,6 @@ co2_emissions <- read_csv("data/green/co2_emissions.csv") %>%
             )
           )
         )
-    )
     )
     
   })
@@ -398,7 +395,7 @@ licensed_vehicles <- read_csv("data/green/licensed_vehicles.csv") %>%
           type = 4,
           color = "#bdbdbd",
           size = 1
-        ),
+        )), br(),
         div(
           style = "position: absolute; left: 1.5em; bottom: 0.5em;",
           dropdown(
@@ -433,7 +430,6 @@ licensed_vehicles <- read_csv("data/green/licensed_vehicles.csv") %>%
             )
           )
         )
-    )
     )
     
   })

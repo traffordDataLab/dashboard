@@ -95,7 +95,7 @@ output$excess_weight_reception_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -132,7 +132,6 @@ output$excess_weight_reception_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -232,7 +231,7 @@ output$excess_weight_year6_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -269,7 +268,6 @@ output$excess_weight_year6_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -369,7 +367,7 @@ output$low_income_families_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -406,7 +404,6 @@ output$low_income_families_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -506,7 +503,7 @@ output$admissions_self_harm_young_people_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -543,7 +540,6 @@ output$admissions_self_harm_young_people_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -643,7 +639,7 @@ output$dental_decay_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -680,7 +676,6 @@ output$dental_decay_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -780,7 +775,7 @@ output$school_readiness_fsm_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -817,7 +812,6 @@ output$school_readiness_fsm_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -917,7 +911,7 @@ output$child_protection_plans_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -954,7 +948,6 @@ output$child_protection_plans_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -1054,7 +1047,7 @@ output$neets_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -1091,7 +1084,6 @@ output$neets_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -1191,7 +1183,7 @@ output$children_in_care_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -1228,7 +1220,6 @@ output$children_in_care_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })

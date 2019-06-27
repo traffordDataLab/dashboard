@@ -31,7 +31,7 @@ ui <- fluidPage(
         br(),
         fluidRow(
           h4(
-            "The Council has identified seven strategic priorities that it believes are key to enabling Trafford residents, businesses and staff to thrive. The priorities set out its aspirations for its people, place and communities, and how they can affect and improve their daily lives."
+            "Trafford Council has identified 7 strategic priorities in its", tags$a(href = "https://www.trafford.gov.uk/about-your-council/strategies-plans-and-policies/docs/Corporate-Plan-2019.pdf", target = "_blank", "Corporate Plan"), "that it believes are key to enabling Trafford's residents, businesses and staff to thrive."
           )
         ),
         tags$br(),
@@ -192,24 +192,9 @@ ui <- fluidPage(
           )
         ),
         tags$br(),
-        tags$br(),
         tags$h4(
-          "This dashboard supports the Strategic Plan by allowing you to browse a number of indicators relating to each of the strategic priorities. All of the indicators are provided at local authority level with many benchmarked against Greater Manchester and England. Some of the visualisations can be filtered by variables, area and chart type. Information is provided on each indicator with a link to the original data source"
+          "This dashboard allows you to browse a range of indicators that relate to each of the strategic priorities. All of the indicators are provided at local authority level with many benchmarked against Greater Manchester and England. Some of the visualisations can be filtered by variable, area and chart type. Information is provided about each indicator with a link to the original data source."
         ),
-        tags$br(),
-        tags$h4("Useful links"),
-        tags$ul(tags$li(
-          tags$a(href = "https://www.trafford.gov.uk/about-your-council/strategies-plans-and-policies/docs/Corporate-Plan-2019.pdf", target =
-                   "_blank", "Trafford Corporate Plan")
-        ),
-        tags$li(
-          tags$a(
-            href = "https://www.greatermanchester-ca.gov.uk/ourpeopleourplace",
-            target = "_blank",
-            "Greater Manchester Strategy"
-          )
-        )),
-        tags$br(),
         tags$br(),
         tags$br()
       ),

@@ -93,7 +93,7 @@ output$alcohol_related_admissions_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -130,7 +130,6 @@ output$alcohol_related_admissions_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -230,7 +229,7 @@ output$alcohol_related_mortality_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -267,7 +266,6 @@ output$alcohol_related_mortality_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -370,7 +368,7 @@ output$healthy_life_expectancy_at_birth_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -407,7 +405,6 @@ output$healthy_life_expectancy_at_birth_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -501,7 +498,7 @@ output$slope_index_of_inequality_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -538,7 +535,6 @@ output$slope_index_of_inequality_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -638,7 +634,7 @@ output$smoking_adults_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -675,7 +671,6 @@ output$smoking_adults_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -716,7 +711,7 @@ output$smoking_adults_manual_plot <- renderggiraph({
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
-      labs(title = "Smoking prevalence in adults in routine and manual occupations",
+      labs(title = "Smoking prevalence in adults in routine\nand manual occupations",
            subtitle = NULL,
            caption = "Source: Annual Population Survey",
            x = NULL, y = "Percentage",
@@ -749,7 +744,7 @@ output$smoking_adults_manual_plot <- renderggiraph({
       scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
-        title = "Smoking prevalence in adults in routine and manual occupations",
+        title = "Smoking prevalence in adults in routine\nand manual occupations",
         subtitle = NULL,
         caption = "Source: Annual Population Survey",
         x = NULL,
@@ -775,7 +770,7 @@ output$smoking_adults_manual_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -812,7 +807,6 @@ output$smoking_adults_manual_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -853,7 +847,7 @@ output$admissions_falls_plot <- renderggiraph({
                                    "Similar" = "#FFC000",
                                    "Worse" = "#C00000")) +
       scale_y_continuous(limits = c(0, NA), labels = scales::comma) +
-      labs(title = "Emergency hospital admissions due to falls in people aged 65 and over",
+      labs(title = "Emergency hospital admissions due to falls\nin people aged 65 and over",
            subtitle = NULL,
            caption = "Source: NHS Digital, Hospital Episode Statistics",
            x = NULL, y = "per 100,000",
@@ -886,7 +880,7 @@ output$admissions_falls_plot <- renderggiraph({
       scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
-        title = "Emergency hospital admissions due to falls in people aged 65 and over",
+        title = "Emergency hospital admissions due to falls\nin people aged 65 and over",
         subtitle = NULL,
         caption = "Source: NHS Digital, Hospital Episode Statistics",
         x = NULL,
@@ -912,7 +906,7 @@ output$admissions_falls_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -949,7 +943,6 @@ output$admissions_falls_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -1049,7 +1042,7 @@ output$deaths_at_home_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -1086,7 +1079,6 @@ output$deaths_at_home_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -1160,7 +1152,7 @@ output$preventable_mortality_from_cancer_plot <- renderggiraph({
       scale_fill_manual(values = c("Trafford" = "#00AFBB", "Greater Manchester" = "#E7B800", "England" = "#757575")) +
       scale_y_continuous(limits = c(0, NA)) +
       labs(
-        title = "Under 75 mortality rate from cancer considered preventable",
+        title = "Under 75 mortality rate from cancer\nconsidered preventable",
         subtitle = NULL,
         caption = "Source: Public Health England",
         x = NULL,
@@ -1180,13 +1172,13 @@ output$preventable_mortality_from_cancer_box <- renderUI({
   div(class = "col-sm-12 col-md-6 col-lg-4",
   box(width = '100%', 
       hr(style = "border-top: 1px solid #757575;"),
-      title = "Under 75 mortality rate from cancer considered preventable",
+      title = "Under 75 mortality rate from cancer\nconsidered preventable",
       withSpinner(
         ggiraphOutput("preventable_mortality_from_cancer_plot"),
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -1223,7 +1215,6 @@ output$preventable_mortality_from_cancer_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -1323,7 +1314,7 @@ output$physically_inactive_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -1360,7 +1351,6 @@ output$physically_inactive_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -1460,7 +1450,7 @@ output$dementia_diagnosis_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -1497,7 +1487,6 @@ output$dementia_diagnosis_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -1591,7 +1580,7 @@ output$mortality_serious_mental_illness_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -1628,7 +1617,6 @@ output$mortality_serious_mental_illness_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
@@ -1729,7 +1717,7 @@ output$admissions_self_harm_box <- renderUI({
         type = 4,
         color = "#bdbdbd",
         size = 1
-      ),
+      )), br(),
       div(
         style = "position: absolute; left: 1.5em; bottom: 0.5em;",
         dropdown(
@@ -1766,7 +1754,6 @@ output$admissions_self_harm_box <- renderUI({
           )
         )
       )
-  )
   )
   
 })
