@@ -1,3 +1,3 @@
-This dashboard supports [Trafford Council's](https://www.trafford.gov.uk) [Corporate Plan](https://www.trafford.gov.uk/about-your-council/strategies-plans-and-policies/docs/Corporate-Plan-2019.pdf) by visualising a range of indicators relating to its strategic priorities.
+This dashboard supports [Trafford Council's](https://www.trafford.gov.uk) [Corporate Plan](https://www.trafford.gov.uk/about-your-council/strategies-plans-and-policies/docs/Corporate-Plan-2019.pdf) by visualising a range of indicators that relate to its strategic priorities.
 
 It was created in [R](https://cran.r-project.org/) using [Shiny](https://cran.r-project.org/web/packages/shiny/index.html) and a number of other packages including [ggiraph](https://cran.r-project.org/web/packages/ggiraph/index.html).

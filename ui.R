@@ -28,7 +28,6 @@ ui <- fluidPage(
         title = icon("home"),
         width = 11,
         style = "margin-left:4%; margin-right:4%",
-        br(),
         fluidRow(
           h4(
             "Trafford Council has identified 7 strategic priorities in its", tags$a(href = "https://www.trafford.gov.uk/about-your-council/strategies-plans-and-policies/docs/Corporate-Plan-2019.pdf", target = "_blank", "Corporate Plan"), "that it believes are key to enabling Trafford's residents, businesses and staff to thrive."
