@@ -10,7 +10,8 @@ tabPanel("Green and connected", width = 11, style="margin-left:4%; margin-right:
              uiOutput("particulate_matter_box"),
              uiOutput("co2_emissions_box"),
              div(class="clearfix visible-lg"),
-             uiOutput("licensed_vehicles_box")
+             uiOutput("licensed_vehicles_box"),
+             uiOutput("car_charging_points_box")
              #,uiOutput("gmal_box")
            ),
            br(),br()

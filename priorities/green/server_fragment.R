@@ -493,4 +493,141 @@ gmal <- st_read("data/green/gmal.geojson")
     
   }) 
   
+  # Car charging points --------------------------------------------------
+  
+  car_charging_points <- read_csv("data/green/car_charging_points.csv") %>%
+    mutate(area_name = as_factor(area_name))
+  
+  output$car_charging_points_map = renderLeaflet({
+    if (input$car_charging_points_selection == "Greater Manchester") {
+      leaflet() %>%
+        addProviderTiles(providers$CartoDB.Positron,
+                         options = tileOptions(minZoom = 9, maxZoom = 17)) %>%
+        addPolygons(
+          data = gm_boundary,
+          fillOpacity = 0,
+          color = "#212121",
+          weight = 2,
+          opacity = 1
+        ) %>%
+        addCircleMarkers(
+          data = car_charging_points,
+          lng = ~ lon,
+          lat = ~ lat,
+          stroke = TRUE,
+          color = "#212121",
+          weight = 2,
+          fillColor = ifelse(car_charging_points$area_name == "Trafford", "#00AFBB", "#E7B800"),
+          fillOpacity = 0.5,
+          radius = 4,
+          popup = paste(
+            "<strong>",
+            car_charging_points$name,
+            "</strong><br />",
+            "<em>",
+            car_charging_points$area_name,
+            "</em><br/>Points:", 
+            car_charging_points$points,
+            "<br/>Connection type:",
+            car_charging_points$connection_type,
+            "<br/>Power:",
+            car_charging_points$kW, " kW",
+            "<br/>",
+            "<a href='",
+            car_charging_points$website,
+            "' target='_blank'>Further info</a>"
+          )
+        )
+    }
+    else {
+      leaflet() %>%
+        addProviderTiles(providers$CartoDB.Positron,
+                         options = tileOptions(minZoom = 11, maxZoom = 17)) %>%
+        addPolygons(
+          data = boundary,
+          fillOpacity = 0,
+          color = "#212121",
+          weight = 2,
+          opacity = 1
+        ) %>%
+        addCircleMarkers(
+          data = filter(car_charging_points, area_name == "Trafford"),
+          lng = ~ lon,
+          lat = ~ lat,
+          stroke = TRUE,
+          color = "#212121",
+          weight = 2,
+          fillColor = "#00AFBB",
+          fillOpacity = 0.5,
+          radius = 4,
+          popup = paste(
+            "<strong>",
+            filter(car_charging_points, area_name == "Trafford")$name,
+            "</strong><br />",
+            "<em>",
+            filter(car_charging_points, area_name == "Trafford")$area_name,
+            "</em><br/>Points:", 
+            filter(car_charging_points, area_name == "Trafford")$points,
+            "<br/>Connection type:",
+            filter(car_charging_points, area_name == "Trafford")$connection_type,
+            "<br/>Power:",
+            filter(car_charging_points, area_name == "Trafford")$kW, " kW",
+            "<br/>",
+            "<a href='",
+            filter(car_charging_points, area_name == "Trafford")$website,
+            "' target='_blank'>Further info</a>"
+          )
+        )
+    }
+  })
+  
+  output$car_charging_points_box <- renderUI({
+    div(class = "col-sm-12 col-md-6 col-lg-4",
+        box(
+          width = '100%',
+          hr(style = "border-top: 1px solid #757575;"),
+          title = "Car charging points",
+          withSpinner(
+            leafletOutput("car_charging_points_map"),
+            type = 4,
+            color = "#bdbdbd",
+            size = 1
+          ),
+          div(
+            style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+            dropdown(
+              radioButtons(
+                inputId = "car_charging_points_selection",
+                tags$h4("Show:"),
+                choices = c("Trafford", "Greater Manchester"),
+                selected = "Trafford"
+              ),
+              icon = icon("filter"),
+              size = "xs",
+              style = "jelly",
+              width = "200px",
+              up = TRUE
+            )
+          ),
+          div(
+            style = "position: absolute; left: 4em; bottom: 0.5em;",
+            dropdown(
+              includeMarkdown("data/green/metadata/car_charging_points.md"),
+              icon = icon("question"),
+              size = "xs",
+              style = "jelly",
+              width = "300px",
+              up = TRUE
+            ),
+            tags$style(
+              HTML(
+                '.fa {color: #212121;}
+            .bttn-jelly.bttn-default{color:#f0f0f0;}
+            .bttn-jelly:hover:before{opacity:1};'
+              )
+            )
+          )
+        ))
+  })
+
   
