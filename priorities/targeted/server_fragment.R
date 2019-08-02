@@ -1,7 +1,7 @@
 # Targeted support #
 
 # Rough sleeping --------------------------------------------------
-rough_sleeping <- read_csv("data/housing/rough_sleeping.csv") %>%
+rough_sleeping <- read_csv("data/targeted/rough_sleeping.csv") %>%
   mutate(
     area_name = factor(area_name),
     tooltip =
@@ -121,7 +121,7 @@ output$rough_sleeping_box <- renderUI({
     div(
       style = "position: absolute; left: 4em; bottom: 0.5em; ",
       dropdown(
-        includeMarkdown("data/housing/metadata/rough_sleeping.md"),
+        includeMarkdown("data/targeted/metadata/rough_sleeping.md"),
         icon = icon("question"),
         size = "xs",
         style = "jelly",
