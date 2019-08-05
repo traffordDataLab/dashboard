@@ -53,6 +53,8 @@
 |Green and Connected | CO<sub>2</sub> emissions |[Department for Business, Energy & Industrial Strategy](https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/regionalgrossvalueaddedbalancedbylocalauthorityintheuk) | x | 
 |Green and Connected | Licensed vehicles |[DfT and DVLA](https://www.gov.uk/government/statistical-data-sets/all-vehicles-veh01) | x | 
 |Targeted support | Rough sleeping | [MHCLG](https://www.gov.uk/government/statistics/rough-sleeping-in-england-autumn-2017) | x  | 
+|Targeted support | Delayed Transfers of Care | [NHS Digital](https://www.england.nhs.uk/statistics/statistical-work-areas/delayed-transfers-of-care/) | x  | 
+|Targeted support | Residential home admissions | [LG Inform](https://standards.esd.org.uk/?uri=metricType%2F4282) | x  | 
 
 
 
