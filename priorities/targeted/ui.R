@@ -6,7 +6,8 @@ tabPanel("Targeted support", width = 11, style="margin-left:4%; margin-right:4%"
          fluidPage(
            br(),
            fluidRow(
-             uiOutput("rough_sleeping_box")
+             uiOutput("rough_sleeping_box"),
+             uiOutput("dtoc_box")
            ),
            br(),br()
          )
