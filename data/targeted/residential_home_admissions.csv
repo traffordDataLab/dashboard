@@ -9,7 +9,6 @@ E08000006,Salford,2014/15,Residential home admissions,"Rate per 100,000 populati
 E08000007,Stockport,2014/15,Residential home admissions,"Rate per 100,000 population",Persons,731.7
 E08000008,Tameside,2014/15,Residential home admissions,"Rate per 100,000 population",Persons,534.5
 E08000010,Wigan,2014/15,Residential home admissions,"Rate per 100,000 population",Persons,792.6
-E92000001,England,2014/15,Residential home admissions,"Rate per 100,000 population",Persons,658.5
 E08000009,Trafford,2015/16,Residential home admissions,"Rate per 100,000 population",Persons,735.2
 E08000001,Bolton,2015/16,Residential home admissions,"Rate per 100,000 population",Persons,978.1
 E08000002,Bury,2015/16,Residential home admissions,"Rate per 100,000 population",Persons,888.9
@@ -20,7 +19,6 @@ E08000006,Salford,2015/16,Residential home admissions,"Rate per 100,000 populati
 E08000007,Stockport,2015/16,Residential home admissions,"Rate per 100,000 population",Persons,579
 E08000008,Tameside,2015/16,Residential home admissions,"Rate per 100,000 population",Persons,633.8
 E08000010,Wigan,2015/16,Residential home admissions,"Rate per 100,000 population",Persons,714.2
-E92000001,England,2015/16,Residential home admissions,"Rate per 100,000 population",Persons,628.2
 E08000009,Trafford,2016/17,Residential home admissions,"Rate per 100,000 population",Persons,883.2
 E08000001,Bolton,2016/17,Residential home admissions,"Rate per 100,000 population",Persons,1354.9
 E08000002,Bury,2016/17,Residential home admissions,"Rate per 100,000 population",Persons,1011.5
@@ -31,7 +29,6 @@ E08000006,Salford,2016/17,Residential home admissions,"Rate per 100,000 populati
 E08000007,Stockport,2016/17,Residential home admissions,"Rate per 100,000 population",Persons,392
 E08000008,Tameside,2016/17,Residential home admissions,"Rate per 100,000 population",Persons,618.7
 E08000010,Wigan,2016/17,Residential home admissions,"Rate per 100,000 population",Persons,616.4
-E92000001,England,2016/17,Residential home admissions,"Rate per 100,000 population",Persons,610.7
 E08000009,Trafford,2017/18,Residential home admissions,"Rate per 100,000 population",Persons,677
 E08000001,Bolton,2017/18,Residential home admissions,"Rate per 100,000 population",Persons,971.1
 E08000002,Bury,2017/18,Residential home admissions,"Rate per 100,000 population",Persons,972
@@ -42,4 +39,3 @@ E08000006,Salford,2017/18,Residential home admissions,"Rate per 100,000 populati
 E08000007,Stockport,2017/18,Residential home admissions,"Rate per 100,000 population",Persons,1512.8
 E08000008,Tameside,2017/18,Residential home admissions,"Rate per 100,000 population",Persons,667.3
 E08000010,Wigan,2017/18,Residential home admissions,"Rate per 100,000 population",Persons,692.6
-E92000001,England,2017/18,Residential home admissions,"Rate per 100,000 population",Persons,585.6

@@ -1,4 +1,4 @@
-The average daily number of 'delayed days' which are attributable to adult social care.
+Long-term support needs of older adults met by admission to residential and nursing care homes per 100,000
 
 Source: <a href="https://standards.esd.org.uk/?uri=metricType%2F8499" target="_blank">LG Inform</a>
 

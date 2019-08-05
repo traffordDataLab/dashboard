@@ -257,4 +257,145 @@ dtoc <- read_csv("data/targeted/dtoc.csv") %>%
   })
 
 
+# Residential home admissions --------------------------------------------------
+  
+residential_home_admissions <- read_csv("data/targeted/residential_home_admissions.csv") %>%
+    mutate(
+      area_name = factor(area_name),
+      period = as.factor(period),
+      tooltip =
+        paste0(
+          "<strong>",
+          round(value, 1),
+          "</strong><br/>",
+          "<em>",
+          area_name,
+          "</em><br/>",
+          period
+        )
+    )
+  
+output$residential_home_admissions_plot <- renderggiraph({
+      if (input$residential_home_admissions_selection == "GM boroughs") {
+        gg <-
+          ggplot(residential_home_admissions, aes(x = period, y = value, fill = area_name)) +
+          geom_bar_interactive(aes(tooltip = tooltip), stat = "identity") +
+          scale_fill_manual(
+            values = c(
+              "Bolton" = "#E7B800",
+              "Bury" = "#E7B800",
+              "Manchester" = "#E7B800",
+              "Oldham" = "#E7B800",
+              "Rochdale" = "#E7B800",
+              "Salford" = "#E7B800",
+              "Tameside" = "#E7B800",
+              "Stockport" = "#E7B800",
+              "Trafford" = "#00AFBB",
+              "Wigan" = "#E7B800"
+            )
+          ) +
+          scale_y_continuous(limits = c(0, NA)) +
+          labs(
+            title = "Admissions to residential and nursing care",
+            subtitle = NULL,
+            caption = "Source: NHS Digital",
+            x = NULL,
+            y = "Per 100,000 population",
+            colour = NULL
+          ) +
+          facet_wrap( ~ area_name, nrow = 2) +
+          theme_x() +
+          theme(axis.text.x = element_text(
+            angle = 90,
+            hjust = 1,
+            margin = margin(t = 0)
+          ))
+        
+        gg <- girafe(ggobj = gg)
+        girafe_options(gg,
+                       opts_tooltip(use_fill = TRUE),
+                       opts_toolbar(saveaspng = FALSE))
+        
+      }
+      else {
+        gg <-
+          ggplot(filter(residential_home_admissions, area_name == "Trafford"),
+                 aes(x = period, y = value)) +
+          geom_bar_interactive(aes(tooltip = tooltip), stat = "identity", fill = "#00AFBB") +
+          scale_y_continuous(limits = c(0, NA)) +
+          labs(
+            title = "Admissions to residential and nursing care",
+            subtitle = NULL,
+            caption = "Source: NHS Digital",
+            x = NULL,
+            y = "Per 100,000 population",
+            colour = NULL
+          ) +
+          theme_x()
+        
+        x <- girafe(ggobj = gg)
+        x <-
+          girafe_options(x,
+                         opts_tooltip(use_fill = TRUE),
+                         opts_toolbar(saveaspng = FALSE))
+        x
+        
+      }
+      
+    })
+    
+    output$residential_home_admissions_box <- renderUI({
+      div(
+        class = "col-sm-12 col-md-6 col-lg-4",
+        box(
+          width = '100%',
+          hr(style = "border-top: 1px solid #757575;"),
+          title = "Residential home admissions",
+          withSpinner(
+            ggiraphOutput("residential_home_admissions_plot"),
+            type = 4,
+            color = "#bdbdbd",
+            size = 1
+          )
+        ),
+        br(),
+        div(
+          style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+          dropdown(
+            radioGroupButtons(
+              inputId = "residential_home_admissions_selection",
+              label = tags$h4("Group by:"),
+              choiceNames = c("Trafford", "GM boroughs"),
+              choiceValues = c("Trafford", "GM boroughs"),
+              selected = "Trafford",
+              direction = "vertical"
+            ),
+            icon = icon("filter"),
+            size = "xs",
+            style = "jelly",
+            width = "200px",
+            up = TRUE
+          )
+        ),
+        div(
+          style = "position: absolute; left: 4em; bottom: 0.5em; ",
+          dropdown(
+            includeMarkdown("data/targeted/metadata/residential_home_admissions.md"),
+            icon = icon("question"),
+            size = "xs",
+            style = "jelly",
+            width = "300px",
+            up = TRUE
+          ),
+          tags$style(
+            HTML(
+              '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+            )
+          )
+        )
+      )
+      
+    })
 

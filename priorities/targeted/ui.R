@@ -7,7 +7,8 @@ tabPanel("Targeted support", width = 11, style="margin-left:4%; margin-right:4%"
            br(),
            fluidRow(
              uiOutput("rough_sleeping_box"),
-             uiOutput("dtoc_box")
+             uiOutput("dtoc_box"),
+             uiOutput("residential_home_admissions_box")
            ),
            br(),br()
          )
