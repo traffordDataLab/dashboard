@@ -399,3 +399,222 @@ output$residential_home_admissions_plot <- renderggiraph({
       
     })
 
+# Older people still at home 91 days after discharge --------------------------------------------------
+    
+    home_after_discharge <- read_csv("data/targeted/home_after_discharge.csv") %>%
+      mutate(
+        area_name = factor(area_name),
+        period = as.factor(period),
+        tooltip =
+          paste0(
+            "<strong>",
+            paste0(value, "%"),
+            "</strong><br/>",
+            "<em>",
+            area_name,
+            "</em><br/>",
+            period
+          )
+      )
+  
+    output$home_after_discharge_plot <- renderggiraph({
+      if (input$home_after_discharge_selection == "GM boroughs") {
+        gg <-
+          ggplot(home_after_discharge, aes(x = period, y = value, fill = area_name)) +
+          geom_bar_interactive(aes(tooltip = tooltip), stat = "identity") +
+          scale_fill_manual(
+            values = c(
+              "Bolton" = "#E7B800",
+              "Bury" = "#E7B800",
+              "Manchester" = "#E7B800",
+              "Oldham" = "#E7B800",
+              "Rochdale" = "#E7B800",
+              "Salford" = "#E7B800",
+              "Tameside" = "#E7B800",
+              "Stockport" = "#E7B800",
+              "Trafford" = "#00AFBB",
+              "Wigan" = "#E7B800"
+            )
+          ) +
+          scale_y_continuous(limits = c(0, NA)) +
+          labs(
+            title = "Older people still at home 91 days after discharge",
+            subtitle = NULL,
+            caption = "Source: NHS Digital",
+            x = NULL,
+            y = "Percent",
+            colour = NULL
+          ) +
+          facet_wrap( ~ area_name, nrow = 2) +
+          theme_x() +
+          theme(axis.text.x = element_text(
+            angle = 90,
+            hjust = 1,
+            margin = margin(t = 0)
+          ))
+        
+        gg <- girafe(ggobj = gg)
+        girafe_options(gg,
+                       opts_tooltip(use_fill = TRUE),
+                       opts_toolbar(saveaspng = FALSE))
+        
+      }
+      else {
+        gg <-
+          ggplot(filter(home_after_discharge, area_name == "Trafford"),
+                 aes(x = period, y = value)) +
+          geom_bar_interactive(aes(tooltip = tooltip), stat = "identity", fill = "#00AFBB") +
+          scale_y_continuous(limits = c(0, NA)) +
+          labs(
+            title = "Older people still at home 91 days after discharge",
+            subtitle = NULL,
+            caption = "Source: NHS Digital",
+            x = NULL,
+            y = "Percent",
+            colour = NULL
+          ) +
+          theme_x()
+        
+        x <- girafe(ggobj = gg)
+        x <-
+          girafe_options(x,
+                         opts_tooltip(use_fill = TRUE),
+                         opts_toolbar(saveaspng = FALSE))
+        x
+        
+      }
+      
+    })
+    
+    output$home_after_discharge_box <- renderUI({
+      div(
+        class = "col-sm-12 col-md-6 col-lg-4",
+        box(
+          width = '100%',
+          hr(style = "border-top: 1px solid #757575;"),
+          title = "At home 91 days after discharge",
+          withSpinner(
+            ggiraphOutput("home_after_discharge_plot"),
+            type = 4,
+            color = "#bdbdbd",
+            size = 1
+          )
+        ),
+        br(),
+        div(
+          style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+          dropdown(
+            radioGroupButtons(
+              inputId = "home_after_discharge_selection",
+              label = tags$h4("Group by:"),
+              choiceNames = c("Trafford", "GM boroughs"),
+              choiceValues = c("Trafford", "GM boroughs"),
+              selected = "Trafford",
+              direction = "vertical"
+            ),
+            icon = icon("filter"),
+            size = "xs",
+            style = "jelly",
+            width = "200px",
+            up = TRUE
+          )
+        ),
+        div(
+          style = "position: absolute; left: 4em; bottom: 0.5em; ",
+          dropdown(
+            includeMarkdown("data/targeted/metadata/home_after_discharge.md"),
+            icon = icon("question"),
+            size = "xs",
+            style = "jelly",
+            width = "300px",
+            up = TRUE
+          ),
+          tags$style(
+            HTML(
+              '.fa {color: #212121;}
+              .bttn-jelly.bttn-default{color:#f0f0f0;}
+              .bttn-jelly:hover:before{opacity:1};'
+            )
+          )
+        )
+      )
+      
+    })
+    
+# Care homes --------------------------------------------------
+
+    care_homes <- read_csv("data/targeted/care_homes.csv") %>% 
+      filter(rating != "NULL") %>% 
+      mutate(rating = fct_relevel(as_factor(rating),
+                                  level = c("Outstanding", "Good", "Requires improvement", "Inadequate")))
+    
+    output$care_homes_map = renderLeaflet({
+      
+      sf <- filter(care_homes, rating == input$care_homes_selection)
+      
+      leaflet() %>% 
+        addProviderTiles(providers$CartoDB.Positron,
+                         options = tileOptions(minZoom = 11, maxZoom = 17)) %>% 
+        addPolygons(data = boundary,
+                    fillOpacity = 0, color = "#212121", weight = 2, opacity = 1) %>% 
+        addCircleMarkers(data = sf,
+                         lng = ~lon, lat = ~lat,
+                         stroke = TRUE, color = "#212121", weight = 2, 
+                         fillColor = "#00AFBB", fillOpacity = 0.5, radius = 4,
+                         popup = paste("<strong>", sf$name, "</strong><br />",
+                                       "<em>", sf$rating, "</em><br />",
+                                       "Last inspection date:",  sf$inspection_date))
+      
+    })
+    
+    output$care_homes_box <- renderUI({
+      div(class = "col-sm-12 col-md-6 col-lg-4",
+          box(width = '100%', 
+              hr(style = "border-top: 1px solid #757575;"),
+              title = "Care homes",
+              withSpinner(
+                leafletOutput("care_homes_map"),
+                type = 4,
+                color = "#bdbdbd",
+                size = 1
+              ),
+              div(
+                style = "position: absolute; left: 1.5em; bottom: 0.5em;",
+                dropdown(
+                  radioButtons(inputId = "care_homes_selection", 
+                               tags$h4("Inspection rating:"),
+                               choices = unique(levels(care_homes$rating)), 
+                               selected = "Outstanding"
+                  ),
+                  icon = icon("filter"),
+                  size = "xs",
+                  style = "jelly",
+                  width = "200px",
+                  up = TRUE
+                )
+              ),
+              div(
+                style = "position: absolute; left: 4em; bottom: 0.5em;",
+                dropdown(
+                  includeMarkdown("data/targeted/metadata/care_homes.md"),
+                  icon = icon("question"),
+                  size = "xs",
+                  style = "jelly",
+                  width = "300px",
+                  up = TRUE
+                ),
+                tags$style(
+                  HTML(
+                    '.fa {color: #212121;}
+            .bttn-jelly.bttn-default{color:#f0f0f0;}
+            .bttn-jelly:hover:before{opacity:1};'
+                  )
+                )
+              )
+          )
+      )
+      
+    })
+    
+    
+    
