@@ -28,6 +28,7 @@ results <- map(ids, ~{
 # extract elements from list and convert to a dataframe
 df <- results %>% {
   tibble(
+    id = map_chr(., "locationId"),
     name = map_chr(., "name"),
     status = map_chr(., "registrationStatus"),
     rating = map(., c("currentRatings", "overall", "rating")),

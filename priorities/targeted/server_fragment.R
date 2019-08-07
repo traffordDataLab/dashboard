@@ -563,7 +563,8 @@ output$residential_home_admissions_plot <- renderggiraph({
                          fillColor = "#00AFBB", fillOpacity = 0.5, radius = 4,
                          popup = paste("<strong>", sf$name, "</strong><br />",
                                        "<em>", sf$rating, "</em><br />",
-                                       "Last inspection date:",  sf$inspection_date))
+                                       "Last inspection date:",  sf$inspection_date, "<br />",
+                                       "<a href='", paste0("http://www.cqc.org.uk/location/", sf$id), "' target='_blank'>CQC profile</a>"))
       
     })
     
