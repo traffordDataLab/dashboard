@@ -48,7 +48,7 @@ output$nitrogen_dioxide_plot <- renderggiraph({
       geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, fill = "#00AFBB", colour = "white") +
       scale_y_continuous(limits = c(0, NA)) +
       labs(title = expression(paste("Annual mean ", NO[2], " concentrations")),
-           subtitle = filter(stations, site_id == input$nitrogen_dioxide_selection)$site,
+           subtitle = paste0(filter(stations, site_id == input$nitrogen_dioxide_selection)$site, " monitoring station"),
            caption = "Source: Trafford Council / Ricardo EE",
            x = "",
            y = expression(paste("μg/m"^3))) +
@@ -67,7 +67,7 @@ output$nitrogen_dioxide_plot <- renderggiraph({
       scale_x_datetime(breaks = no2_readings()$date_hour, date_labels = "%b-%y", date_breaks = "1 month") +
       scale_y_continuous(limits = c(0, max(no2_readings()$value))) +
       labs(title = expression(paste("1-hour mean ", NO[2], " concentrations")),
-           subtitle = paste0(sum(no2_readings()$value >= 200, na.rm = TRUE), " exceedances at ", filter(stations, site_id == input$nitrogen_dioxide_selection)$site, " over last 12 months"),
+           subtitle = paste0(sum(no2_readings()$value >= 200, na.rm = TRUE), " exceedances at ", filter(stations, site_id == input$nitrogen_dioxide_selection)$site, " monitoring station over last 12 months"),
            caption = "Source: Trafford Council / Ricardo EE",
            x = "",
            y = expression(paste("μg/m"^3))) +
@@ -181,7 +181,7 @@ output$nitrogen_dioxide_box <- renderUI({
         geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, fill = "#00AFBB", colour = "white") +
         scale_y_continuous(limits = c(0, NA)) +
         labs(title = expression(paste("Annual mean ", PM[10], " concentrations")),
-             subtitle = filter(stations, site_id == input$particulate_matter_selection)$site,
+             subtitle = paste0(filter(stations, site_id == input$particulate_matter_selection)$site, " monitoring station"),
              caption = "Source: Trafford Council / Ricardo EE",
              x = "",
              y = expression(paste("μg/m"^3))) +
@@ -197,11 +197,10 @@ output$nitrogen_dioxide_box <- renderUI({
         ggplot(pm10_readings(), aes(x = date, y = mean)) +
         geom_hline_interactive(aes(yintercept = 50, tooltip = paste0("PM", "<sub>", 10, "</sub>", " annual mean objective")), linetype = "dotted", color = "#000000", size = 1.5) +
         geom_line(colour = "#00AFBB", size = 1) +
-        #geom_point_interactive(aes(tooltip = tooltip), shape = 21, size = 2.5, fill = "#00AFBB", colour = "white") +
         scale_x_date(breaks = pm10_readings()$date, date_labels = "%b-%y", date_breaks = "1 month") +
         scale_y_continuous(limits = c(0, max(pm10_readings()$mean))) +
         labs(title = expression(paste("24-hour mean ", PM[10], " concentrations")),
-             subtitle = paste0(sum(pm10_readings()$mean >= 50, na.rm = TRUE), " exceedances at ", filter(stations, site_id == input$particulate_matter_selection)$site, " over last 12 months"),
+             subtitle = paste0(sum(pm10_readings()$mean >= 50, na.rm = TRUE), " exceedances at ", filter(stations, site_id == input$particulate_matter_selection)$site, " monitoring station over last 12 months"),
              caption = "Source: Trafford Council / Ricardo EE",
              x = "",
              y = expression(paste("μg/m"^3))) +
