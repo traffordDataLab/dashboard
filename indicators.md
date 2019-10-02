@@ -44,7 +44,6 @@
 |Pride in our area | Crime rate |[Home Office](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/datasets/crimeseverityscoreexperimentalstatistics) | 18 October 2019 | 
 |Pride in our area | Crime Severity Score | [Home Office](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/datasets/crimeseverityscoreexperimentalstatistics) | 18 October 2019 | 
 |Pride in our area | Flytipping | [FixMyStreet.com](https://github.com/mysociety/fms_geographic_data) | Not known  | 
-|Pride in our area | Green Flag Awards | [MHCLG](http://www.greenflagaward.org.uk) | Not known | 
 |Pride in our area | Potholes | [FixMyStreet.com](https://github.com/mysociety/fms_geographic_data) | Not known  | 
 |Pride in our area | Recycling | [DEFRA](https://www.gov.uk/government/statistical-data-sets/env18-local-authority-collected-waste-annual-results-tables) | Not known | 
 | Green and Connected | Greater Manchester Accessibility Levels | [Transport for Greater Manchester](https://data.gov.uk/dataset/d9dfbf0a-3cd7-4b12-a39f-0ec717423ee4/gm-accessibility-levels-gmal) | Not known |
@@ -52,6 +51,7 @@
 |Green and Connected | PM<sub>10</sub> concentrations |[Air Quality England](https://www.airqualityengland.co.uk/local-authority/?la_id=368) | Live | 
 |Green and Connected | CO<sub>2</sub> emissions |[Department for Business, Energy & Industrial Strategy](https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/regionalgrossvalueaddedbalancedbylocalauthorityintheuk) | Not known | 
 |Green and Connected | Licensed vehicles |[DfT and DVLA](https://www.gov.uk/government/statistical-data-sets/all-vehicles-veh01) | Not known | 
+|Green and Connected | Green Flag Awards | [MHCLG](http://www.greenflagaward.org.uk) | Not known | 
 |Targeted support | Rough sleeping | [MHCLG](https://www.gov.uk/government/statistics/rough-sleeping-in-england-autumn-2017) | Not known | 
 |Targeted support | Delayed Transfers of Care | [NHS Digital](https://www.england.nhs.uk/statistics/statistical-work-areas/delayed-transfers-of-care/) | Not known  | 
 |Targeted support | Residential home admissions | [LG Inform](https://standards.esd.org.uk/?uri=metricType%2F4282) | Not known  | 

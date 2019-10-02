@@ -1,5 +1,8 @@
 .DS_Store
 
+# Slides
+slides/
+
 # Sandbox
 sandbox/
 

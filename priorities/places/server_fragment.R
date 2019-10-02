@@ -55,9 +55,8 @@ output$employment_rate_plot <- renderggiraph({
         "England" = "#757575"
       )
     ) +
-    scale_x_date(breaks = seq(as.Date("2009-12-01"), as.Date("2018-12-01"),  by = "1 year"),
-                 labels = date_format("%b-%Y")) +
-    scale_y_continuous(limits = c(0, NA)) +
+    scale_x_date(breaks = seq(min(employment_rate$period), max(employment_rate$period),  by = "1 year"), labels = date_format("%b-%Y")) +
+    scale_y_continuous(expand = c(0.005, 0.005), limits = c(0, 100)) +
     labs(
       title = "Employment rate - aged 16-64",
       subtitle = NULL,
