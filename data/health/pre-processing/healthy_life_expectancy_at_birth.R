@@ -14,10 +14,10 @@ gm <- fingertips_data(IndicatorID = 90362, AreaTypeID = 102, ParentAreaTypeID = 
   filter(AreaCode == "E47000001") %>% 
   mutate(AreaName = str_replace(AreaName, "CA-Greater Manchester", "Greater Manchester"))
 
-counties <- fingertips_data(IndicatorID = 90362, AreaTypeID = 102, rank = TRUE) %>% 
-  filter(AreaType %in% c("England", "County & UA"))
+other_areas <- fingertips_data(IndicatorID = 90362, AreaTypeID = 102, rank = TRUE) %>% 
+  filter(AreaName %in% c("England", "Trafford"))
 
-df <- bind_rows(gm, counties) %>% 
+df <- bind_rows(gm, other_areas) %>% 
   select(area_code = AreaCode,
          area_name = AreaName,
          period = Timeperiod,
@@ -29,6 +29,7 @@ df <- bind_rows(gm, counties) %>%
          measure = "Life expectancy",
          unit = "Years",
          value = round(value, 1)) %>% 
-  select(-group, -significance, everything()) 
+  select(-group, -significance, everything()) %>% 
+  arrange(area_name, period)
 
 write_csv(df, "../healthy_life_expectancy_at_birth.csv")
