@@ -1,25 +1,25 @@
 area_code,area_name,indicator,period,measure,unit,band,value
-E92000001,England,New properties by council tax band,2010 to 2018,Percentage,Properties,A,0.15278302942379368
-E92000001,England,New properties by council tax band,2010 to 2018,Percentage,Properties,B,0.19777913248809698
-E92000001,England,New properties by council tax band,2010 to 2018,Percentage,Properties,C,0.23570673436788617
-E92000001,England,New properties by council tax band,2010 to 2018,Percentage,Properties,D,0.18635069334588583
-E92000001,England,New properties by council tax band,2010 to 2018,Percentage,Properties,E,0.1205426386498854
-E92000001,England,New properties by council tax band,2010 to 2018,Percentage,Properties,F,0.06079991357291128
-E92000001,England,New properties by council tax band,2010 to 2018,Percentage,Properties,G,0.036731512705553714
-E92000001,England,New properties by council tax band,2010 to 2018,Percentage,Properties,H,0.009306345445986929
-E11000001,Greater Manchester,New properties by council tax band,2010 to 2018,Percentage,Properties,A,0.20275403608736942
-E11000001,Greater Manchester,New properties by council tax band,2010 to 2018,Percentage,Properties,B,0.30484330484330485
-E11000001,Greater Manchester,New properties by council tax band,2010 to 2018,Percentage,Properties,C,0.24715099715099714
-E11000001,Greater Manchester,New properties by council tax band,2010 to 2018,Percentage,Properties,D,0.13841405508072174
-E11000001,Greater Manchester,New properties by council tax band,2010 to 2018,Percentage,Properties,E,0.06766381766381767
-E11000001,Greater Manchester,New properties by council tax band,2010 to 2018,Percentage,Properties,F,0.023266856600189935
-E11000001,Greater Manchester,New properties by council tax band,2010 to 2018,Percentage,Properties,G,0.012108262108262107
-E11000001,Greater Manchester,New properties by council tax band,2010 to 2018,Percentage,Properties,H,0.003798670465337132
-E08000009,Trafford,New properties by council tax band,2010 to 2018,Percentage,Properties,A,0.11498257839721254
-E08000009,Trafford,New properties by council tax band,2010 to 2018,Percentage,Properties,B,0.23693379790940766
-E08000009,Trafford,New properties by council tax band,2010 to 2018,Percentage,Properties,C,0.2682926829268293
-E08000009,Trafford,New properties by council tax band,2010 to 2018,Percentage,Properties,D,0.1951219512195122
-E08000009,Trafford,New properties by council tax band,2010 to 2018,Percentage,Properties,E,0.07665505226480836
-E08000009,Trafford,New properties by council tax band,2010 to 2018,Percentage,Properties,F,0.05574912891986063
-E08000009,Trafford,New properties by council tax band,2010 to 2018,Percentage,Properties,G,0.017421602787456445
-E08000009,Trafford,New properties by council tax band,2010 to 2018,Percentage,Properties,H,0.03484320557491289
+E92000001,England,New properties by council tax band,2010 to 2019,Percentage,Properties,A,0.15015574682744043
+E92000001,England,New properties by council tax band,2010 to 2019,Percentage,Properties,B,0.19434438158960546
+E92000001,England,New properties by council tax band,2010 to 2019,Percentage,Properties,C,0.23551027665641525
+E92000001,England,New properties by council tax band,2010 to 2019,Percentage,Properties,D,0.1879762132118091
+E92000001,England,New properties by council tax band,2010 to 2019,Percentage,Properties,E,0.12329353502492608
+E92000001,England,New properties by council tax band,2010 to 2019,Percentage,Properties,F,0.06266751838997951
+E92000001,England,New properties by council tax band,2010 to 2019,Percentage,Properties,G,0.03702362215095259
+E92000001,England,New properties by council tax band,2010 to 2019,Percentage,Properties,H,0.009028706148871576
+E11000001,Greater Manchester,New properties by council tax band,2010 to 2019,Percentage,Properties,A,0.20530433123449723
+E11000001,Greater Manchester,New properties by council tax band,2010 to 2019,Percentage,Properties,B,0.30433123449723337
+E11000001,Greater Manchester,New properties by council tax band,2010 to 2019,Percentage,Properties,C,0.24403739744323602
+E11000001,Greater Manchester,New properties by council tax band,2010 to 2019,Percentage,Properties,D,0.1389047891623736
+E11000001,Greater Manchester,New properties by council tax band,2010 to 2019,Percentage,Properties,E,0.06830757489028812
+E11000001,Greater Manchester,New properties by council tax band,2010 to 2019,Percentage,Properties,F,0.023087197099790117
+E11000001,Greater Manchester,New properties by council tax band,2010 to 2019,Percentage,Properties,G,0.012402213318069072
+E11000001,Greater Manchester,New properties by council tax band,2010 to 2019,Percentage,Properties,H,0.0036252623545124977
+E08000009,Trafford,New properties by council tax band,2010 to 2019,Percentage,Properties,A,0.14697406340057637
+E08000009,Trafford,New properties by council tax band,2010 to 2019,Percentage,Properties,B,0.2622478386167147
+E08000009,Trafford,New properties by council tax band,2010 to 2019,Percentage,Properties,C,0.24495677233429394
+E08000009,Trafford,New properties by council tax band,2010 to 2019,Percentage,Properties,D,0.17002881844380405
+E08000009,Trafford,New properties by council tax band,2010 to 2019,Percentage,Properties,E,0.07492795389048991
+E08000009,Trafford,New properties by council tax band,2010 to 2019,Percentage,Properties,F,0.04899135446685879
+E08000009,Trafford,New properties by council tax band,2010 to 2019,Percentage,Properties,G,0.020172910662824207
+E08000009,Trafford,New properties by council tax band,2010 to 2019,Percentage,Properties,H,0.03170028818443804
