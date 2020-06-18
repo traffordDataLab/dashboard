@@ -14,10 +14,10 @@ gm <- fingertips_data(IndicatorID = 90362, AreaTypeID = 102, ParentAreaTypeID = 
   filter(AreaCode == "E47000001") %>% 
   mutate(AreaName = str_replace(AreaName, "CA-Greater Manchester", "Greater Manchester"))
 
-other_areas <- fingertips_data(IndicatorID = 90362, AreaTypeID = 102, rank = TRUE) %>% 
-  filter(AreaName %in% c("England", "Trafford"))
+districts <- fingertips_data(IndicatorID = 90362, AreaTypeID = 102, rank = TRUE) %>% 
+  filter(AreaType %in% c("England", "County & UA (pre 4/19)"))
 
-df <- bind_rows(gm, other_areas) %>% 
+df <- bind_rows(gm, districts) %>% 
   select(area_code = AreaCode,
          area_name = AreaName,
          period = Timeperiod,
