@@ -17,7 +17,7 @@ gm <- fingertips_data(IndicatorID = 93203, AreaTypeID = 102, ParentAreaTypeID = 
   mutate(AreaName = str_replace(AreaName, "CA-Greater Manchester", "Greater Manchester"))
 
 counties <- fingertips_data(IndicatorID = 93203, AreaTypeID = 102, rank = TRUE) %>% 
-  filter(AreaType %in% c("England", "County & UA"),
+  filter(AreaType %in% c("England", "County & UA (pre 4/19)"),
          Sex == "Persons")
 
 df <- bind_rows(gm, counties) %>% 

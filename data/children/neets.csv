@@ -1,6 +1,7 @@
 area_code,area_name,period,value,indicator,measure,unit,significance
 E47000001,Greater Manchester,2016,6.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
 E47000001,Greater Manchester,2017,6.3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E47000001,Greater Manchester,2018,6.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
 E92000001,England,2016,6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Not compared
 E06000001,Hartlepool,2016,4.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
 E06000002,Middlesbrough,2016,5.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
@@ -307,3 +308,156 @@ E10000030,Surrey,2017,4.4,"Proportion of 16-17 year olds not in education, emplo
 E10000031,Warwickshire,2017,3.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
 E10000032,West Sussex,2017,9.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
 E10000034,Worcestershire,2017,5.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E92000001,England,2018,5.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Not compared
+E06000001,Hartlepool,2018,3.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000002,Middlesbrough,2018,5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000003,Redcar and Cleveland,2018,5.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000004,Stockton-on-Tees,2018,4.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000005,Darlington,2018,6.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000006,Halton,2018,5.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000007,Warrington,2018,3.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000008,Blackburn with Darwen,2018,4.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000009,Blackpool,2018,6.2,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000010,Kingston upon Hull,2018,6.3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000011,East Riding of Yorkshire,2018,4.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000012,North East Lincolnshire,2018,6.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000013,North Lincolnshire,2018,4.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000014,York,2018,3.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000015,Derby,2018,7.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000016,Leicester,2018,6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000017,Rutland,2018,1.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000018,Nottingham,2018,6.6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000019,Herefordshire,2018,5.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000020,Telford and Wrekin,2018,5.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000021,Stoke-on-Trent,2018,4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000022,Bath and North East Somerset,2018,7.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000023,Bristol,2018,7.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000024,North Somerset,2018,5.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000025,South Gloucestershire,2018,5.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000026,Plymouth,2018,6.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000027,Torbay,2018,6.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000028,Bournemouth,2018,6.2,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000029,Poole,2018,3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000030,Swindon,2018,7.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000031,Peterborough,2018,8.3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000032,Luton,2018,4.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000033,Southend-on-Sea,2018,4.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000034,Thurrock,2018,1.6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000035,Medway,2018,6.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000036,Bracknell Forest,2018,9.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000037,West Berkshire,2018,1.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000038,Reading,2018,7.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000039,Slough,2018,4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000040,Windsor and Maidenhead,2018,6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000041,Wokingham,2018,4.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000042,Milton Keynes,2018,4.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000043,Brighton and Hove,2018,4.6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000044,Portsmouth,2018,4.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000045,Southampton,2018,7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000046,Isle of Wight,2018,3.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000047,County Durham,2018,6.2,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000049,Cheshire East,2018,2.2,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000050,Cheshire West and Chester,2018,2.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000051,Shropshire,2018,4.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000052,Cornwall,2018,6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000053,Isles of Scilly,2018,0,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Not compared
+E06000054,Wiltshire,2018,8.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E06000055,Bedford,2018,4.6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E06000056,Central Bedfordshire,2018,5.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E06000057,Northumberland,2018,4.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E08000001,Bolton,2018,6.2,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000002,Bury,2018,4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E08000003,Manchester,2018,7.6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000004,Oldham,2018,5.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E08000005,Rochdale,2018,6.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E08000006,Salford,2018,7.3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000007,Stockport,2018,3.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E08000008,Tameside,2018,4.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E08000009,Trafford,2018,5.3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E08000010,Wigan,2018,8.3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000011,Knowsley,2018,7.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000012,Liverpool,2018,10.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000013,St. Helens,2018,6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E08000014,Sefton,2018,3.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E08000015,Wirral,2018,4.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E08000016,Barnsley,2018,4.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E08000017,Doncaster,2018,5.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E08000018,Rotherham,2018,5.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E08000019,Sheffield,2018,6.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000021,Newcastle upon Tyne,2018,6.2,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000022,North Tyneside,2018,5.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E08000023,South Tyneside,2018,6.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E08000024,Sunderland,2018,14.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000025,Birmingham,2018,8.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000026,Coventry,2018,5.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E08000027,Dudley,2018,6.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000028,Sandwell,2018,4.3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E08000029,Solihull,2018,5.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E08000030,Walsall,2018,5.3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E08000031,Wolverhampton,2018,4.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E08000032,Bradford,2018,6.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000033,Calderdale,2018,3.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E08000034,Kirklees,2018,3.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E08000035,Leeds,2018,9.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000036,Wakefield,2018,6.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E08000037,Gateshead,2018,5.6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E09000001,City of London,2018,3.2,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Not compared
+E09000002,Barking and Dagenham,2018,3.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000003,Barnet,2018,1.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000004,Bexley,2018,3.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000005,Brent,2018,3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000006,Bromley,2018,2,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000007,Camden,2018,3.6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000008,Croydon,2018,6.2,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E09000009,Ealing,2018,3.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000010,Enfield,2018,5.3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E09000011,Greenwich,2018,5.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E09000012,Hackney,2018,5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E09000013,Hammersmith and Fulham,2018,1.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000014,Haringey,2018,14.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E09000015,Harrow,2018,2.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000016,Havering,2018,3.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000017,Hillingdon,2018,6.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E09000018,Hounslow,2018,3.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000019,Islington,2018,5.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E09000020,Kensington and Chelsea,2018,5.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E09000021,Kingston upon Thames,2018,2.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000022,Lambeth,2018,10,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E09000023,Lewisham,2018,4.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000024,Merton,2018,2.3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000025,Newham,2018,5.2,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E09000026,Redbridge,2018,3.3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000027,Richmond upon Thames,2018,2.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000028,Southwark,2018,9.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E09000029,Sutton,2018,3.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000030,Tower Hamlets,2018,6.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E09000031,Waltham Forest,2018,3.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E09000032,Wandsworth,2018,8.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E09000033,Westminster,2018,2,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000002,Buckinghamshire,2018,7.2,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E10000003,Cambridgeshire,2018,3.3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000006,Cumbria,2018,3.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000007,Derbyshire,2018,3.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000008,Devon,2018,5.6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E10000009,Dorset (Cty),2018,4.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000011,East Sussex,2018,5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000012,Essex,2018,3.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000013,Gloucestershire,2018,5.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E10000014,Hampshire,2018,3.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000015,Hertfordshire,2018,3.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000016,Kent,2018,6.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E10000017,Lancashire,2018,10,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E10000018,Leicestershire,2018,5.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E10000019,Lincolnshire,2018,5.5,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E10000020,Norfolk,2018,4.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000021,Northamptonshire,2018,4.6,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000023,North Yorkshire,2018,5.3,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E10000024,Nottinghamshire,2018,5.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Similar
+E10000025,Oxfordshire,2018,4.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000027,Somerset,2018,8.8,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E10000028,Staffordshire,2018,2.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000029,Suffolk,2018,6.4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E10000030,Surrey,2018,4,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000031,Warwickshire,2018,3.7,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
+E10000032,West Sussex,2018,9.1,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Worse
+E10000034,Worcestershire,2018,4.9,"Proportion of 16-17 year olds not in education, employment or training (NEET)",Percentage,Persons,Better
