@@ -7,7 +7,7 @@
 library(tidyverse) ; library(httr) ; library(readxl)
 
 tmp <- tempfile(fileext = ".xls")
-GET(url = "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/766014/LA_and_Regional_Spreadsheet_201718_rev2.xlsx",
+GET(url = "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/849136/LA_and_Regional_Spreadsheet_1819.xlsx",
     write_disk(tmp))
 df <- read_xlsx(tmp, sheet = 8, skip = 3) 
 
