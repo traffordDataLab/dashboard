@@ -11,7 +11,7 @@ GET(url = "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimean
     write_disk(tmp))
 
 trafford <- read_xls(tmp, sheet = 13) %>% 
-  select(c(1:3, 23:40)) %>% 
+  select(c(1:3, 24:42)) %>% 
   set_names(.[1, ]) %>%
   slice(-1) %>% 
   filter(`Community safety partnership` == "Trafford") %>% 
@@ -31,6 +31,9 @@ trafford <- read_xls(tmp, sheet = 13) %>%
     period == "Apr '15 to \nMar '16" ~ "2015/16",
     period == "Apr '16 to \nMar '17" ~ "2016/17",
     period == "Apr '17 to \nMar '18" ~ "2017/18",
+    period == "Apr '18 to \nMar '19" ~ "2018/19",
+    period == "Jan '18 to \nDec '18" ~ "2018",
+    period == "Jan '19 to \nDec '19" ~ "2019",
     TRUE ~ "exclude"),
     indicator = "Offence rate",
     measure = "Rate per 1,000",
@@ -40,7 +43,7 @@ trafford <- read_xls(tmp, sheet = 13) %>%
   select(-group, everything())
 
 gm_and_england <- read_xls(tmp, sheet = 12) %>% 
-  select(c(1:3, 23:39)) %>% 
+  select(c(1:3, 23:41)) %>% 
   set_names(.[1, ]) %>%
   slice(-1) %>% 
   filter(Name %in% c("ENGLAND", "Greater Manchester")) %>% 
@@ -61,6 +64,9 @@ gm_and_england <- read_xls(tmp, sheet = 12) %>%
            period == "Apr '15 to \nMar '16" ~ "2015/16",
            period == "Apr '16 to \nMar '17" ~ "2016/17",
            period == "Apr '17 to \nMar '18" ~ "2017/18",
+           period == "Apr '18 to \nMar '19" ~ "2018/19",
+           period == "Jan '18 to \nDec '18" ~ "2018",
+           period == "Jan '19 to \nDec '19" ~ "2019",
            TRUE ~ "exclude"),
          indicator = "Offence rate",
          measure = "Rate per 1,000",
@@ -72,4 +78,3 @@ gm_and_england <- read_xls(tmp, sheet = 12) %>%
 df <- bind_rows(trafford, gm_and_england)
 
 write_csv(df, "../crime_rate.csv")
-
