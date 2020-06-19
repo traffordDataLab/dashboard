@@ -1,19 +1,19 @@
 # CO2 emissions #
 
 # Source: Department for Business, Energy & Industrial Strategy
-# URL: https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/regionalgrossvalueaddedbalancedbylocalauthorityintheuk
+# URL: https://www.gov.uk/government/collections/uk-local-authority-and-regional-carbon-dioxide-emissions-national-statistics
 # Licence: Open Government Licence
 
 library(tidyverse) ; library(httr) ; library(readxl)
 
 tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/720677/2005-16_UK_local_and_regional_CO2_emissions.xlsx",
+GET(url = "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/812142/2005-17_UK_local_and_regional_CO2_emissions_tables.xlsx",
     write_disk(tmp))
 
 df <- read_xlsx(tmp, sheet = 2, skip = 1) %>% 
-  filter(`Local Authority` == "Trafford") %>% 
-  select(area_code = `Local Authority Code`,
-         area_name = `Local Authority`,
+  filter(LAD14NM == "Trafford") %>% 
+  select(area_code = LAD14NM,
+         area_name = LAD14CD,
          period = Year, 
          `Industrial and commercial` = `Industry and Commercial Total`,
          Domestic = `Domestic Total`,
