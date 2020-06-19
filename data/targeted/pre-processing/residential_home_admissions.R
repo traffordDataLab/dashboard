@@ -8,14 +8,14 @@ library(tidyverse) ;  library(httr)
 
 tmp <- tempfile(fileext = ".csv")
 GET(url = "http://webservices.esd.org.uk/data.csv?", 
-               query = list(
-                 ApplicationKey = "wUrlNGdzBDgSWArbbktkWghTHIOSfmCWnPvehEdO",
-                 value.valueType = "raw",
-                 metricType = "4282",
-                 area = paste(c("E08000009", "E08000001", "E08000002", "E08000003", "E08000004", "E08000005", "E08000006", "E08000007", "E08000008", "E08000010"), collapse = ','),
-                 period = "latest:4",
-                 columnGrouping = "period",
-                 rowGrouping = "area"),
+    query = list(
+      ApplicationKey = "wUrlNGdzBDgSWArbbktkWghTHIOSfmCWnPvehEdO",
+      value.valueType = "raw",
+      metricType = "4282",
+      area = paste(c("E08000009", "E08000001", "E08000002", "E08000003", "E08000004", "E08000005", "E08000006", "E08000007", "E08000008", "E08000010"), collapse = ','),
+      period = "latest:5",
+      columnGrouping = "period",
+      rowGrouping = "area"),
     write_disk(tmp))
 
 df <- read_csv(tmp) %>% 
@@ -23,7 +23,8 @@ df <- read_csv(tmp) %>%
          `2014/15` = 2,
          `2015/16` = 3,
          `2016/17` = 4,
-         `2017/18` = 5) %>% 
+         `2017/18` = 5,
+         `2018/19` = 5) %>% 
   gather(period, value, -area_code) %>% 
   mutate(area_name = 
            case_when(
