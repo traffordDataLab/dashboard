@@ -1,73 +1,73 @@
 area_code,area_name,period,indicator,measure,unit,value
-E08000009,Trafford,2016-06-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,20.5
-E08000009,Trafford,2016-07-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,21.4
-E08000009,Trafford,2016-08-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,22.7
-E08000009,Trafford,2016-09-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,20.7
-E08000009,Trafford,2016-10-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,22.5
-E08000009,Trafford,2016-11-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,25.5
-E08000009,Trafford,2016-12-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,41
-E08000009,Trafford,2017-01-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,47.8
-E08000009,Trafford,2017-02-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,41
 E08000009,Trafford,2017-03-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,36.6
+E47000001,Greater Manchester,2017-03-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,14.3
 E08000009,Trafford,2017-04-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,27.6
+E47000001,Greater Manchester,2017-04-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,14
 E08000009,Trafford,2017-05-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,24.5
+E47000001,Greater Manchester,2017-05-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.4
 E08000009,Trafford,2017-06-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,23.2
+E47000001,Greater Manchester,2017-06-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.3
 E08000009,Trafford,2017-07-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,23.2
+E47000001,Greater Manchester,2017-07-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.1
 E08000009,Trafford,2017-08-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,29.2
+E47000001,Greater Manchester,2017-08-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,15
 E08000009,Trafford,2017-09-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,27.5
+E47000001,Greater Manchester,2017-09-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.4
 E08000009,Trafford,2017-10-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,36.2
+E47000001,Greater Manchester,2017-10-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,14.9
 E08000009,Trafford,2017-11-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,25.9
+E47000001,Greater Manchester,2017-11-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,14.3
 E08000009,Trafford,2017-12-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.5
+E47000001,Greater Manchester,2017-12-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,12.6
 E08000009,Trafford,2018-01-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,19.4
+E47000001,Greater Manchester,2018-01-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.5
 E08000009,Trafford,2018-02-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,14.8
+E47000001,Greater Manchester,2018-02-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.8
 E08000009,Trafford,2018-03-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.7
+E47000001,Greater Manchester,2018-03-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.4
 E08000009,Trafford,2018-04-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,15.6
+E47000001,Greater Manchester,2018-04-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.3
 E08000009,Trafford,2018-05-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,19.7
+E47000001,Greater Manchester,2018-05-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.3
 E08000009,Trafford,2018-06-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,15.7
+E47000001,Greater Manchester,2018-06-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,10.6
 E08000009,Trafford,2018-07-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,14.6
+E47000001,Greater Manchester,2018-07-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,9.9
 E08000009,Trafford,2018-08-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,16.2
+E47000001,Greater Manchester,2018-08-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.1
 E08000009,Trafford,2018-09-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.6
+E47000001,Greater Manchester,2018-09-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.3
 E08000009,Trafford,2018-10-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.5
+E47000001,Greater Manchester,2018-10-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,10.3
 E08000009,Trafford,2018-11-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,12.8
+E47000001,Greater Manchester,2018-11-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,9.9
 E08000009,Trafford,2018-12-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,8.3
+E47000001,Greater Manchester,2018-12-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,9.2
 E08000009,Trafford,2019-01-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,10.6
+E47000001,Greater Manchester,2019-01-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,9.4
 E08000009,Trafford,2019-02-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,16.8
+E47000001,Greater Manchester,2019-02-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,12.5
 E08000009,Trafford,2019-03-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,14.7
+E47000001,Greater Manchester,2019-03-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.5
 E08000009,Trafford,2019-04-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13
+E47000001,Greater Manchester,2019-04-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.6
 E08000009,Trafford,2019-05-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,8.2
-E47000001,Greater Manchester,2016-06-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,10.46
-E47000001,Greater Manchester,2016-07-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,12.76
-E47000001,Greater Manchester,2016-08-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.38
-E47000001,Greater Manchester,2016-09-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,15.02
-E47000001,Greater Manchester,2016-10-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,15.77
-E47000001,Greater Manchester,2016-11-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,17.63
-E47000001,Greater Manchester,2016-12-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,18.36
-E47000001,Greater Manchester,2017-01-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,20.37
-E47000001,Greater Manchester,2017-02-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,22.46
-E47000001,Greater Manchester,2017-03-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,14.27
-E47000001,Greater Manchester,2017-04-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.98
-E47000001,Greater Manchester,2017-05-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.43
-E47000001,Greater Manchester,2017-06-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.25
-E47000001,Greater Manchester,2017-07-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.07
-E47000001,Greater Manchester,2017-08-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,15.02
-E47000001,Greater Manchester,2017-09-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.42
-E47000001,Greater Manchester,2017-10-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,14.94
-E47000001,Greater Manchester,2017-11-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,14.25
-E47000001,Greater Manchester,2017-12-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,12.57
-E47000001,Greater Manchester,2018-01-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.53
-E47000001,Greater Manchester,2018-02-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.77
-E47000001,Greater Manchester,2018-03-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.38
-E47000001,Greater Manchester,2018-04-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.32
-E47000001,Greater Manchester,2018-05-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.32
-E47000001,Greater Manchester,2018-06-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,10.57
-E47000001,Greater Manchester,2018-07-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,9.85
-E47000001,Greater Manchester,2018-08-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.08
-E47000001,Greater Manchester,2018-09-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.280000000000001
-E47000001,Greater Manchester,2018-10-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,10.290000000000001
-E47000001,Greater Manchester,2018-11-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,9.87
-E47000001,Greater Manchester,2018-12-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,9.18
-E47000001,Greater Manchester,2019-01-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,9.379999999999999
-E47000001,Greater Manchester,2019-02-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,12.47
-E47000001,Greater Manchester,2019-03-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.54
-E47000001,Greater Manchester,2019-04-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,11.55
-E47000001,Greater Manchester,2019-05-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,12.229999999999999
+E47000001,Greater Manchester,2019-05-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,12.2
+E08000009,Trafford,2019-06-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,10.1
+E47000001,Greater Manchester,2019-06-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13
+E08000009,Trafford,2019-07-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,12.4
+E47000001,Greater Manchester,2019-07-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,12.3
+E08000009,Trafford,2019-08-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13.5
+E47000001,Greater Manchester,2019-08-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,13
+E08000009,Trafford,2019-09-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,15
+E47000001,Greater Manchester,2019-09-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,14.7
+E08000009,Trafford,2019-10-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,15.2
+E47000001,Greater Manchester,2019-10-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,14.9
+E08000009,Trafford,2019-11-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,16.1
+E47000001,Greater Manchester,2019-11-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,15.3
+E08000009,Trafford,2019-12-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,16.8
+E47000001,Greater Manchester,2019-12-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,15
+E08000009,Trafford,2020-01-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,17.4
+E47000001,Greater Manchester,2020-01-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,15.2
+E08000009,Trafford,2020-02-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,18.5
+E47000001,Greater Manchester,2020-02-01,Daily DTOC beds attributable to adult social care ,Average daily,Days,16.5

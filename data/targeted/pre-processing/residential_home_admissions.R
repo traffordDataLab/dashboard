@@ -24,7 +24,7 @@ df <- read_csv(tmp) %>%
          `2015/16` = 3,
          `2016/17` = 4,
          `2017/18` = 5,
-         `2018/19` = 5) %>% 
+         `2018/19` = 6) %>% 
   gather(period, value, -area_code) %>% 
   mutate(area_name = 
            case_when(

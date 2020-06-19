@@ -40,4 +40,4 @@ df <- read_csv(tmp) %>%
          unit = "Days") %>% 
   select(area_code, area_name, period, indicator, measure, unit, value) 
 
-write_csv(temp, "../dtoc.csv")
+write_csv(df, "../dtoc.csv")
