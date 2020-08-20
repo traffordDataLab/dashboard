@@ -30,3 +30,4 @@ boundary <- st_read("data/geospatial/trafford_local_authority.geojson")
 
 # Greater Manchester combined authority boundary
 gm_boundary <- st_read("data/geospatial/gm_combined_authority.geojson")
+
